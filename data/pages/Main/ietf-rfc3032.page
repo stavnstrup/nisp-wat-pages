@@ -1,0 +1,26 @@
+{{Standard
+|uuid=eb2a0f38-b032-49ca-a37e-91de8ca6b928
+|publisher=IETF
+|code=RFC 3032
+|title=MPLS Label Stack Encoding
+|dateissued=2001
+|substandards=
+|description=
+Multi-Protocol Label Switching (MPLS) requires a set of procedures for augmenting network layer packets with "label stacks", thereby turning them into "labeled packets". Routers which support MPLS are known as "Label Switching Routers", or "LSRs". In order to transmit a labeled packet on a particular data link, an LSR must support an encoding technique which, given a label stack and a network layer packet, produces a labeled packet. This document specifies the encoding to be used by an LSR in order to transmit labeled packets on Point-to-Point Protocol (PPP) data links, on LAN data links, and possibly on other data links as well. On some data links, the label at the top of the stack may be encoded in a different manner, but the techniques described here MUST be used to encode the remainder of the label stack. This document also specifies rules and procedures for processing the various fields of the label stack encoding.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc3032.txt
+|events={{Change Event
+|order=1
+|date=2011-10-13
+|flag=added
+|rfcp=5-28
+|version=6.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

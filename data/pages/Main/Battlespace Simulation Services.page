@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=b5d73c28-52a9-4111-9c01-215c213a4329
+|order=180
+|parent=Modeling_and_Simulation_Enabling_Services
+|title=Battlespace Simulation Services
+|description=The Battlespace Simulation Services enables the storage and processing of a language that describes a commander's intent and is to be understood by simulation systems.
+}}

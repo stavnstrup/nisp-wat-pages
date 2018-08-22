@@ -1,0 +1,26 @@
+{{Standard
+|uuid=f0323046-06b5-4133-be26-325eec22dbce
+|publisher=IETF
+|code=draft-ietf-manet-dsr-09
+|title=Dynamic Source Routing (DSR) Draft- version 1.0
+|dateissued=2003-04-15
+|substandards=
+|description=
+The Dynamic Source Routing (DSR) is a routing protocol for wireless mesh networks. It is similar to AODV in that it forms a route on-demand when a transmitting computer requests one. However, it uses source routing instead of relying on the routing table at each intermediate device.
+|responsible=NCIA-NSII
+|website=https://www.ietf.org/rfc/rfc4728.txt
+|events={{Change Event
+|order=1
+|date=2007-02-23
+|flag=added
+|rfcp=
+|version=1.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

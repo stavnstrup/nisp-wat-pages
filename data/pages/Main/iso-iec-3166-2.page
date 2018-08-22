@@ -1,0 +1,51 @@
+{{Standard
+|uuid=7320f871-7875-470f-97e6-1afa10fb09fb
+|publisher=ISO-IEC
+|code=3166-2
+|title=ISO Subdivision Codes
+|dateissued=2007
+|substandards=
+|description=
+ISO 3166-2:2007 establishes a universally applicable code for the representation of the names of principal administrative divisions of countries and territories included in ISO 3166-1. It is intended to be used in conjunction with ISO 3166-1.ISO 3166-2:2007 provides the structure for a code for the representation of names of principal administrative divisions, or similar areas, of the countries and geopolitical entities included in ISO 3166-1.
+
+ISO 3166-2:2007 contains a list of names of subdivisions of countries and geopolitical entities, together with the code element developed for each one of them.
+
+
+|responsible=NCIA-SSTRAT-SEA
+|website=http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=39718
+|events={{Change Event
+|order=1
+|date=1998-11-06
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-07-17
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2005-09-23
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2010-11-01
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=5
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

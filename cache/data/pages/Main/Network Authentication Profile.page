@@ -1,0 +1,38 @@
+{{Service Profile
+|uuid=314ade8b-1194-49d9-a6f9-4ef7c0d86606
+|title=Network Authentication Profile
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 1 Profile
+|dateissued=2015-09-30
+|version=1.0
+|description=
+The Network Authentication Profile provides standards and guidance for to provide strong authentication for client/server applications by using secret-key cryptography on the basis of the Kerberos authentication protocol
+|taxonomynodes=Authentication Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+Strong authentication using Simple Authentication and Security Layer (SASL).
+|standards=ietf-rfc4121;
+ietf-rfc4422;
+ietf-rfc4505;
+ietf-rfc4616;
+ietf-rfc4752;
+
+}}
+{{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=ietf-rfc4120;
+
+}}
+|guideline=
+The Network Authentication Profile provides standards and guidance for to provide strong authentication for client/server applications by using secret-key cryptography on the basis of the Kerberos authentication protocol
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+}}

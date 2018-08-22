@@ -1,0 +1,26 @@
+{{Standard
+|uuid=7eaedd49-835a-4a7e-8381-e9b4ee090df6
+|publisher=NSO
+|code=AIDPP-01 ed. A version 1
+|title=Identification Data Combining Process
+|dateissued=
+|substandards=
+|description=
+
+|responsible=C3B-CAP2
+|website=http://www.nso.int/
+|events={{Change Event
+|order=1
+|date=2017-09-19
+|flag=added
+|rfcp=10-21
+|version=11.0
+}}
+{{Change Event
+|order=2
+|date=2018-04-18
+|flag=changed
+|rfcp=10-36
+|version=11.0
+}}
+}}

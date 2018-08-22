@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=99b647a3-5973-4303-b2ef-b5659a802f87
+|order=276
+|parent=Infrastructure_Services
+|title=Infrastructure SMC Services
+|description=The Infrastructure Service Management and Control (SMC) Services provide the means to implement and enforce SMC policies at the Infrastructure level. The services coordinate and communicate with other technical services (Communications Services, SOA Platform Services, etc.) to fulfill the requirements of service delivery. The requirements are translated into Infrastructure specific parameters and distributed to other Infrastructure Services.
+}}

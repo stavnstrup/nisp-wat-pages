@@ -1,0 +1,52 @@
+{{Standard
+|uuid=366df477-3f46-4016-beec-957a7c0a95ea
+|publisher=OPENGROUP
+|code=C706
+|title=DCE 1.1: Remote Procedure Call
+|dateissued=1997-10
+|substandards=
+|description=
+Distributed computing services include specifications for remote procedure calls and distributed real-time support in heterogeneous networks (as opposed to single node support as specified in operating system services). Distributed access services include functional support for submitting, starting, and stopping processes among processors in a heterogeneous network. OSF RPC includes support for naming, dynamic binding, and security (authentication, data privacy, and integrity protection).The so-called authenticated RPC works with the authentication and authorisation service provided by the DCE security service. It is implemented as a set of RPC routines, which ensure a secure communication between client and server. When a client establishes authenticated RPC it can specify the level of protection to be applied to its communications with the server:
+
+
+
+* no protection
+
+* encryption of all user data in each cell
+
+* integrity verification of the data
+
+* authentication of the origin of data
+
+
+|responsible=NCIA-CES
+|website=https://www2.opengroup.org/ogsys/catalog/C706
+|events={{Change Event
+|order=1
+|date=1996-03-13
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2001-11-21
+|flag=changed
+|rfcp=
+|version=0.3
+}}
+{{Change Event
+|order=3
+|date=2005-09-08
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

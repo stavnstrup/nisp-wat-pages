@@ -1,0 +1,11 @@
+{{Taxonomy Node
+|uuid=8c30af93-845f-4a3b-803d-0d1fb766d81d
+|order=373
+|parent=Communications_Equipment
+|title=Telecommunications Cable
+|description=A Telecommunication Cable is a type of guided transmission medium. Cables are usually known to transmit electric energy (AC/DC) but in telecommunications fields, cables are used to transmit electromagnetic waves, they are called electromagnetic wave guides. Telecommunications are based on transmitting modulated waves/signals through a medium and receiving them. When the distance between the transmitter and receiver is far, or we are using unguided medium transmission, the antennas are used, otherwise in guided medium transmission, the telecommunication cables are used. 
+
+Telecommunication cables are divided into several types: Waveguides when electromagnetic waves are transmitted; Transmission Lines when electric signals are transmitted; and Optical Fibers when light signals are transmitted.
+
+International standard '''ISO/IEC 11801''' specifies general-purpose telecommunication cabling systems (structured cabling) that are suitable for a wide range of applications (analog and ISDN telephony, various data communication standards, building control and automation systems). It covers both balanced copper cabling and optical fibre cabling. The standard was optimized for premises that span up to 3 km, up to 1 km² office space, with between 50 and 50,000 persons, but can also be applied for installations outside this range. A corresponding standard for small-office/home-office (SOHO) environments is ISO/IEC 15018, which also covers 1.2 GHz links for cable and satellite TV applications.
+}}

@@ -1,0 +1,19 @@
+{{Standard
+|uuid=1b18c751-6937-48fb-a188-d4cb0f5cc363
+|publisher=ISO-IEC
+|code=14750
+|title=Information technology -- Open Distributed Processing -- Interface Definition Language
+|dateissued=1999-03-01
+|substandards=
+|description=
+This Recommendation | International Standard is intended to provide the ODP Reference Model (see ITU-T Rec. X.902 | ISO/IEC 10746-2 and ITU-T Rec. X.903 | ISO/IEC 10746-3) with a language and environment neutral notation to describe computational operation interface signatures. Use of this notation does not imply use of specific supporting mechanisms and protocols.
+|responsible=FMN-CPWG
+|website=https://www.iso.org/standard/25486.html
+|events={{Change Event
+|order=1
+|date=2017-05-01
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+}}

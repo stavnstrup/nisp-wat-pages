@@ -1,0 +1,23 @@
+{{Capability Profile
+|uuid=10a3f051-37c3-4817-b9a2-06fd34f7cd5b
+|title=Generic Open Packaging Convention (OPC) Binding Profile
+|publisher=NCIA
+|code=TN-1491
+|spectitle=Generic Open Packaging Convention (OPC) Binding Profile
+|dateissued=2017-12-15
+|version=2.0
+|guideline=
+This profile defines a generic packaging mechanism, based upon the Open Packaging Container (OPC) defined in ISO/IEC 29500-2:2008, to associate any arbitrary file that do not use the Office Open XML (OOXML) format or have no specific profile for supporting the Binding Information with their own file format.
+
+
+|profiles=
+|serviceprofiles=Generic Open Packaging Convention;
+
+|events={{Change Event
+|order=1
+|date=2017-12-19
+|flag=added
+|rfcp=10-28
+|version=11.0
+}}
+}}

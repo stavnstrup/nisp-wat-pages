@@ -1,0 +1,26 @@
+{{Standard
+|uuid=60b68dc3-de0d-41ab-ad9c-dd78191e9097
+|publisher=IETF
+|code=RFC 4505
+|title=Anonymous Simple Authentication and Security Layer (SASL) Mechanism
+|dateissued=2006-01-06
+|substandards=
+|description=
+On the Internet, it is common practice to permit anonymous access to various services. Traditionally, this has been done with a plain- text password mechanism using "anonymous" as the user name and using optional trace information, such as an email address, as the password. As plain-text login commands are not permitted in new IETF protocols, a new way to provide anonymous login is needed within the context of the Simple Authentication and Security Layer (SASL) framework.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc4505.txt
+|events={{Change Event
+|order=1
+|date=2015-11-02
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

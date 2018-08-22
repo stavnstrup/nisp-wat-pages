@@ -1,0 +1,28 @@
+{{Service Profile
+|uuid=18621400-3ada-4f74-b8f7-1525f0ab0301
+|title=Character Encoding Service Profile 1.0
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 1 Profile
+|dateissued=2015-09-30
+|version=1.0
+|description=
+The Character Encoding Profile provides standards and guidance for the encoding of character sets.
+|taxonomynodes=Web Hosting Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+Use of UTF-8 for complete Unicode support, including fully internationalized addresses is mandatory.
+|standards=ietf-rfc3629;
+
+}}
+|guideline=
+The Character Encoding Profile provides standards and guidance for the encoding of character sets.
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+}}

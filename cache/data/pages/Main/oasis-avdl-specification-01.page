@@ -1,0 +1,26 @@
+{{Standard
+|uuid=28d317cc-07d3-4804-9614-ed0adfcd6dbd
+|publisher=OASIS
+|code=AVDL Specification - 01
+|title=Application Vulnerability Description Language (AVDL) version 1.0
+|dateissued=2004-06-08
+|substandards=
+|description=
+AVDL creates a uniform way of describing application security vulnerabilities using XML.
+|responsible=NCIA-CS
+|website=http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=avdl
+|events={{Change Event
+|order=1
+|date=2007-02-23
+|flag=added
+|rfcp=
+|version=1.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

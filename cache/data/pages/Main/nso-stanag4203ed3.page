@@ -1,0 +1,33 @@
+{{Standard
+|uuid=3c456b4c-d3ea-4873-bcdf-9ae35633c2fa
+|publisher=NSO
+|code=STANAG 4203 Ed 3
+|title=Technical standards for single channel HF radio equipment
+|dateissued=2007-04-27
+|substandards=
+|description=
+The aim of this STANAG is to define the technical standards required to ensure interoperability of land, air and maritime COMMON single channel HF radio equipment. For technical standards of SPECIFIC single channel radio equipment reference should be made to the appropriate STANAGs (e.g. STANAGs 4444 and 5511).
+|responsible=BLOS
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2002-12-03
+|flag=added
+|rfcp=
+|version=0.4
+}}
+{{Change Event
+|order=2
+|date=2005-09-23
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+}}

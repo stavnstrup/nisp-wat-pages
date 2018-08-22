@@ -1,0 +1,50 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+The '''File Type''' represent a file uploaded to the MediaWiki.
+
+The property allows user to enter a name of the file to be displayed.
+
+A file has to be uploaded to the MediaWiki using "Upload file" capability (outside of the form).
+
+
+==Definition==
+
+The File Property extends a common definition of the [[Help:Property|Property Definition]] with the following elements:
+
+<pre>
+<property ... size={SIZE}>
+</property>
+</pre>
+
+{| class="helptable"
+|-
+! {SIZE}
+| A length of the input field. Default value: 80.
+|}
+
+
+==Semantic database==
+The File Property is implemented as a [[Special:Types/Text]] MediaWiki datatype.
+
+
+==Example==
+<pre>
+<property name="Filename" type="File" label="File" attribute="filename">
+  <description>A filename plus extension of a file - in the file namespace.</description>
+  <instruction>A "Filename" is a string value that reflects the name plus extension of a file, as used in the definition of a taxonomy element. This file is typically not an image, for which the Image property is used.</instruction>
+</property>
+</pre>
+
+
+==User Interface==
+* '''View Page'''
+The property displays a link to the file.
+
+* '''Edit Page'''
+The property provides one line text input field to enter the file name.
+A length of the field is controlled by the 'size' attribute.
+
+* '''Search Page'''
+The property allows user to choose a search operator from the following options: ''Starts with, Contains, Equals, Ends with, Has any value''
+and allows user to enter a file name in one line text input field.

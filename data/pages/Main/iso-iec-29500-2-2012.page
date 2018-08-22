@@ -1,0 +1,33 @@
+{{Standard
+|uuid=f4d1d9a8-782e-4cda-ace6-86caeff47f9a
+|publisher=ISO-IEC
+|code=29500-2
+|title=Office Open XML File Formats -- Part 2: Open Packaging Conventions
+|dateissued=2012
+|substandards=
+|description=
+ISO/IEC 29500-2:2012 specifies a set of conventions that are used by Office Open XML documents to define the structure and functionality of a package in terms of a package model and a physical model.
+|responsible=NCIA
+|website=http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=61796
+|events={{Change Event
+|order=1
+|date=2013-10-24
+|flag=added
+|rfcp=7-27
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-26
+|flag=deleted
+|rfcp=9-21
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-04-25
+|flag=changed
+|rfcp=9-2
+|version=10.0
+}}
+}}

@@ -1,0 +1,14 @@
+<noinclude>{{User Manual Navigator|How to use}}</noinclude>
+This section offers instructions on "how to use" the {{SITENAME}} Wiki. They include basic instructions for visitors of a wiki - similar to, for instance, the [http://en.wikipedia.org Wikipedia]. The way to read articles and scroll through pages, jump to other articles and search for alternative subjects is exactly the same. They have the same look and feel. The articles contain as much information as possible, with ample links to other articles through the semantic relationships of our datamodel, and the reports are comprehensive summaries of that data from different perspectives. The things that may seem slightly different from its favorite Internet companion are how to harvest data from the wiki. Users have the possibility to query the semantic values and select the data that are specific to their needs. Or even, to export all data from the wiki, for which several options are available, suitable for several different methods of post-processing.
+<!--DOC_GEN_IGNORE_START-->
+== How to read ==
+{{:Help:How to read}}
+== How to search ==
+{{:Help:How to search}}
+== How to navigate ==
+{{:Help:How to navigate}}
+== How to query ==
+{{:Help:How to query}}
+== How to export ==
+{{:Help:How to export}}
+<!--DOC_GEN_IGNORE_END-->

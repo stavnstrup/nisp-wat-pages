@@ -1,0 +1,6 @@
+{{Basic Standards Service Profile
+|taxonomynode=Message-Oriented Middleware Services
+|responsible=
+|mandatorystandards=oasis-wss-v1.1-spec-os-soapmessagesecurity;oasis-relmes;
+|candidatestandards=w3c-soap12;
+}}

@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=c65a1e19-5880-46bf-841b-b514aaf1464d
+|order=192
+|parent=Unified_Communication_and_Collaboration_Services
+|title=Military Messaging Services
+|description=The Military Messaging Services provide a reliable, store and forward message transfer service for both users and applications in support of organizational messaging (messaging between organizations and organizational units). The service supports different qualities of service for different message priorities (e.g. expediting higher priority messages, timing out higher priority messages more quickly) to honour the precedence of the military messages. The Military Message Transfer Service supports a range of elements of service including access management, alternate recipients, conversion prohibition, deferred delivery, delivery notification, distribution list expansion, latest delivery, and message security labelling.
+}}

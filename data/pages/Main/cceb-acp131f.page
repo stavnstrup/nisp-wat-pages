@@ -1,0 +1,19 @@
+{{Standard
+|uuid=04d57e52-3cb3-46a3-aedc-323210a96fe8
+|publisher=CCEB
+|code=ACP 131 (F)
+|title=Communication Instructions - Operating Signals 
+|dateissued=
+|substandards=
+|description=
+
+|responsible=ACP
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

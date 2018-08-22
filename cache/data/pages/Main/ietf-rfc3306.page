@@ -1,0 +1,26 @@
+{{Standard
+|uuid=00f6e1d8-dbbc-447e-a370-d82cb7721618
+|publisher=IETF
+|code=RFC 3306
+|title=Unicast-Prefix-based IPv6 Multicast Addresses
+|dateissued=2002
+|substandards=
+|description=
+This specification defines an extension to the multicast addressing architecture of the IP Version 6 protocol. The extension presented in this document allows for unicast-prefix-based allocation of multicast addresses. By delegating multicast addresses at the same time as unicast prefixes, network operators will be able to identify their multicast addresses without needing to run an inter-domain allocation protocol.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc3306.txt
+|events={{Change Event
+|order=1
+|date=2005-11-20
+|flag=added
+|rfcp=6-19
+|version=0.7
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

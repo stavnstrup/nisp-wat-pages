@@ -1,0 +1,40 @@
+{{Standard
+|uuid=b8773a53-b983-420c-9a6c-1091642b8ffd
+|publisher=NSO
+|code=STANAG 7085 Ed 3
+|title=Interoperable Data Links for Imaging Systems - AEDP-10 Edition A
+|dateissued=2011-10-21
+|substandards=
+|description=
+This STANAG provide the interoperability standards for 3 classes of imagery DL used for primary imagery data transmission: analogue links described in Annex A, point-to-point digital links described in Annex B and broadcast digital links described in Annex C. Command and control of the sensors and platform is an auxiliary mission. Annex B is organized in 2 chapters: General Requirements and Implementation Directives, which describe point-to-point digital links. Different implementation profiles are possible : the U.S. Common Data Link (CDL) is described in Implementation 1. Further study continues to update the Annex C Digital Broadcast configuration. The STANAG is structured such that it provides a number of options for the specific data link configuration, such as simplex or duplex operation, data rate, carrier frequency, channel multiplexing, interleaving, encryption, and many others that must be matched prior to passing data from transmitter to receiver. STANAG 7085 data links can handle any form of data (e.g. 7023, 4545, or GMTI), and can operate in different configurations, including two way (half or full duplex) modes.
+|responsible=NCIA-OTHER
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2003-05-14
+|flag=added
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=2
+|date=2005-09-15
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2013-07-25
+|flag=changed
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=4
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,22 @@
+<includeonly>{{#set_internal:Obligations
+|UUID={{{uuid|null}}}
+|Order={{{order|0}}}
+|Obligation Type={{{obligationtype|}}}
+|Description={{{description|}}}
+|Is implementing standard={{{standards|}}}|+sep=;
+}}</includeonly><noinclude>
+; Description
+The template sets semantic values for the '''Obligation Group''' subobjects within '''Service Profile''' concept.
+; Format
+The template should be called in the following format:
+<pre>
+{{Obligation Group
+|uuid=
+|order=
+|obligationtype=
+|description=
+|standards=
+}}</pre>
+; See also
+* [[Template:Service Profile]]
+</noinclude>

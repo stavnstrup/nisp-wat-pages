@@ -1,0 +1,19 @@
+{{Standard
+|uuid=199ff30f-6c55-4d28-a9b2-63b1816473e9
+|publisher=NSO
+|code=STANAG 2185 ed.2
+|title=NATO ASSET TRACKING ELECTRONIC DATA INTERCHANGE (EDI)
+|dateissued=2005-09-17
+|substandards=
+|description=
+The aim of this agreement is to standardise Standard NATO Electronic Data Interchange (EDI) messages used in consignment tracking systems to provide NATO and national commanders with timely and accurate information on the identity, location, movement and condition of materiel in transit.
+|responsible=NCIA-OTHER
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2010-09-22
+|flag=added
+|rfcp=
+|version=5.0
+}}
+}}

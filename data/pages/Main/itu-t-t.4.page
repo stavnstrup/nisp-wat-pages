@@ -1,0 +1,54 @@
+{{Standard
+|uuid=be4c4dad-d2fe-46ac-9258-cb82294e7bb4
+|publisher=ITU-T
+|code=T.4
+|title=Standardization of group 3 facsimile terminals for document transmission
+|dateissued=2003
+|substandards=
+|description=
+This Recommendation defines the characteristics of Group 3 facsimile terminals which enable documents to be transmitted on the general switched telephone network, international leased circuits and the Integrated Services Digital Network (ISDN). These terminals enable black and white documents to be transmitted and also optionally colour documents. Group 3 facsimile terminals may be operated manually or automatically and document transmission may be requested alternatively with telephone conversation. The procedures to enable Group 3 facsimile terminals to communicate using the above capabilities are defined in ITU-T Recommendation T.30.
+|responsible=NCIA-NSII
+|website=http://www.itu.int/rec/T-REC-T.4-200307-I
+|events={{Change Event
+|order=1
+|date=1998-11-06
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2001-11-09
+|flag=changed
+|rfcp=
+|version=0.3
+}}
+{{Change Event
+|order=3
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=4
+|date=2005-09-06
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=5
+|date=2010-11-02
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=6
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

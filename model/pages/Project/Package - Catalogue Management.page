@@ -1,0 +1,47 @@
+__NOCACHE__ __NOEDITSECTION__ __NOTOC__{{Project:Navigator}}
+
+==Description==
+Concepts to manage Standards Catalogue
+==Concepts==
+The ''Catalogue Management Package'' defines the following Concepts:
+{| class="wikitable sortable"
+|-
+! Concept || Topic || Data || Records
+|}
+
+<div style="clear:both"></div>
+
+=Model=
+The following diagram presents the structure and dependencies between Concepts within the ''Catalogue Management Package''.
+{{#tag:graphviz|digraph "Catalogue Management Model" {
+rankdir=LR;
+nodesep=0.3;
+node [style="filled" fillcolor="#f9f9f9" color="#333333" fontname="Arial" fontsize=8 width="0.03" height="0.03"];
+edge [color="#696969" fontname="Arial" fontsize=10 penwidth="0.5"];
+/* Concept associations */
+
+} |format="png"|renderer="dot"}}
+
+
+=Dependencies=
+===Dependencies===
+The ''Catalogue Management Package'' depends on (uses concepts from) the following packages:
+
+{| class="wikitable sortable"
+|-
+! Package || Description
+|}
+
+===Usage===
+The ''Catalogue Management Package'' is used by the following packages:
+
+{| class="wikitable sortable"
+|-
+! Package || Description
+|}
+
+=Reports=
+
+
+
+<headertabs />

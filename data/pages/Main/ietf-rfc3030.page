@@ -1,0 +1,26 @@
+{{Standard
+|uuid=412eeced-6e8c-4782-af74-1d4cdcbd5b32
+|publisher=IETF
+|code=RFC 3030
+|title=SMTP Service Extensions for Transmission of Large and Binary MIME Messages
+|dateissued=2000-12
+|substandards=
+|description=
+This memo defines two extensions to the SMTP (Simple Mail Transfer Protocol) service. The first extension enables a SMTP client and server to negotiate the use of an alternative to the DATA command, called "BDAT", for efficiently sending large MIME (Multipurpose Internet Mail Extensions) messages. The second extension takes advantage of the BDAT command to permit the negotiated sending of MIME messages that employ the binary transfer encoding.
+|responsible=NCIA-CES
+|website=http://www.ietf.org/rfc/rfc3030.txt
+|events={{Change Event
+|order=1
+|date=2012-09-02
+|flag=added
+|rfcp=6-26
+|version=7.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

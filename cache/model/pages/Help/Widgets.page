@@ -1,0 +1,111 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Widgets}}
+
+==Introduction==
+
+[[Help:Data Model|Data Model]] section describes how the underlying database data model is defined.
+Based on that model basic user interface to add, view, modify and search data are generated.
+To improve user experience the default, basic user interface can be further enriched by introduction of various '''Widgets'''.
+
+
+There are two categories of Widgets:
+* '''Implicit Widgets'''
+:These widgets are added to the page automatically. They often depend on the Concept definition (e.g. existence of specific Properties, type of Concept, etc.). This category includes:
+:* [[Help:Navigator|Navigator]]
+:* [[Help:Related Data|Related Data]]
+:* [[Help:Map|Map]]
+
+* '''Explicit Widgets'''
+:These widgets has to be specified in the model explicitly. This category includes:
+:* [[Help:Group|Group]]
+:* [[Help:Query|Query]]
+::* [[Help:Property List|Property List]]
+::* [[Help:Property Groups|Property Groups]]
+::* [[Help:Reference|Reference]]
+::* [[Help:ReferenceGroup|Reference Groups]]
+:* [[Help:User Query|User Query]]
+:* [[Help:Chart|Chart]]
+:* [[Help:Gantt Chart|Gantt Chart]]
+:* [[Help:Reports|Reports]]
+:* [[Help:Static Content|Static Content]]
+:* [[Help:Workflow|Workflow]]
+:* [[Help:Conditional|Conditional]]
+:* [[Help:Help Information|Help Information]]
+
+
+==Definition==
+The explicit widgets are being defined among Concept properties within the "structure" element.
+
+The location of the widgets determines its location on the rendered page.
+
+<pre>
+  <concept name="{NAME}">
+    <structure>
+      <{WIDGET1} {PARAMETERS}>
+        <property name="Property A"/>
+        <property name="Property B"/>
+        <property name="Property C"/>
+        <{WIDGET2} {PARAMETERS}/>
+        <property name="Property D"/>
+      </{WIDGET1}>
+      <property name="Property 1"/>
+      <property name="Property 2"/>
+      <{WIDGET3} {PARAMETERS}/>
+    </structure>
+  </concept>
+</pre>
+
+
+==Semantic Database==
+The widgets don't modify a content of semantic database, but instead provide custom data visualizations.
+
+
+==Example==
+<pre>
+  <concept name="Event">
+    <structure>
+      <property name="Title"/>
+      <property name="Start date"/>
+      <property name="End date"/>
+      <property name="Is executed on" refersTo="Enclave"/>                  <!-- triggers Related Data Widget -->
+    </structure>
+  </concept>
+
+  <concept name="Enclave">                                                   <!-- Navigator Widget is always visible -->
+    <structure>
+      <property name="Title" mandatory="true"/>
+      <property name="Description" mandatory="true"/>
+      <property name="Classification"/>
+      <group name="Period">                                                  <!-- Group Widget -->
+        <property name="Start date"/>
+        <property name="End date"/>
+      </group>
+      <reference name="Sites"  refersFrom="Site" property="Is part of"/>     <!-- Reference Widget -->
+    </structure>
+    <reports>                                                                <!-- Reports Widget -->
+      <report name="Enclave Infrastructure" scope="instance"/>
+    </reports>
+  </concept>
+
+  <concept name="Site">
+    <structure>
+      <property name="Title" mandatory="true"/>
+      <property name="Description" mandatory="true"/>
+      <property name="Is part of" refersTo="Enclave">
+        <relatedData format="table">
+          <columns>
+            <column name="Title"/>
+            <column name="Description"/>
+          </columns>
+        </relatedData>
+      </property>
+      <property name="Coordinates"/>                                         <!-- triggers Map Widgets -->
+    </structure>
+  </concept>
+
+</pre>
+
+
+==User Interface==
+<gallery>
+File:Widgets Example Page.png
+</gallery>

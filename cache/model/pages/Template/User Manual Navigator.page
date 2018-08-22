@@ -1,0 +1,46 @@
+{{Infobox
+|abovestyle = background:#becde6;
+|above = [[Help:User Manual|User Manual]]
+|aboveclass = summary
+|image = [[image:User_Manual.png{{!}}100px{{!}}link=Help:User Manual]]
+|headerstyle = background:#d7d7d7;
+|labelstyle = background:#d7d7d7;
+|datastyle = background:#ffffff;
+|class1 = description
+|header1 = Principles
+|data1 =
+<div style="text-align:left;">
+* ...
+</div>
+|class2 = description
+|header2 = Instructions
+|data2 =
+<div style="text-align:left;">
+* [[Help:How to use|How to use]]
+* [[Help:How to contribute|How to contribute]]
+* [[Help:How to monitor|How to monitor]]
+</div>
+|class3 = description
+|header3 = Structure
+|data3 =
+<div style="text-align:left;">
+* Elements
+* Concepts
+* Model
+* Datasets
+</div>
+|class3 = description
+|header3 = Management
+|data3 =
+<div style="text-align:left;">
+* Governance
+* Support
+* About
+</div>
+|class4 = description
+|header4 = Other
+|data4 =
+<div style="text-align:left;">
+* [[Help:Developer Manual|Developer Manual]]
+</div>
+}}

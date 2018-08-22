@@ -1,0 +1,19 @@
+{{Standard
+|uuid=1125aa86-55b2-4d95-92a9-710740828fc4
+|publisher=NSO
+|code=STANAG 3377
+|title=Air Reconnaissance Intelligence Report Forms ed. 6
+|dateissued=2002-11-12
+|substandards=
+|description=
+
+|responsible=FMN-CPWG
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+}}

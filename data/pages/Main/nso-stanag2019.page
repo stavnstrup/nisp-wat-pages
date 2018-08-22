@@ -1,0 +1,56 @@
+{{Standard
+|uuid=f76d6e9d-99ea-454d-b0c3-97c88d637bcf
+|publisher=NSO
+|code=STANAG 2019 Ed 6
+|title=NATO Joint Military Symbology - APP-6(C)
+|dateissued=2011-05-24
+|substandards=
+|description=
+Use for military symbology in NATO land systemsIt is aimed to replace this standard with a new standard that will define Land, Sea and Air military symbology.
+
+
+|responsible=MC-MCJSB-IERHWG
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=1998-11-06
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2001-11-21
+|flag=changed
+|rfcp=
+|version=0.3
+}}
+{{Change Event
+|order=3
+|date=2005-09-15
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2011-09-16
+|flag=changed
+|rfcp=
+|version=6.0
+}}
+{{Change Event
+|order=5
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+{{Change Event
+|order=6
+|date=2018-04-16
+|flag=changed
+|rfcp=10-33
+|version=11.0
+}}
+}}

@@ -1,0 +1,26 @@
+{{Standard
+|uuid=b2a71eab-f428-47bb-a8fd-e8d2505ee807
+|publisher=IETF
+|code=RFC 4529
+|title=LDAP: Requesting Attributes by Object Class
+|dateissued=2006
+|substandards=
+|description=
+The Lightweight Directory Access Protocol (LDAP) search operation provides mechanisms for clients to request all user application attributes, all operational attributes, and/or attributes selected by their description. This document extends LDAP to support a mechanism that LDAP clients may use to request the return of all attributes of an object class.
+|responsible=NCIA-CES
+|website=http://www.ietf.org/rfc/rfc4529.txt
+|events={{Change Event
+|order=1
+|date=2010-11-13
+|flag=added
+|rfcp=4-25
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

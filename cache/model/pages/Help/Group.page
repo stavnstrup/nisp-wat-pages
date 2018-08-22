@@ -1,0 +1,123 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Widgets}}
+
+==Introduction==
+A '''Group''' widget allows to group related '''Properties''' and render them on View and Edit pages using different layouts:
+* [[Help:Sections Layout|Sections Layout]]
+* [[Help:Table Layout|Table Layout]]
+* [[Help:Properties Layout|Properties Layout]]
+* [[Help:Pivot Table Layout|Pivot Table Layout]]
+* [[Help:Tabs Layout|Tabs Layout]]
+* [[Help:Portal Layout|Portal Layout]]
+* [[Help:Portal Column Layout|Portal Column Layout]]
+* [[Help:Simple Layout|Simple Layout]]
+* [[Help:Banner Layout|Banner Layout]]
+* [[Help:Custom Layout|Custom Layout]]
+
+A Group doesn't modify the structure of the database. It only changes rendering on the pages.
+
+A Group might be embedded in other Groups, creating a multi-level hierarchy.
+
+Each group in a hierarchy might use different layout type, which help to create sophisticated visualizations patterns.
+
+The "custom" layout allow to define custom layout for the group using any MediaWiki syntax.
+The custom layout should be used only when all other available layouts don't provide required visualization.
+
+<span style="color:red">The '''Concept''' itself is a Group itself, which allows to apply one of the available layouts to the entire Concept.</span>
+
+==Definition==
+<pre>
+<concept>
+  <structure layout="{VIEW LAYOUT TYPE}" form="{FORM LAYOUT TYPE}" class="{CLASS}">
+    <group name="{GROUP NAME}">
+      <property name="Property 1">
+      <property name="Property 2">
+      <property name="Property 3">
+
+      <group name="{GROUP NAME}" layout="{VIEW LAYOUT TYPE}" formLayout="{FORM LAYOUT TYPE}" class="{CLASS}">
+        <property name="Property A">
+        <property name="Property B">
+        <property name="Property C">
+        <customView>
+          {CUSTOM LAYOUT TEMPLATE}
+        </customView>
+      </group>
+    </group>
+
+    <property name="Property I">
+    <property name="Property II">
+
+    <customView>
+      {CUSTOM LAYOUT TEMPLATE}
+    </customView>
+  <structure>
+</concept>
+</pre>
+
+{| class="helptable"
+|-
+! {GROUP NAME}
+| A label of the Group.
+|-
+! style
+| An optional section defining desired style to render a group of properties. If not specified, the "sections" layout is used.
+|-
+! {VIEW LAYOUT TYPE}
+| A layout to be used to render group of properties on the '''View Page'''. The following options are allowed:
+* '''sections'''. See [[Help:Sections Layout|Sections Layout]] for more details.
+*	'''table'''. See [[Help:Table Layout|Table Layout]] for more details.
+*	'''pivottable'''. See [[Help:Pivot Table Layout|Pivot Table Layout]] for more details.
+*	'''properties'''. See [[Help:Properties Layout|Properties Layout]] for more details.
+*	'''portal'''. See [[Help:Portal Layout|Portal Layout]] for more details.
+*	'''portalcolumn'''. See [[Help:Portal Column Layout|Portal Column Layout]] for more details.
+*	'''simple'''. See [[Help:Simple Layout|Simple Layout]] for more details.
+*	'''tabs'''. See [[Help:Tabs Layout|Tabs Layout]] for more details.
+Default value: "sections".
+|-
+! {EDIT LAYOUT TYPE}
+| A layout to be used to render group of properties on the '''Edit Page'''. See the {VIEW LAYOUT TYPE} for a list of allowed values.
+If the value is not specified it defaults to the {VIEW LAYOUT TYPE}.
+|-
+! {CUSTOM LAYOUT TEMPLATE}
+| A template for a custom layout defined using MediaWiki syntax.
+|-
+! {CLASS}
+| A CSS class to be applied to rendered group. See [[Project:Css]] page for more details. By default the following classes are enabled: cleartable, greytable, wikitable. Default value: "wikitable".
+|}
+
+
+==Example==
+<pre>
+<concept name="User" plural="Users" type="Dynamic" image="User.png" color="f9f9f9">
+  <description></description>
+
+  <structure layout="properties">
+    <group name="Name" layout="table">
+      <property name="Prefix" />
+      <property name="First name" mandatory="true" />
+      <property name="Last name" mandatory="true" />
+    </group>
+    <group name="Organization" layout="table">
+      <property name="Organization"/>
+      <property name="Function"/>
+      <property name="Address"/>
+    </group>
+    <group name="Contact information" layout="pivottable">
+      <property name="Telephone"/>
+      <property name="Email"/>
+    </group>
+    <property name="Remarks"/>
+  </structure>
+</concept>
+</pre>
+
+
+==User Interface==
+The Group renders group of properties on the View and Edit pages using different layouts. See the help pages for particular layout for more details.
+
+<gallery>
+File:Group View Page 1.png
+File:Group View Page 2.png
+File:Group View Page 3.png
+File:Group Edit Page 1.png
+File:Group Edit Page 2.png
+</gallery>

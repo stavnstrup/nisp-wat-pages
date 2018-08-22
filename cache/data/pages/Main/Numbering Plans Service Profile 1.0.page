@@ -1,0 +1,30 @@
+{{Service Profile
+|uuid=0cf72b89-c7af-4ec1-b8c4-95d4304b2ae6
+|title=Numbering Plans Service Profile 1.0
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 1 Profile
+|dateissued=2015-09-30
+|version=1.0
+|description=
+The Numbering Plans Profile provides standards and guidance for the facilitation of numbering plans of telecommunications, audio and video networks.
+|taxonomynodes=Audio-based Communication Services;
+Video-based Communication Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=nso-stanag4705ed1;
+nso-stanag5046ed4;
+itu-t-e.164;
+
+}}
+|guideline=
+The Numbering Plans Profile provides standards and guidance for the facilitation of numbering plans of telecommunications, audio and video networks.
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+}}

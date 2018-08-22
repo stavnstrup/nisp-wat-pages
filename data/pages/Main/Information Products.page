@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=067fc1be-b7a7-471d-bef4-a42f91ac95b8
+|order=12
+|parent=Operational_Capabilities
+|title=Information Products
+|description=The "Information Products" taxonomy layer represents the collections of information that are regarded as the formal output of a business process and/or can be used as an input to other business processes. Information Products consist of several information elements. They can be seen as any communication or representation of knowledge such as facts, data, or opinions in any medium or form.
+}}

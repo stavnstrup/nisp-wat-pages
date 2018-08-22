@@ -1,0 +1,5 @@
+<noinclude></noinclude><includeonly>__NOCACHE__<nowiki/>{{#arraydefine:propertylist|{{{userparam|}}}|,}}
+|-
+| {{Nowrap|[[{{{1|}}}]]}} <nowiki/> {{#arraysearch:propertylist|title|0|<nowiki/>
+{{!}}{{#show:{{{1|}}}|?Title}}|}}{{#arraysearch:propertylist|description|0|<nowiki/>
+{{!}}{{#show:{{{1|}}}|?Description}}|}}</includeonly>

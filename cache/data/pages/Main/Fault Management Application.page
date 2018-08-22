@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=ca256aeb-663a-4740-88c5-9d3e761cb2de
+|order=47
+|parent=Resource_Management_Domain_Applications
+|title=Fault Management Application
+|description=The Fault Management Application enables the user to manage faults associated with CIS resources (e.g. server, router, security devices, etc). This includes the detection, isolation, resolution and reporting of faults of these resources.
+}}

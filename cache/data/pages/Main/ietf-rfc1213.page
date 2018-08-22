@@ -1,0 +1,33 @@
+{{Standard
+|uuid=1fc041a1-8cae-42ea-b136-77e951da56dd
+|publisher=IETF
+|code=RFC 1213
+|title=Management Information Base v2 (MIB II)
+|dateissued=1991
+|substandards=
+|description=
+This memo defines the second version of the Management Information Base (MIB-II) for use with network management protocols in TCP/IP-based internets. In particular, together with its companion memos which describe the structure of management information (RFC 1155:1990) along with the network management protocol (RFC 1157:1990) for TCP/IP-based internets, these documents provide a simple, workable architecture and system for managing TCP/IP-based internets and in particular the Internet community.
+|responsible=NCIA-SMC
+|website=http://www.ietf.org/rfc/rfc1213.txt
+|events={{Change Event
+|order=1
+|date=2000-04-13
+|flag=added
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=2
+|date=2005-09-08
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

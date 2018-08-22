@@ -1,0 +1,24 @@
+/*
+*  Styling of standard table
+*/
+table.wikitable,
+table.prettytable {
+	margin: 3px;
+	background: #f9f9f9;
+	border: 1px #aaa solid;
+	border-collapse: collapse;
+}
+.wikitable th, .wikitable td,
+.prettytable th, .prettytable td {
+	border: 1px #aaa solid;
+	padding: 0.2em;
+}
+.wikitable th,
+.prettytable th {
+	background: #f2f2f2;
+	text-align: center;
+}
+.wikitable caption,
+.prettytable caption {
+	font-weight: bold;
+}

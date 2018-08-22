@@ -1,0 +1,9 @@
+{{Taxonomy Node
+|uuid=68e28a11-fa5d-4641-80fd-c70399f37490
+|order=45
+|parent=Resource_Management_Domain_Applications
+|title=Element Management Application
+|description=The Element Management Application enables users to managing the physical resources/elements (e.g. servers, storage, routers, security devices incl. crypto devices, etc.) required to provide services to the customer.
+
+Element Management includes: Performance Management; Fault Management; Configuration Management; Accounting Management; and Security Management.
+}}

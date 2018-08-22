@@ -1,0 +1,24 @@
+{{Taxonomy Node
+|uuid=b7d12d70-9b76-4135-b640-16e3a3746a5f
+|order=13
+|parent=Information_Products
+|title=CIS Security Information
+|description=CIS Security Information is composed of a collection of information products that are processed and and created for the implementation and enforcement of Communication and Information Systems (CIS) Security, including Information Assurance (IA) and Cyber Defence (CD).
+
+CIS Security Information is any information on CIS security , current in time that needs to be managed (e.g. collected, assessed, shared, and exploited). It contains:
+
+* Intel information
+* CIS value information
+* CIS information, such as:
+** Network topology
+** Source entities
+** CIS (external) services
+** CIS components dependencies (internal/external)
+** HW/SW components
+** HW/SW configurations
+* Reference information:
+** CIS component certification report 
+** CIS component trustworthiness report
+* Threat Information:
+** Threat Analysis
+}}

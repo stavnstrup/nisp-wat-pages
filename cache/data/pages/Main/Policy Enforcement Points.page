@@ -1,0 +1,31 @@
+{{Service Profile
+|uuid=3143afb9-e4c0-453e-9d32-a28a6076a481
+|title=Policy Enforcement Points
+|publisher=NCIA
+|code=AI_TECH_2016.06.02.04
+|spectitle=Service Interface Profile for Policy Enforcement Points
+|dateissued=2015-02-04
+|version=1.0
+|description=
+|taxonomynodes=Undefined Taxonomy Node;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=oasis-saml-2.0;
+oasis-wss-v1.1-errata-os-samltokenprofile;
+w3c-rec-xmlenc-core-20021210;
+w3c-rec-xmldsig-core-20080610;
+ws-i-basicsecurityprofile-1.1;
+oasis-wss-v1.1-spec-os-soapmessagesecurity;
+oasis-wss-v1.1-spec-errata-os-x509tokenprofile;
+
+}}
+|guideline=
+|events={{Change Event
+|order=1
+|date=2017-04-21
+|flag=added
+|rfcp=9-15
+|version=10.0
+}}
+}}

@@ -1,0 +1,19 @@
+{{Standard
+|uuid=dd8695ff-7c69-4444-a658-2f26d9a728ac
+|publisher=IETF
+|code=RFC 2773
+|title=Encryption using KEA and SKIPJACK
+|dateissued=2000-02-01
+|substandards=
+|description=
+
+|responsible=NCIA-CES
+|website=https://tools.ietf.org/rfc/rfc2773.txt
+|events={{Change Event
+|order=1
+|date=2017-01-13
+|flag=added
+|rfcp=9-18
+|version=10.0
+}}
+}}

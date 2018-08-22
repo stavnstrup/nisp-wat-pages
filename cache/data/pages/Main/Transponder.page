@@ -1,0 +1,18 @@
+{{Taxonomy Node
+|uuid=9afc22d1-aaeb-4449-97d5-697483485442
+|order=371
+|parent=Communications_Equipment
+|title=Transponder
+|description=A communications transponder, is the series of interconnected units which form a communications channel between the receiving and the transmitting antennas.
+
+A transponder is typically composed of:
+* An input band limiting device (a band pass filter)
+* An input low-noise amplifier (LNA), designed to amplify the signals received from the surface/ground station
+* frequency translator used to convert the frequency of the received signal to the frequency required for the transmitted signal
+* An output band pass filter
+* A power amplifier 
+
+Most transponders operate on a "bent pipe" principle, sending back of what goes into the conduit with only amplification and a shift from uplink to downlink frequency. However, more advanced radio relay stations can also perform processing, where the signal is demodulated, decoded, and then re-encoded and modulated within the radio relay station. This type of transponder , a 'regenerative' transponder, has many advantages but it is much more complex.
+
+Transponders are part of a radio relay station. Those radio relay stations are typically part of Communications-Satellites (low earth orbit 100-1240 miles), or are mountend on High or Medium-Altitude Long-Endurance (HALE > 30.000 feet/MALE 10.000-30.000 feet) Unmanned Aerial Vehicles (UAV) that can stay airborne for extended durations of time, typically 24 to 48 hours.
+}}

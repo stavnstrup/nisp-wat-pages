@@ -1,0 +1,19 @@
+{{Standard
+|uuid=b6066b24-2b90-45f1-b6c4-52d6731bd05a
+|publisher=IETF
+|code=RFC 7521
+|title=Assertion Framework for OAuth 2.0 Client Authentication and                           Authorization Grants
+|dateissued=2015-05
+|substandards=
+|description=
+JThis specification provides a framework for the use of assertions with OAuth 2.0 in the form of a new client authentication mechanism and a new authorization grant type. Mechanisms are specified for transporting assertions during interactions with a token endpoint; general processing rules are also specified.
+|responsible=NCIA
+|website=http://www.ietf.org/rfc/rfc7521.txt
+|events={{Change Event
+|order=1
+|date=2017-04-18
+|flag=added
+|rfcp=9-15
+|version=10.0
+}}
+}}

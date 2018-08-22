@@ -1,0 +1,39 @@
+{{Service Profile
+|uuid=c1f2d0f0-d963-4384-b761-5c5af0247a8b
+|title=Basic Text-based Collaboration Chatroom Profile
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|description=
+The Basic Text-based Collaboration Chatroom Profile provides standards and guidance to host chatrooms to support persistent near-real time text-based group collaboration capability (chat) for time critical reporting and decision making in military operations.
+|taxonomynodes=Text-based Collaboration Services;
+Presence Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+XMPP Services hosting the shared chatrooms must comply with the following additional extensions.
+|standards=xmpp-xep-0059;
+xmpp-xep-0082;
+xmpp-xep-0313;
+
+}}
+{{Obligation Group
+|obligationtype=optional
+|description=
+XMPP Services hosting the shared chatrooms may comply with the following additional extensions.
+|standards=xmpp-xep-0334;
+xmpp-xep-0346;
+
+}}
+|guideline=
+The Basic Text-based Collaboration Chatroom Profile provides standards and guidance to host chatrooms to support persistent near-real time text-based group collaboration capability (chat) for time critical reporting and decision making in military operations.
+|events={{Change Event
+|order=1
+|date=2017-12-06
+|flag=added
+|rfcp=11-29
+|version=11.0
+}}
+}}

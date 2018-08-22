@@ -1,0 +1,12 @@
+<includeonly>{{#switch:{{#sub:{{lc:{{{1|}}}}}|0|4}}
+|none|(non|n.a.|ni|n.i.=''none''
+|vari|(var=''various''
+|{{capitalize|{{{1|}}}}}}}</includeonly><noinclude>
+; Description
+Get Internal Objects DataIt is used to extract a location name from a NSIP Project article.
+; Format
+<pre>
+{{Get Location
+ |string
+}}</pre>
+</noinclude>

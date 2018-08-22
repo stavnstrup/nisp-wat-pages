@@ -1,0 +1,36 @@
+{{Service Profile
+|uuid=9d2aa18f-b4fa-47ed-b0ff-29f290d8d47e
+|title=Enterprise Directory
+|publisher=NCIA
+|code=AI_TECH_2016.06.02.05
+|spectitle=Service Interface Profile for Enterprise Directory Services
+|dateissued=2015-02-04
+|version=1.0
+|description=
+|taxonomynodes=Undefined Taxonomy Node;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=ietf-rfc4510;
+ietf-rfc4511;
+ietf-rfc4512;
+ietf-rfc4513;
+ietf-rfc4514;
+ietf-rfc4515;
+ietf-rfc4516;
+ietf-rfc4517;
+ietf-rfc4518;
+ietf-rfc4519;
+ietf-rfc2798;
+cceb-acp133edC;
+
+}}
+|guideline=
+|events={{Change Event
+|order=1
+|date=2017-04-21
+|flag=added
+|rfcp=9-15
+|version=10.0
+}}
+}}

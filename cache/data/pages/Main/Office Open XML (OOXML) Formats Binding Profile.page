@@ -1,0 +1,23 @@
+{{Capability Profile
+|uuid=8e76a957-cb76-4628-a79b-149edcec0597
+|title=Office Open XML (OOXML) Formats Binding Profile
+|publisher=NCIA
+|code=TN-1491
+|spectitle=Office Open XML (OOXML) Formats Binding Profile
+|dateissued=2017-12-15
+|version=2.0
+|guideline=
+This profile for the OOXML describes how metadata can be maintained.
+
+
+|profiles=
+|serviceprofiles=Office Open XML;
+
+|events={{Change Event
+|order=1
+|date=2017-12-19
+|flag=added
+|rfcp=10-28
+|version=11.0
+}}
+}}

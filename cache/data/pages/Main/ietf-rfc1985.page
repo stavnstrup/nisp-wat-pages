@@ -1,0 +1,54 @@
+{{Standard
+|uuid=f7036ca8-f5f7-4095-add0-cf8bacf20ba0
+|publisher=IETF
+|code=RFC 1985
+|title=SMTP Service Extension for Remote Message Queue Starting
+|dateissued=1996
+|substandards=
+|description=
+This specification defines an extension to the SMTP service whereby an SMTP client and server may interact to give the server an opportunity to start the processing of its queues for messages to go to a given host. This extension is meant to be used in startup conditions as well as for mail nodes that have transient connections to their service providers.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc1985.txt
+|events={{Change Event
+|order=1
+|date=2001-11-20
+|flag=added
+|rfcp=
+|version=0.3
+}}
+{{Change Event
+|order=2
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=3
+|date=2005-09-15
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2009-09-12
+|flag=deleted
+|rfcp=
+|version=4.0
+}}
+{{Change Event
+|order=5
+|date=2015-10-29
+|flag=changed
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=6
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

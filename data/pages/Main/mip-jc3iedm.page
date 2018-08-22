@@ -1,0 +1,47 @@
+{{Standard
+|uuid=8086d5a6-0ad0-4e94-b03e-1870e78e39f2
+|publisher=MIP
+|code=MIP JC3IEDM
+|title=Joint C3 Information Exchange Data Model (JC3IEDM) 3.1.4:2015
+|dateissued=2012
+|substandards=
+|description=
+The MIP scope is to deliver a command and control interoperability solution focused on the Land operational user in a Joint environment.
+|responsible=FMN-CPWG
+|website=https://mip-interop.org/Public%20Document%20Library/Forms/AllItems.aspx?RootFolder=%2FPublic%20Document%20Library%2F04-Baseline_3%2E1%2FInterface-Specification%2FJC3IEDM
+|events={{Change Event
+|order=1
+|date=2002-10-10
+|flag=added
+|rfcp=
+|version=0.4
+}}
+{{Change Event
+|order=2
+|date=2005-12-01
+|flag=changed
+|rfcp=6-21
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2007-08-02
+|flag=changed
+|rfcp=
+|version=2.0
+}}
+{{Change Event
+|order=4
+|date=2013-10-24
+|flag=changed
+|rfcp=7-27
+|version=8.0
+}}
+{{Change Event
+|order=5
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

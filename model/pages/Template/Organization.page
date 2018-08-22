@@ -1,0 +1,79 @@
+<includeonly>{{#set:UUID={{{uuid|null}}}}}{{Organizations Navigator|instance={{PAGENAME}}}}__NOCACHE__ __NOTOC__ __NOEDITSECTION__
+<div style="display: none;">
+{{#set:Acronym={{{acronym|}}}}}
+{{#set:Description={{{description|}}}}}
+{{#set:Website={{{website|}}}}}
+</div>
+<table class="wikitable">
+<tr>
+<th>Acronym</th>
+<td>{{#if:{{{acronym|}}}|{{{acronym|}}}|''no entries''}}
+</td>
+</tr>
+<tr>
+<th>Description</th>
+<td>{{#if:{{{description|}}}|{{{description|}}}|''no entries''}}
+</td>
+</tr>
+<tr>
+<th>Website</th>
+<td>{{#if:{{{website|}}}|{{#arraymap:{{{website|}}}|;|@@@|@@@<br/>|}}|''no entries''}}
+</td>
+</tr>
+</table>
+<div style="clear:both"></div>
+==Related Information==
+
+{{#ifexpr: 0 > 0 OR {{#ask:[[Category:Basic Standards Service Profiles]][[Is responsible for::{{PAGENAME}}]]|format=count}} > 0 OR {{#ask:[[Category:Capability Profiles]][[Is published by::{{PAGENAME}}]]|format=count}} > 0 OR {{#ask:[[Category:Profiles]][[Is published by::{{PAGENAME}}]]|format=count}} > 0 OR {{#ask:[[Category:Service Profiles]][[Is published by::{{PAGENAME}}]]|format=count}} > 0 OR {{#ask:[[Category:Standards]][[Is published by::{{PAGENAME}}]]|format=count}} > 0 OR {{#ask:[[Category:Standards]][[Is responsible for::{{PAGENAME}}]]|format=count}} > 0|
+=Standards Management=
+<div class="grid">
+{{#ifeq:{{#ask:[[Category:Basic Standards Service Profiles]][[Is responsible for::{{PAGENAME}}]]|format=count}}|0||
+<div class="panel" style="grid-column:1; -ms-grid-column:1; grid-row:1; -ms-grid-row:1; margin: 5px;">
+  <div>Basic Standards Service Profile - Responsible</div>
+  <div>{{#ask:[[Category:Basic Standards Service Profiles]][[Is responsible for::{{PAGENAME}}]]|format=ul}}</div>
+</div>
+}}{{#ifeq:{{#ask:[[Category:Capability Profiles]][[Is published by::{{PAGENAME}}]]|format=count}}|0||
+<div class="panel" style="grid-column:1; -ms-grid-column:1; grid-row:2; -ms-grid-row:2; margin: 5px;">
+  <div>Capability Profile - Publisher</div>
+  <div>{{#ask:[[Category:Capability Profiles]][[Is published by::{{PAGENAME}}]]|format=ul}}</div>
+</div>
+}}{{#ifeq:{{#ask:[[Category:Profiles]][[Is published by::{{PAGENAME}}]]|format=count}}|0||
+<div class="panel" style="grid-column:1; -ms-grid-column:1; grid-row:3; -ms-grid-row:3; margin: 5px;">
+  <div>Profile - Publisher</div>
+  <div>{{#ask:[[Category:Profiles]][[Is published by::{{PAGENAME}}]]|format=ul}}</div>
+</div>
+}}{{#ifeq:{{#ask:[[Category:Service Profiles]][[Is published by::{{PAGENAME}}]]|format=count}}|0||
+<div class="panel" style="grid-column:1; -ms-grid-column:1; grid-row:4; -ms-grid-row:4; margin: 5px;">
+  <div>Service Profile - Publisher</div>
+  <div>{{#ask:[[Category:Service Profiles]][[Is published by::{{PAGENAME}}]]|format=ul}}</div>
+</div>
+}}{{#ifeq:{{#ask:[[Category:Standards]][[Is published by::{{PAGENAME}}]]|format=count}}|0||
+<div class="panel" style="grid-column:1; -ms-grid-column:1; grid-row:5; -ms-grid-row:5; margin: 5px;">
+  <div>Standard - Publisher</div>
+  <div>{{#ask:[[Category:Standards]][[Is published by::{{PAGENAME}}]]|format=ul}}</div>
+</div>
+}}{{#ifeq:{{#ask:[[Category:Standards]][[Is responsible for::{{PAGENAME}}]]|format=count}}|0||
+<div class="panel" style="grid-column:1; -ms-grid-column:1; grid-row:6; -ms-grid-row:6; margin: 5px;">
+  <div>Standard - Responsible</div>
+  <div>{{#ask:[[Category:Standards]][[Is responsible for::{{PAGENAME}}]]|format=ul}}</div>
+</div>
+}}
+</div>
+}}
+
+<headertabs />
+[[Category:Organizations]]</includeonly><noinclude>
+; Description
+The template sets semantic values and displays data for the '''Organization''' concept.
+; Format
+The template should be called in the following format:
+<pre>
+{{Organization
+|uuid=
+|acronym=
+|description=
+|website=
+}}</pre>
+; See also
+* [[Template:Organization]]
+</noinclude>

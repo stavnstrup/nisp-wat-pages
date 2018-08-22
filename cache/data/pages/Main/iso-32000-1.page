@@ -1,0 +1,26 @@
+{{Standard
+|uuid=1d88cd56-f771-44e7-b962-d16861d5e25e
+|publisher=ISO
+|code=32000-1
+|title=Document management -- Portable document format -- Part 1: PDF 1.7
+|dateissued=2008
+|substandards=
+|description=
+ISO 32000-1:2008 specifies a digital form for representing electronic documents to enable users to exchange and view electronic documents independent of the environment in which they were created or the environment in which they are viewed or printed. It is intended for the developer of software that creates PDF files (conforming writers), software that reads existing PDF files and interprets their contents for display and interaction (conforming readers) and PDF products that read and/or write PDF files for a variety of other purposes (conforming products).
+|responsible=FMN-CPWG
+|website=http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=51502
+|events={{Change Event
+|order=1
+|date=2014-11-27
+|flag=added
+|rfcp=8-2
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

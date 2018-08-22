@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=06d559b4-1bdf-40cc-904f-4e745a170f24
+|order=246
+|parent=Web_Platform_Services
+|title=Web Hosting Services
+|description=The Web Hosting Services provide an environment for operating web applications and services.  The hosting services make available a service container that manages the service life cycle and underlying resources (such as memory, storage and CPU) to deliver the required service. The application or web service execution takes place within the container's run time environment.
+}}

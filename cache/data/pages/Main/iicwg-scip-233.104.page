@@ -1,0 +1,19 @@
+{{Standard
+|uuid=8d54f44f-afcf-4229-b789-4907f77fd088
+|publisher=IICWG
+|code=SCIP-233.104
+|title=NATO Pre Placed Key (PPK) Key Material Format and Fill Checks Specification Rev.1.0
+|dateissued=
+|substandards=
+|description=
+
+|responsible=NS
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

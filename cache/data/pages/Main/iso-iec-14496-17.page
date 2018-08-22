@@ -1,0 +1,81 @@
+{{Standard
+|uuid=edd4cd35-0236-4ea2-b043-387ddf147343
+|publisher=ISO-IEC
+|code=14496-17
+|title=Coding of audio-visual objects -- Part 17: Streaming text format
+|dateissued=2006
+|substandards=
+|description=
+ISO/IEC 14496-17:2006 was developed in response to the need for a generic method for coding of text at very low bitrate as one of the multimedia components within an audiovisual presentation. ISO/IEC 14496-17:2006 allows for example subtitles and Karaoke song texts to be coded and transported as separate text streams at bitrates that are sufficently low for use in mobile services over IP. Target applications are in particular found in areas with severe transmission bandwidth constraints, such as mobile services over IP. However, services over broadband IP, over broadcast channels and over optical media may also benefit from the low bandwidth of ISO/IEC 14496-17:2006 text streams.ISO/IEC 14496-17:2006 specifies a text stream as a concatenation of text access units. A text access unit contains text information of a specific format. For each text stream, the format of the text information within the text access units is signalled. Each text access unit within a text stream is intended to be displayed at a specific instance in time. Note that ISO/IEC 14496-17:2006 signals the format of the text contained in text access units, but that it does not contain any text format specification.
+
+Within ISO/IEC 14496-17:2006, a particular instance of text streams are 3GPP text streams. Each text access unit contained in a 3GPP text stream carries 3GPP Timed Text data, as specified in 3GPP TS 26.245. For 3GPP text streams, ISO/IEC 14496-17:2006 defines a generic framing structure suitable for transport of 3GPP text streams across a variety of networks, such as RTP for transport over IP, and MPEG-2 Systems for use in media such as broadcast and optical discs.
+
+The flexible framing structure for text streams, consisting of so-called TTUs (Timed Text Units), allows for easy and convenient adaptation to the various transport layers. By using TTUs, multiple small text access units can be aggregated into one transport packet, but TTUs can also be used to fragment large text access units across multiple transport packets, while providing a reasonable level of error resilience in case of packet loss or non-recoverable packet errors. For each transport layer, the most suitable TTU structure can be chosen. If so desired, the text access units can be re-partitioned into TTUs for most effective adaptation to other transport systems.
+
+
+|responsible=NCIA-CES
+|website=http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=39478
+|events={{Change Event
+|order=1
+|date=1999-01-14
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-07-17
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2001-11-09
+|flag=changed
+|rfcp=
+|version=0.3
+}}
+{{Change Event
+|order=4
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=5
+|date=2005-09-14
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=6
+|date=2007-08-02
+|flag=changed
+|rfcp=
+|version=2.0
+}}
+{{Change Event
+|order=7
+|date=2010-11-01
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=8
+|date=2013-08-23
+|flag=changed
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=9
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

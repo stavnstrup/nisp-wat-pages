@@ -1,0 +1,34 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Widgets}}
+
+==Introduction==
+The '''Navigator''' widget automatically displays links to related data and buttons to perform actions relevant in the context of the current page.
+
+The widget displays the following components:
+* [[Help:Dashboard Actions|Dashboard Actions]]
+* [[Help:Meta-model Actions|Meta-model Actions]]
+* [[Help:Instance Actions|Instance Actions]]
+* [[Help:Concept Actions|Concept Actions]]
+* [[Help:Related Concepts Actions|Related Concepts Actions]]
+* [[Help:Reports Actions|Reports Actions]]
+
+
+==Definition==
+No configuration available. Widget is displayed automatically in a fixed location.
+
+
+==Example==
+Not applicable.
+
+
+==User Interface==
+The widget displays multiple components with links and buttons (see the list above).
+
+The widget is displayed on the following pages:
+* View Page
+* Edit Page (only when asking for a page name during creation)
+* List Page
+* Tree Page
+
+<gallery>
+File:Navigator Page.png
+</gallery>

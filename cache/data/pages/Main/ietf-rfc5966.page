@@ -1,0 +1,19 @@
+{{Standard
+|uuid=4a462374-44be-4c10-8960-574e3d4e1006
+|publisher=IETF
+|code=RFC 5966
+|title=DNS Transport over TCP - Implementation Requirements
+|dateissued=2010-08-01
+|substandards=
+|description=
+This document updates the requirements for the support of TCP as a transport protocol for DNS implementations.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc5966.txt
+|events={{Change Event
+|order=1
+|date=2017-05-01
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+}}

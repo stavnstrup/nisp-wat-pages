@@ -1,0 +1,6 @@
+{{Basic Standards Service Profile
+|taxonomynode=Symbology Services
+|responsible=
+|mandatorystandards=nso-stanag7163ed1;nato-tide-nvg;nso-stanag7099ed2;ietf-rfc2083;us-dod-mil-std-2525b;nso-stanag2019ed7;nso-stanag5042ed1;ogc-06-042;ogc-04-094;ogc-09-110r4;
+|candidatestandards=nato-ttb_30;us-dod-mil-std-2525c;ogc-wcs-is;ogc-05-047r3;nso-stanag4733ed1;
+}}

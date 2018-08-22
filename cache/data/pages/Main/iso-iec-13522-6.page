@@ -1,0 +1,60 @@
+{{Standard
+|uuid=5d342d35-315e-424f-9b62-c4f56782d12a
+|publisher=ISO-IEC
+|code=13522-6
+|title=MHEG Part 6: Support for enhanced interactive applications
+|dateissued=1998
+|substandards=
+|description=
+The scope of this part of ISO/IEC 13522 is to define the semantics and final-form coded representation for the interchange of enhanced interactive multimedia applications.These applications extend applications covered by ISO/IEC 13522-5 in incorporating functionality such as computing (data processing) and extended communication with the external environment, including servers, local devices, etc.
+
+These applications may be exploited in any communication environment including broadcast-only mode, interactive client-server or peer-to-peer (conversational). However, the main focus is on interactive retrieval (client-server) applications running on limited resource set-top-units involving asymmetrical data interchange with real-time audiovisuals on the downstream channel.
+
+The coded representation defined by this part of ISO/IEC 13522 specialises the coded representation defined by ISO/IEC 13522-5. Especially, this part of ISO/IEC 13522 defines the coded representation for the OriginalContent attribute of the MHEG-5 InterchangedProgram class. In addition, this part of ISO/IEC 13522 defines the Applet class; this subclass of InterchangedProgram features the ability to manage its own display and interaction, by delegation from the engine.
+
+
+|responsible=NCIA-CES
+|website=http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=27045
+|events={{Change Event
+|order=1
+|date=2000-03-15
+|flag=added
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=2
+|date=2001-11-19
+|flag=changed
+|rfcp=
+|version=0.3
+}}
+{{Change Event
+|order=3
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=4
+|date=2005-09-15
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=5
+|date=2010-10-31
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=6
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

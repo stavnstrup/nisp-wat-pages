@@ -1,0 +1,19 @@
+{{Standard
+|uuid=ecb9670a-e97b-41cc-a913-ffd2a1452e0e
+|publisher=IETF
+|code=RFC 1998
+|title=An Aplication of the BGP Community Attribute in Multi-Home Routing
+|dateissued=1996-08
+|substandards=
+|description=
+
+|responsible=NCIA
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

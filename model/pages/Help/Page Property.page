@@ -1,0 +1,170 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+The '''Page Type''' represents property which refers to other page or pages.
+It allows to establish a named '''Association''' between two Concepts (e.g. "City" : "Is located in" : "State").
+
+There are two categories of the Page Type property:
+* '''specific''', when the referred Concept is known in advance (e.g. "Implements application") and thus the name of this Concept is specified in the ''Property Definition'' section (''refersTo'' attribute)
+* '''generic''', when the referred Concept is not know in advance (e.g. "Is related to") and thus the name of the referred Concept is specified in the ''Concept Property'' section (''refersTo'' attribute).
+
+The name of this property should follow a convention in which, the "Source Concept", "Property name" and "Target Concept" put together should create a valid sentence e.g. "City Is located in State".
+
+The Page property field displays a link to the other page. In case if that page doesn't exist, the field displays a [[Image:Concept Add Icon.png|link=|20px]] button/link to create it using related Concept Form.
+
+==Definition==
+
+The Page Property extends a common definition of the [[Help:Property|Property Definition]] with the following elements:
+
+<pre>
+  ...
+    <!-- Referred Concept -->
+    <concept name="TARGET CONCEPT">
+      <structure>
+      </structure>
+    </concept>
+
+    <!-- Referring Concept -->
+    <concept name="SOURCE CONCEPT">
+      <structure>
+        <property name="{REFERRING PROPERTY}" refersTo="{TARGET CONCEPT}" existingonly="{EXISTING ONLY}" checkIfExists={CHECK IF EXISTS} format="{FORMAT}" icon="{ICON}">
+          <columns>
+            <column name="{COLUMN NAME}"/>
+            <column name="{COLUMN NAME}"/>
+            <column name="{COLUMN NAME}"/>
+          </columns>
+      </structure>
+    </concept>
+  ...
+
+  <!-- Property Definitions -->
+  <properties>
+    <property name="{REFERRING PROPERTY}" refersTo="{TARGET CONCEPT}" size="{SIZE}" rows="{ROWS}" checkIfExists={CHECK IF EXISTS}>
+  </properties>
+</pre>
+
+{| class="helptable"
+|-
+! {SOURCE CONCEPT}
+| A name of the Concept which refers to Target Concept.
+|-
+! {TARGET CONCEPT}
+| A name of the Concept this property is referring to. The Concept with this name has to be defined in the <nowiki><concepts></nowiki> section of the Data Model. See [[Help:Data Model|Data Model]] for more details.
+|-
+! {REFERRING PROPERTY}
+| A name of the Property which refers to the Target Concept from the Source Concept.
+|-
+! {EXISTING ONLY}
+| A boolean flag indiciating if the selection of related pages should be limited to existing pages only. If set to "true" different edit fields (tokens, combobox or tree) will be used to enforce user to select existing pages only.
+|-
+! {CHECK IF EXISTS}
+| A boolean flag indiciating if the existance of the referred page should be checked when the page is displayed.
+| If referred page doesn't exists system displays a link to the form where missing record can be created.
+| Default: true
+| Note: operation to check if referred page exists is resource expensive and should be switched off for cases where it's not required (e.g. when the list of pages is generated through query defined in 'inputValue' attribute).
+|-
+! {SIZE}
+| A length of the input field. Default value: 80 for the Page properties with multiplicity="multiple" and 50 the Page properties with multiplicity="one".
+|-
+! {ROWS}
+| A number of initially displayed rows. Default value: 3.
+|-
+! style
+| An element to style a set of selected pages.
+|-
+! {FORMAT}
+| A type of the format. The following options are allowed:
+* '''link''': selected pages are to be displayed as a list of simple links
+* '''table''': selected pages are to be displayed as a table, where first column displays a name of the referred page, and the next ones as requested in the "columns" attributes
+* '''list''': selected pages are to be displayed as a list of links with additional properties (as requested in "columns" attribute) displayed below a link
+* '''gallery'''. selected pages are displayed as gallery of images/logos associated with these pages.
+* '''gallerylist'''. selected pages are displayed as q list of images/logos associated with the pages with the values of the properties defined in the {COLUMNS} attribute..
+|-
+! {COLUMN NAME}
+| A name of the column to be displayed next to the page name.
+|-
+! {ICON}
+| An optional icon (with link) to be displayed instead of a page name. Useful for cases where page name might be long and might not be user friendly (e.g. with automatically generated numbering)
+|}
+
+
+==Extensions==
+The basic Association concept might be extended by the following '''features''':
+* [[Help:Aggregation|Aggregation]]
+* [[Help:Composition|Composition]]
+* [[Help:Filtering|Filtering]]
+
+The following '''widgets''' provide additional visualizations based on the Association concept:
+* [[Help:Related Data|Related Data]]
+* [[Help:Reference|Reference]]
+
+
+==Semantic database==
+The Page Property is implemented as a [[Special:Types/Page]] MediaWiki datatype.
+
+
+==Example==
+<pre>
+  ...
+    <concept>
+      <structure>
+        <property name="Implements application" />
+        <property name="Is related to" refersTo="Strategic Objective" label="Strategic Objective" multiplicity="one" attribute="objective"/>
+        <property name="Is performed by" refersTo="Capability Configuration" label="Participants" multiplicity="multiple" format="link">
+          <columns>
+            <column name="Title"/>
+            <column name="Description"/>
+            <column name="Has lead"/>
+          </columns>
+        </property>
+      </structure>
+    </concept>
+  ...
+
+  <!-- Property Definitions -->
+  <properties>
+    <property name="Implements application" type="Page" refersTo="Application" label="Applications" attribute="applications">
+      <description>A semantic link with the Applications concept.</description>
+      <instruction>An "Applications" is a page value that links to a User Application definition.</instruction>
+    </property>
+    <property name="Is related to" type="Page" label="Is related to" attribute="related">
+      <description>A semantic link between elements in the same or in different concepts.</description>
+      <instruction/>
+    </property>
+    <property name="Is performed by" type="Page" label="Is performed by" attribute="performedby">
+      <description>A semantic link to the ..</description>
+      <instruction/>
+    </property>
+  </properties>
+</pre>
+
+
+==User Interface==
+* '''View Page'''
+The property displays selected list of Pages (or Page) using the following layouts (controlled by the style/layout/type settings):
+* link
+* table
+* list
+<gallery>
+File:Page Property List Layout.png
+File:Page Property Table Layout.png
+File:Page Property Link Layout.png
+</gallery>
+
+* '''Red links'''
+The Page property field displays a link to the other page. In case if that page doesn't exist, the field displays a [[Image:Concept Add Icon.png|link=|20px]] button/link to create it using related Concept Form.
+The link opens an empty Form for the related concept.
+<gallery>
+File:Page Property Red Link.png
+</gallery>
+
+* '''Edit Page'''
+The property provides one line text input field with autocompletion for properties with multiplicity="one".
+
+The property provides multi-line text input field with autocompletion for properties with multiplicity="multiple".
+
+A length of the input field is controlled by the 'size' attribute. The number of rows is controlled by the "rows" attribute.
+
+* '''Search Page'''
+The property allows user to choose a search operator from the following options: ''OR, AND, Has any value''
+and allows user to enter a desired value(s) in multi-line text input field.

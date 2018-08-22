@@ -1,0 +1,54 @@
+{{Standard
+|uuid=7fd9069f-1e2f-4009-b525-115785fbe39c
+|publisher=IETF
+|code=RFC 5905
+|title=Network Time Protocol (NTP)
+|dateissued=2010
+|substandards=
+|description=
+The Network Time Protocol (NTP) is widely used to synchronize computer clocks in the Internet. This document describes NTP version 4 (NTPv4), which is backwards compatible with NTP version 3 (NTPv3), described in RFC 1305, as well as previous versions of the protocol. NTPv4 includes a modified protocol header to accommodate the Internet Protocol version 6 address family. NTPv4 includes fundamental improvements in the mitigation and discipline algorithms that extend the potential accuracy to the tens of microseconds with modern workstations and fast LANs. It includes a dynamic server discovery scheme, so that in many cases, specific server configuration is not required. It corrects certain errors in the NTPv3 design and implementation and includes an optional extension mechanism.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc5905.txt
+|events={{Change Event
+|order=1
+|date=2000-04-13
+|flag=added
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=2
+|date=2005-09-15
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2009-09-12
+|flag=deleted
+|rfcp=
+|version=4.0
+}}
+{{Change Event
+|order=4
+|date=2010-12-06
+|flag=added
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=5
+|date=2013-10-22
+|flag=changed
+|rfcp=7-27
+|version=8.0
+}}
+{{Change Event
+|order=6
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

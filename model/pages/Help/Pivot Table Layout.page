@@ -1,0 +1,53 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Widgets}}
+
+==Introduction==
+A '''Pivot Table Layout''' renders group of components using the following rules:
+* every component of the group creates a new Column in the Table
+* a component label is used as a Column Label (the content of the first Row of a Column; in bold)
+* a component content (e.g. property value) is rendered in the second Row of a Column
+* if a component is another embedded Group, it will be rendered as another embeded Pivot Table in the second Row of a Column (assuming that not other style was re-defined for that group)
+
+
+==Definition==
+<pre>
+<concept>
+  <structure layout="pivottable">
+    <property name="Property 1">          <!-- first column  ->
+    <property name="Property 2">          <!-- second column ->
+    <property name="Property 3">          <!-- third column  ->
+  <structure>
+</concept>
+</concept>
+</pre>
+
+
+==Example==
+<pre>
+<concept name="User" plural="Users" type="Dynamic" image="User.png" color="f9f9f9">
+  <description></description>
+  <structure layout="pivottable">
+    <group name="Name" layout="table">
+      <property name="Prefix" />
+      <property name="First name" mandatory="true" />
+      <property name="Last name" mandatory="true" />
+    </group>
+    <group name="Organization">
+      <property name="Organization"/>
+      <property name="Function"/>
+      <property name="Address"/>
+    </group>
+    <group name="Contact information">
+      <property name="Telephone"/>
+      <property name="Email"/>
+    </group>
+    <property name="Remarks"/>
+  </structure>
+</concept>
+</pre>
+
+
+==User Interface==
+<gallery>
+File:Pivot Table Layout View Page.png
+File:Pivot Table Layout Edit Page.png
+</gallery>

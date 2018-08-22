@@ -1,0 +1,26 @@
+{{Standard
+|uuid=e5627374-7af8-4dbb-b470-b01e0c48252b
+|publisher=IETF
+|code=RFC 4601
+|title=Protocol Independent Multicast - Sparse Mode (PIM-SM): Protocol Specification (Revised)
+|dateissued=2006-08-01
+|substandards=
+|description=
+This document specifies Protocol Independent Multicast - Sparse Mode (PIM-SM). PIM-SM is a multicast routing protocol that can use the underlying unicast routing information base or a separate multicast- capable routing information base. It builds unidirectional shared trees rooted at a Rendezvous Point (RP) per group, and optionally creates shortest-path trees per source.
+|responsible=FMN-CPWG
+|website=http://tools.ietf.org/html/rfc4601
+|events={{Change Event
+|order=1
+|date=2013-09-04
+|flag=added
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

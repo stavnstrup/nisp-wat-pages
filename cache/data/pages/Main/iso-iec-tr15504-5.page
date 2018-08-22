@@ -1,0 +1,72 @@
+{{Standard
+|uuid=368943f0-a9eb-4368-9604-2509e73395c8
+|publisher=ISO-IEC
+|code=TR 15504-5
+|title=Process assessment - Part 5: An exemplar software life cycle process assessment model
+|dateissued=2012
+|substandards=
+|description=
+ISO/IEC 15504-5:2012 provides an example of a Process Assessment Model for use in performing a conformant assessment in accordance with the requirements of ISO/IEC 15504-2.ISO/IEC 15504-5:2012 provides a detailed description of the structure and key components of the Process Assessment Model, which includes two dimensions: a process dimension and a capability dimension. It also introduces assessment indicators.
+
+ISO/IEC 15504-5:2012 uses process definitions from ISO/IEC 12207:2008 to identify a Process Reference Model. The processes of the Process Reference Model are described in the Process Assessment Model in terms of purpose and outcomes and are grouped in three process categories. The Process Assessment Model expands the Process Reference Model process definitions by including a set of process performance indicators called base practices for each process. The Process Assessment Model also defines a second set of indicators of process performance by associating work products with each process.
+
+ISO/IEC 15504-5:2012 duplicates the definitions of the capability levels and process attributes from ISO/IEC 15504-2, and expands each of the nine attributes through the inclusion of a set of generic practices. These generic practices belong to a set of indicators of process capability, in association with generic resource indicators, and generic work product indicators.
+
+ISO/IEC 15504-5:2012 also provides the following:
+
+
+
+* a statement of conformance of the Process Assessment Model to the requirements defined in ISO/IEC 15504-2;
+
+* selected characteristics for typical work products to assist the assessor in evaluating the capability level of processes;
+
+* style guides for defining base practices, work products and generic practices for adjusting the Process Assessment Model, and guidance explaining how to expand or adapt the model;
+
+* some processes supplementary to the Process Assessment Model.
+
+
+|responsible=NCIA-SSTRAT-SEA
+|website=http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=60555
+|events={{Change Event
+|order=1
+|date=1998-11-11
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-02-25
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2005-09-23
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2010-11-02
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=5
+|date=2012-11-30
+|flag=changed
+|rfcp=
+|version=7.0
+}}
+{{Change Event
+|order=6
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,26 @@
+{{Standard
+|uuid=8d841da2-b3a9-4de6-a1f6-7c6cfc3970ee
+|publisher=US-DOD
+|code=DIN: DOD_BTF_TS_EBTS_ Nov06_01.02.00
+|title=DOD EBTS
+|dateissued=2006-11-08
+|substandards=
+|description=
+DoD currently collects biometrics for matching and storage within ABIS using EBTS v1.2 which is based on the older ANSI/NIST-ITL 1-2000 (American National Standard for Information Systems - Data Format for the Interchange of Fingerprint, Facial, Scar Mark Tattoo (SMT) Information).
+|responsible=AMN-TMO
+|website=http://www.biometrics.dod.mil/Files/Documents/Standards/DOD_BTF_TS_EBTS_Nov06_01%2002%2000.pdf
+|events={{Change Event
+|order=1
+|date=2010-09-22
+|flag=added
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

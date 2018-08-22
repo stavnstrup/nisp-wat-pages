@@ -1,0 +1,33 @@
+{{Standard
+|uuid=d631e89c-677b-4eee-b48b-482a178023bc
+|publisher=ANSI
+|code=incits-398
+|title=Common Biometric Exchange Formats Framework (CBEFF)
+|dateissued=2008-01-23
+|substandards=
+|description=
+This standard (revision of ANSI INCITS 398-2005) specifies a common set of data elements necessary to support multiple biometric technologies and to promote interoperability of biometric-based application programs and systems by allowing for biometric data exchange. These common data elements can be placed in a single file, record, or data object used to exchange biometric information between different system components and applications. This standard specifies the biometric data elements.
+|responsible=NCIA-JISR
+|website=
+|events={{Change Event
+|order=1
+|date=2010-11-24
+|flag=added
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2013-05-22
+|flag=changed
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

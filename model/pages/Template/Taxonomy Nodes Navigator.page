@@ -1,0 +1,33 @@
+<includeonly>{{Infobox
+|abovestyle = background:#f0cdb4;
+|above = [[Project:Concept - Taxonomy Nodes|Taxonomy Node]]
+|aboveclass = summary
+|subheader=[[Image:Package Icon.png|link=|20px]] [[Project:Package - C3 Taxonomy|C3 Taxonomy]]
+|image = [[image:Services.png{{!}}100px{{!}}link=Project:Concept - Taxonomy Nodes]]
+|caption = [[image:User Manual.png{{!}}20px{{!}}link=Help:User Manual]][[Help:User Manual|User Manual]]
+|headerstyle = background:#d7d7d7;
+|labelstyle = background:#d7d7d7;
+|datastyle = background:#ffffff;
+|class3 = description
+|header3 = Taxonomy Nodes
+|data3 = <div style="text-align:left;">
+&nbsp;[[Image:Concept List Icon.png|link=|20px]] [[:Category:Taxonomy Nodes|List]]<br/>&nbsp;[[Image:Concept Tree Icon.png|link=|20px]] [[Taxonomy Nodes Tree|Tree]]<br/>&nbsp;{{#queryformlink:form=Taxonomy Nodes Search Form
+|link text=[[Image:Concept Search Icon.png|link=|20px]] Search
+|link type=text
+|new window
+}}<br/>&nbsp;[[Image:Concept Add Icon.png|link=|20px]] [[Form:Taxonomy Node|Add new]]<br/></div>
+|class4 = description
+|header4 = Related Data
+|data4 = <div style="text-align:left;">
+&nbsp;[[Image:Services.png|link=|20px]] [[:Category:Taxonomy Nodes|Taxonomy Nodes]]<br/>
+</div>
+}}</includeonly><noinclude>
+; Description
+The template displays the '''Taxonomy Node''' concept Navigator.
+; Format
+The template should be called in the following format:
+<pre>
+{{Taxonomy Node Navigator
+|instance=
+}}</pre>
+</noinclude>

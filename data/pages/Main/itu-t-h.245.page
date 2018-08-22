@@ -1,0 +1,51 @@
+{{Standard
+|uuid=cadae212-4fac-48ea-b912-20c8e4bacb16
+|publisher=ITU
+|code=H.245
+|title=Control protocol for multimedia communication
+|dateissued=2011-05
+|substandards=
+|description=
+This Recommendation specifies syntax and semantics of terminal information messages as well as procedures to use them for in-band negotiation at the start of or during communication. The messages cover receiving and transmitting capabilities as well as mode preference from the receiving end, logical channel signalling, and Control and Indication. Acknowledged signalling procedures are specified to ensure reliable audiovisual and data communication.
+
+Products claiming compliance with Version 16 of H.245 shall comply with all of the mandatory requirements of this Recommendation. Version 16 products can be identified by H.245 TerminalCapabilitySet messages containing a protocolIdentifier value of {itu-t (0) recommendation (0) h (8) 245 version (0) 16}.
+
+Relative to H.245 Version 15 (2009-12), this version improves harmonisation with SIP by making the following changes:
+
+
+
+* allowing a new dynamic payload number to be specified in the H.245 Open Logical Channel Acknowledgement message;
+
+* revising clause B.3.2 to indicate that H.323 systems should use the dynamic payload type specified in the H.245 Open Logical Channel Acknowledgement message instead of the dynamic payload type specified in the H.245 Open Logical Channel message;
+
+* defining a similar mechanism for logical channels that use multiple payload types; and
+
+* defining a new capability in a new annex, Annex T, that specifies that an endpoint is capable of using the dynamic payload type replacement mechanisms in the H.245 Open Logical Channel Acknowledgement message.
+
+
+
+
+|responsible=FMN-CPWG
+|website=http://www.itu.int/rec/T-REC-H.245-201105-P
+|events={{Change Event
+|order=1
+|date=2010-12-04
+|flag=added
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2012-10-28
+|flag=changed
+|rfcp=
+|version=7.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

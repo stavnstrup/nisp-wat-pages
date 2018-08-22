@@ -1,0 +1,26 @@
+{{Standard
+|uuid=b442e13d-be6d-4ef2-a513-be9e1765d7d7
+|publisher=NSO-E
+|code=STANAG 5516 Ed 8 / ATDLP-5.16(B)
+|title=NATO Bit-Oriented Message (BOM) Tactical Data Exchange - Link 16 - ATDLP-5.16 Edition B
+|dateissued=
+|substandards=
+|description=
+
+|responsible=TDL
+|website=
+|events={{Change Event
+|order=1
+|date=2018-05-07
+|flag=added
+|rfcp=10-37
+|version=11.0
+}}
+{{Change Event
+|order=2
+|date=2018-07-06
+|flag=changed
+|rfcp=10-38
+|version=11.0
+}}
+}}

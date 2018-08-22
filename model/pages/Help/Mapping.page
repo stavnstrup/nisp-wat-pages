@@ -1,0 +1,122 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+The Wiki Automation Tool provides a generic mechanism to '''map properties from one Concept to the properties of another Concept''' (to state that they are represent the same thing).
+
+In most cases this mechanism is used to map specific Concepts defined in the Data Model to well-known Concepts implemented in the Wiki Automation Tool.
+Wiki Automation Tool provides several widgets which are based on well-known Concept (e.g. Task).
+Mapping specific Concepts from the Model to these Concepts allows to provide these generic widgets also for specific Concepts.
+
+This feature is used to implement the following widgets:
+* [[Help:Gantt Chart|Gantt Chart]]
+
+
+==Definition==
+<pre>
+<concept name="{TARGET CONCEPT}">                      <!-- might be well-known Concept -->
+  <structure>
+    <property name="{TARGET CONCEPT PROPERTY}"/>
+  </structure>
+</concept>
+
+<concept name="{SOURCE CONCEPT}">
+  <structure>
+    <property name="{SOURCE CONCEPT PROPERTY}"/>
+  </structure>
+
+  <conceptMapping name="{TARGET CONCEPT}" function="{MAPPING FUNCTION}">
+    <propertyMapping name="{TARGET CONCEPT PROPERTY}" property="{SOURCE CONCEPT PROPERTY}" refersTo="{REFERRED CONCEPT}" value="{STATIC VALUE}"/>
+    ...
+    <subobjectMapping name="{TARGET SUBOBJECT PROPERTY}" subobject="{SOURCE SUBOBJECT PROPERTY}">
+      <propertyMapping name="{TARGET CONCEPT PROPERTY}" property="{SOURCE CONCEPT PROPERTY}" refersTo="{REFERRED CONCEPT}" value="{STATIC VALUE}"/>
+      ..
+    </subobjectMapping>
+  </conceptMapping>
+
+</concept>
+</pre>
+
+{| class="helptable"
+|-
+! {SOURCE CONCEPT}
+| A short name of the Source Concept, which is mapped to the Target Concept.
+|-
+! {SOURCE CONCEPT PROPERTY}
+| A name of the Property in the Source Concept, which is mapped to one of the Properties in the Target Concept.
+|-
+! {TARGET CONCEPT}
+| A short name of the Target Concept, into which the Source Concept is mapped to.
+|-
+! {MAPPING FUNCTION}
+| A purpose of this mapping. The following options are allowed:
+* DeriveData
+* GanttChart
+Depending on this value WAT generates required pages.
+|-
+! {TARGET CONCEPT PROPERTY}
+| A name of the Property in the Target Concept, into which the Property from the Source Concept is mapped to.
+|-
+! {TARGET SUBOBJECT PROPERTY}
+| A name of the Subobject property in the Target Concept
+|-
+! {SOURCE SUBOBJECT PROPERTY}
+| A name of the Subobject property in the Source Concept
+|-
+! {STATIC VALUE}
+| A static value assigned to the Property in the Target Concept.
+|}
+
+
+==Semantic database==
+Not applicable.
+
+
+==Example==
+<pre>
+<concept name="Project" >
+  <structure>
+    <property name="Title"/>
+    <property name="Description"/>
+    <property name="Start date"/>
+    <property name="End date"/>
+  </structure>
+
+  <conceptMapping name="team::Task" function="GanttChart">
+    <propertyMapping name="Label" property="Title"/>
+    <propertyMapping name="Start" property="Start date"/>
+    <propertyMapping name="End" property="End date"/>
+    <propertyMapping name="Resource" value="Technology and Human Factors Branch"/>
+    <propertyMapping name="Unit" value="quarter"/>
+    <propertyMapping name="Open Levels" value="3"/>
+    <propertyMapping name="Notes" property="Description"/>
+    <propertyMapping name="Caption" value="Resource"/>
+  </conceptMapping>
+</concept>
+
+
+<conceptMapping name="Test Case" function="DeriveData">
+  <propertyMapping name="Is tested during" value="CWIX 2018"/>
+  <propertyMapping name="Is derived from" value="{{PAGENAME}}"/>
+  <propertyMapping name="Test case status" value="Initial Draft"/>
+  <propertyMapping name="Keyword" property="Keyword"/>
+  <propertyMapping name="Is testing" property="Is testing" refersTo="Standard"/>
+  <propertyMapping name="Is testing" property="Is testing" refersTo="Service"/>
+  <propertyMapping name="Is testing" property="Is testing" refersTo="Information Product"/>
+  <propertyMapping name="Protocol" property="Protocol"/>
+  <propertyMapping name="Description" property="Description"/>
+  <propertyMapping name="Precondition" property="Precondition"/>
+  <propertyMapping name="Validation criteria" property="Validation criteria"/>
+  <subobjectMapping name="Step object" subobject="Step object">
+    <propertyMapping name="Order" property="Order"/>
+    <propertyMapping name="Description" property="Description"/>
+    <propertyMapping name="Expected result" property="Expected result"/>
+  </subobjectMapping>
+</conceptMapping>
+
+</pre>
+
+In the example above the "Project" Concept is mapped to well-known Concept in Wiki Automation Tool: '''"team::Task"'''
+
+
+==User Interface==
+The mapping information is used to configure various widgets which are based on the well-known Concepts.

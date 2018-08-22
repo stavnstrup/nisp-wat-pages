@@ -1,0 +1,33 @@
+{{Standard
+|uuid=ed24e719-2654-482f-b560-cf31ff4e2c11
+|publisher=IETF
+|code=RFC 2206
+|title=RSVP Management Information Base using SMIv2
+|dateissued=1997
+|substandards=
+|description=
+This document defines a portion of the Management Information Base (MIB) for use with network management protocols in TCP/IP-based internets. In particular, it defines objects for managing the Resource Reservation Protocol (RSVP) within the interface attributes defined in the Integrated Services Model. Thus, the Integrated Services MIB is directly relevant to and cross-referenced by this MIB. Comments should be made to the RSVP Working Group, rsvp@isi.edu.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc2206.txt
+|events={{Change Event
+|order=1
+|date=2004-07-24
+|flag=added
+|rfcp=5-33
+|version=0.6
+}}
+{{Change Event
+|order=2
+|date=2010-10-29
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

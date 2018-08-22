@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=6cc76cee-e0b2-46d9-919b-71e077289ff6
+|order=179
+|parent=COI-Enabling_Services
+|title=Modeling and Simulation Enabling Services
+|description=The Modeling and Simulation (M&S) Enabling Services provide the means to enable simulation of tactical radio communications, understanding of Coalition Battle Management Language (CBML) and allow for the generation and management of Ground Truth Battlespace Objects (BSOs) and events which are used as input to simulations.
+}}

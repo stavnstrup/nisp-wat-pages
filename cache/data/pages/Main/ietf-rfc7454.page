@@ -1,0 +1,19 @@
+{{Standard
+|uuid=f1cc8849-1aac-47ad-9af0-0347bbcd4f0e
+|publisher=IETF
+|code=RFC 7454
+|title=BGP Operations and Security
+|dateissued=2015-02-01
+|substandards=
+|description=
+This document describes measures to protect the BGP sessions itself such as Time to Live (TTL), the TCP Authentication Option (TCP-AO), and control-plane filtering. It also describes measures to better control the flow of routing information, using prefix filtering and automation of prefix filters, max-prefix filtering, Autonomous System (AS) path filtering, route flap dampening, and BGP community scrubbing.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc7454.txt
+|events={{Change Event
+|order=1
+|date=2017-05-01
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+}}

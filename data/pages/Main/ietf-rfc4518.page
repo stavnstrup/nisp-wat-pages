@@ -1,0 +1,26 @@
+{{Standard
+|uuid=0b330922-f358-4520-a6e3-2ca3069b78ce
+|publisher=IETF
+|code=RFC 4518
+|title=LDAP: Internationalized String Preparation
+|dateissued=2006
+|substandards=
+|description=
+The previous Lightweight Directory Access Protocol (LDAP) technical specifications did not precisely define how character string matching is to be performed. This led to a number of usability and interoperability problems. This document defines string preparation algorithms for character-based matching rules defined for use in LDAP.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc4518.txt
+|events={{Change Event
+|order=1
+|date=2013-10-22
+|flag=added
+|rfcp=7-27
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

@@ -1,0 +1,70 @@
+{{Standard
+|uuid=debdef6a-7757-497e-a256-793905832dd6
+|publisher=ISO-IEC
+|code=14443-3
+|title=Contactless Smartcards Part 3: Initialization and anticollision
+|dateissued=2011
+|substandards=
+|description=
+This part of ISO/IEC 14443 describes:
+
+* polling for PICCs entering the field of a PCD
+
+* the byte format, the frames and timing used during the initial phase of communication between proximity coupling devices (PCDs) and proximity integrated circuit(s) cards (PICCs)
+
+* the initial REQ and ATQ command content
+
+* methods to detect and communicate with one card among several cards (anticollision)
+
+* other parameters required to initialize communications between a proximity card and a proximity coupling device
+
+* optional means to ease and speed up the selection of one among several cards based on application criteria i.e. the one it most likely has to transact with.
+
+
+
+
+|responsible=C3B-NPMA
+|website=http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=50942
+|events={{Change Event
+|order=1
+|date=2002-08-02
+|flag=added
+|rfcp=
+|version=0.4
+}}
+{{Change Event
+|order=2
+|date=2005-09-23
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2007-07-27
+|flag=changed
+|rfcp=
+|version=2.0
+}}
+{{Change Event
+|order=4
+|date=2009-09-08
+|flag=changed
+|rfcp=
+|version=4.0
+}}
+{{Change Event
+|order=5
+|date=2010-11-01
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=6
+|date=2017-01-14
+|flag=changed
+|rfcp=9-13
+|version=10.0
+}}
+}}

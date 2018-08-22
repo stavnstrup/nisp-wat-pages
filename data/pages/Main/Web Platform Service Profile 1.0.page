@@ -1,0 +1,30 @@
+{{Service Profile
+|uuid=58112d6e-c519-4dc9-b967-cfb5bb96e182
+|title=Web Platform Service Profile 1.0
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 1 Profile
+|dateissued=2015-09-30
+|version=1.0
+|description=
+The Web Platform Profile provides standards and guidance to enable web technology on federated mission networks.
+|taxonomynodes=Web Hosting Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=ietf-rfc2616;
+ietf-rfc2817;
+ietf-rfc3986;
+ietf-rfc1738;
+
+}}
+|guideline=
+The Web Platform Profile provides standards and guidance to enable web technology on federated mission networks.
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+}}

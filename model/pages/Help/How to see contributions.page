@@ -1,0 +1,6 @@
+<noinclude>{{User Manual Navigator|How to monitor}}</noinclude>
+Changes in the {{SITENAME}} Wiki are stored in various ways. One particular way is to list all contributions by a specific user. If that is the user him- or herself, this is an easy task. Click on the "Contributions" link in user mane at the top right corner of the page and it will open the "Special:Contributions" page for that user. Subsequently, the contributions of other users can be shown by changing that username in the page address accordingly.
+
+From the [[Help:How to see history|history page]] of an article, one can choose a specific user and open his or her user page. That user page can also be opened from the [[Help:How to see changes|Recent Changes]] page, by the way. Once on a user page, the option to go to the corresponding "User contributions" page will be present in the sidebar menu.
+
+In the list of [[Help:How to see changes|Recent Changes]] every line does not only present the user name, but amongst other things, a "contribs" link to the user contributions.

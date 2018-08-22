@@ -1,0 +1,26 @@
+{{Standard
+|uuid=b38b09f1-813d-41a1-b0b2-0377542c564f
+|publisher=ITU-T
+|code=G.652
+|title=Optical Fibre Cable
+|dateissued=2009-11
+|substandards=
+|description=
+Recommendation ITU-T G.652 describes the geometrical, mechanical and transmission attributes of a single-mode optical fibre and cable which has zero-dispersion wavelength around 1310 nm. The ITU-T G.652 fibre was originally optimized for use in the 1310 nm wavelength region, but can also be used in the 1550 nm region. This is the latest revision of a Recommendation that was first created in 1984 and deals with some relatively minor modifications. This revision is intended to maintain the continuing commercial success of this fibre in the evolving world of high-performance optical transmission systems.
+|responsible=FMN-CPWG
+|website=http://www.itu.int/ITU-T/recommendations/rec.aspx?rec=10389
+|events={{Change Event
+|order=1
+|date=2013-10-10
+|flag=added
+|rfcp=7-27
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

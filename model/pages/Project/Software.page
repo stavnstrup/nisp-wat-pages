@@ -1,0 +1,755 @@
+__NOEDITSECTION__ __NOTOC__ {{Project:Navigator}}
+
+The '''Wiki Automation Tool''' simplifies creation and maintenance of the Wiki by automatically generating '''Application Pages''' from the '''Wiki Model'''.
+Generated pages are automatically deployed to the '''Wiki instance''' and allow user to add, modify, view and search data for all defined '''Concepts'''.
+
+{{#tag:graphviz | digraph "Software Model" {
+rankdir=TB;
+compound=true;
+nodesep=0.3;
+node [style="filled" fillcolor="#f9f9f9" color="#333333" fontname="Arial" fontsize=8 width="0.03" height="0.03"];
+edge [color="#333333" arrowhead="normal" fontname="Arial" fontsize=8 fontcolor="#333333"];</noinclude>
+
+
+subgraph clusterPlatform { color="brown"
+	subgraph clusterProject {label = "Project" style=dotted
+		nodeProjectCustom [ label = "Custom Pages" fillcolor="#C296B6" shape="note" ];
+	};
+	subgraph clusterGenerated {label = "Model-based Generated Pages" style=dotted
+		nodeProperty [ label = "Property related" fillcolor="#C296B6" shape="note" ];
+		nodeConcept [ label = "Concept related" fillcolor="#C296B6" shape="note" ];
+		nodePackage [ label = "Package related" fillcolor="#C296B6" shape="note" ];
+		nodeModel [ label = "Model related" fillcolor="#C296B6" shape="note" ];
+	};
+	subgraph clusterCommonLibrary {label = "Common Library" style=dotted
+		nodeTemplates [ label = "Templates" fillcolor="#C296B6" shape="note" ];
+		nodeProperties [ label = "Properties" fillcolor="#C296B6" shape="note" ];
+	};
+	subgraph clusterManuals {label = "Manuals" style=dotted
+		nodeUserManual [ label = "User Manual" fillcolor="#87aaff" shape="note" ];
+		nodeDeveloperManual [ label = "Developer Manual" fillcolor="#87aaff" shape="note" ];
+	};
+};
+nodeMediaWiki [ label = "Wiki instance" shape = "record"];
+
+nodeProjectCustom ->nodeTemplates [ltail="clusterProject" lhead="clusterCommonLibrary" label="use"];
+nodeConcept ->nodeTemplates [ltail="clusterGenerated" lhead="clusterCommonLibrary" label="use"];
+nodeTemplates ->nodeMediaWiki [ltail="clusterPlatform" label=" deployed on"];
+
+} | format="png" | renderer="dot" }}
+
+
+The Wiki Automation Tool generates the following categories of the pages:
+* '''Model-based'''. Pages, which present overall, Project/Model-wide information (Data Model, Data Browser, Software, Wiki Model, etc.).
+* '''Package-based'''. Pages, which present Package related information.
+* '''Concept-based'''. Templates, forms, categories, search pages, etc. generated for all Concepts defined in the Wiki Model.
+* '''Property-based'''. Pages generated for all Properties defined in the Wiki Model.
+
+In addition, the Wiki Automation Tool deploys number of basic templates as a part of '''Common Library''' (these templates are then used by the generated code).
+
+
+<div style="clear:both"></div>
+
+=Statistics=
+
+{| class="wikitable "
+|-
+! Layer !! Number of files
+|-
+| '''Wiki Model-based Generated Layer'''
+| '''126'''
+|-
+|
+* Model related
+| 11
+|-
+|
+* Package related
+| 5
+|-
+|
+* Concept related
+| 74
+|-
+|
+* Property related
+| 36
+|-
+| '''Common Library'''
+| '''29'''
+|-
+! Total
+| '''272'''
+|}
+
+
+=Model related=
+{| class="wikitable sortable"
+|-
+! Namespace || File
+
+|-
+|Project
+|[[Project:Wiki Model]]
+|-
+|Project
+|[[Project:Data Model]]
+|-
+|Project
+|[[Project:Change Log]]
+|-
+|Project
+|[[Project:Data Browser]]
+|-
+|Project
+|[[Project:Issue Tracker]]
+|-
+|Project
+|[[Project:Css]]
+|-
+|Project
+|[[Project:Daily Perspectives]]
+|-
+|Project
+|[[Project:Color Scheme]]
+|-
+|Project
+|[[Project:Navigator]]
+|-
+|Main
+|[[Concepts]]
+|-
+|Project
+|[[Project:Concepts]]
+|}
+
+=Package related=
+{| class="wikitable sortable"
+|-
+! Package || Files
+
+|-
+|Common Library
+|[[Project:Package - Common Library]]<br/>
+|-
+|Standards Management
+|[[Project:Package - Standards Management]]<br/>
+|-
+|Organizations Management
+|[[Project:Package - Organizations Management]]<br/>
+|-
+|Catalogue Management
+|[[Project:Package - Catalogue Management]]<br/>
+|-
+|C3 Taxonomy
+|[[Project:Package - C3 Taxonomy]]<br/>
+|}
+
+=Concept related=
+{| class="wikitable sortable"
+|-
+! Concept || Files
+
+|-
+|Basic Standards Service Profile
+|[[Project:Concept - Basic Standards Service Profiles]]<br/>[[:Category:Basic Standards Service Profiles]]<br/>[[Template:Basic Standards Service Profile]]<br/>[[Form:Basic Standards Service Profiles Search Form]]<br/>[[Template:Basic Standards Service Profiles Search Results]]<br/>[[Template:Basic Standards Service Profiles Search Results Row]]<br/>[[Template:Basic Standards Service Profiles Navigator]]<br/>[[Form:Basic Standards Service Profile]]<br/>[[Help:Concept - Basic Standards Service Profile]]<br/>
+|-
+|Capability Profile
+|[[Project:Concept - Capability Profiles]]<br/>[[:Category:Capability Profiles]]<br/>[[Template:Capability Profile]]<br/>[[Form:Capability Profiles Search Form]]<br/>[[Template:Capability Profiles Search Results]]<br/>[[Template:Capability Profiles Search Results Row]]<br/>[[Template:Capability Profiles Navigator]]<br/>[[Form:Capability Profile]]<br/>[[Template:Change Event]]<br/>[[Property:Event]]<br/>[[Help:Concept - Capability Profile]]<br/>
+|-
+|Organization
+|[[Project:Concept - Organizations]]<br/>[[:Category:Organizations]]<br/>[[Template:Organization]]<br/>[[Form:Organizations Search Form]]<br/>[[Template:Organizations Search Results]]<br/>[[Template:Organizations Search Results Row]]<br/>[[Template:Organizations Navigator]]<br/>[[Form:Organization]]<br/>[[Help:Concept - Organization]]<br/>
+|-
+|Profile
+|[[Project:Concept - Profiles]]<br/>[[:Category:Profiles]]<br/>[[Template:Profile]]<br/>[[Form:Profiles Search Form]]<br/>[[Template:Profiles Search Results]]<br/>[[Template:Profiles Search Results Row]]<br/>[[Template:Profiles Navigator]]<br/>[[Form:Profile]]<br/>[[Template:Change Event]]<br/>[[Property:Event]]<br/>[[Help:Concept - Profile]]<br/>
+|-
+|Service Profile
+|[[Project:Concept - Service Profiles]]<br/>[[:Category:Service Profiles]]<br/>[[Template:Service Profile]]<br/>[[Form:Service Profiles Search Form]]<br/>[[Template:Service Profiles Search Results]]<br/>[[Template:Service Profiles Search Results Row]]<br/>[[Template:Service Profiles Navigator]]<br/>[[Form:Service Profile]]<br/>[[Template:Obligation Group]]<br/>[[Property:Obligations]]<br/>[[Template:Change Event]]<br/>[[Property:Event]]<br/>[[Help:Concept - Service Profile]]<br/>
+|-
+|Standard
+|[[Project:Concept - Standards]]<br/>[[:Category:Standards]]<br/>[[Template:Standard]]<br/>[[Form:Standards Search Form]]<br/>[[Template:Standards Search Results]]<br/>[[Template:Standards Search Results Row]]<br/>[[Template:Standards Navigator]]<br/>[[Form:Standard]]<br/>[[Template:Change Event]]<br/>[[Property:Event]]<br/>[[Help:Concept - Standard]]<br/>
+|-
+|Taxonomy Node
+|[[Project:Concept - Taxonomy Nodes]]<br/>[[:Category:Taxonomy Nodes]]<br/>[[Template:Taxonomy Node]]<br/>[[Form:Taxonomy Nodes Search Form]]<br/>[[Template:Taxonomy Nodes Search Results]]<br/>[[Template:Taxonomy Nodes Search Results Row]]<br/>[[Template:Taxonomy Nodes Navigator]]<br/>[[Form:Taxonomy Node]]<br/>[[Taxonomy Nodes Tree]]<br/>[[Help:Concept - Taxonomy Node]]<br/>
+|}
+
+=Property related=
+{| class="wikitable sortable"
+|-
+! Property || Files
+
+|-
+|Color
+|[[Property:Color]]<br/>
+|-
+|Count
+|[[Property:Count]]<br/>
+|-
+|Description
+|[[Property:Description]]<br/>[[Property:Description]]<br/>
+|-
+|Image
+|[[Property:Image]]<br/>
+|-
+|Is child of
+|[[Property:Is child of]]<br/>
+|-
+|Is parent of
+|[[Property:Is parent of]]<br/>
+|-
+|Modification date
+|[[Property:Modification date]]<br/>
+|-
+|Name
+|[[Property:Name]]<br/>
+|-
+|Order
+|[[Property:Order]]<br/>
+|-
+|Remarks
+|[[Property:Remarks]]<br/>
+|-
+|Title
+|[[Property:Title]]<br/>
+|-
+|UUID
+|[[Property:UUID]]<br/>
+|-
+|Acronym
+|[[Property:Acronym]]<br/>
+|-
+|Change event date
+|[[Property:Change event date]]<br/>
+|-
+|Change event flag
+|[[Property:Change event flag]]<br/>
+|-
+|Change event rfcp
+|[[Property:Change event rfcp]]<br/>
+|-
+|Change event version
+|[[Property:Change event version]]<br/>
+|-
+|Date issued
+|[[Property:Date issued]]<br/>
+|-
+|Description
+|[[Property:Description]]<br/>[[Property:Description]]<br/>
+|-
+|Guideline
+|[[Property:Guideline]]<br/>
+|-
+|Has substandards
+|[[Property:Has substandards]]<br/>
+|-
+|Is adding standard
+|[[Property:Is adding standard]]<br/>
+|-
+|Is published by
+|[[Property:Is published by]]<br/>
+|-
+|Is related to
+|[[Property:Is related to]]<br/>
+|-
+|Is responsible for
+|[[Property:Is responsible for]]<br/>
+|-
+|Obligation Type
+|[[Property:Obligation Type]]<br/>
+|-
+|Reference code
+|[[Property:Reference code]]<br/>
+|-
+|Specification Title
+|[[Property:Specification Title]]<br/>
+|-
+|Standard
+|[[Property:Standard]]<br/>
+|-
+|Version
+|[[Property:Version]]<br/>
+|-
+|Website
+|[[Property:Website]]<br/>
+|-
+|Is implementing profile
+|[[Property:Is implementing profile]]<br/>
+|-
+|Is implementing service profile
+|[[Property:Is implementing service profile]]<br/>
+|-
+|Is implementing standard
+|[[Property:Is implementing standard]]<br/>
+|-
+|Is implementing mandatory standard
+|[[Property:Is implementing mandatory standard]]<br/>
+|-
+|Is implementing candidate standard
+|[[Property:Is implementing candidate standard]]<br/>
+|}
+
+=Common Library=
+The Common Library provides the following files:
+{| class="wikitable sortable"
+|-
+! Namespace || File
+
+|-
+|Template
+|[[Template:PAGECONTEXT]]
+|-
+|Template
+|[[Template:Get Location]]
+|-
+|Template
+|[[Template:Portalbox]]
+|-
+|Template
+|[[Template:Get Color Code]]
+|-
+|Template
+|[[Template:File]]
+|-
+|Template
+|[[Template:ReplaceFixed]]
+|-
+|Template
+|[[Template:Nowrap]]
+|-
+|Template
+|[[Template:Context]]
+|-
+|Template
+|[[Template:Hex2dec]]
+|-
+|Template
+|[[Template:PortalSectionHeader]]
+|-
+|Template
+|[[Template:ShortContent]]
+|-
+|Template
+|[[Template:Clear]]
+|-
+|Template
+|[[Template:Get Color Shade]]
+|-
+|Template
+|[[Template:Get Country]]
+|-
+|Template
+|[[Template:Flag]]
+|-
+|Template
+|[[Template:Dec2hex]]
+|-
+|Template
+|[[Template:Gantt Task Definition]]
+|-
+|Template
+|[[Template:Get Date from Quarter]]
+|-
+|Template
+|[[Template:Get Nation]]
+|-
+|Template
+|[[Template:Get Military Function]]
+|-
+|Template
+|[[Template:Image]]
+|-
+|Template
+|[[Template:UuidToNumber]]
+|-
+|Template
+|[[Template:Get Country Code]]
+|-
+|Template
+|[[Template:DL]]
+|-
+|Template
+|[[Template:Capitalize]]
+|-
+|Template
+|[[Template:!]]
+|-
+|Template
+|[[Template:Export]]
+|-
+|Template
+|[[Template:Query Operator]]
+|-
+|Template
+|[[Template:Infobox]]
+|}
+
+=Developer Manual=
+The Developer Manual provides the following pages:
+{| class="wikitable sortable"
+|-
+! Namespace || File
+
+|-
+|Template
+|[[Template:Developer Manual Navigator]]
+|-
+|Help
+|[[Help:Data Model]]
+|-
+|Help
+|[[Help:Geographic coordinates Property]]
+|-
+|Help
+|[[Help:Chart]]
+|-
+|Help
+|[[Help:Date Property]]
+|-
+|Help
+|[[Help:Development Process]]
+|-
+|Help
+|[[Help:Composition]]
+|-
+|Help
+|[[Help:URL Property]]
+|-
+|Help
+|[[Help:ReferenceGroup]]
+|-
+|Help
+|[[Help:Conditional]]
+|-
+|Help
+|[[Help:Pivot Table Layout]]
+|-
+|Help
+|[[Help:Wiki Automation Tool]]
+|-
+|Help
+|[[Help:Boolean Property]]
+|-
+|Help
+|[[Help:Instance Actions]]
+|-
+|Help
+|[[Help:Change Log]]
+|-
+|Help
+|[[Help:Meta-model Actions]]
+|-
+|Help
+|[[Help:Workflow Property]]
+|-
+|Help
+|[[Help:User Query]]
+|-
+|Help
+|[[Help:Dashboards]]
+|-
+|Help
+|[[Help:Wiki Platform]]
+|-
+|Help
+|[[Help:Property Types]]
+|-
+|Help
+|[[Help:Help Information]]
+|-
+|Help
+|[[Help:Text Property]]
+|-
+|Help
+|[[Help:Wiki Model]]
+|-
+|Help
+|[[Help:Workflow]]
+|-
+|Help
+|[[Help:User Groups]]
+|-
+|Help
+|[[Help:Package]]
+|-
+|Help
+|[[Help:Portal Column Layout]]
+|-
+|Help
+|[[Help:Security Model]]
+|-
+|Help
+|[[Help:Query]]
+|-
+|Help
+|[[Help:Hierarchical Data]]
+|-
+|Help
+|[[Help:Property Groups]]
+|-
+|Help
+|[[Help:DateTime Property]]
+|-
+|Help
+|[[Help:Time Property]]
+|-
+|Help
+|[[Help:Inheritance]]
+|-
+|Help
+|[[Help:Subobject]]
+|-
+|Help
+|[[Help:Property]]
+|-
+|Help
+|[[Help:Reference]]
+|-
+|Help
+|[[Help:Property List]]
+|-
+|Help
+|[[Help:Gantt Chart]]
+|-
+|Help
+|[[Help:Page Property]]
+|-
+|Help
+|[[Help:Simple Layout]]
+|-
+|Help
+|[[Help:Email Property]]
+|-
+|Help
+|[[Help:Wiki Access Control]]
+|-
+|Help
+|[[Help:Page Editing]]
+|-
+|Help
+|[[Help:Development Process Page]]
+|-
+|Help
+|[[Help:Image Property]]
+|-
+|Help
+|[[Help:Bugzilla Property]]
+|-
+|Help
+|[[Help:Custom Layout]]
+|-
+|Help
+|[[Help:Mapping]]
+|-
+|Help
+|[[Help:Related Concepts Actions]]
+|-
+|Help
+|[[Help:Page Names]]
+|-
+|Help
+|[[Help:Sorting]]
+|-
+|Help
+|[[Help:Widgets]]
+|-
+|Help
+|[[Help:Reports Generator]]
+|-
+|Help
+|[[Help:Portal Layout]]
+|-
+|Help
+|[[Help:Navigator]]
+|-
+|Help
+|[[Help:String Property]]
+|-
+|Help
+|[[Help:Map]]
+|-
+|Help
+|[[Help:Reports]]
+|-
+|Help
+|[[Help:Group]]
+|-
+|Help
+|[[Help:Data Model Introduction]]
+|-
+|Help
+|[[Help:Table Layout]]
+|-
+|Help
+|[[Help:Concept Security]]
+|-
+|Help
+|[[Help:Concept]]
+|-
+|Help
+|[[Help:Banner Layout]]
+|-
+|Help
+|[[Help:Properties Layout]]
+|-
+|Help
+|[[Help:Aggregation]]
+|-
+|Help
+|[[Help:Workflow Access Control]]
+|-
+|Help
+|[[Help:Filtering]]
+|-
+|Help
+|[[Help:Concept Actions]]
+|-
+|Help
+|[[Help:Themes]]
+|-
+|Help
+|[[Help:Sections Layout]]
+|-
+|Help
+|[[Help:Developer Manual]]
+|-
+|Help
+|[[Help:Grid Layout]]
+|-
+|Help
+|[[Help:Reports Actions]]
+|-
+|Help
+|[[Help:Static Content]]
+|-
+|Help
+|[[Help:Environment]]
+|-
+|Help
+|[[Help:Related Data]]
+|-
+|Help
+|[[Help:Project Structure]]
+|-
+|Help
+|[[Help:Option Property]]
+|-
+|Help
+|[[Help:Tabs Layout]]
+|-
+|Help
+|[[Help:Dashboard Actions]]
+|-
+|Help
+|[[Help:File Property]]
+|-
+|Help
+|[[Help:Number Property]]
+|}
+
+=User Manual=
+The User Manual provides the following pages:
+{| class="wikitable sortable"
+|-
+! Namespace || File
+
+|-
+|Template
+|[[Template:User Manual Navigator]]
+|-
+|Help
+|[[Help:User Manual]]
+|-
+|Help
+|[[Help:How to export]]
+|-
+|Help
+|[[Help:Elements]]
+|-
+|Help
+|[[Help:How to monitor]]
+|-
+|Help
+|[[Help:How to contribute]]
+|-
+|Help
+|[[Help:How to protect]]
+|-
+|Help
+|[[Help:Concepts]]
+|-
+|Help
+|[[Help:How to see history]]
+|-
+|Help
+|[[Help:User Accounts]]
+|-
+|Help
+|[[Help:How to see changes]]
+|-
+|Help
+|[[Help:Governance]]
+|-
+|Help
+|[[Help:Contact Details]]
+|-
+|Help
+|[[Help:How to query]]
+|-
+|Help
+|[[Help:How to delete]]
+|-
+|Help
+|[[Help:Privileges]]
+|-
+|Help
+|[[Help:About]]
+|-
+|Help
+|[[Help:How to create]]
+|-
+|Help
+|[[Help:How to see contributions]]
+|-
+|Help
+|[[Help:How to search]]
+|-
+|Help
+|[[Help:Forms]]
+|-
+|Help
+|[[Help:How to move]]
+|-
+|Help
+|[[Help:Support]]
+|-
+|Help
+|[[Help:Index]]
+|-
+|Help
+|[[Help:How to edit]]
+|-
+|Help
+|[[Help:Datasets]]
+|-
+|Help
+|[[Help:How to navigate]]
+|-
+|Help
+|[[Help:How to read]]
+|-
+|Help
+|[[Help:How to categorize]]
+|-
+|Help
+|[[Help:How to use]]
+|}
+
+=Custom=
+The Project provides the following custom, project-specific pages:
+{| class="wikitable sortable"
+|-
+! Namespace || File
+
+|}
+
+<headertabs />

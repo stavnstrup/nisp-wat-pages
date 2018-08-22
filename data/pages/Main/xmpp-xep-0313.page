@@ -1,0 +1,33 @@
+{{Standard
+|uuid=9ef2f9d5-b073-4769-9242-5f2b8756341e
+|publisher=XMPP
+|code=XEP-0313
+|title=XEP-0313: Message Archive Management
+|dateissued=2017-02-22
+|substandards=
+|description=
+This document defines a protocol to query and control an archive of messages stored on a server.
+|responsible=FMN-CPWG
+|website=https://xmpp.org/extensions/xep-0313.html
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-26
+|flag=deleted
+|rfcp=9-21
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-12-06
+|flag=added
+|rfcp=11-29
+|version=11.0
+}}
+}}

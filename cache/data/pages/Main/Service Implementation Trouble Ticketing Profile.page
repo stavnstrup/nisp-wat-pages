@@ -1,0 +1,36 @@
+{{Service Profile
+|uuid=dc1d2e4f-f341-4af8-866a-7c5b2c674271
+|title=Service Implementation Trouble Ticketing Profile
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|description=
+The Service Implementation Profile for Trouble Ticketing enables the handover between the incident sending Service Providers and the incident receiving Service Provider. The handover point is set after incident inception, logging and categorization and before incident prioritization. The profile provides the implementation guidance for the TMForum Trouble Ticket API REST Specification.
+|taxonomynodes=Web Hosting Services;
+Business Support SMC Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=tm-forum-tmf621;
+tm-forum-tr250;
+
+}}
+{{Obligation Group
+|obligationtype=recommended
+|description=
+The following extended attribute should be included in the message as nested sub-entities mapped as follows: confidentialityInformation as "related object" with involvement "confidentialityInformation" and with PolicyIdentifier, Classification, Privacy Mark and Category.
+|standards=nso-stanag4774;
+
+}}
+|guideline=
+The Service Implementation Profile for Trouble Ticketing enables the handover between the incident sending Service Providers and the incident receiving Service Provider. The handover point is set after incident inception, logging and categorization and before incident prioritization. The profile provides the implementation guidance for the TMForum Trouble Ticket API REST Specification.
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+}}

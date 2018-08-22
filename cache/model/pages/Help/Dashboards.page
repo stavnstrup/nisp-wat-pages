@@ -1,0 +1,76 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Widgets}}
+
+==Introduction==
+
+The '''Dashboards''' allow to build separate pages to display customized content related to specific Concepts.
+The content might contain any Widgets which can be placed on the regular concept view page.
+
+==Definition==
+<pre>
+<concept name="{CONCEPT NAME}" ...>
+  <structure>
+    ....
+  </structure>
+
+  <dashboards>
+
+    <dashboard name="{DASHBOARD NAME}" label={DASHBOARD LABEL} icon="{DASHBOARD ICON}" printableView="{DASHBOARD VIEW}" context="{DASHBOARD CONTEXT}" layout="{DASHBOARD LAYOUT}">
+      <{WIDGET}>
+      <{WIDGET}>
+      <{WIDGET}>
+      ...
+    </dashboard>
+
+  </dashboards>
+
+</concept>
+</pre>
+
+{| class="helptable"
+|-
+! {DASHBOARD NAME}
+| A unique name of the dashboard
+|-
+! {DASHBOARD LABEL}
+| A label of the dashboard.
+|-
+! {DASHBOARD ICON}
+| A icon of the dashboard.
+|-
+! {DASHBOARD VIEW}
+| A boolean flag indicating if  of the dashboard should be display in printable mode.
+|-
+! {DASHBOARD CONTEXT}
+| By default all dashboards are displayed in the context of the page from which they were invoked (e.g. Exercise dashboard in context of Exercise).
+Sometimes it might be desired to changed the context of the dashboard to another page (e.g. in from Exercise Analysis Working Group page to Exercise).
+The {DASHBOARD CONTEXT} allows to define a property of the current page which should be used as a new context for the dashboard.
+E.g. in case of Exercise Analysis Working Group this property might specify "Is part of" to switch the context to Exercise)
+|-
+! {DASHBOARD LAYOUT}
+| A layout of the dashboard. Identical as layouts for Groups.
+|}
+
+==Example==
+<pre>
+<concept name="Exercise">
+  <structure>
+    ...
+  </structure>
+  <dashboards>
+
+    <dashboard name="Exercise Capabilities" icon="Capability Configuration.png" label="Participation Form Workflow" layout="grid">
+      <chart name="Participation Form Statistics" type="pie" concept="Capability Configuration" groupBy="Capability status"/>
+      <reference name="Participation Forms" refersFrom="Capability Configuration" property="Is tested during"/>
+      <staticContent name="Participation Forms Workflow">
+        <text>[[Image:Capability Configuration Workflow.png|400px|center]]</text>
+      </staticContent>
+    </dashboard>
+
+  </dashboards>
+</concept>
+</pre>
+
+
+==User Interface==
+===Concept View Page===
+The links to the dashboard are being displayed in the [[Help:Navigator|Navigator]] widget on the Concept View Page.

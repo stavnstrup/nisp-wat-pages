@@ -1,0 +1,26 @@
+{{Standard
+|uuid=639ce756-ed93-419e-a78d-4e841b748756
+|publisher=ISO-IEC
+|code=TR 30102
+|title=Information technology - Distributed Application Platforms and Services (DAPS) - General technical principles of Service Oriented Architecture
+|dateissued=2012
+|substandards=
+|description=
+
+|responsible=NCIA-SSTRAT-SEA
+|website=http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=53222
+|events={{Change Event
+|order=1
+|date=2015-12-17
+|flag=added
+|rfcp=8-26
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

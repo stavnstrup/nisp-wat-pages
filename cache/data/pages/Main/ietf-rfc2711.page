@@ -1,0 +1,26 @@
+{{Standard
+|uuid=2fd983c0-0c8a-47e3-8549-a3257638e2a1
+|publisher=IETF
+|code=RFC 2711
+|title=IPv6 Router Alert Option
+|dateissued=1999
+|substandards=
+|description=
+This memo describes a new IPv6 Hop-by-Hop Option type that alerts transit routers to more closely examine the contents of an IP datagram. This option is useful for situations where a datagram addressed to a particular destination contains information that may require special processing by routers along the path.
+|responsible=NCIA
+|website=http://www.ietf.org/rfc/rfc2711.txt
+|events={{Change Event
+|order=1
+|date=2005-11-20
+|flag=added
+|rfcp=6-19
+|version=0.7
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+}}

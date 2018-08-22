@@ -1,0 +1,54 @@
+{{Standard
+|uuid=9ffebdef-c8c4-4918-86c4-d40b839e704a
+|publisher=ITU-T
+|code=T.6
+|title=Facsimile coding schemes and coding control functions for group 4 facsimile apparatus
+|dateissued=1988
+|substandards=
+|description=
+Recommendation T.6 defines the facsimile coding schemes and their control functions to be used in the Group 4 facsimile.
+|responsible=NCIA-NSII
+|website=http://www.itu.int/rec/T-REC-T.6-198811-I
+|events={{Change Event
+|order=1
+|date=1998-11-06
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2001-11-09
+|flag=changed
+|rfcp=
+|version=0.3
+}}
+{{Change Event
+|order=3
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=4
+|date=2005-09-06
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=5
+|date=2010-11-02
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=6
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

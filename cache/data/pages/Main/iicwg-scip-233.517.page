@@ -1,0 +1,19 @@
+{{Standard
+|uuid=4b2a5cf1-5a00-4c0c-86a0-c6bf252b171e
+|publisher=IICWG
+|code=SCIP-233.517
+|title=Secure Best effort Transport (BET) Asynchronous Data Transfer Rev. 1.1.
+|dateissued=2011-07-12
+|substandards=
+|description=
+
+|responsible=NS
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

@@ -1,0 +1,6 @@
+{{Basic Standards Service Profile
+|taxonomynode=SOA Platform Services
+|responsible=
+|mandatorystandards=oasis-regrep-rim-3.0-os;w3c-rec-soap11;w3c-rec-ws-addr-metadata-20070904;w3c-rec-ws-addr-soap-20060509;acm-2002-rest-toit;ietf-rfc5023;
+|candidatestandards=oasis-ws-bpel;ws-i-bp20;ws-i-soapbind;ws-i-attprof;w3c-address;oasis-ws-notif;oasis-brokerednotif;oasis-ws-topics;ws-i-bp12;
+}}

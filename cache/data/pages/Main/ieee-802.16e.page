@@ -1,0 +1,26 @@
+{{Standard
+|uuid=8f41af5d-8739-4875-9c87-7786a585e376
+|publisher=IEEE
+|code=802.16e
+|title=Mobile WiMax
+|dateissued=2005-12-07
+|substandards=
+|description=
+IEEE 802.16e-2005 (best known as, 802.16e or Mobile WiMAX) provides an improvement on the modulation schemes stipulated in the original fixed WiMAX standard. It allows for fixed wireless and mobile Non Line of Sight (NLOS) applications primarily by enhancing the OFDMA (Orthogonal Frequency Division Multiple Access).
+|responsible=NCIA-NSII
+|website=http://www.wimax.com/wimax-technologies-standards/what-is-ieee-80216e
+|events={{Change Event
+|order=1
+|date=2007-02-23
+|flag=added
+|rfcp=
+|version=1.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

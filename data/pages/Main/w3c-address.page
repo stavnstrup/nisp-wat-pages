@@ -1,0 +1,33 @@
+{{Standard
+|uuid=b828fb33-7474-406c-8d90-d7048301af94
+|publisher=W3C
+|code=REC-ws-addr-core-20060509
+|title=Web Services Addressing 1.0 - Core
+|dateissued=2006-05-09
+|substandards=
+|description=
+WS-Addressing provides transport-neutral mechanisms to address Web services and messages. Specifically, this specification defines XML [XML 1.0, XML Namespaces] elements to identify Web service endpoints and to secure end-to-end endpoint identification in messages. This specification enables messaging systems to support message transmission through networks that include processing nodes such as endpoint managers, firewalls, and gateways in a transport-neutral manner.
+|responsible=FMN-CPWG
+|website=http://www.w3.org/TR/2006/REC-ws-addr-core-20060509
+|events={{Change Event
+|order=1
+|date=2010-09-22
+|flag=added
+|rfcp=4-41
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2013-09-04
+|flag=changed
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

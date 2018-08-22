@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=28813595-c7db-40fd-9b9a-9ea769ef9920
+|order=245
+|parent=SOA_Platform_Services
+|title=Web Platform Services
+|description=The Web Platform Services provide a suite of functionalities that can be used to support the deployment of SOA services onto a common web-based application platform.
+}}

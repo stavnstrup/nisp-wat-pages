@@ -1,0 +1,23 @@
+{{Capability Profile
+|uuid=4da262e5-2dd2-439b-98d1-c86156a97fcb
+|title=Service Interface Profile for Publish-Subscribe Services
+|publisher=NCIA
+|code=AI_TECH_2016.06.02.08
+|spectitle=Service Interface Profile for Publish-Subscribe Services
+|dateissued=2015-02-04
+|version=1.0
+|guideline=
+This document gives directives along with clarifications and amendments to the [OASIS WS-BaseNotification, 2006] and [OASIS WS-BrokeredNotification, 2006] specification on how to implement a notification broker/subscription manager to promote interoperability between the publish/subscribe engines and generic message subscribers. Some extensions to the protocol have been introduced in order to meet NATO requirements.
+
+
+|profiles=
+|serviceprofiles=Publish Subscribe;
+
+|events={{Change Event
+|order=1
+|date=2017-04-21
+|flag=added
+|rfcp=9-15
+|version=10.0
+}}
+}}

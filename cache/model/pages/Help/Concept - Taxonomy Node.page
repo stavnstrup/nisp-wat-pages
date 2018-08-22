@@ -1,0 +1,10 @@
+__NOTOC__ __NOEDITSECTION__ __NOCACHE__{{User Manual Navigator}}
+;Description
+A taxonomy node represent a node in the C3 taonomy.
+
+;Category
+The category of this concept is [[:Category:Taxonomy Nodes]].
+
+;Attributes
+* Title (String)
+* Description (Text)

@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=e4acb972-0bc7-4f44-af0f-da0f75a7563a
+|order=293
+|parent=Infrastructure_Networking_Services
+|title=Network Load Balancing Services
+|description=The Network Load Balancing Services distribute workload across the network, to multiple processing resources, network links, central processing units, disk drives, or other resources, to achieve optimal resource utilization, maximize throughput, minimize response time, and avoid overload. Using multiple components with load balancing, instead of a single component, may increase reliability through redundancy.
+}}

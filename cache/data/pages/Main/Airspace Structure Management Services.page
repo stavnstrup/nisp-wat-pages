@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=4f9cd528-715e-47b9-8de2-12b2ba6162fc
+|order=103
+|parent=Air_Services
+|title=Airspace Structure Management Services
+|description=The Airspace Structure Management Services deliver functionality to create, maintain, update, de-conflict and prioritize the information objects representing Airspace Structures.  Airspace Structures are divided into two main categories: controlled airspace and uncontrolled airspace. In controlled airspace, aircraft in the air or on the ground, receive Air Traffic Control (ATC) service in accordance with the airspace classification.  In uncontrolled airspace, all aircraft do their own separation according to general rules.
+}}

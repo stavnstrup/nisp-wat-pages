@@ -1,0 +1,19 @@
+{{Standard
+|uuid=10f93bff-56b0-48b3-a2f8-439b14c1e447
+|publisher=ISO-IEC
+|code=29500-3
+|title=Office Open XML File Formats -- Part 3: Markup Compatibility and Extensibility
+|dateissued=2015-07
+|substandards=
+|description=
+ISO/IEC 29500-3:2015 describes a set of conventions that are used by Office Open XML documents to clearly mark elements and attributes introduced by future versions or extensions of Office Open XML documents, while providing a method by which consumers can obtain a baseline version of the Office Open XML document (a version without extensions) for interoperability.
+|responsible=C3B-DMCAT
+|website=https://www.iso.org/standard/65533.html
+|events={{Change Event
+|order=1
+|date=2017-12-12
+|flag=added
+|rfcp=10-19
+|version=11.0
+}}
+}}

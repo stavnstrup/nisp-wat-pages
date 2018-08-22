@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=867b39af-d996-459b-bb8f-9b7b43083c59
+|order=289
+|parent=Infrastructure_Storage_Services
+|title=Blob Storage Services
+|description=The Blob Storage Services provide access to large named objects either for streaming or random access. Blob Storage Services provide next generation storage solutions  that scale well horizontally and vertically in a highly mobile/distributed environment.
+}}

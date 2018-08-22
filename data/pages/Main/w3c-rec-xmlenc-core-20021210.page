@@ -1,0 +1,33 @@
+{{Standard
+|uuid=7719c38a-cec1-4cf9-8f2d-847b6c0177a6
+|publisher=W3C
+|code=REC-xmlenc-core-20021210
+|title=XML Encryption Syntax and Processing
+|dateissued=2002-12-10
+|substandards=
+|description=
+This document specifies a process for encrypting data and representing the result in XML. The data may be arbitrary data (including an XML document), an XML element, or XML element content. The result of encrypting data is an XML Encryption element which contains or references the cipher data.
+|responsible=NCIA
+|website=http://www.w3.org/TR/2002/REC-xmlenc-core-20021210/
+|events={{Change Event
+|order=1
+|date=2004-05-25
+|flag=added
+|rfcp=5-17
+|version=0.6
+}}
+{{Change Event
+|order=2
+|date=2017-01-26
+|flag=deleted
+|rfcp=9-21
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-04-18
+|flag=changed
+|rfcp=9-15
+|version=10.0
+}}
+}}

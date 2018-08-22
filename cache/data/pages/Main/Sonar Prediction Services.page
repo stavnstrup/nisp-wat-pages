@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=b076d449-6f12-4fc8-97cf-f93e3f2ef772
+|order=121
+|parent=Maritime_Services
+|title=Sonar Prediction Services
+|description=The Sonar Prediction Services provides the access to analytical functions required to predict sonar behavior as a function of environment, target, automatic target recognition algorithm, and sensor characteristics. These services provide the probability of detection, false alarm and classification for a specific sonar.
+}}

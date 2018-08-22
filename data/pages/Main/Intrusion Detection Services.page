@@ -1,0 +1,9 @@
+{{Taxonomy Node
+|uuid=1bb7cf3b-e8e0-4b9c-a9f6-5b8670d77b3e
+|order=272
+|parent=Infrastructure_CIS_Security_Services
+|title=Intrusion Detection Services
+|description=The Intrusion Detection Services provides information on malicious activity and/or security policy violations.  The Intrusion Detection Services are primarily focused on identifying possible incidents, logging information about them and reporting. 
+
+The Intrusion Detection Services can be used to identify problems with security policy, document existing threats, and deter individuals from violating security policies.
+}}

@@ -1,0 +1,26 @@
+{{Standard
+|uuid=2355eccf-02b6-4942-894a-ee5d43ce2e74
+|publisher=IETF
+|code=RFC 4329
+|title=Scripting Media Types
+|dateissued=2006-04
+|substandards=
+|description=
+This document describes the registration of media types for the ECMAScript and JavaScript programming languages and conformance requirements for implementations of these types.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc4329.txt
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

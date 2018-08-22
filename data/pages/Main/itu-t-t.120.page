@@ -1,0 +1,61 @@
+{{Standard
+|uuid=b3eb6a09-5f42-471b-b72f-bc443a346473
+|publisher=ITU-T
+|code=T.120
+|title=Data Protocols for Multimedia Conferencing
+|dateissued=2007
+|substandards=
+|description=
+The T.120 standards cover the document conferencing and application sharing (sometimes called data conferencing) portion of a multimedia teleconference. The recommendations specify how to efficiently and reliably distribute files and graphical information in real-time during a multipoint multimedia meeting. The objective of the T.120 standards is to assure interoperability between terminals without either participant assuming prior knowledge of the other system; permit data sharing among participants in a multimedia teleconference, including white board image sharing, graphic display information, and image exchange, application sharing, and, specify infrastructure protocols for audiographic or audiovisual applications.
+|responsible=NCIA-NSII
+|website=http://www.itu.int/rec/T-REC-T.120-200701-I
+|events={{Change Event
+|order=1
+|date=1999-03-03
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-03-17
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2002-10-11
+|flag=changed
+|rfcp=
+|version=0.4
+}}
+{{Change Event
+|order=4
+|date=2003-07-31
+|flag=added
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=5
+|date=2005-09-15
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=6
+|date=2007-07-27
+|flag=changed
+|rfcp=
+|version=2.0
+}}
+{{Change Event
+|order=7
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

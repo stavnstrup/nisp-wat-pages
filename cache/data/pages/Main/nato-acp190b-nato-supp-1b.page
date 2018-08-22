@@ -1,0 +1,26 @@
+{{Standard
+|uuid=5266afde-9a78-461b-a725-ec6f293274fe
+|publisher=NATO
+|code=ACP 190(B) NATO Supp 1B
+|title=NATO guide to Spectrum Management in Military Operations
+|dateissued=2009
+|substandards=
+|description=
+This publication addresses expanding procedures for equipment certification
+|responsible=NCIA-NSII
+|website=
+|events={{Change Event
+|order=1
+|date=2014-11-02
+|flag=added
+|rfcp=
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,33 @@
+{{Standard
+|uuid=c21f1d0e-8020-4719-a760-f6c944ad8e18
+|publisher=ISO
+|code=16684-1
+|title=Graphic Technology - Extensible metadata platform (XMP) specification - Part 1: Data model, serialization and core propertie
+|dateissued=2012-02-29
+|substandards=
+|description=
+This International Standard specifies a standard for the definition, creation, and processing of metadata that can be applied to a broad range of resource types. The Extensible Metadata Platform (XMP) was introduced by Adobe Systems Incorporated in 2001 and has since established itself as a critical technology for improving business efficiency in many industries. The Adobe Systems XMP Specification Part 1 version of July 2010 is the basis for this International Standard. Establishing this International Standard ensures the stability and longevity of its definitions and encourages broader integration and interoperability of XMP with existing standards
+|responsible=NCIA
+|website=http://www.iso.org/iso/catalogue_detail?csnumber=57421
+|events={{Change Event
+|order=1
+|date=2017-01-17
+|flag=added
+|rfcp=9-2
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-26
+|flag=deleted
+|rfcp=9-21
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-04-25
+|flag=changed
+|rfcp=9-2
+|version=10.0
+}}
+}}

@@ -1,0 +1,39 @@
+{{Service Profile
+|uuid=a0660c3b-6024-4052-b10a-c08f029d2774
+|title=Structured Data Service Profile 2.0
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|description=
+The Structured Data Profile provides standards and guidance for the structuring of web content on federated mission networks.
+|taxonomynodes=Web Hosting Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+General formatting of information for sharing or exchange.
+|standards=w3c-rec-xml10-20081126;
+ietf-rfc4627;
+w3c-rec-xmlschema-1-20041028;
+w3c-rec-xmlschema-2-20041028;
+w3c-note-xhtml1-schema-20020902;
+
+}}
+|guideline=
+The Structured Data Profile provides standards and guidance for the structuring of web content on federated mission networks.
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-12-06
+|flag=changed
+|rfcp=11-29
+|version=11.0
+}}
+}}

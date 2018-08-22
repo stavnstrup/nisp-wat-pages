@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=903ddaab-2fdb-4fef-8da1-4967a25f6706
+|order=40
+|parent=Service_Management_Domain_Applications
+|title=Incident Management Application
+|description=The Incident Management Application enables users to recognize, register, analyse and report on incidents in the service domain.
+}}

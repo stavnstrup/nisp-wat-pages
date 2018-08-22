@@ -1,0 +1,18 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+The '''Wiki Automation Tool''' supports various ''Property Types'' listed below:
+* [[Help:Boolean Property| Boolean]]
+* [[Help:Bugzilla Property| Bugzilla]]
+* [[Help:Date Property| Date]]
+* [[Help:DateTime Property| DateTime]]
+* [[Help:Email Property| Email]]
+* [[Help:File Property| File]]
+* [[Help:Geographic coordinates Property| Geographic coordinates]]
+* [[Help:Image Property| Image]]
+* [[Help:Number Property| Number]]
+* [[Help:Option Property| Option]]
+* [[Help:Page Property| Page]]
+* [[Help:String Property| String]]
+* [[Help:Text Property| Text]]
+* [[Help:Time Property| Time]]
+* [[Help:URL Property| URL]]

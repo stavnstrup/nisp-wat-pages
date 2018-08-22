@@ -1,0 +1,52 @@
+{{Service Profile
+|uuid=567b4c26-9276-4036-a673-c0873d9c6360
+|title=File Format Service Profile 1.0
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 1 Profile
+|dateissued=2015-09-30
+|version=1.0
+|description=
+The File Format Profile provides standards and guidance for the collaborative generation of spreadsheets, charts, presentations and word processing documents.
+|taxonomynodes=Web Hosting Services;
+Informal Messaging Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+For still image coding.
+|standards=iso-iec-10918-1;
+iso-iec-10918-3;
+
+}}
+{{Obligation Group
+|obligationtype=recommended
+|description=
+For word processing documents, spreadsheets and presentations.
+|standards=iso-iec-26300-2006;
+
+}}
+{{Obligation Group
+|obligationtype=mandatory
+|description=
+For word processing documents, spreadsheets and presentations.
+|standards=iso-iec-29500-1-2012;
+
+}}
+{{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=iso-19005-1;
+iso-19005-2;
+iso-32000-1;
+
+}}
+|guideline=
+The File Format Profile provides standards and guidance for the collaborative generation of spreadsheets, charts, presentations and word processing documents.
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+}}

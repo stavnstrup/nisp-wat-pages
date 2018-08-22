@@ -1,0 +1,13 @@
+<noinclude>{{User Manual Navigator}}</noinclude>A personalized account with username and password is required to access the {{SITENAME}} Wiki. {{#ifeq:{{SITENAME}}|Tidepedia|<!-- ignore -->|The same login credentials will also give access to the [[:Tidepedia:Main Page|Tidepedia]] website.}} Accounts can be provided to: {{#show:Project:Governance|?Remarks}} Group accounts are not allowed and users are forbidden to share, disclose, or distribute login credentials.
+
+Upon logging in, users accept the full [[Project:User_Agreement|User Agreement]]. This agreement provides a specific disclaimer, information about security and proprietary right, and guidance for user conduct and obligations, amongst other things. In addition to the user agreement there is a separate [[Project:Disclaimer|Disclaimer]] page, that lists general disclaimer statements.
+
+An account can be requested via email message to {{email|tide@act.nato.int}}&nbsp;with the following information:
+* First and last name
+* Organization - including command/agency/company name and country (if applicable)
+* Sponsor (if the organization is non-military)
+* E-mail address. Confirmation and instructions will be sent here.
+
+In principle, the username of new accounts will consist of a lower case version of the last name of the user, using only US ASCII characters, and eliminating punctuation and diacritics. In case of a conflict, special rules will be applied in order to provide a unique username. The intention is to keep the username short.
+
+Passwords cannot contain the user's account name or parts of the user's full name that exceed two consecutive characters. They must be at least eight characters in length and contain characters from three of the following four categories: English uppercase characters (A through Z); English lowercase characters (a through z); base 10 digits (0 through 9); and non-alphabetic characters (for example, !, $, #, %).

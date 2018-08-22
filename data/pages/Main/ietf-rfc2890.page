@@ -1,0 +1,26 @@
+{{Standard
+|uuid=3cf5336e-1076-4eac-b11b-f53e3f6a7007
+|publisher=IETF
+|code=RFC 2890
+|title=Key and Sequence Number Extensions to GRE
+|dateissued=2000-01-09
+|substandards=
+|description=
+GRE (Generic Routing Encapsulation) specifies a protocol for encapsulation of an arbitrary protocol over another arbitrary network layer protocol.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc2890.txt
+|events={{Change Event
+|order=1
+|date=2015-11-02
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

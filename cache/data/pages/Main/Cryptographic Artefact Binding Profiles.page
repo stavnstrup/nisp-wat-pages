@@ -1,0 +1,23 @@
+{{Capability Profile
+|uuid=05c75909-5997-40a5-82b4-4fc7196d2490
+|title=Cryptographic Artefact Binding Profiles
+|publisher=NCIA
+|code=TN-1491
+|spectitle=Profiles for Binding Metadata to a Data Object
+|dateissued=2017-12-15
+|version=2.0
+|guideline=
+Profile the use of cryptographic protocols, which can be used to implement support for different cryptographic techniques and mechanisms, for generating cryptographic artefacts to be stored in a cryptographic binding.
+
+
+|profiles=
+|serviceprofiles=Cryptographic Artefact Binding;
+
+|events={{Change Event
+|order=1
+|date=2017-12-18
+|flag=added
+|rfcp=10-28
+|version=11.0
+}}
+}}

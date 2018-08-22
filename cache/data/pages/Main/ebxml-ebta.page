@@ -1,0 +1,40 @@
+{{Standard
+|uuid=f713a3ba-b710-48aa-9ce7-1867787903bf
+|publisher=EBXML
+|code=ebTA
+|title=electronic business eXtensible Markup Language (ebXML) Technical Architecture Specification v1.0.4
+|dateissued=2001-02-16
+|substandards=
+|description=
+ebXML, sponsored by UN/CEFACT and OASIS, is a modular suite of specifications that enables enterprises of any size and in any geographical location to conduct business over the Internet. Using ebXML, companies now have a standard method to exchange business messages, conduct trading relationships, communicate data in common terms and define and register business processes.
+|responsible=NCIA-CES
+|website=http://www.ebxml.org/specs/ebTA.pdf
+|events={{Change Event
+|order=1
+|date=2001-11-19
+|flag=added
+|rfcp=
+|version=0.3
+}}
+{{Change Event
+|order=2
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=3
+|date=2011-10-16
+|flag=changed
+|rfcp=5.63
+|version=6.0
+}}
+{{Change Event
+|order=4
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

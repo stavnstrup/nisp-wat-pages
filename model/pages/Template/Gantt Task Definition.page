@@ -1,0 +1,16 @@
+<task>
+	<pID>{{UuidToNumber|{{#explode:{{{1}}}|#_|1}}}}</pID>
+	<pName>{{{?title|}}}</pName>
+	<pCaption>{{{?label|...}}}</pCaption>
+	<pColor>{{{?color|00ff00}}}</pColor>
+	<pLink>{{{1}}}</pLink>
+	<pMile>0</pMile>
+	<pRes>{{{?resource|}}}</pRes>
+	<pComp>{{#if:{{{?completition}}}|{{{?completition}}}|0}}</pComp>
+	<pGroup>0</pGroup>
+	<pParent>{{{?parent}}}</pParent>
+	<pOpen>0</pOpen>
+	<pDepend></pDepend>
+	<pStart>{{#time:Y-m-d|{{{?start}}}}}</pStart>
+	<pEnd>{{#time:Y-m-d|{{{?end}}}}}</pEnd>
+</task>

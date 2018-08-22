@@ -1,0 +1,40 @@
+{{Standard
+|uuid=26972b79-a313-4ca2-a690-f96bb4bc0df2
+|publisher=OPENGROUP
+|code=C320
+|title=X/Open Motif Toolkit API
+|dateissued=1995
+|substandards=
+|description=
+This specification defines high-level graphical interfaces for use by X Window System Application Programs in the Common Desktop Environment (XCDE). These interfaces are used to give XCDE applications their individual style.
+|responsible=NCIA-CES
+|website=https://www2.opengroup.org/ogsys/jsp/publications/PublicationDetails.jsp?publicationid=11183
+|events={{Change Event
+|order=1
+|date=1998-11-06
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=3
+|date=2010-11-04
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=4
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

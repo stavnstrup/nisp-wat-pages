@@ -1,0 +1,33 @@
+{{Standard
+|uuid=b3a3356c-e2de-4c2d-ba60-340f34940649
+|publisher=IETF
+|code=RFC 3473
+|title=Generalized Multi-Protocol Label Switching (GMPLS) Signalling Resource ReserVation Protocol-Traffic Engineering (RSVP-TE) Extensions
+|dateissued=2003
+|substandards=
+|description=
+This document describes extensions to Multi-Protocol Label Switching (MPLS) Resource ReserVation Protocol - Traffic Engineering (RSVP-TE) signaling required to support Generalized MPLS. Generalized MPLS extends the MPLS control plane to encompass time-division (e.g., Synchronous Optical Network and Synchronous Digital Hierarchy, SONET/SDH), wavelength (optical lambdas) and spatial switching (e.g., incoming port or fiber to outgoing port or fiber). This document presents a RSVP-TE specific description of the extensions. A generic functional description can be found in separate documents.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc3473.txt
+|events={{Change Event
+|order=1
+|date=2004-07-24
+|flag=added
+|rfcp=5-33
+|version=0.6
+}}
+{{Change Event
+|order=2
+|date=2010-10-30
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

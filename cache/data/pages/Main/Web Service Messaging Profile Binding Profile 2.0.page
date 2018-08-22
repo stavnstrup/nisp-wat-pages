@@ -1,0 +1,23 @@
+{{Capability Profile
+|uuid=0d429ee3-cd9c-48e6-b7bc-925b2a560572
+|title=Web Service Messaging Profile Binding Profile 2.0
+|publisher=NCIA
+|code=TN-1491
+|spectitle=Profiles for Binding Metadata to a Data Object
+|dateissued=2017-12-15
+|version=2.0
+|guideline=
+The Web Service Messaging Profile (WSMP) defines a set of service profiles to exchange arbitrary XML-based messages. WSMP is extensible and may be used by any Community of Interest (COI).
+
+
+|profiles=
+|serviceprofiles=Web Service Messaging Profile Binding Profile 1.0;
+
+|events={{Change Event
+|order=1
+|date=2017-12-10
+|flag=added
+|rfcp=10-28
+|version=11.0
+}}
+}}

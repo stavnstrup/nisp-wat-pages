@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=d6f1a264-9503-4723-9cb5-04aa2a57e3a5
+|order=224
+|parent=Core_Services
+|title=SOA Platform Services
+|description=The Service Oriented Architecture (SOA) Platform Services provide a foundation to implement web-based services in a loosely coupled environment, where flexible and agile service orchestration is a requirement. They offer generic building blocks for SOA implementation (e.g. discovery, message busses, orchestration, information abstraction and access, etc.) and can be used as a capability integration platform in a heterogeneous service-provisioning ecosystem.
+}}

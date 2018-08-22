@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=c7733be9-63c2-4ed4-bea7-a272d614c5f5
+|order=221
+|parent=Geospatial_Services
+|title=Geospatial Network Analysis Services
+|description=The Geospatial Network Analysis Services perform network analysis operations such as routing (shortest path, fastest path), closest facility location, or area analysis.
+}}

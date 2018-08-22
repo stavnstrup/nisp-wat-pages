@@ -1,0 +1,115 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+{{Help:Data Model Introduction}}
+
+
+A large Data Models might be split into multiple files, which might be then imported into the the main model file (see 'import' element below).
+The Wiki Automation Tool provides the '''CommonLibraryModel.xml''' file with  common definitions to be shared across all models. '''The CommonLibraryModel.xml file has to be imported in all model files.'''
+
+See [[Help:Package|Package]], [[Help:Concept|Concept]] and [[Help:Property|Property]] pages for further details, how to define Packages, Concepts and Properties.
+
+
+==Definition==
+
+<pre>
+<DataModel>
+  <import model="CommonLibraryModel.xml"/>
+  <import model="{FILE NAME}"/>
+
+  <concepts>
+    <package name="{PACKAGE NAME}" ...>
+      <concept name="{CONCEPT NAME}" ...>
+        ...
+      </concept>
+      ...
+    </package>
+    ...
+  </concepts>
+
+  <!-- Property Definitions -->
+  <properties>
+    <property name="{PROPERTY NAME} ...">
+      ...
+    </property>
+    .....
+  </properties>
+</DataModel>
+</pre>
+
+{| class="helptable"
+|-
+! {FILE NAME}
+| A name of the external file, which contains definitions of the re-usable Concepts and Properties to be imported into this model. The file is searched for in the same folder as main model file and/or in the main folder of Wiki Automation Tool.
+|-
+! {PACKAGE NAME}
+| A name of the Package. See [[Help:Package|Package]] for more details.
+|-
+! {CONCEPT NAME}
+|A name of the Concept. See [[Help:Concept|Concept]] for more details.
+|-
+! {PROPERTY NAME}
+| A name of the Property (or to be more precise Property Definitions). See [[Help:Property|Property]] for more details.
+|}
+
+
+==Semantic database==
+The Data Model meta-elements (Data Model itself, Package, Concept) are NOT being defined/represented in the semantic database.
+
+
+==Example==
+<pre>
+<DataModel>
+  <import model="../../MDA/CommonLibraryModel.xml"/>
+
+  <concepts>
+    <package name="Event Management">
+      <description>Concepts required to represent information related to AV&amp;V events</description>
+
+      <concept name="Event" plural="Events" type="Dynamic" image="Event.png" color="f9f9f9">
+        <structure>
+          <property name="Title" mandatory="true"/>
+          <property name="Description" mandatory="true"/>
+          <property name="Start date"/>
+          <property name="End date"/>
+        </structure>
+      </concept>
+    </package>
+  </concepts>
+
+  <properties>
+    <property name="Description" type="Text" label="Description" attribute="description">
+      <description>A free text format to describe the purpose, relevance and functionality of a certain entity.</description>
+      <instruction>A "Description" is a text value that reflects a short explanation for a taxonomy element. </instruction>
+    </property>
+    <property name="End date" type="Date" label="End date" attribute="enddate">
+      <description>A date to end an event in a concept.</description>
+    </property>
+    <property name="Start date" type="Date" label="Start date" attribute="startdate">
+      <description>A date to start an event in a concept.</description>
+    </property>
+  </properties>
+</DataModel>
+</pre>
+
+
+==User Interface==
+A high level details of the Data Model are visualized on:
+
+* '''Project:Data Model''' page, which displays:
+** Package Dependencies diagram
+** list of all Packages
+** list of all Concepts
+** list of all Properties
+<gallery>
+File:Data Model Graph Page.png
+File:Data Model Packages Page.png
+File:Data Model Concepts Page.png
+File:Data Model Properties Page.png
+</gallery>
+
+* '''Project:Data Browser''' and '''Concepts''' pages, which displays
+** list of all Concepts and available '''Actions'''
+<gallery>
+File:Data Browser Page.png
+</gallery>

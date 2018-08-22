@@ -1,0 +1,26 @@
+{{Standard
+|uuid=dc38059d-40f8-4f3a-88cf-139511990a0f
+|publisher=NSO
+|code=STANAG 5065 Ed 1
+|title=Minimum Standards for Naval low Frequency (LF) Shore-to-Ship Surface Broadcast Systems
+|dateissued=1999-07-08
+|substandards=
+|description=
+The aim of this STANAG is to define the minimum technical stamdards required for Naval shore-to-ship surface broadcast (shore transmitting and ship receiving) equipment that will permit interoperable communication using LF transmission and appropriate baseband modulation/demodulation techniques.
+|responsible=BLOS
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2012-09-01
+|flag=added
+|rfcp=6-19
+|version=7.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+}}

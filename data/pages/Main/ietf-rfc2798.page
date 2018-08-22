@@ -1,0 +1,26 @@
+{{Standard
+|uuid=05b7391b-8a8d-497f-84ba-3301be15faa9
+|publisher=IETF
+|code=RFC 2798
+|title=Definition of the inetOrgPerson LDAP Object Class
+|dateissued=2000
+|substandards=
+|description=
+While the X.500 standards define many useful attribute types and object classes, they do not define a person object class that meets the requirements found in today's Internet and Intranet directory service deployments. We define a new object class called inetOrgPerson for use in LDAP and X.500 directory services that extends the X.521 standard organizationalPerson class to meet these needs.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc2798.txt
+|events={{Change Event
+|order=1
+|date=2010-11-13
+|flag=added
+|rfcp=4-25
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

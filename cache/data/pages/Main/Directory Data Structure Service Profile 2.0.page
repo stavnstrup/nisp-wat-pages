@@ -1,0 +1,28 @@
+{{Service Profile
+|uuid=4ae7c420-b488-4180-82be-ef826a1ceb3d
+|title=Directory Data Structure Service Profile 2.0
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|description=
+The Directory Data Structure Profile provides standards and guidance in support of the definition of the namespace of a federated mission network on the basis of the Lightweight Directory Access Protocol (LDAP).
+|taxonomynodes=Directory Storage Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=ietf-rfc2798;
+ietf-rfc4519;
+
+}}
+|guideline=
+The Directory Data Structure Profile provides standards and guidance in support of the definition of the namespace of a federated mission network on the basis of the Lightweight Directory Access Protocol (LDAP).
+|events={{Change Event
+|order=1
+|date=2017-12-06
+|flag=added
+|rfcp=10-29
+|version=11.0
+}}
+}}

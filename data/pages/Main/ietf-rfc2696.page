@@ -1,0 +1,26 @@
+{{Standard
+|uuid=44b5f23b-1d21-48b5-8cd7-0213ce1bdcb9
+|publisher=IETF
+|code=RFC 2696
+|title=LDAP Control Extension for Simple Paged Results Manipulation
+|dateissued=1999
+|substandards=
+|description=
+This document describes an LDAPv3 control extension for simple paging of search results. This control extension allows a client to control the rate at which an LDAP server returns the results of an LDAP search operation. This control may be useful when the LDAP client has limited resources and may not be able to process the entire result set from a given LDAP query, or when the LDAP client is connected over a low-bandwidth connection. Other operations on the result set are not defined in this extension. This extension is not designed to provide more sophisticated result set management.
+|responsible=NCIA-CES
+|website=http://www.ietf.org/rfc/rfc2696.txt
+|events={{Change Event
+|order=1
+|date=2010-11-13
+|flag=added
+|rfcp=4-25
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

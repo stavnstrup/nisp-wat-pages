@@ -1,0 +1,35 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+The '''DateTime Property Type''' represents a date and time values.
+
+The Wiki Automation Tool supports editing, viewing and searching on the DateTime properties.
+
+
+==Definition==
+The DateTime Type doesn't define any additional configuration attributes in the  [[Help:Property|Property Definition]] section.
+
+
+==Semantic database==
+The DateTime Property is implemented as a [[Special:Types/Date]] MediaWiki datatype.
+
+
+==Example==
+<pre>
+<property name="Start time" type="DateTime" label="Start time" attribute="starttime">
+  <description>A date and time to start an event in a concept.</description>
+  <instruction/>
+</property>
+</pre>
+
+
+==User Interface==
+* '''View Page'''
+The property displays a date and time value.
+
+* '''Edit Page'''
+The property provides a DateTime Picker input field.
+
+* '''Search Page'''
+The property allows user to choose a search operator from the following options: ''After (exc), After (inc), Before (exc), Before (inc), Equals (day), Has any value''
+and allows user to enter a desired date using DateTime Picker input field.

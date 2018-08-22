@@ -1,0 +1,37 @@
+<noinclude>
+This is the 'Taxonomy Nodes Search Form' form.
+</noinclude><includeonly>
+{{{info|query form at top}}}
+{{{for template|Taxonomy Nodes Search Results}}}
+__NOTOC__ __NOEDITSECTION__
+== Filter ==
+
+<table class="wikitable">
+<tr>
+<th>Title&nbsp;{{#info:A "Title" is a string value that reflects the full title of a taxonomy element.|info}}</th>
+<td><div style="display: flex; margin:0.5em 0">{{{field|operator_title|input type=dropdown|values=Starts with, Contains, Equals, Ends with, Has any value|default=Equals}}}{{{field|filter_title|input type=text|size=50}}}</div>
+
+</td>
+</tr>
+<tr>
+<th>Description&nbsp;{{#info:A "Description" is a text value that reflects a short explanation (no more than a couple of paragraphs) for a taxonomy element. A description may include some wiki markup. It shall start with a sentence that follows the pattern: "The full name of the element including fully written text for abbreviations ..."|info}}</th>
+<td>{{{field|operator_description|input type=dropdown|values=Starts with, Contains, Equals, Ends with, Has any value|default=Equals}}}{{{field|filter_description|input type=textarea|rows=2|autogrow}}}
+
+</td>
+</tr>
+</table>
+
+
+== Display properties ==
+{| class="wikitable"
+
+|-
+! Title
+| {{{field|display_title|input type=checkbox|default=false}}}
+|-
+! Description
+| {{{field|display_description|input type=checkbox|default=false}}}
+|}
+{{{end template}}}
+<headertabs />
+</includeonly>

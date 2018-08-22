@@ -1,0 +1,26 @@
+{{Standard
+|uuid=0436235b-0fee-4616-b8d1-e7459adec040
+|publisher=ITU-T
+|code=J.241
+|title=Quality of service ranking and measurement^methods for digital video services delivered over broadband IP networks
+|dateissued=2005
+|substandards=
+|description=
+TThis Recommendation specifies performance requirements and objective measuring methods of QoS for the delivery of digital video services over broadband IP networks. The specified performance requirements are based on an IP QoS ranking at various levels, from "excellent" to "out-of-service". They rely on the objective end-to-end measurement of the values of a small number of parameters on the delivered IP streams, performed at the consumer premises equipment and relayed back to the head end. The recommended objective measurement methods and parameters are known to influence the Quality of Service delivered to the user.
+|responsible=FMN-CPWG
+|website=http://www.itu.int/rec/T-REC-J.241-200504-I/en
+|events={{Change Event
+|order=1
+|date=2013-10-21
+|flag=added
+|rfcp=7-27
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

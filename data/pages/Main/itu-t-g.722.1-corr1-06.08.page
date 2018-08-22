@@ -1,0 +1,33 @@
+{{Standard
+|uuid=7a5e6dd5-da9d-488d-bbaf-e424bf68394f
+|publisher=ITU-T
+|code=G.722.1 (2005) Corrigendum 1 (06/08)
+|title=Low-complexity coding at 24 and 32 kbit/s for hands-free operation in systems with low frame loss
+|dateissued=2008-06
+|substandards=
+|description=
+This corrigendum corrects three changes necessary to the existing C code (Release 1.1) that is supplied with ITU-T Rec. G.722.1. In each case, it corrects an error that was introduced when the original C code (known as release code3.003 at the time of Determination) was converted to use basic operators. The corrected code will be labelled as Release 1.2.
+|responsible=FMN-CPWG
+|website=http://www.itu.int/rec/T-REC-G.722.1/recommendation.asp?lang=en&parent=T-REC-G.722.1-200806-I!Cor1
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-26
+|flag=deleted
+|rfcp=9-21
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-04-30
+|flag=changed
+|rfcp=9-6
+|version=10.0
+}}
+}}

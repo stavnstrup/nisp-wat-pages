@@ -1,0 +1,26 @@
+{{Standard
+|uuid=4fe8284d-5668-485f-a824-361fe5c77636
+|publisher=IETF
+|code=RFC 4023
+|title=Encapsulating MPLS in IP or Generic Routing Encapsulation (GRE)
+|dateissued=2005
+|substandards=
+|description=
+Various applications of MPLS make use of label stacks with multiple entries. In some cases, it is possible to replace the top label of the stack with an IP-based encapsulation, thereby enabling the application to run over networks that do not have MPLS enabled in their core routers. This document specifies two IP-based encapsulations: MPLS-in-IP and MPLS-in-GRE (Generic Routing Encapsulation). Each of these is applicable in some circumstances.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc4023.txt
+|events={{Change Event
+|order=1
+|date=2005-11-20
+|flag=added
+|rfcp=6-19
+|version=0.7
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

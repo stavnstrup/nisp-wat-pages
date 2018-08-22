@@ -1,0 +1,33 @@
+{{Standard
+|uuid=07d10159-fce7-4201-bff8-4df2c1b60ea4
+|publisher=IETF
+|code=RFC 5322
+|title=Internet Message Format
+|dateissued=2008
+|substandards=
+|description=
+This document specifies the Internet Message Format (IMF), a syntax for text messages that are sent between computer users, within the framework of "electronic mail" messages. This specification is a revision of Request For Comments (RFC) 2822, which itself superseded Request For Comments (RFC) 822, "Standard for the Format of ARPA Internet Text Messages", updating it to reflect current practice and incorporating incremental changes that were specified in other RFCs.
+|responsible=NCIA
+|website=http://tools.ietf.org/html/rfc5322
+|events={{Change Event
+|order=1
+|date=2013-10-22
+|flag=added
+|rfcp=7-27
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-12
+|flag=deleted
+|rfcp=9-18
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-04-25
+|flag=changed
+|rfcp=9-2
+|version=10.0
+}}
+}}

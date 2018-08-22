@@ -1,0 +1,9 @@
+{{Taxonomy Node
+|uuid=6143f4be-fb3c-40ac-b38a-4926edc272f2
+|order=251
+|parent=Information_Platform_Services
+|title=Information Discovery Services
+|description=The Information Discovery Services provide the functionality to automate the discovery and retrieval of Information Products and their structure. 
+
+Information Products, in this regard, are aggregates of structured data.  Discovered data is the result of a search upon an entire dataset, a search upon a subset of a dataset, or a search based on dataset and/or content metadata.
+}}

@@ -1,0 +1,40 @@
+{{Standard
+|uuid=9ac8678c-fec8-4734-abf4-bd657aa58cac
+|publisher=IETF
+|code=RFC 1772
+|title=Application of the Border Gateway Protocol in the Internet
+|dateissued=1995
+|substandards=
+|description=
+This document, together with its companion document, "A Border Gateway Protocol 4 (BGP-4)" (RFC 4271:2006), define an inter-autonomous system routing protocol for the Internet. RFC 1771:1995 defines the BGP protocol specification, and this document describes the usage of the BGP in the Internet.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc1772.txt
+|events={{Change Event
+|order=1
+|date=1998-11-10
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2005-09-16
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2007-08-06
+|flag=changed
+|rfcp=
+|version=2.0
+}}
+{{Change Event
+|order=4
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

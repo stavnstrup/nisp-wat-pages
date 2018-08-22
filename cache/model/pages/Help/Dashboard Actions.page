@@ -1,0 +1,13 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Widgets}}
+
+==Introduction==
+The '''Dashboard Actions''' is a component of a [[Help:Navigator|Navigator]] widget.
+
+It displays links to the dashboards related to the current page:
+
+==Definition==
+No configuration available. Component is displayed automatically in a fixed location and provides links to all dashboards defined for current concept.
+
+
+==Example==
+Not applicable.

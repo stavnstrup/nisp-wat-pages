@@ -1,0 +1,51 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Widgets}}
+
+==Introduction==
+The '''Map''' widget displays a map background and markers representing geographical locations.
+
+
+The widget is displayed on the following pages:
+* '''View Page''' of the Concept with at least one "Geographic coordinates" Property.
+: The widget displays a marker at the location defined in the value of that property.
+* '''Category Page''' of the Concept with at least one "Geographic coordinates" Property.
+:The widget displays markers at the locations defined in the data entities in that Category.
+* '''View Page''' of the Concept, which is referred by the Concept with at least one "Geographic coordinates" Property.
+:The widget displays markers representing all data entities referring to the current page.
+
+
+==Definition==
+No configuration available. Widget is displayed automatically in fixed locations.
+
+
+==Example==
+<pre>
+<concept name="Enclave">                    <!-- Concept referred from Concept with "Geographic coordinates" -->
+  <structure>
+    <property name="Title"/>
+    <property name="Description"/>
+    <property name="Classification"/>
+  </structure>
+</concept>
+
+<concept name="Site">                       <!-- Concept with "Geographic coordinates" property -->
+  <structure>
+    <property name="Title"/>
+    <property name="Description"/>
+    <property name="Is part of" refersTo="Enclave"/>  <!-- Reference to another Concept -->
+    <property name="Has lead"/>
+    <group name="Location">
+      <property name="Coordinates"/>        <!-- "Geographic coordinates" property -->
+      <property name="Is managed by"/>
+    </group>
+  </structure>
+</concept>
+</pre>
+
+
+==User Interface==
+
+<gallery>
+File:Map Concept View Page.png
+File:Map Concept Category Page.png
+File:Map Referred Concept View Page.png
+</gallery>

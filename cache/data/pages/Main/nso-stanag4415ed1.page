@@ -1,0 +1,26 @@
+{{Standard
+|uuid=d08fd216-6465-4851-954d-6b63f26d3d78
+|publisher=NSO
+|code=STANAG 4415
+|title=Characteristics of a Robust, Non-Hopping Serial Tone Modulator/Demodulator For Severely Degraded HF Radio Links
+|dateissued=1999
+|substandards=
+|description=
+This STANAG defines the technical interoperability characteristics for a means of digital communications over severely degraded HF radio links at an effective bit rate of 75 bits per second.
+|responsible=BLOS
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2009-09-15
+|flag=added
+|rfcp=3-3
+|version=4.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+}}

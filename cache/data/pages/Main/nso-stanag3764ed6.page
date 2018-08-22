@@ -1,0 +1,33 @@
+{{Standard
+|uuid=c81f5732-e657-4c06-915f-f997b7b06258
+|publisher=NSO
+|code=STANAG 3764 Ed 6
+|title=Exchange of Imagery
+|dateissued=2008-05-20
+|substandards=
+|description=
+The purpose of this STANAG is to establish guidelines for the exchange of imagery for use in Imagery Interpretation Keys and to standardise the layout of a form to be used by NATO nations making requests for imagery and related material.
+|responsible=NCIA-OTHER
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2002-10-11
+|flag=added
+|rfcp=
+|version=0.4
+}}
+{{Change Event
+|order=2
+|date=2005-09-15
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

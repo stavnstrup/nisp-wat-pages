@@ -1,0 +1,64 @@
+{{Service Profile
+|uuid=daf4949d-5fef-43dd-a8c3-86546c726ced
+|title=Basic Text-based Collaboration Service Profile 2.0
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|description=
+The Basic Text-based Collaboration Profile provides standards and guidance to establish a basic near-real time text-based group collaboration capability (chat) for time critical reporting and decision making in military operations.
+|taxonomynodes=Text-based Collaboration Services;
+Presence Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+The following standards are the base IETF protocols for interoperability of chat services.
+|standards=ietf-rfc6120;
+ietf-rfc6121;
+ietf-rfc6122;
+
+}}
+{{Obligation Group
+|obligationtype=mandatory
+|description=
+The following standards are required to achieve compliance for an XMPP Server and an XMPP Client dependent upon the categorisation of presenting a core or advanced instant messaging service interface.
+|standards=xmpp-xep-0004;
+xmpp-xep-0012;
+xmpp-xep-0030;
+xmpp-xep-0045;
+xmpp-xep-0047;
+xmpp-xep-0049;
+xmpp-xep-0054;
+xmpp-xep-0055;
+xmpp-xep-0060;
+xmpp-xep-0065;
+xmpp-xep-0092;
+xmpp-xep-0114;
+xmpp-xep-0115;
+xmpp-xep-0160;
+xmpp-xep-0198;
+xmpp-xep-0199;
+xmpp-xep-0202;
+xmpp-xep-0203;
+xmpp-xep-0220;
+xmpp-xep-0258;
+
+}}
+|guideline=
+The Basic Text-based Collaboration Profile provides standards and guidance to establish a basic near-real time text-based group collaboration capability (chat) for time critical reporting and decision making in military operations.
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-12-06
+|flag=changed
+|rfcp=11-29
+|version=11.0
+}}
+}}

@@ -1,0 +1,19 @@
+{{Standard
+|uuid=6dd7cd8c-2cd9-466e-beff-e470e81205bf
+|publisher=NSO
+|code=STANAG 4312 Ed 2
+|title=Interoperability of Low-level Ground-based Air Defence Surveillance, Command and Control Systems
+|dateissued=2012-04-19
+|substandards=
+|description=
+The aim of this STANAG is to define information exchange requirements for the interoperability of NATO Low-Level Ground-Based Air Defence Command, Control and Information Systems before the establishment of an interface with the ACCS. It is intended to achieve interfaces between the Low-Level Ground-Based Air Defence command centres of each nation in so far as message requirements and passage of information are concerned.
+|responsible=CNAD-NAAG-JCGGBAD
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2011-10-13
+|flag=added
+|rfcp=5-27
+|version=6.0
+}}
+}}

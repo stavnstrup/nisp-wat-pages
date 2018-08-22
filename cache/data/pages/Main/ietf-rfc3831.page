@@ -1,0 +1,26 @@
+{{Standard
+|uuid=a56cd6b7-1eda-443a-a32b-0c0aeb2c9720
+|publisher=IETF
+|code=RFC 3831
+|title=Transmission of IPv6 Packets over Fibre Channel
+|dateissued=2004
+|substandards=
+|description=
+This document specifies the way of encapsulating IPv6 packets over Fibre Channel, and the method of forming IPv6 link-local addresses and statelessly autoconfigured addresses on Fibre Channel networks.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc3831.txt
+|events={{Change Event
+|order=1
+|date=2005-11-20
+|flag=added
+|rfcp=6-19
+|version=0.7
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

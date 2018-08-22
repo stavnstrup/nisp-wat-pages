@@ -1,0 +1,14 @@
+{{Taxonomy Node
+|uuid=46b48599-a0c0-4d0f-9d45-bba266509ede
+|order=249
+|parent=Web_Platform_Services
+|title=Web Proxying Services
+|description=The Web Proxying Services handle HTTP message exchanges on behalf of other entities. From the perspective of the partner in the message exchange, it is communicating with the proxy, and is not necessarily aware that this is the case.
+
+There are three main types of Web Proxying Services:
+# Forward Proxy - in this case, the user's client (which may be an Internet Browser or Web Services client) is configured to use the specific proxy in order to make requests on its behalf. The remote service provider sees the request as coming from the proxy, and not from the original client.
+# Reverse Proxy - in this case, the proxy is handling requests from clients as if it were the server. The request is sent to the proxy, which may return a response, or may forward the request to the actual server for further processing.
+# Transparent Proxy - a transparent proxy acts in much the same way as a forward proxy, but the client requires no configuration to use it. As far as the client is concerned, it is communicating directly with the server, as the communications are intercepted at the network layer rather than the application layer.
+
+Web Proxying Services tend to sit at the boundaries of organisations, either internal boundaries (between sites, before WAN links) or external boundaries (such as the Internet).
+}}

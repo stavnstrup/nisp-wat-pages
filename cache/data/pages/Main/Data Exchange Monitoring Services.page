@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=1b13b7bb-518f-4e8a-b5cf-6730d9ffd138
+|order=157
+|parent=COI-Enabling_SMC_Services
+|title=Data Exchange Monitoring Services
+|description=The Data Exchange Monitoring Services (DEMS) provide a capability to monitor, measure and assess connectivity, quality of data exchanges and information flows between Community of Interest (COI) Services. The DEMS will leverage existing open standards and STANAGs to monitor and assess the quality of existing data flows.
+}}

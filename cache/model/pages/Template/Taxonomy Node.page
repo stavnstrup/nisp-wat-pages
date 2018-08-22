@@ -1,0 +1,49 @@
+<includeonly>{{#set:UUID={{{uuid|null}}}}}{{#set:Is child of={{{parent|}}}}}{{#set:Order={{{order|0}}}}}{{Taxonomy Nodes Navigator|instance={{PAGENAME}}}}__NOCACHE__ __NOTOC__ __NOEDITSECTION__
+== Context ==
+{{Context}}
+<div style="display: none;">
+{{#set:Title={{{title|}}}}}
+{{#set:Description={{{description|}}}}}
+</div>
+==Title==
+{{#if:{{{title|}}}|{{{title|}}}|''no entries''}}
+==Description==
+{{#if:{{{description|}}}|{{{description|}}}|''no entries''}}
+
+<div style="clear:both"></div>
+==Related Information==
+
+{{#ifexpr: 0 > 0 OR {{#ask:[[Category:Basic Standards Service Profiles]][[Is related to::{{PAGENAME}}]]|format=count}} > 0 OR {{#ask:[[Category:Service Profiles]][[Is related to::{{PAGENAME}}]]|format=count}} > 0|
+=Standards Management=
+<div class="grid">
+{{#ifeq:{{#ask:[[Category:Basic Standards Service Profiles]][[Is related to::{{PAGENAME}}]]|format=count}}|0||
+<div class="panel" style="grid-column:1; -ms-grid-column:1; grid-row:1; -ms-grid-row:1; margin: 5px;">
+  <div>Basic Standards Service Profile - Taxonomy</div>
+  <div>{{#ask:[[Category:Basic Standards Service Profiles]][[Is related to::{{PAGENAME}}]]|format=ul}}</div>
+</div>
+}}{{#ifeq:{{#ask:[[Category:Service Profiles]][[Is related to::{{PAGENAME}}]]|format=count}}|0||
+<div class="panel" style="grid-column:1; -ms-grid-column:1; grid-row:2; -ms-grid-row:2; margin: 5px;">
+  <div>Service Profile - Taxonomy</div>
+  <div>{{#ask:[[Category:Service Profiles]][[Is related to::{{PAGENAME}}]]|format=ul}}</div>
+</div>
+}}
+</div>
+}}
+
+<headertabs />
+[[Category:Taxonomy Nodes]]</includeonly><noinclude>
+; Description
+The template sets semantic values and displays data for the '''Taxonomy Node''' concept.
+; Format
+The template should be called in the following format:
+<pre>
+{{Taxonomy Node
+|uuid=
+|parent=
+|order=
+|title=
+|description=
+}}</pre>
+; See also
+* [[Template:Taxonomy Node]]
+</noinclude>

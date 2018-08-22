@@ -1,0 +1,9 @@
+{{Taxonomy Node
+|uuid=1ee510f8-aae8-41dc-a052-29262988e9df
+|order=230
+|parent=SOA_Platform_CIS_Security_Services
+|title=Information Labeling Services
+|description=The Information Labeling Services provide functionality required to apply metadata to an information object for the purpose of creating a label or mapping labels of "foreign" security policy. 
+
+Labeling facilitates the determination of the protection requirement for an information object, the release of an information object, or the determination of the mission value of an information object, as captured by release and protection policies defined for each metadata entry.
+}}

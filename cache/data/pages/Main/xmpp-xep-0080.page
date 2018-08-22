@@ -1,0 +1,19 @@
+{{Standard
+|uuid=a4701174-35b5-4d06-bae4-d1d2531cfabe
+|publisher=XMPP
+|code=XEP-0080
+|title=XEP-0080: User Location
+|dateissued=2014-05-05
+|substandards=
+|description=
+This document defines a format for capturing data about an entity's geographical location (geoloc). The format defined herein can describe most earthbound geographical locations, especially locations that may change fairly frequently. Potential uses for this approach include: * Publishing location information to a set of subscribers. * Querying another entity for its location. * Sending location information to another entity. * Attaching location information to presence. Geographical location is captured in terms of Global Positioning System (GPS) coordinates as well as civil location (city, street, building, etc.).
+|responsible=NCIA
+|website=http://xmpp.org/extensions/xep-0080.html
+|events={{Change Event
+|order=1
+|date=2017-04-20
+|flag=added
+|rfcp=9-15
+|version=10.0
+}}
+}}

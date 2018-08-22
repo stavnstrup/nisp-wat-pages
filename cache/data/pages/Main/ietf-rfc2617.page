@@ -1,0 +1,19 @@
+{{Standard
+|uuid=2b009a2b-d746-44e3-bfa4-348f7ec3aa8c
+|publisher=IETF
+|code=RFC 2617
+|title=HTTP Authentication: Basic and Digest Access Authentication
+|dateissued=1999-06
+|substandards=
+|description=
+"HTTP/1.0", includes the specification for a Basic Access Authentication scheme. This scheme is not considered to be a secure method of user authentication (unless used in conjunction with some external secure system such as SSL [5]), as the user name and password are passed over the network as cleartext.
+|responsible=NCIA
+|website=http://www.ietf.org/rfc/rfc2617.txt
+|events={{Change Event
+|order=1
+|date=2017-04-23
+|flag=added
+|rfcp=9-15
+|version=10.0
+}}
+}}

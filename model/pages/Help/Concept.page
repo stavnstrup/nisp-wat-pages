@@ -1,0 +1,127 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+A '''Concept''' defines a data entity type to be managed in the Wiki.
+
+Each Concept is build from a set of '''Properties''' and '''Subobjects'''. See [[Help:Property|Property]] and [[Help:Subobject|Subobject]] for more details.
+
+
+==Definition==
+<pre>
+<concept
+    name="{CONCEPT NAME}" acronym="{CONCEPT ACRONYM}" plural="{CONCEPT PLURAL NAME}"
+    type="{CONCEPT TYPE}" image="{CONCEPT IMAGE}" color="{CONCEPT COLOR}">
+
+  <description>{CONCEPT DESCRIPTION}</description>
+
+  <structure>
+    <property name="{PROPERTY NAME}" .../>
+    <property name="{PROPERTY NAME}" .../>
+    <subobject name="{SUBOBJECT NAME}" .../>
+    <subobject name="{SUBOBJECT NAME}" .../>
+    ....
+  </structure>
+</concept>
+</pre>
+
+{| class="helptable"
+|-
+! {CONCEPT NAME}
+| A short name of the Concept.
+|-
+! {CONCEPT ACRONYM}
+| A short acronym of the Concept.
+|-
+! {CONCEPT PLURAL NAME}
+| A plural name of the Concept.
+|-
+! {CONCEPT TYPE}
+| A type the Concept. The attribute can have one of the following values:
+* '''Dynamic''' for entities which are to be manually edited by the users through generated forms.
+* '''Static''' for entities which are read-only (imported by the scripts).
+* '''Internal''' for subobjects. See [[Help:Subobject|Subobject]] for more details.
+* '''Virtual''' for abstract entities which are a base for other concrete Concepts. See [[Help:Inheritance|Inheritance]] for more details.
+|-
+! {CONCEPT IMAGE}
+| A file with the Concept icon.
+|-
+! {CONCEPT COLOR}
+| A color to be used on all pages associated with the Concept.
+|-
+! {CONCEPT DESCRIPTION}
+| A long description of the Concept.
+|-
+! structure
+| A definition of the Concept structure: a list of Concept Properties and various associated widgets to be used for the Concept.
+|-
+! {PROPERTY NAME}
+| A short name of the Property. See [[Help:Property|Property]] for more details.
+|-
+! {SUBOBJECT NAME}
+| A short name of the Subobject. See [[Help:Subobject|Subobject]] for more details.
+|}
+
+
+==Extensions==
+The following extensions extend basic Concept database model and capabilities (add/view/edit/search):
+* [[Help:Inheritance|Inheritance]]
+* [[Help:Mapping|Mapping]]
+* [[Help:Page Names|Page Names]]
+* [[Help:Hierarchical Data|Hierarchical Data]]
+* [[Help:Sorting|Sorting]]
+* [[Help:Concept Security|Security]]
+
+
+==Semantic database==
+The Concept meta-data are NOT being defined/represented in the semantic database.
+
+Only data created using generated Concept forms are stored in the semantic database:
+* Each data page represents one Concept Data Entity.
+* Each Concept Data Entity is assigned to the Concept specific Category {CONCEPT PLURAL NAME}
+* Each Concept Data Entity gets automatically assigned UUID (global unique identifier)
+* Each Concept Data Entity stores a set of Concept properties
+
+
+==Example==
+<pre>
+<concept name="Event" plural="Events" type="Dynamic" image="Event.png" color="f9f9f9">
+  <structure>
+    <property name="Title" mandatory="true"/>
+    <property name="Description" mandatory="true"/>
+    <property name="Start date"/>
+    <property name="End date"/>
+  </structure>
+</concept>
+</pre>
+
+
+==User Interface==
+Based on the Concept definition the following pages are generated:
+* '''Concept Meta-Model Page''' (Project:Concept - {CONCEPT NAME}), which displays Concept meta-model information, including
+** Concept diagram
+** list of all properties
+<gallery>
+File:Concept Details Page.png
+File:Concept Model Page.png
+</gallery>
+
+* '''Concept List Page''' (Category:{CONCEPT NAME}), which displays the list of records of particular Concept
+<gallery>
+File:Concept Category Page.png
+</gallery>
+
+* '''Concept View Page''' (Template:{CONCEPT NAME}), which displays the details of one data record of particular Concept
+<gallery>
+File:Concept View Page.png
+</gallery>
+
+* '''Concept Edit Page''' (Form:{CONCEPT NAME}), which displays the form for one data record of particular Concept. This page is only generated for Concept with type="Dynamic"
+<gallery>
+File:Concept New Page.png
+File:Concept Edit Page.png
+</gallery>
+
+* '''Concept Search Page''' (Form:{CONCEPT NAME}) Search Form, which allows to search data record of particular Concept based on any Concept property.
+<gallery>
+File:Concept Search Page.png
+</gallery>

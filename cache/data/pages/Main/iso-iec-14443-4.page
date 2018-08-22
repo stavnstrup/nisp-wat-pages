@@ -1,0 +1,35 @@
+{{Standard
+|uuid=14774918-dab5-49af-8493-b238fb768246
+|publisher=ISO-IEC
+|code=14443-4
+|title=Contactless Smartcards Part 4: Transmission protocol
+|dateissued=2008
+|substandards=
+|description=
+ISO/IEC 14443-4:2008 specifies a half-duplex block transmission protocol featuring the special needs of a contactless environment and defines the activation and deactivation sequence of the protocol.ISO/IEC 14443-4:2008 is intended to be used in conjunction with other parts of ISO/IEC 14443 and is applicable to proximity cards or objects of Type A and Type B.
+
+
+|responsible=C3B-NPMA
+|website=http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=50648
+|events={{Change Event
+|order=1
+|date=2010-11-01
+|flag=added
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2013-08-12
+|flag=changed
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-13
+|version=10.0
+}}
+}}

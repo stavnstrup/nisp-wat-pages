@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=6b8ade43-9cd5-4845-a616-2ae553c64e53
+|order=218
+|parent=Geospatial_Services
+|title=Geospatial Web Feature Services
+|description=The Geospatial Web Feature Services provide interfaces for describing data manipulation operations (e.g. Create, Delete, Update, Get or Query) on geospatial features which are primarily based on vector data.
+}}

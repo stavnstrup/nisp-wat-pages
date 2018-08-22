@@ -1,0 +1,28 @@
+{{Standard
+|uuid=0c307593-7cc3-498a-bedd-e8ee3fb5a4eb
+|publisher=IETF
+|code=RFC 3111
+|title=Service Location Protocol Modifications for IPv6
+|dateissued=2001
+|substandards=
+|description=
+This document defines the Service Location Protocol Version 2's (SLPv2) use over IPv6 networks. Since this protocol relies on UDP and TCP, the changes to support its use over IPv6 are minor.This document does not describe how to use SLPv1 over IPv6 networks. There is at the time of this publication no implementation or deployment of SLPv1 over IPv6. It is RECOMMENDED that SLPv2 be used in general, and specifically on networks which support IPv6.
+
+
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc3111.txt
+|events={{Change Event
+|order=1
+|date=2005-11-20
+|flag=added
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

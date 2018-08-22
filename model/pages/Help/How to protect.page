@@ -1,0 +1,7 @@
+<noinclude>{{User Manual Navigator|How to contribute}}</noinclude>
+It is possible to protect pages from unintended or unauthorized [[Help:How to edit|'''editing''']] and [[Help:How to move|'''moving''']]. This is useful, for instance, for concepts that are generated solely from trusted sources like imported datasets. Any change by a user might contradict the source material and all edits will be overwritten when a new version of the dataset is imported. There are also a couple of articles in the wiki that need protection.
+
+Only users with administrator privileges are authorized to view and change the protection level for a page. For them alone, "Protect" is one of the options in the top menu. Depending on the selected skin for the wiki, this option may be hidden under a "More" option in the menu. Selecting the "protect" option opens up the action page to set the parameters to edit and move this particular page: which users in the wiki are affected and for how long. Additionally, when a page is protected, the menu option changes to "Change protection".
+
+Regular users can submit a request in the <span class="plainlinks">[https://tide.act.nato.int/issues/describecomponents.cgi?product=Enterprise%20Mapping issue tracker]</span>.
+:> <span class="plainlinks">[https:{{SERVER}}/issues/enter_bug.cgi?component=Content&product={{urlencode:{{#show:Project:Governance|?Version#}}|PATH}}&short_desc=Protect Click here]</span> to request the protection of one or more pages.

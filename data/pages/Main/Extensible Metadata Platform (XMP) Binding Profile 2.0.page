@@ -1,0 +1,23 @@
+{{Capability Profile
+|uuid=af62e1ad-f39a-438b-b303-1a7a8a8088fc
+|title=Extensible Metadata Platform (XMP) Binding Profile 2.0
+|publisher=NCIA
+|code=TN-1491
+|spectitle=Extensible Metadata Platform (XMP) Binding Profile
+|dateissued=2017-12-15
+|version=2.0
+|guideline=
+This Binding Profile for XMP describes how metadata should be incorporated within an XMP packet as a structured value.
+
+
+|profiles=
+|serviceprofiles=Extensible Metadata Platform (XMP) Binding Profile;
+
+|events={{Change Event
+|order=1
+|date=2017-12-19
+|flag=added
+|rfcp=10-28
+|version=11.0
+}}
+}}

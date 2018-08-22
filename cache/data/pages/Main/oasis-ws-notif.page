@@ -1,0 +1,26 @@
+{{Standard
+|uuid=a28cff2e-4d3c-4bf0-8125-ed81598ddc1f
+|publisher=OASIS
+|code=ws-notif
+|title=WS-BaseNotification
+|dateissued=2006-10-01
+|substandards=
+|description=
+WS-Notification is a family of related specifications that define a standard Web services approach to notification using a topic-based publish/subscribe pattern. It includes: standard message exchanges to be implemented by service providers that wish to participate in Notifications, standard message exchanges for a notification broker service provider (allowing publication of messages from entities that are not themselves service providers), operational requirements expected of service providers and requestors that participate in notifications, and an XML model that describes topics. The WS-Notification family of documents includes three normative specifications: WS-BaseNotification, [WS-BrokeredNotification], and [WS-Topics].
+|responsible=NCIA-CES
+|website=http://docs.oasis-open.org/wsn/wsn-ws_base_notification-1.3-spec-os.pdf
+|events={{Change Event
+|order=1
+|date=2010-09-22
+|flag=added
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

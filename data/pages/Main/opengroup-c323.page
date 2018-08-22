@@ -1,0 +1,47 @@
+{{Standard
+|uuid=86449205-4e26-4d34-a7dc-a5204a0c752a
+|publisher=OPENGROUP
+|code=C323
+|title=CDE Services and Applications
+|dateissued=1995
+|substandards=
+|description=
+This document is the companion of XCDE Definitions and Infrastructure (C324). It defines the services and applications in the X/Open Common Desktop Environment (XCDE).
+|responsible=NCIA-CES
+|website=https://www2.opengroup.org/ogsys/catalog/C323
+|events={{Change Event
+|order=1
+|date=1998-11-06
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=3
+|date=2010-11-04
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=4
+|date=2013-09-01
+|flag=changed
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=5
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

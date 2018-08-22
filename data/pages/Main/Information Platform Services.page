@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=5600cac9-235c-4489-b2bf-f1e7b52cc808
+|order=250
+|parent=SOA_Platform_Services
+|title=Information Platform Services
+|description=The Information Platform Services provide capabilities required to manage the enterprise information sphere. They include generic services that deal with information transformation, provision and maintenance including quality assurance.
+}}

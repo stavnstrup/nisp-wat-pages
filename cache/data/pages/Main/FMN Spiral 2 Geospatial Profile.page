@@ -1,0 +1,30 @@
+{{Profile
+|uuid=2133c551-9443-49f7-9796-0affbcb45de3
+|title=FMN Spiral 2 Geospatial Profile
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|guideline=
+Geospatial Services deliver network-based access to quality raster, vector and terrain data, available in varying degrees of format and complexity. Geospatial Services form a distinct class of information services through their unique requirements for collecting, converting, storing, retrieving, processing, analysing, creating, and displaying geographic data.
+|profiles=
+|serviceprofiles=Web Feature Service Profile;
+Geospatial Data Exchange Service Profile 2.0;
+Web Map Service Profile;
+
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-12-06
+|flag=changed
+|rfcp=11-29
+|version=11.0
+}}
+}}

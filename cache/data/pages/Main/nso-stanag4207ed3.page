@@ -1,0 +1,26 @@
+{{Standard
+|uuid=e0140090-896f-465e-a9c0-cfb59184e479
+|publisher=NSO
+|code=STANAG 4207 Ed 3
+|title=NATO Multi-channel Digital Gateway-Multiplex Group Framing Standards
+|dateissued=2000-05-19
+|substandards=
+|description=
+The aim of this STANAG is to define the multiplex group framing format, framing signals, and framing (synchronisation) procedures necessary for interoperation between two NATO tactical digital communication systems via a gateway.
+|responsible=NS
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2012-09-01
+|flag=added
+|rfcp=6-21
+|version=7.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+}}

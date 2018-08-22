@@ -1,0 +1,11 @@
+{{Taxonomy Node
+|uuid=574cfb9f-4c80-4a4a-b623-6c72146cb9c0
+|order=80
+|parent=Back-End_Capabilities
+|title=Technical Services
+|description=The "Technical Services" taxonomy layer represents the collection of services with requirements for software and hardware functionalities that can be reused for different purposes, together with the policies that should control their usage. These requirements are derived from the operational needs expressed by the collection of User-Facing Capabilities. Inherently, the Technical Services must support all Mission Types and Operational Capabilities.
+
+Technical Services are implemented in a federated model that allows NATO and the Nations to jointly provide a robust and secure platform on top of which powerful User Applications can be run. Thus the Technical Services provide the foundation for the NATO Network Enabled Capability (NNEC). They must implement agreed and open standards, must exhibit plug-and-play properties, and must be transparent to operational users.
+
+The complete collection of Technical Services is sometimes referred to as the "Technical Services Framework" (TSF) or "NNEC Services Framework" (NSF).
+}}

@@ -1,0 +1,28 @@
+{{Service Profile
+|uuid=d4a11175-8804-4939-9f1e-59e9233db46b
+|title=Data Sets - Archive Service Profile
+|publisher=NATO
+|code=AC/324-D(2014)0008
+|spectitle=Directive on the Preservation of NATO Digital Information of Permanent Value
+|dateissued=2014-07-03
+|version=1.0
+|description=
+|taxonomynodes=Data sets (e.g. scientific data) and any structured information not fitting other content types;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=ietf-rfc4180;
+w3c-rec-xml11-20060816;
+w3c-rec-xmlschema11-1-20120405;
+w3c-rec-xmlschema11-2-20120405;
+
+}}
+|guideline=
+|events={{Change Event
+|order=1
+|date=2014-11-24
+|flag=added
+|rfcp=8-2
+|version=9.0
+}}
+}}

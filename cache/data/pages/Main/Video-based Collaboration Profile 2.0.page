@@ -1,0 +1,27 @@
+{{Profile
+|uuid=93931343-ee95-4a3c-82ac-bd52b2a582e1
+|title=Video-based Collaboration Profile 2.0
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|guideline=
+|profiles=
+|serviceprofiles=Video-based Collaboration Service Profile 2.0;
+
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-12-06
+|flag=changed
+|rfcp=11-29
+|version=11.0
+}}
+}}

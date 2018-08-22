@@ -1,0 +1,33 @@
+{{Standard
+|uuid=4861df85-0162-4290-a500-c76202573fd9
+|publisher=XMPP
+|code=XEP-0033
+|title=XEP-0033: Extended Stanza Addressing
+|dateissued=2004-09-15
+|substandards=
+|description=
+This specification defines an XMPP protocol extension that enables entities to include RFC822-style address headers within XMPP stanzas in order to specify multiple recipients or sub-addresses.
+|responsible=NCIA
+|website=http://xmpp.org/extensions/xep-0033.html
+|events={{Change Event
+|order=1
+|date=2013-10-22
+|flag=added
+|rfcp=7-27
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-26
+|flag=deleted
+|rfcp=9-21
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-04-19
+|flag=changed
+|rfcp=9-15
+|version=10.0
+}}
+}}

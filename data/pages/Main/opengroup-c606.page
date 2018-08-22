@@ -1,0 +1,54 @@
+{{Standard
+|uuid=30d9a53a-1c49-4766-a733-da31bc5ed111
+|publisher=OPENGROUP
+|code=C606
+|title=UNIX 98: System Interfaces and Headers, Issue 5
+|dateissued=1997-02
+|substandards=
+|description=
+This specification, in two volumes, forms part of the Single UNIX Specification, Version 2 (T912) required for the UNIX 98 Brand. Definitions in common with Commands and Utilities, Issue 5 (C604) can be found in System Interface Definitions (C605). This document includes the following changes to the previous specification (C435): interfaces previously defined in the ISO POSIX-2 standard, C Language Binding, Shared Memory, Enhanced Internationalization, and transfer of the UNIX Extension Feature Groups into the BASE; the addition of Threads and a Realtime Threads Feature Group to align with POSIX; Multibyte Support Extension (MSE) to align with ISO/IEC; Large File Summit (LFS) Extensions for support of 64-bit or larger files and file-systems; X/Open-specific Threads extensions and dynamic linking.
+|responsible=NCIA-CES
+|website=https://www2.opengroup.org/ogsys/jsp/publications/PublicationDetails.jsp?publicationid=11242
+|events={{Change Event
+|order=1
+|date=1997-04-14
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=3
+|date=2005-09-06
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2010-11-04
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=5
+|date=2012-11-25
+|flag=changed
+|rfcp=
+|version=7.0
+}}
+{{Change Event
+|order=6
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

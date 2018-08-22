@@ -1,0 +1,47 @@
+{{Standard
+|uuid=4b94d417-3c54-48be-b433-be69db875a10
+|publisher=IETF
+|code=RFC 5751
+|title=Secure/Multipurpose Internet Mail Extensions (S/MIME) Version 3.2 Message Specification
+|dateissued=2010
+|substandards=
+|description=
+This document defines Secure/Multipurpose Internet Mail Extensions (S/MIME) version 3.2. S/MIME provides a consistent way to send and receive secure MIME data. Digital signatures provide authentication, message integrity, and non-repudiation with proof of origin. Encryption provides data confidentiality. Compression can be used to reduce data size.
+|responsible=NCIA
+|website=http://www.ietf.org/rfc/rfc5751.txt
+|events={{Change Event
+|order=1
+|date=2001-11-21
+|flag=added
+|rfcp=
+|version=0.3
+}}
+{{Change Event
+|order=2
+|date=2005-09-08
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2010-10-30
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=4
+|date=2017-01-26
+|flag=deleted
+|rfcp=9-21
+|version=10.0
+}}
+{{Change Event
+|order=5
+|date=2017-04-18
+|flag=changed
+|rfcp=9-15
+|version=10.0
+}}
+}}

@@ -1,0 +1,54 @@
+{{Standard
+|uuid=cee9f08c-7c1e-4903-bf93-439edd446590
+|publisher=ISO-IEC
+|code=7942-1
+|title=Graphical Kernel System (GKS) -- Part 1: Functional description
+|dateissued=1994
+|substandards=
+|description=
+Cancels and replaces the first edition (1985). Specifies a set of functions for computer graphics programming, the graphical kernel system. Provides functions for two dimensional graphical output, the storage and dynamic modification of pictures, and operator input. Applicabe to a wide range of applications that produce two dimensional pictures on vector or raster graphical devices in monochrome or colour.
+|responsible=NCIA-CES
+|website=http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=14915
+|events={{Change Event
+|order=1
+|date=1998-11-06
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-03-15
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2005-09-07
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2010-11-01
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=5
+|date=2013-09-01
+|flag=changed
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=6
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

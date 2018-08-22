@@ -1,0 +1,29 @@
+{{Service Profile
+|uuid=cbb9478f-564d-4af3-bd24-f6fa25a3ae44
+|title=Time Synchronization Service Profile 1.0
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 1 Profile
+|dateissued=2015-09-30
+|version=1.0
+|description=
+The Time Synchronization Profile provides standards and guidance to support the synchronization of clocks across a network or a federation of networks and the safeguard of the accurate use of time stamps.
+|taxonomynodes=Distributed Time Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+Mission Network Elements must provide a time server either directly connected to a stratum-0 device or over a network path to a stratum-1 time server of another Mission Network Element. All other entities in the federation must use the time service of their host.
+|standards=ietf-rfc5905;
+itu-r-tf.460-6;
+
+}}
+|guideline=
+The Time Synchronization Profile provides standards and guidance to support the synchronization of clocks across a network or a federation of networks and the safeguard of the accurate use of time stamps.
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+}}

@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=58c4ef81-9f84-4bf7-992c-a7347c2b839c
+|order=87
+|parent=COI-Specific_CIS_Security_Services
+|title=Electronic Key Management Services
+|description=The Electronic Key Management Services (EKMS) provide the means to centrally manage electronic cryptography keys, including related accounting, distribution and technologies.  The services also support entities that use key material by producing and consuming the keys in common key formats.
+}}

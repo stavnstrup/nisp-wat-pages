@@ -1,0 +1,11 @@
+{{Taxonomy Node
+|uuid=1eb21714-12b8-41f9-b25e-c594d750dd1e
+|order=257
+|parent=SOA_Platform_Services
+|title=Composition Services
+|description=The Composition Services will access and fuse data and behavior on demand, and return a single result to the consumer. The Composition Services can, from queues and/or in batch, provide a set of data transforms and routings to transactions that can serve machine-to-machine business processes.
+
+A service composition is a coordinated aggregate of services. The consistent application of service-orientation design principles leads to the creation of services with functional contexts that are agnostic to any one business process. These agnostic services are therefore capable of participating in multiple service compositions. Services are expected to be capable of participating as effective composition members, regardless of whether they need to be immediately enlisted in a composition.
+
+There are two aspects of composition: composition synthesis is concerned with synthesizing a specification of how to coordinate the component services to fulfil the client request; and orchestration, is concerned with how to actually achieve the coordination among services, by executing the specification produced by the composition synthesis and by suitably supervising and monitoring that execution.
+}}

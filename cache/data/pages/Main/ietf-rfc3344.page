@@ -1,0 +1,40 @@
+{{Standard
+|uuid=ae6d78f1-f01c-4bc5-a62f-51b8ba31d747
+|publisher=IETF
+|code=RFC 3344
+|title=IP Mobility Support for IPv4
+|dateissued=2002
+|substandards=
+|description=
+This document specifies protocol enhancements that allow transparent routing of IP datagrams to mobile nodes in the Internet. Each mobile node is always identified by its home address, regardless of its current point of attachment to the Internet. While situated away from its home, a mobile node is also associated with a care-of address, which provides information about its current point of attachment to the Internet. The protocol provides for registering the care-of address with a home agent. The home agent sends datagrams destined for the mobile node through a tunnel to the care- of address. After arriving at the end of the tunnel, each datagram is then delivered to the mobile node.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc3344.txt
+|events={{Change Event
+|order=1
+|date=2002-01-01
+|flag=added
+|rfcp=
+|version=0.4
+}}
+{{Change Event
+|order=2
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=3
+|date=2005-09-16
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,33 @@
+{{Standard
+|uuid=b7455b78-c2ce-4284-b357-28793dedc938
+|publisher=IETF
+|code=RFC 1584
+|title=Multicast Extensions to OSPF
+|dateissued=1994
+|substandards=
+|description=
+This memo documents enhancements to the OSPF protocol enabling the routing of IP multicast datagrams. In this proposal, an IP multicast packet is routed based both on the packet's source and its multicast destination (commonly referred to as source/destination routing). As it is routed, the multicast packet follows a shortest path to each multicast destination. During packet forwarding, any commonality of paths is exploited; when multiple hosts belong to a single multicast group, a multicast packet will be replicated only when the paths to the separate hosts diverge. The multicast extensions are built on top of OSPF Version 2. The extensions have been implemented so that a multicast routing capability can be introduced piecemeal into an OSPF Version 2 routing domain. Some of the OSPF Version 2 routers may run the multicast extensions, while others may continue to be restricted to the forwarding of regular IP traffic (unicasts).
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc1584.txt
+|events={{Change Event
+|order=1
+|date=1998-11-10
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2005-09-16
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,20 @@
+__NOEDITSECTION__{{Project:Navigator}}{{#set:NISP Index={{FULLPAGENAME}}}}
+== Color Usage ==
+{| border=0 cellpadding=6
+|- style="vertical-align:top;"
+|-
+| style="background:#becde6;vertical-align:top;" | <tt>@@@ {{Get Color Code|becde6}}</tt><br>&nbsp;
+| width=30px | &nbsp;
+| style="vertical-align:top;" | 
+*[[Project:Concept - Basic Standards Service Profiles|Basic Standards Service Profiles]]
+*[[Project:Concept - Capability Profiles|Capability Profiles]]
+*[[Project:Concept - Organizations|Organizations]]
+*[[Project:Concept - Profiles|Profiles]]
+*[[Project:Concept - Service Profiles|Service Profiles]]
+*[[Project:Concept - Standards|Standards]]
+|-
+| style="background:#f0cdb4;vertical-align:top;" | <tt>@@@ {{Get Color Code|f0cdb4}}</tt><br>&nbsp;
+| width=30px | &nbsp;
+| style="vertical-align:top;" | 
+*[[Project:Concept - Taxonomy Nodes|Taxonomy Nodes]]
+|}

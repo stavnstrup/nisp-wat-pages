@@ -1,0 +1,26 @@
+{{Standard
+|uuid=da943298-caa8-4812-8b14-681caaf5e2a5
+|publisher=IETF
+|code=RFC 3921
+|title=Extensible Messaging and Presence Protocol (XMPP): Instant Messaging and Presence
+|dateissued=2004-10
+|substandards=
+|description=
+This memo describes extensions to and applications of the core features of the Extensible Messaging and Presence Protocol (XMPP) that provide the basic instant messaging (IM) and presence functionality defined in RFC 2779.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc3921.txt
+|events={{Change Event
+|order=1
+|date=2016-04-13
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

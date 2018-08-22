@@ -1,0 +1,26 @@
+{{Standard
+|uuid=3d5fb568-0961-48a9-b70c-d5480d459ddb
+|publisher=IETF
+|code=RFC 4120
+|title=The Kerberos Network Authentication Service (V5)
+|dateissued=2005-01-07
+|substandards=
+|description=
+This document provides an overview and specification of Version 5 of the Kerberos protocol, and it obsoletes RFC 1510 to clarify aspects of the protocol and its intended use that require more detailed or clearer explanation than was provided in RFC 1510. This document is intended to provide a detailed description of the protocol, suitable for implementation, together with descriptions of the appropriate use of protocol messages and fields within those messages.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc4120.txt
+|events={{Change Event
+|order=1
+|date=2015-11-02
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

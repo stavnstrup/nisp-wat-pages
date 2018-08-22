@@ -1,0 +1,30 @@
+{{Service Profile
+|uuid=d694dd3c-0a1e-4893-920e-60e78e72cda3
+|title=Rest Messaging
+|publisher=NCIA
+|code=AI_TECH_2016.06.02.07
+|spectitle=Service Interface Profile for Rest Messaging
+|dateissued=2015-02-04
+|version=1.0
+|description=
+|taxonomynodes=Undefined Taxonomy Node;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=ietf-rfc2616;
+ietf-rfc3986;
+ietf-rfc2046;
+ietf-rfc3023;
+ietf-rfc4627;
+w3c-rec-wsdl20-20070626;
+
+}}
+|guideline=
+|events={{Change Event
+|order=1
+|date=2017-04-21
+|flag=added
+|rfcp=9-15
+|version=10.0
+}}
+}}

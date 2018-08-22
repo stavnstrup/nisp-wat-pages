@@ -1,0 +1,8 @@
+{{Taxonomy Node
+|uuid=97092d44-f057-4d43-9157-f3f3aa45e902
+|order=248
+|parent=Web_Platform_Services
+|title=Web Caching Services
+|description=The Web Caching Services accelerate service requests by retrieving content saved from a previous request, allowing organizations to significantly reduce their upstream bandwidth usage and costs, while simultaneously increasing performance. This means that the requested resource does not need to be downloaded from a remote server, possibly over a connection with limited bandwidth, but can be retrieved from a store located on the local LAN. Web Caching Services do this by keeping local copies of requested resources and serving those to the client rather than fetching them from the original server. If the resource is not already present in the cache, then it is retrieved from the requested URL, and a copy is written to the local store.
+Web Caching Services are often used by Web Proxy Services, and are indeed often collocated with them. However, they are separate, and an entire caching infrastructure can be built independent of proxy services.
+}}

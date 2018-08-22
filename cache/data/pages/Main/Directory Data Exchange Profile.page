@@ -1,0 +1,37 @@
+{{Service Profile
+|uuid=d4512af9-9985-4940-8a45-30641dc7118c
+|title=Directory Data Exchange Profile
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 1 Profile
+|dateissued=2015-09-30
+|version=1.0
+|description=
+The Directory Data Exchange Profile provides standards and guidance in support of a mechanism used to connect to, search, and modify Internet directories on the basis of the Lightweight Directory Access Protocol (LDAP).
+|taxonomynodes=Directory Storage Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=ietf-rfc4510;
+ietf-rfc4511;
+ietf-rfc4512;
+ietf-rfc4513;
+ietf-rfc4514;
+ietf-rfc4515;
+ietf-rfc4516;
+ietf-rfc4517;
+ietf-rfc4518;
+ietf-rfc4519;
+ietf-rfc2849;
+
+}}
+|guideline=
+The Directory Data Exchange Profile provides standards and guidance in support of a mechanism used to connect to, search, and modify Internet directories on the basis of the Lightweight Directory Access Protocol (LDAP).
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+}}

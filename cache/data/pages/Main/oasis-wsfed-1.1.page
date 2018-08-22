@@ -1,0 +1,19 @@
+{{Standard
+|uuid=9ba5509f-10a4-4e49-887b-7c5a61a9db1d
+|publisher=OASIS
+|code=wsfed-1.1
+|title=Web Services Federation Language (WS-Federation) Version 1.1
+|dateissued=2006-12
+|substandards=
+|description=
+This specification defines mechanisms to allow different security realms to federate, such that authorized access to resources managed in one realm can be provided to security principals whose identities and attributes are managed in other realms. This includes mechanisms for brokering of identity, attribute, authentication and authorization assertions between realms, and privacy of federated claims.
+|responsible=UNDEFINED
+|website=specs.xmlsoap.org/ws/2006/12/federation/ws-federation.pdf
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+}}

@@ -1,0 +1,33 @@
+{{Standard
+|uuid=3e3d56bb-3310-47af-82d3-5bd02475ec06
+|publisher=USB.ORG
+|code=wusb
+|title=Wireless USB Specification
+|dateissued=2005-05-12
+|substandards=
+|description=
+Wireless USB is a short-range, high-bandwidth wireless extension to USB that combines the speed and ease-of-use of USB 2.0 with the convenience of wireless technology. Wireless USB is based on the WiMedia Alliance's Ultra-WideBand (UWB) common radio platform, which is capable of sending 480 Mbit/s at distances up to 3 meters and 110 Mbit/s at up to 10 meters. It operates in the 3.1 to 10.6 GHz frequency range and spreads communication over an ultra-wideband of frequencies.
+|responsible=NCIA-CES
+|website=http://www.usb.org/developers/wusb/wusb1_1_20100910.zip
+|events={{Change Event
+|order=1
+|date=2007-02-23
+|flag=added
+|rfcp=
+|version=1.0
+}}
+{{Change Event
+|order=2
+|date=2009-12-09
+|flag=changed
+|rfcp=
+|version=4.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

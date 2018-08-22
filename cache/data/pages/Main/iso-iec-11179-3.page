@@ -1,0 +1,19 @@
+{{Standard
+|uuid=503afe87-2c94-460d-a3cb-6d669975ce0f
+|publisher=ISO-IEC
+|code=11179-3
+|title=Information technology -- Metadata registries (MDR) -- Part 3: Registry metamodel and basic attributes
+|dateissued=2013-02-01
+|substandards=
+|description=
+ISO/IEC 11179-3:2013 specifies the structure of a metadata registry in the form of a conceptual data model. While the model diagrams are presented in UML notation, ISO/IEC 11179-3:2013 does not assume nor endorse any specific system environment, database management system, database design paradigm, system development methodology, data definition language, command language, system interface, user interface, computing platform, or any technology required for implementation. ISO/IEC 11179-3:2013 does not directly apply to the actual use of data in communications and information processing systems. ISO/IEC 11179-3:2013 specifies basic attributes which are required to describe metadata items, and which might be used in situations where a complete metadata registry is not appropriate (e.g. in the specification of other International Standards).
+|responsible=FMN-CPWG
+|website=https://www.iso.org/standard/50340.html
+|events={{Change Event
+|order=1
+|date=2017-05-01
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+}}

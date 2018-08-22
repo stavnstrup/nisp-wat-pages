@@ -1,0 +1,49 @@
+{{Service Profile
+|uuid=b3f9b48e-1596-42ac-a8c0-e6f1c8e23770
+|title=Friendly Force Tracking Profile
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|description=
+The Friendly Force Tracking Profile provides standards and guidance to support the exchange of Friendly Force Tracking information within a coalition network or a federation of networks.
+|taxonomynodes=Track Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=nso-stanag5527ed1;
+nso-stanag7149ed6;
+
+}}
+{{Obligation Group
+|obligationtype=conditional
+|description=
+VMF may only be used when messages are converted to NFFI or to FFI before the publication on the FFT network, using the exchange mechanism described in the MIL-STD-6017B.
+|standards=us-dod-mil-std6017c;
+
+}}
+{{Obligation Group
+|obligationtype=conditional
+|description=
+NFFI may only be used if at least one service provider provides a mediation service to translate between FFI-MTF and NFFI (aka "FFT Proxy") or all mission network participants agree during the network planning to only use NFFI.
+|standards=c3b-ac322-d2006-0066;
+
+}}
+|guideline=
+The Friendly Force Tracking Profile provides standards and guidance to support the exchange of Friendly Force Tracking information within a coalition network or a federation of networks.
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-12-06
+|flag=changed
+|rfcp=11-29
+|version=11.0
+}}
+}}

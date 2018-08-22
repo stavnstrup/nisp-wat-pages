@@ -1,0 +1,13 @@
+<noinclude></noinclude><includeonly>__NOCACHE__<nowiki/>{{#arraydefine:propertylist|{{{userparam|}}}|,}}
+|-
+| {{Nowrap|[[{{{1|}}}]]}} <nowiki/> {{#arraysearch:propertylist|title|0|<nowiki/>
+{{!}}{{#show:{{{1|}}}|?Title}}|}}{{#arraysearch:propertylist|publisher|0|<nowiki/>
+{{!}}{{#ask:[[Category:Organizations]][[-Is published by::{{{1|}}}]]|format=ul}}|}}{{#arraysearch:propertylist|code|0|<nowiki/>
+{{!}}{{#show:{{{1|}}}|?Reference code}}|}}{{#arraysearch:propertylist|spectitle|0|<nowiki/>
+{{!}}{{#show:{{{1|}}}|?Specification Title}}|}}{{#arraysearch:propertylist|dateissued|0|<nowiki/>
+{{!}}{{#show:{{{1|}}}|?Date issued}}|}}{{#arraysearch:propertylist|version|0|<nowiki/>
+{{!}}{{#show:{{{1|}}}|?Version}}|}}{{#arraysearch:propertylist|description|0|<nowiki/>
+{{!}}{{#show:{{{1|}}}|?Description}}|}}{{#arraysearch:propertylist|taxonomynodes|0|<nowiki/>
+{{!}}{{#ask:[[Category:Taxonomy Nodes]][[-Is related to::{{{1|}}}]]|format=ul}}|}}{{#arraysearch:propertylist|guideline|0|<nowiki/>
+{{!}}{{#show:{{{1|}}}|?Guideline}}|}}{{#arraysearch:propertylist|website|0|<nowiki/>
+{{!}}{{#show:{{{1|}}}|?Website}}|}}</includeonly>

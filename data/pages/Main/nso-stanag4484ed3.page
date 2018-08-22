@@ -1,0 +1,33 @@
+{{Standard
+|uuid=d8cd0061-1b11-4d70-b25f-d0fbdc794883
+|publisher=NSO
+|code=STANAG 4484 Ed 3
+|title=Overall Super High Frequency (SHF) Military Satellite Communications (MILSATCOM) Interoperability Standards
+|dateissued=2015-03-05
+|substandards=
+|description=
+The purpose of this standard is to provide a system level definition of SHF Satellite Communications (SATCOM) to achieve interoperability between allied systems. This standard provides the basis to achieve interoperable communications over existing nonprocessing transponders (NATO, DSCS, SKYNET, etc.) and future SHF satellites. This standard provides the pathway to, and applicability of, the necessary information required to provide digital transmission of user supplied information, and to achieve interoperability between ground fixed, ground transportable, ground mobile, airborne, and ship borne SHF satellite terminals.
+|responsible=SATCOM
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2014-05-05
+|flag=added
+|rfcp=
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2015-12-15
+|flag=changed
+|rfcp=8-28
+|version=9.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+}}

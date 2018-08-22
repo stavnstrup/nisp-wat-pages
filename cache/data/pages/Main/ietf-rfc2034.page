@@ -1,0 +1,61 @@
+{{Standard
+|uuid=e4ce486c-2f24-4e11-b282-a2d30ceac981
+|publisher=IETF
+|code=RFC 2034
+|title=SMTP Service Extension for Returning Enhanced Error Codes
+|dateissued=1996
+|substandards=
+|description=
+This specification defines an extension to the SMTP service (RFC-821, RFC- 1869) whereby an SMTP server augments its responses with the enhanced mail system status codes defined in RFC 1893. These codes can then be used to provide more informative explanations of error conditions, especially in the context of the delivery status notifications format defined in RFC 1894.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc2034.txt
+|events={{Change Event
+|order=1
+|date=2001-11-20
+|flag=added
+|rfcp=
+|version=0.3
+}}
+{{Change Event
+|order=2
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=3
+|date=2005-09-15
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2009-09-12
+|flag=deleted
+|rfcp=
+|version=4.0
+}}
+{{Change Event
+|order=5
+|date=2010-10-29
+|flag=deleted
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=6
+|date=2015-10-29
+|flag=changed
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=7
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

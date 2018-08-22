@@ -1,0 +1,47 @@
+{{Standard
+|uuid=7c73a38e-00ae-474a-96f7-9f22433c3595
+|publisher=IETF
+|code=RFC 2790
+|title=Host Resources Management Information Base (MIB)
+|dateissued=2000
+|substandards=
+|description=
+This RFC specifies an Internet standards track protocol for the Internet community. It defines a MIB for use with managing host systems. The term "host" is construed to mean any computer that communicates with other similar computers attached to the Internet and that is directly used by one or more human beings. Although this MIB does not necessarily apply to devices whose primary function is a communication service (e.g., terminal servers, routers, bridges, monitoring equipment), such relevance is not explicitly precluded. This MIB instruments attributes common to all internet hosts including, for example, both personal computers and systems that run variants of Unix.
+|responsible=NCIA-SMC
+|website=http://www.ietf.org/rfc/rfc2790.txt
+|events={{Change Event
+|order=1
+|date=1999-02-02
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-03-20
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2003-08-01
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=4
+|date=2005-09-08
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=5
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

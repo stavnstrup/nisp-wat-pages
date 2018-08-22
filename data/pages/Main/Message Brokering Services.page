@@ -1,0 +1,9 @@
+{{Taxonomy Node
+|uuid=c53aeca6-b29b-4f96-bc08-3b39f30b9e55
+|order=240
+|parent=Message-Oriented_Middleware_Services
+|title=Message Brokering Services
+|description=The Message Brokering Services act as an intermediary between Message  Publishers and Message Consumers in order to permit the Message Consumer to subscribe to Messages produced by Publishers.
+
+Within this Message Publish-Subscribe pattern, senders of messages (called Publishers) do not send messages directly to specific receivers (called Subscribers), but instead send them to Message Brokering Services for further distribution to registered Subscribers.
+}}

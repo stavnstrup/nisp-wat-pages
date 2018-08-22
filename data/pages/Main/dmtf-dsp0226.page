@@ -1,0 +1,26 @@
+{{Standard
+|uuid=f93b62cc-b4aa-49b9-a4c7-ba4c060c4eea
+|publisher=DMTF
+|code=DSP0226
+|title=Web Services for Management (WS-Management) Specification
+|dateissued=2010-03-03
+|substandards=
+|description=
+Web Services-Management (WS-Management) is a DMTF open standard defining a SOAP-based protocol for the management of servers, devices, applications and various Web services.
+|responsible=AMN-TMO
+|website=http://www.dmtf.org/sites/default/files/standards/documents/DSP0226_1.1.pdf
+|events={{Change Event
+|order=1
+|date=2010-09-22
+|flag=added
+|rfcp=4-41
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

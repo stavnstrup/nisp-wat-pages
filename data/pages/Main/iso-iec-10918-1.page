@@ -1,0 +1,54 @@
+{{Standard
+|uuid=ca48d945-a276-4324-bd1d-762dddfc206e
+|publisher=ISO-IEC
+|code=10918-1
+|title=Digital compression and coding of continuous-tone still images: Requirements and guidelines
+|dateissued=1994
+|substandards=
+|description=
+Specifies processes for converting source image data to compressed image data, processes for converting compressed image data to reconstructed image data, coded representations for compressed image data, and gives guidance on how to implement these processes in practice. Is applicable to continuous-tone - grayscale or colour - digital still image data and to a wide range of applications which require use of compressed images. Is not applicable to bi-level image data.
+|responsible=FMN-CPWG
+|website=http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=18902
+|events={{Change Event
+|order=1
+|date=1998-11-06
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-07-17
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2005-09-06
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2010-10-31
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=5
+|date=2013-08-28
+|flag=changed
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=6
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

@@ -1,0 +1,143 @@
+<includeonly>{{#set:UUID={{{uuid|null}}}}}{{#set:Order={{{order|0}}}}}{{Service Profiles Navigator|instance={{PAGENAME}}}}__NOCACHE__ __NOTOC__ __NOEDITSECTION__
+<div style="display: none;">
+{{#set:Title={{{title|}}}}}
+{{#set:Is published by={{{publisher|}}}}}
+{{#set:Reference code={{{code|}}}}}
+{{#set:Specification Title={{{spectitle|}}}}}
+{{#set:Date issued={{{dateissued|}}}}}
+{{#set:Version={{{version|}}}}}
+{{#set:Description={{{description|}}}}}
+{{#arraymap:{{{taxonomynodes|}}}|;|@@@|{{#set:Is related to=@@@}}}}
+{{#set:Obligation Group={{{obligations|}}}}}
+{{#set:Guideline={{{guideline|}}}}}
+{{#set:Website={{{website|}}}}}
+{{#set:Change Event={{{events|}}}}}
+</div>
+<table class="wikitable">
+<tr>
+<th>Title</th>
+<td>{{#if:{{{title|}}}|{{{title|}}}|''no entries''}}
+</td>
+</tr>
+<tr>
+<th>{{nowrap|Reference Document}}</th>
+<td>
+<table class="wikitable">
+<tr>
+<th>Publisher</th>
+<td>{{#if:{{{publisher|}}}|
+{{#ifexist:{{{publisher|}}}|[[{{{publisher|}}}]]|[[Image:Concept Add Icon.png|link=|20px]] {{#formredlink:link text=Create missing: ''{{{publisher|}}}''|target={{{publisher|}}}|form=Organization|new window }}}}|''no entries''}}
+</td>
+</tr>
+<tr>
+<th>{{nowrap|Publication number}}</th>
+<td>{{#if:{{{code|}}}|{{{code|}}}|''no entries''}}
+</td>
+</tr>
+<tr>
+<th>{{nowrap|Specification Title}}</th>
+<td>{{#if:{{{spectitle|}}}|{{{spectitle|}}}|''no entries''}}
+</td>
+</tr>
+<tr>
+<th>{{nowrap|Date issued}}</th>
+<td>{{#if:{{{dateissued|}}}|{{{dateissued|}}}|''no entries''}}
+</td>
+</tr>
+<tr>
+<th>Version</th>
+<td>{{#if:{{{version|}}}|{{{version|}}}|''no entries''}}
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<th>Description</th>
+<td>{{#if:{{{description|}}}|{{{description|}}}|''no entries''}}
+</td>
+</tr>
+<tr>
+<th>Taxonomy</th>
+<td>{{#if:{{{taxonomynodes|}}}|
+<span>{{#arraymap:{{{taxonomynodes|}}}|;|@@@|- {{#ifexist:@@@|[[@@@]]|[[Image:Concept Add Icon.png|link=|20px]] {{#formredlink:link text=Create missing: ''@@@''|target=@@@|form=Taxonomy Node|new window }}}}|<br/>}}</span>|''no entries''}}
+</td>
+</tr>
+<tr>
+<th>{{nowrap|Obligation Groups}}</th>
+<td>{{#ask:[[Obligations::{{PAGENAME}}]]|sort=Order|order=ascending|mainlabel=-|?Obligation Type=Obligation|?Description=Description|?Is implementing standard=Standards|format=table|default=''no entries''}}
+
+</td>
+</tr>
+<tr>
+<th>{{nowrap| Guideline}}</th>
+<td>{{#if:{{{guideline|}}}|{{{guideline|}}}|''no entries''}}
+</td>
+</tr>
+<tr>
+<th>Status</th>
+<td>
+<table class="wikitable">
+<tr>
+<th>Website</th>
+<td>{{#if:{{{website|}}}|{{#arraymap:{{{website|}}}|;|@@@|@@@<br/>|}}|''no entries''}}
+</td>
+</tr>
+<tr>
+<th>Events</th>
+<td>{{#ask:[[Event::{{PAGENAME}}]]|mainlabel=-|?Change event date=Date|?Change event flag=Flag|?Change event rfcp=RFCP|?Change event version=Version|format=table|default=''no entries''}}
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<div style="clear:both"></div>
+==Related Information==
+
+{{#ifexpr: 0 > 0 OR {{#ask:[[Category:Capability Profiles]][[Is implementing service profile::{{PAGENAME}}]]|format=count}} > 0 OR {{#ask:[[Category:Profiles]][[Is implementing service profile::{{PAGENAME}}]]|format=count}} > 0|
+=Standards Management=
+<div class="grid">
+{{#ifeq:{{#ask:[[Category:Capability Profiles]][[Is implementing service profile::{{PAGENAME}}]]|format=count}}|0||
+<div class="panel" style="grid-column:1; -ms-grid-column:1; grid-row:1; -ms-grid-row:1; margin: 5px;">
+  <div>Capability Profile - Service Profiles</div>
+  <div>{{#ask:[[Category:Capability Profiles]][[Is implementing service profile::{{PAGENAME}}]]|format=ul}}</div>
+</div>
+}}{{#ifeq:{{#ask:[[Category:Profiles]][[Is implementing service profile::{{PAGENAME}}]]|format=count}}|0||
+<div class="panel" style="grid-column:1; -ms-grid-column:1; grid-row:2; -ms-grid-row:2; margin: 5px;">
+  <div>Profile - Service Profiles</div>
+  <div>{{#ask:[[Category:Profiles]][[Is implementing service profile::{{PAGENAME}}]]|format=ul}}</div>
+</div>
+}}
+</div>
+}}
+
+<headertabs />
+[[Category:Service Profiles]]</includeonly><noinclude>
+; Description
+The template sets semantic values and displays data for the '''Service Profile''' concept.
+; Format
+The template should be called in the following format:
+<pre>
+{{Service Profile
+|uuid=
+|order=
+|title=
+|publisher=
+|code=
+|spectitle=
+|dateissued=
+|version=
+|description=
+|taxonomynodes=
+|guideline=
+|website=
+}}</pre>
+; See also
+* [[Template:Service Profile]]
+
+* [[Template:Obligation Group]]
+
+* [[Template:Change Event]]
+</noinclude>

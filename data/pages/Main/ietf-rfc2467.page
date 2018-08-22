@@ -1,0 +1,33 @@
+{{Standard
+|uuid=bc6457f7-b30f-4f30-bb0f-ab3ee5ca7429
+|publisher=IETF
+|code=RFC 2467
+|title=Transmission of IPv6 Packets over FDDI Networks
+|dateissued=1998
+|substandards=
+|description=
+This document specifies the frame format for transmission of IPv6 packets and the method of forming IPv6 link-local addresses and statelessly autoconfigured addresses on FDDI networks. It also specifies the content of the Source/Target Link-layer Address option used in Router Solicitation, Router Advertisement, Neighbor Solicitation, Neighbor Advertisement and Redirect messages when those messages are transmitted on an FDDI network.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc2467.txt
+|events={{Change Event
+|order=1
+|date=1998-12-01
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2005-09-16
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

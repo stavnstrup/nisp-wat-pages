@@ -1,0 +1,26 @@
+{{Standard
+|uuid=5093e13b-7974-49d7-913f-7f47f7074f9f
+|publisher=XMPP
+|code=XEP-0054
+|title=XEP-0054: vcard-temp
+|dateissued=2008-07-16
+|substandards=
+|description=
+This specification provides canonical documentation of the vCard-XML format currently in use within the Jabber community.
+|responsible=FMN-CPWG
+|website=http://xmpp.org/extensions/xep-0054.html
+|events={{Change Event
+|order=1
+|date=2013-10-22
+|flag=added
+|rfcp=7-27
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

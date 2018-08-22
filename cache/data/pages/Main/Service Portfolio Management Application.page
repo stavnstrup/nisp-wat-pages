@@ -1,0 +1,9 @@
+{{Taxonomy Node
+|uuid=290c41a5-41f3-4fa9-a079-fca0ac939a0e
+|order=31
+|parent=Service_Management_Domain_Applications
+|title=Service Portfolio Management Application
+|description=The Service Portfolio Management Application enables users to design, create, augment and map new services and supporting data in the service portfolio.
+
+Note that this portfolio includes: service pipeline, service catalogue and retired services.
+}}

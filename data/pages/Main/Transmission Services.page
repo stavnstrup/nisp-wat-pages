@@ -1,0 +1,11 @@
+{{Taxonomy Node
+|uuid=8a45e97a-f563-4d05-9256-92c51eef8909
+|order=349
+|parent=Communications_Services
+|title=Transmission Services
+|description=The Transmission Services cover the physical layer (also referred to as media layer or air-interface in wireless/satellite (SATCOM) communications) supporting Transport Services, as well as Communications Access Services. Support for the latter is relevant to personal communications systems, in which the User Appliances directly connect to the transmission element without any transport elements in between.
+
+Transmission Services are confined to the assets dealing with the adaptation to the transmission media (i.e. line drivers, adapters, transceivers, transmitters, and radiating elements (e.g. antennas). In some cases this adaption will include the modem, but in other cases the modem will be associated with Transport Services when implementing the first stage of the media-adaptation process (e.g. coding,  modulation). The second stage, involving frequency conversion, amplification, radiation, bent-pipe transponder relay, etc., will be covered under Transmission Services proper.
+
+The Transmission Services nomenclature is based on the service categories wired or wireless (including SATCOM) and coverage (i.e. local, metro, wide, and LOS, BLOS). Additionally in the case of wireless the terms static or mobile are employed. Categorising the transmission services in this manner is considered to be intuitive, "military service" agnostic, combines both wireless-radio and SATCOM under the single term "wireless" thus resulting in fewer service categories and excludes cross referencing.
+}}

@@ -1,0 +1,19 @@
+{{Standard
+|uuid=df142984-a363-48e9-8ffb-29defee7f340
+|publisher=MIL
+|code=DTL 83526
+|title=Connectors, Fiber Optic, Circular, Environmental Resistant, Hermaphroditic, General Specification for. D
+|dateissued=2006-09-20
+|substandards=
+|description=
+MIL-DTL-83526 is a military specification describing the characteristics, performance and testing criteria for an environmental resistant, hermaphroditic interface, fiber-optic circular connector. The connectors covered have a consistent and predictable optical performance using low loss optical fiber cables in military, ground based, fiber-optic data transmission systems, and are sufficiently rugged to withstand military field applications. This specification includes expanded-beam fiber-optic connectors.
+|responsible=FMN-CPWG
+|website=http://www.tfoca-tactical-fiber.com/MIL-DTL-83526C/dtl83526ss21.pdf
+|events={{Change Event
+|order=1
+|date=2017-05-01
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+}}

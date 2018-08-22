@@ -1,0 +1,33 @@
+{{Standard
+|uuid=a7973e8f-6b59-4f32-8c50-7e38422698c0
+|publisher=IETF
+|code=RFC 2104
+|title=HMAC: Keyed-Hashing for Message Authentication
+|dateissued=1997-04
+|substandards=
+|description=
+This document describes HMAC, a mechanism for message authentication using cryptographic hash functions. HMAC can be used with any iterative cryptographic hash function, e.g., MD5, SHA-1, in combination with a secret shared key. The cryptographic strength of HMAC depends on the properties of the underlying hash function.
+|responsible=NCIA
+|website=http://www.ietf.org/rfc/rfc2014.txt
+|events={{Change Event
+|order=1
+|date=2017-01-17
+|flag=added
+|rfcp=9-2
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-26
+|flag=deleted
+|rfcp=9-21
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-04-24
+|flag=changed
+|rfcp=9-2
+|version=10.0
+}}
+}}

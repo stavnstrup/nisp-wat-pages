@@ -1,0 +1,30 @@
+{{Standard
+|uuid=4cfd8460-5550-4f40-82f7-e7f58b6ded8e
+|publisher=OASIS
+|code=xacml-3.0-core-spec-os
+|title=eXtensible Access Control Markup Language core specification
+|dateissued=2013-01-22
+|substandards=
+|description=
+The motivation behind XACML is to express the well-established ideas in the field of access- control policy (e.g., rules, policies, policy sets, subjects, decision requests, authorization decisions,) using an extension language of XML. According to the Core specification, "there is a pressing need for a common language for expressing security policy. If implemented throughout an enterprise, a common policy language allows the enterprise to manage the enforcement of all the elements of its security policy in all the components of its information systems. Managing security policy may include some or all of the following steps: writing, reviewing, testing, approving, issuing, combining, analyzing, modifying, withdrawing, retrieving and enforcing policy."The XACML specification thus "enables the use of arbitrary attributes in policies, role-based access control, security labels, time/date-based policies, indexable policies, 'deny' policies, and dynamic policies - all without requiring changes to the applications that use XACML. Adoption of XACML across vendor and product platforms should provide the opportunity for organizations to perform access and access policy audits directly across such systems."
+
+The principal features of XACML are documented in the core Extensible Access Control Markup Language (XACML) Version 3.0 specification.
+
+
+|responsible=NCIA-CS
+|website=http://docs.oasis-open.org/xacml/2.0/access_control-xacml-2.0-core-spec-os.pdf
+|events={{Change Event
+|order=1
+|date=2014-05-12
+|flag=added
+|rfcp=
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

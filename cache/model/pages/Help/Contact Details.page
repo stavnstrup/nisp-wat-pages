@@ -1,0 +1,9 @@
+<noinclude>{{User Manual Navigator}}</noinclude>
+There are four ways to contact the people behind the {{SITENAME}} Wiki.
+# When you submit, track or modify <span class="clearlinks">[https:{{SERVER}}/issues/describecomponents.cgi?product={{urlencode:{{#show:Project:Governance|?Version#}}|PATH}} {{SITENAME}} Wiki-related issues]</span>, the assigned contacts are listed on the pages in the issue tracker. For any change in an assigned issue, they will be notified per email.
+# When you have questions that can or should not be handled in the issue tracker, send an email to either one of these persons:
+#* Mr. Peter J. Woudsma, email {{email|peter.woudsma@act.nato.int}}
+#* Mr. Krzysztof Skurzak, email {{email|krzysztof.skurzak@act.nato.int}}
+#* Mr. Sabas Gonzalez-Godoy, email {{email|sabas.gonzalez@act.nato.int}}
+# When you want to leave a message for a specific person, leave a remark on his or her "User Talk" page. This is the discussion page that is connected to the user page of that individual. You navigate tot he user page with <code>User:username</code> in the search bar, which means you need to know the username of that person on Tidepedia. He or she will get an email and a notification on the wiki.
+# When you submit a request for a new Tidepedia account or a reset, the proper contact is {{email|tide@act.nato.int}}.

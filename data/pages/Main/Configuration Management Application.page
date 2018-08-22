@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=e95a4898-9a5c-43e9-b170-a9a7817e4183
+|order=33
+|parent=Service_Management_Domain_Applications
+|title=Configuration Management Application
+|description=The Configuration Management Application enables users - service providers - to collect, store, manage, update, analyse and present data about all configuration items and their relationships in order to keep track of changes to an IT environment; better understand the impact of proposed changes to the IT environment; more easily determine the root cause and impact of incidents and problems in the IT environment.
+}}

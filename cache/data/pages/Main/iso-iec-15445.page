@@ -1,0 +1,26 @@
+{{Standard
+|uuid=5e5b2a5c-9610-4976-8e2c-cd8f5d90d904
+|publisher=ISO-IEC
+|code=15445
+|title=HyperText Markup Language (HTML)
+|dateissued=2000
+|substandards=
+|description=
+The scope of this International Standard is a conforming application of ISO 8879, SGML. This International Standard describes the way in which the HTML language specified by the following clauses in the W3C Recommendation for HTML 4.01 shall be used, and does so by identifying all the differences between the HTML language specified by the W3C Recommendation for HTML 4.01.
+|responsible=FMN-CPWG
+|website=http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=27688/
+|events={{Change Event
+|order=1
+|date=2013-10-22
+|flag=added
+|rfcp=7-27
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

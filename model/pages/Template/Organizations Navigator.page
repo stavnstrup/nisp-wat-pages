@@ -1,0 +1,33 @@
+<includeonly>{{Infobox
+|abovestyle = background:#becde6;
+|above = [[Project:Concept - Organizations|Organization]]
+|aboveclass = summary
+|subheader=[[Image:Package Icon.png|link=|20px]] [[Project:Package - Organizations Management|Organizations Management]]
+|image = [[image:organization.png{{!}}100px{{!}}link=Project:Concept - Organizations]]
+|caption = [[image:User Manual.png{{!}}20px{{!}}link=Help:User Manual]][[Help:User Manual|User Manual]]
+|headerstyle = background:#d7d7d7;
+|labelstyle = background:#d7d7d7;
+|datastyle = background:#ffffff;
+|class3 = description
+|header3 = Organizations
+|data3 = <div style="text-align:left;">
+&nbsp;[[Image:Concept List Icon.png|link=|20px]] [[:Category:Organizations|List]]<br/>&nbsp;{{#queryformlink:form=Organizations Search Form
+|link text=[[Image:Concept Search Icon.png|link=|20px]] Search
+|link type=text
+|new window
+}}<br/>&nbsp;[[Image:Concept Add Icon.png|link=|20px]] [[Form:Organization|Add new]]<br/></div>
+|class4 = description
+|header4 = Related Data
+|data4 = <div style="text-align:left;">
+&nbsp;[[Image:organization.png|link=|20px]] [[:Category:Organizations|Organizations]]<br/>
+</div>
+}}</includeonly><noinclude>
+; Description
+The template displays the '''Organization''' concept Navigator.
+; Format
+The template should be called in the following format:
+<pre>
+{{Organization Navigator
+|instance=
+}}</pre>
+</noinclude>

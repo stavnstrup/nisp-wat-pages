@@ -1,0 +1,33 @@
+{{Standard
+|uuid=70ff2693-ac72-4a15-901c-5ea706dc5bf9
+|publisher=W3C
+|code=xmldsig-core
+|title=XML Signature Syntax and Processing (2nd ed.):2008
+|dateissued=2008-06-10
+|substandards=
+|description=
+This document specifies XML digital signature processing rules and syntax. XML Signatures provide integrity, message authentication, and/or signer authentication services for data of any type, whether located within the XML that includes the signature or elsewhere.
+|responsible=NCIA-CES
+|website=http://www.w3.org/TR/xmldsig-core
+|events={{Change Event
+|order=1
+|date=2008-10-14
+|flag=added
+|rfcp=2-7
+|version=3.0
+}}
+{{Change Event
+|order=2
+|date=2010-08-10
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

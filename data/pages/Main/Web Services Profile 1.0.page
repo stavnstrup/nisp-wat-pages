@@ -1,0 +1,43 @@
+{{Service Profile
+|uuid=0241819c-a69b-4bce-a310-d19cad3ba070
+|title=Web Services Profile 1.0
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 1 Profile
+|dateissued=2015-09-30
+|version=1.0
+|description=
+The Web Services Profile provides standards and guidance for transport-neutral mechanisms to address structured exchange of information in a decentralized, distributed environment via web services.
+|taxonomynodes=Web Hosting Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+Provide the elements a web service needs to deliver a suitable UI service, such as remote portlet functionality.
+|standards=w3c-cr-cors-20130129;
+
+}}
+{{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=w3c-rec-soap11;
+w3c-note-wsdl-20010315;
+w3c-note-wsdl20-soap11-binding-20070626;
+w3c-address;
+
+}}
+{{Obligation Group
+|obligationtype=conditional
+|description=
+|standards=acm-2002-rest-toit;
+
+}}
+|guideline=
+The Web Services Profile provides standards and guidance for transport-neutral mechanisms to address structured exchange of information in a decentralized, distributed environment via web services.
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+}}

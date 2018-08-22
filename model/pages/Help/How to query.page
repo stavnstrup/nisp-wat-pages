@@ -1,0 +1,13 @@
+<noinclude>{{User Manual Navigator|How to use}}</noinclude>
+Queries are requests for information from a database. In the {{SITENAME}} Wiki, those queries select wiki pages based on the information that has been specified for them using [[Special:Categories|categories]], [[Special:Properties|properties]] and maybe some other MediaWiki features such as a page's namespace. All users can run queries and they have several convenient ways at their disposal.
+
+; Inline queries
+The wiki platform includes a simple query language for semantic search, so that users can directly request certain information from the wiki. Inline queries dynamically include query results into pages. The basic way of writing an inline query is to use the parser function <code>#ask</code>. The query string and any printout statements are directly given as parameter, as explained in this article about [https://www.semantic-mediawiki.org/wiki/Help:Selecting_pages selecting pages].
+
+A good location to test new queries is the personal user page (''click on your name at the top of the page'') or the [[Sandbox]].
+; Semantic query
+The wiki has a default form for entering semantic queries. This page has a lot of options to specify the search. It is helpful to first read about [https://www.semantic-mediawiki.org/wiki/Help:Semantic_search semantic search].
+:> [[Special:Ask|Click here]] to open up a semantic search.
+; Query by property
+The semantic relations are defined by assigning properties to some values on a page. By querying properties for certain values, the respective articles can be selected.
+:> [[Special:SearchByProperty|Click here]] to open up a property search.

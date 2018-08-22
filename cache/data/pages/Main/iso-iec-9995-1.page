@@ -1,0 +1,61 @@
+{{Standard
+|uuid=6b276bf5-6da8-4fce-b79a-8281de32b16f
+|publisher=ISO-IEC
+|code=9995-1
+|title=Keyboard Layouts Part 1: General principles governing keyboard layouts
+|dateissued=2009
+|substandards=
+|description=
+ISO/IEC 9995-1:2009 identifies the sections of the keyboard and specifies the general shape and relative placement of the sections. Spacing of keys and physical characteristics are covered, as are the principles governing the placement of characters and symbols on keys. ISO/IEC 9995-1:2009 specifies a key numbering system which applies to all types of numeric, alphanumeric and composite keyboards of information technology equipment.
+|responsible=NCIA-CES
+|website=http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=51645
+|events={{Change Event
+|order=1
+|date=1998-11-10
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-03-20
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2001-11-21
+|flag=changed
+|rfcp=
+|version=0.3
+}}
+{{Change Event
+|order=4
+|date=2003-08-01
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=5
+|date=2005-09-23
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=6
+|date=2010-11-02
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=7
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

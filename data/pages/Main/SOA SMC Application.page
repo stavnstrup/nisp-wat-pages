@@ -1,0 +1,25 @@
+{{Taxonomy Node
+|uuid=53e69311-5c31-42cb-b64b-6e7110f50e55
+|order=48
+|parent=Resource_Management_Domain_Applications
+|title=SOA SMC Application
+|description=The Service Oriented Architecture (SOA) Service Management and Control (SMC) Application enables users to account for, and to monitor, manage and control services (implemented with different technologies) that communicate using service calls. In that respect it will use different technology and abstractions than SMC Applications for Infrastructure Services or Communications Services. For example, it will have to manage web applications and web services hosted in an application server rather than virtual machines hosted in a hypervisor and they will have to work with web service messages rather than network packets.
+
+The SOA SMC Application can be integrated with other SMC Applications for managing and controlling other C3 Taxonomy layers or they can be provided by dedicated applications. Market surveys done by Forrester and Burton suggest that the former typically provide better vertical information aggregation across layers, while the latter offer richer functionality in the horizontal SOA Platform layer.
+
+The integrated SMC Applications should be able to provide aggregated information from underlying layers and drill up/down between them to troubleshoot and ensure agreed SLAs:
+* Ensure consistent performance of hosted services for all consumers (within agreed SLAs),
+* Ensure that no consumer can prevent other consumers from accessing services (within agreed SLAs),
+* Ensure enforcement of defined policies,
+* Detect problems before they are reported by consumers.
+
+The SOA SMC Application should provide capabilities in the form of functions and processes for managing SOA Platform Services over the lifecycle that includes:
+* the initial commissioning of the services; 
+* ensuring service metadata are published and available to users;
+* ensuring services are up and running;
+* ensuring services are accessible and available to users;
+* ensuring services are protected and secure (IA and SMC overlap in this area); 
+* making sure that the services are operating and performing within the service level agreements parameters;
+* on-going service improvement; 
+* final decommissioning of services.
+}}

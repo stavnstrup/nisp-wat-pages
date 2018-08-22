@@ -1,0 +1,143 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Widgets}}
+
+==Introduction==
+The '''Gantt Chart''' widget allows to '''display a Gantt Chart based on the data stored in the Wiki'''.
+
+The chart is configured using Wiki Automation Tool well-known Concept called '''team:Task'''.
+
+In order to generate a chart for any Concept defined in the Wiki Model, such Concept needs to be mapped to the '''team::Task''' Concept.
+See [[Help:Mapping|Mapping]] for more details.
+
+
+==Definition==
+<pre>
+<concept name="{CONCEPT}">
+  <structure>
+    <property name="{CONCEPT PROPERTY}"
+    <property name="{CONCEPT PROPERTY}"
+  </structure>
+
+  <conceptMapping name="team::Task">
+    <propertyMapping name="Label"        property="{LABEL PROPERTY}"    value="{LABEL VALUE}"/>
+    <propertyMapping name="Start"        property="{START PROPERTY}"    value="{START VALUE}"/>
+    <propertyMapping name="End"          property="{END PROPERTY}"      value="{END VALUE}"/>
+    <propertyMapping name="Resource"     property="{RESOURCE PROPERTY}" value="{RESOURCE VALUE}"/>
+    <propertyMapping name="Unit"         property="{UNIT PROPERTY}"     value="{UNIT VALUE}"/>
+    <propertyMapping name="Open Levels"  property="{LEVEL PROPERTY}"    value="{LEVEL VALUE}"/>
+    <propertyMapping name="Notes"        property="{NOTES PROPERTY}"    value="{NOTES VALUE}"/>
+    <propertyMapping name="Caption"      property="{CAPTION PROPERTY}"  value="{CAPTION VALUE}"/>
+  </conceptMapping>
+
+</concept>
+</pre>
+
+{| class="helptable"
+|-
+! {CONCEPT}
+| A short name of the  Concept, which is mapped to the '''team:Task''' Concept.
+|-
+! {CONCEPT PROPERTY}
+| A name of the Property in the Concept, which might mapped to one of the Properties in the ''team:Task'' Concept.
+|-
+! {LABEL PROPERTY}
+| A name of Concept property e.g {CONCEPT PROPERTY} which is to be used as a Task Label.
+|-
+! {LABEL VALUE}
+| A static text to be used as a Task Label.
+|-
+! {START PROPERTY}
+| A name of Concept property e.g {CONCEPT PROPERTY} which is to be used as a Task Start Date.
+|-
+! {START VALUE}
+| A static date to be used as a Task Start Date.
+|-
+! {END PROPERTY}
+| A name of Concept property e.g {CONCEPT PROPERTY} which is to be used as a Task End Date.
+|-
+! {END VALUE}
+| A static date to be used as a Task End Date.
+|-
+! {RESOURCE PROPERTY}
+| A name of Concept property e.g {CONCEPT PROPERTY} which is to be used as a Task Resource.
+|-
+! {RESOURCE VALUE}
+| A static string to be used as a Task Resource.
+|-
+! {UNIT PROPERTY}
+| A name of Concept property e.g {CONCEPT PROPERTY} which is to be used as a Task UNit.
+|-
+! {UNIT VALUE}
+| A static string to be used as a Task Unit. The following values are allowed: "year, quarter, month, week".
+|-
+! {LEVEL PROPERTY}
+| A name of Concept property e.g {CONCEPT PROPERTY} which is to be used as a Task Level.
+|-
+! {LEVEL VALUE}
+| A static number to be used as a Task Level.
+|-
+! {NOTES PROPERTY}
+| A name of Concept property e.g {CONCEPT PROPERTY} which is to be used as a Task Notes.
+|-
+! {NOTES VALUE}
+| A static text to be used as a Task Notes.
+|-
+! {CAPTION PROPERTY}
+| A name of Concept property e.g {CONCEPT PROPERTY} which is to be used as a Task Notes.
+|-
+! {CAPTION VALUE}
+| A static text to be used as a Task Caption. The following values are allowed: Resource, Duration, Completion, Start, End
+|}
+
+
+==Semantic database==
+Not applicable.
+
+
+==Example==
+<pre>
+<concept name="User" >
+  <structure>
+    <property name="Title"/>
+  </structure>
+</concept>
+
+<concept name="Enclave" >
+  <structure>
+    <property name="Title"/>
+  </structure>
+</concept>
+
+<concept name="Event" >
+  <structure>
+    <property name="Title"/>
+    <property name="Description"/>
+    <property name="Start date"/>
+    <property name="End date"/>
+    <property name="Is executed on" refersTo="Enclave">
+    <property name="Is lead by" refersTo="User">
+  </structure>
+
+  <conceptMapping name="team::Task">
+    <propertyMapping name="Label" property="Title"/>
+    <propertyMapping name="Start" property="Start date"/>
+    <propertyMapping name="End" property="End date"/>
+    <propertyMapping name="Resource" value="CIAV"/>
+    <propertyMapping name="Unit" value="quarter"/>
+    <propertyMapping name="Open Levels" value="3"/>
+    <propertyMapping name="Notes" property="Description"/>
+    <propertyMapping name="Caption" value="Resource"/>
+  </conceptMapping>
+</concept>
+</pre>
+
+In the example above the "Event" Concept is mapped to well-known Concept in Wiki Automation Tool: '''"team::Task"'''.
+The Gantt Chart will be displayed on the ''Enclave'' View Page and will display the list of events executed on that enclave.
+The Gantt Chart will be displayed on the ''User'' View Page and will display the list of events lead by that user.
+
+
+==User Interface==
+The "Gantt Widget" is automatically displayed on the View Pages of the Concepts which are referred from the Concept mapped to the ''team::Task'' Concept.
+
+<gallery>
+File:Gantt Chart View Page.png
+</gallery>

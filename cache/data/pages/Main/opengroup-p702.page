@@ -1,0 +1,40 @@
+{{Standard
+|uuid=c037f744-c873-4674-b9b5-0c88a0afd882
+|publisher=OPENGROUP
+|code=P702
+|title=Single Sign On
+|dateissued=1997
+|substandards=
+|description=
+High value business information is increasingly being maintained within multiple data processing systems in distributed system architectures. Security for each system demands effective access controls whilst administrators are faced with significant overheads for handling multiple accounts for each user. XXSO-PAM provides a standard interface between applications and sign-on systems so that whatever the underlying technology of the application's authentication technology, they will plug-and-play with a "coordinating "primary" single sign-on system. This enables applications and their host systems to continue to maintain their own account databases, but it also enables those applications to move towards use of the more strategic distributed security services, enabling migration from multiple uncoordinated security systems to a coherent security architecture for all applications. PAM also simplifies some aspects of security management. The XSSO-PAM Specification therefore supports a practical approach which enables sign-on (SSO) for applications in a distributed environment.
+|responsible=C3B-CAP4
+|website=https://www2.opengroup.org/ogsys/catalog/p702
+|events={{Change Event
+|order=1
+|date=2002-10-11
+|flag=added
+|rfcp=
+|version=0.4
+}}
+{{Change Event
+|order=2
+|date=2003-08-01
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=3
+|date=2005-09-23
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2017-01-14
+|flag=changed
+|rfcp=9-13
+|version=10.0
+}}
+}}

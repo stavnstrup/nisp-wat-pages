@@ -1,0 +1,36 @@
+<includeonly>style="width:{{#if:{{{width|}}}|{{{width}}}|50}}%; vertical-align: top; border:1px solid #8898BF; background-color: #FFFFFF" |
+<div style="background-color:#{{#if:{{{color|}}}|{{{color}}}|dcdcdc}}; font-size:1px; height:8px; border-bottom:1px solid #8898BF;"></div>
+{{#if:{{{image|}}}|<div style="float:right; margin:5px; margin-top:5px">[[Image:{{{image}}}|48px|link={{#if:{{{link|}}}|{{{link}}}|}}]]</div>}}
+<div style="font: 12pt Verdana; font-weight:bold; padding:3px; border-bottom:1px solid #AAAAAA;">{{#if:{{{caption|}}}|{{{caption}}}|&nbsp;}}</div>
+<div style="font-size:9pt; padding:3px">
+{{#if:{{{content|}}}|{{#ifeq:{{lc:{{{content}}}}}|table|
+|{{{content}}}}}|}}
+</div></includeonly><noinclude>
+; Purpose
+This <tt><nowiki>{{</nowiki>{{PAGENAME}}<nowiki>}}</nowiki></tt> template is used to build a standardized box on a portal page.
+; Format
+The <tt>{{PAGENAME}}</tt> template should be called in the following format:
+<pre>
+{{Portalbox
+ |width=
+ |color=
+ |caption=
+ |link=
+ |image=
+ |content=
+}}</pre>
+This template has five attributes:
+* Width : the width of the box in percentage numbers (without the percentage sign); default is "50"
+* Color : the supporting color for the portal, in six hexadecimal characters; default is "c0c0c0" silver
+* Caption : the caption text for the box; default is empty
+* Link : the link to follow when the image is clicked. Default link to file page is disabled.
+* Image : the image file for the box, including the extension; default is a grey box, "silverbox.png"
+* Content : the content of the box; default is "* To follow"
+; Example
+<pre>
+{{portalbox|width=33|color=ff9933|caption=Articles of Interest|image=METlogo_Reference.jpg|content=
+ * Item 1
+ * Item 2
+}}</pre>
+__NOTOC__
+</noinclude>

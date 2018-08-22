@@ -1,0 +1,20 @@
+{{Standard
+|uuid=1c581505-c64e-4806-b7b8-a794bba36c0f
+|publisher=W3C
+|code=REC-xmlschema11-2-20120405
+|title=XML Schema Definition
+Language (XSD) 1.1 Part 2: Datatypes
+|dateissued=2012-04-05
+|substandards=
+|description=
+XML Schema: Datatypes is part 2 of the specification of the XML Schema language. It defines facilities for defining datatypes to be used in XML Schemas as well as other XML specifications. The datatype language, which is itself represented in XML 1.0, provides a superset of the capabilities found in XML 1.0 document type definitions (DTDs) for specifying datatypes on elements and attributes.
+|responsible=ARCHIVE
+|website=http://www.w3.org/TR/2012/REC-xmlschema11-2-20120405/
+|events={{Change Event
+|order=1
+|date=2014-11-27
+|flag=added
+|rfcp=8-2
+|version=9.0
+}}
+}}

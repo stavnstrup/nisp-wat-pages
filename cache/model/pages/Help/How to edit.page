@@ -1,0 +1,19 @@
+<noinclude>{{User Manual Navigator|How to contribute}}</noinclude>
+Editing an existing article can happen in two ways. The most straightforward method that is available on almost every wiki page is to select the "Edit" option in the top menu. This opens up the page in edit mode, with the bare content of the page displayed in a box with some edit shortcuts in buttons and tabs. The bare content is flat text and code that is known as "wiki markup". It may seem different than what the resulting page looks like, because the markup takes care of page design, template calls and transposing of text and graphics. Basically, you can make simple changes to the text and should not alter the markup unless you understand the consequences of your actions.
+
+; Forms
+The alternative to the simple edit option is to use a form. For most of the articles in concepts that allow user contribution, their are [[Help:Forms|forms]] available. In those cases, the "Edit with form" option will also be present in the top menu. Just like when [[Help:How to create|creating an article]], the form will guide you through the elements of a page and will guarantee that your input and/or your changes are processed in the right way to result in an orderly refresh of that article.
+{{:Help:Forms}}
+
+; Preview
+In both editing methods there is an option to preview the result of your edits at the bottom of the page. The "Show preview" option will allow you to check the result of edits before they are actually implemented. This will help to catch errors in both text and in markup before the page is saved. It can also provide an early view on the progress throughout the editing process, especially when a large amount has to be added or changed. It also limits the number of edits in the history of the page.
+
+; Save
+When the necessary changes in the page are entered, and all seems fine, the edit can be saved. Before saving, you can enter a summary statement that will be recorded in the page history. For instance, why and how a change was inspired. Sometimes the system will recognize an editing conflict, which usually happens when the page is edited by more than one user at the same time. The system will advise a resolution for this editing conflict.
+
+; History
+Edits are recorded in the [[Help:How to see history|page history]]. This history is accessible via the "View history" option in the top menu and amongst other things, it allows to undo individual changes or roll back a list of edits from one single user. This way, any mistake in an edit can always be revoked and no permanent damage can be made to any of the pages.
+
+; Coordination
+Some edits may involve the context of opposing views or contested resolutions and may lead to editing wars. Some edits may be in the right direction, but need peer review to be further improved before actually implemented in the {{SITENAME}} Wiki. Those proposals can be entered on the talk page via the "Discussion" option in the top menu, although that requires that the other stakeholders need to be informed of these proposals in order to launch an exchange of ideas. A better way is to submit the proposal in the <span class="clearlinks">[https:{{SERVER}}/issues/describecomponents.cgi?product={{urlencode:{{#show:Project:Governance|?Version#}}|PATH}} issue tracker]</span>.
+:> <span class="plainlinks">[https:{{SERVER}}/issues/enter_bug.cgi?component=Content&product={{urlencode:{{#show:Project:Governance|?Version#}}|PATH}} Click here]</span> to submit a proposal to edit an article.

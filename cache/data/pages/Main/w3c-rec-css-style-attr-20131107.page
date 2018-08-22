@@ -1,0 +1,19 @@
+{{Standard
+|uuid=649eb7b7-28ac-41d9-b9e0-281f5b8955b6
+|publisher=W3C
+|code=REC-css-style-attr-20131107
+|title=CSS Style Attributes
+|dateissued=2013-11-07
+|substandards=
+|description=
+Markup languages such as HTML [HTML401] and SVG [SVG11] provide a style attribute on most elements, to hold inline style information that applies to those elements. One of the possible style sheet languages is CSS. This draft describes the syntax and interpretation of the CSS fragment that can be used in such style attributes.
+|responsible=FMN-CPWG
+|website=https://www.w3.org/TR/css-style-attr/
+|events={{Change Event
+|order=1
+|date=2017-04-26
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+}}

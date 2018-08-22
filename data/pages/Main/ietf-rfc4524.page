@@ -1,0 +1,26 @@
+{{Standard
+|uuid=660e9d60-9135-47f6-bdd2-b6e5fe740a52
+|publisher=IETF
+|code=RFC 4524
+|title=LDAP: COSINE Schema
+|dateissued=2006
+|substandards=
+|description=
+This document provides a collection of schema elements for use with the Lightweight Directory Access Protocol (LDAP) from the COSINE and Internet X.500 pilot projects.
+|responsible=NCIA-CES
+|website=http://www.ietf.org/rfc/rfc4524.txt
+|events={{Change Event
+|order=1
+|date=2010-11-13
+|flag=added
+|rfcp=4-25
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,26 @@
+{{Standard
+|uuid=ab6ca324-ea37-42c8-be17-4c6fae718f35
+|publisher=ETSI
+|code=en302307
+|title=Digital Video Broadcasting (DVB); Second generation framing structure, channel coding and modulation systems for Broadcasting, Interactive Services, News Gathering and other broadband satellite applications (DVB-S2), v.1.2.1
+|dateissued=2009-08
+|substandards=
+|description=
+The document defines a "second generation" modulation and channel coding system (denoted the "System" or "DVB-S2" for the purposes of the present document) to make use of the improvements listed above. DVB-S2 is a single, very flexible standard, covering a variety of applications by satellite.
+|responsible=NCIA-NSII
+|website=http://www.etsi.org/deliver/etsi_en/302300_302399/302307/01.02.01_60/en_302307v010201p.pdf
+|events={{Change Event
+|order=1
+|date=2011-10-17
+|flag=added
+|rfcp=5-60
+|version=6.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,19 @@
+{{Standard
+|uuid=5a2974aa-60c1-4e2a-ae5c-7b3bed1e32cb
+|publisher=NSO
+|code=STANAG 1116 Ed 10
+|title=Specifications for Naval Mine Warfare Information and for Data Transfer - AMP-11 (Supplement) Edition A
+|dateissued=2014-08-07
+|substandards=
+|description=
+CLASSIFIED CONTENT
+|responsible=NCIA-C2
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2017-03-03
+|flag=added
+|rfcp=9-46
+|version=10.0
+}}
+}}

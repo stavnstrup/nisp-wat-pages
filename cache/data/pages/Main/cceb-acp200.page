@@ -1,0 +1,44 @@
+{{Standard
+|uuid=10bb5522-4da7-418f-87ec-2f877afe4a63
+|publisher=CCEB
+|code=ACP 200
+|title=Maritime Tactical Wide Area Networking (Volume 2)
+|dateissued=2010-03-02
+|substandards=
+|description=
+The aim of this publication is to provide guidance for the design, implementation, and operation of a MTWAN.A Maritime Tactical Wide Area Network (MTWAN) is an affordable, effective and efficient means to share information in a tactical environment. This publication provides guidance as to the procedures, applications, infrastructure and data attributes required for tactical mobile IP networking. To enable widest distribution, the information contained within the main part of this document is unclassified. Classified information will be incorporated in separate supplements.
+
+An MTWAN is a maritime Internet Protocol (IP) based network developed to promote the effective and efficient sharing of information within the maritime tactical environment. The term ―MTWAN used in the context of this document describes generic ―networking at sea capabilities and not a specific network. There are currently a number of tactical operational networks fielded within the allied and coalition communities, the most common being CENTRIXS.
+
+
+|responsible=ACP
+|website=http://jcs.dtic.mil/j6/cceb/acps/acp200Vol1/ACP200DVol1Jul13.pdf
+|events={{Change Event
+|order=1
+|date=2003-09-28
+|flag=added
+|rfcp=4-39
+|version=0.5
+}}
+{{Change Event
+|order=2
+|date=2005-09-15
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2012-11-05
+|flag=changed
+|rfcp=
+|version=7.0
+}}
+{{Change Event
+|order=4
+|date=2013-07-26
+|flag=changed
+|rfcp=
+|version=8.0
+}}
+}}

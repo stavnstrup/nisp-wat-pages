@@ -1,0 +1,37 @@
+{{Standard
+|uuid=7b12f0fa-d91e-4c2e-b6c9-3d1809139a04
+|publisher=IEEE
+|code=802.1Q Revision 2011
+|title=Virtual Bridged Local Area Networks
+|dateissued=2011
+|substandards=
+|description=
+This standard specifies a general method for the operation of MAC Bridges that support the construction of Virtual LANs.
+
+The standard provides common interoperable solutions to the establishment of Virtual LAN Bridged infrastructures. Revision is needed in order to deal with editorial and technical corrections, to remove obsolete material, and also to reflect changes necessary as a result of enhancements to IEEE Std 802.1D - Standard for Local and Metropolitan Area Networks: Media Access Control (MAC) Bridges, upon which IEEE Std 802.1Q depends
+
+
+|responsible=NCIA-NSII
+|website=http://www.ieee802.org/1/pages/802.1Q-2011.html
+|events={{Change Event
+|order=1
+|date=2011-10-17
+|flag=added
+|rfcp=5-61
+|version=6.0
+}}
+{{Change Event
+|order=2
+|date=2013-06-18
+|flag=added
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

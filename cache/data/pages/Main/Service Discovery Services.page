@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=c901eec8-f60b-4a78-b8ff-f556eeb156fd
+|order=234
+|parent=SOA_Platform_SMC_Services
+|title=Service Discovery Services
+|description=The Service Discovery Services enable a requester to discover a target service that matches certain functional and non-functional requirements. In this context discovery is the act of locating a service description of target service(s) which contain information about the (syntactic and semantic) interface of the service and other (non-functional) aspects of its service contract.  The resulting service description is sufficient to inform a consumer on the mechanism required to bind to an instance of the target service.
+}}

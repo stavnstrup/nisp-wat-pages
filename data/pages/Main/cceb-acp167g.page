@@ -1,0 +1,19 @@
+{{Standard
+|uuid=a4c1f117-357e-412d-9da3-6aca647b604f
+|publisher=CCEB
+|code=ACP 167 (G)
+|title=Glossary of C-E Terms
+|dateissued=
+|substandards=
+|description=
+
+|responsible=ACP
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

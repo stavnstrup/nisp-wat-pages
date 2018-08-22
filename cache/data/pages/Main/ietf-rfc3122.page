@@ -1,0 +1,26 @@
+{{Standard
+|uuid=d7d85484-3fd8-489b-877f-e9a056dc8554
+|publisher=IETF
+|code=RFC 3122
+|title=Extensions to IPv6 Neighbor Discovery for Inverse Discovery Specification
+|dateissued=2001
+|substandards=
+|description=
+This memo describes extensions to the IPv6 Neighbor Discovery that allow a node to determine and advertise an IPv6 address corresponding to a given link-layer address. These extensions are called Inverse Neighbor Discovery. The Inverse Neighbor Discovery (IND) was originally developed for Frame Relay networks, but may also apply to other networks with similar behavior.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc3122.txt
+|events={{Change Event
+|order=1
+|date=2005-11-20
+|flag=added
+|rfcp=6-19
+|version=0.7
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

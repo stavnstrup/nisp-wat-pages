@@ -1,0 +1,28 @@
+{{Standard
+|uuid=a421dd58-dd1b-4911-a51d-8bb6dd9c6b4d
+|publisher=IETF
+|code=RFC 2891
+|title=LDAP Control Extension for Server Side Sorting of Search Results
+|dateissued=2000
+|substandards=
+|description=
+This document describes two LDAPv3 control extensions for server side sorting of search results. These controls allows a client to specify the attribute types and matching rules a server should use when returning the results to an LDAP search request. The controls may be useful when the LDAP client has limited functionality or for some other reason cannot sort the results but still needs them sorted. Other permissible controls on search operations are not defined in this extension.The sort controls allow a server to return a result code for the sorting of the results that is independent of the result code returned for the search operation.
+
+
+|responsible=NCIA-CES
+|website=http://www.ietf.org/rfc/rfc2891.txt
+|events={{Change Event
+|order=1
+|date=2010-11-13
+|flag=added
+|rfcp=4-25
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,26 @@
+{{Standard
+|uuid=957cd8a0-bad5-45ed-ab87-cfa969261b87
+|publisher=W3C
+|code=REC-css3-selectors-20110929
+|title=Selectors Level 3
+|dateissued=2011-09-29
+|substandards=
+|description=
+Selectors are patterns that match against elements in a tree. Selectors have been optimized for use with HTML and XML, and are designed to be usable in performance-critical code. CSS (Cascading Style Sheets) is a language for describing the rendering of HTML and XML documents on screen, on paper, in speech, etc. CSS uses Selectors for binding style properties to elements in the document. This document describes extensions to the selectors defined in CSS level 2. These extended selectors will be used by CSS level 3.
+|responsible=FMN-CPWG
+|website=http://www.w3.org/TR/2011/REC-css3-selectors-20110929/
+|events={{Change Event
+|order=1
+|date=2014-05-11
+|flag=added
+|rfcp=
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

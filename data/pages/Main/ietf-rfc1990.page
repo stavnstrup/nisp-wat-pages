@@ -1,0 +1,33 @@
+{{Standard
+|uuid=69df958c-4901-4326-8736-a1d5b14a9349
+|publisher=IETF
+|code=RFC 1990
+|title=The PPP Multilink Protocol (MP)
+|dateissued=1996
+|substandards=
+|description=
+This document proposes a method for splitting, recombining and sequencing datagrams across multiple logical data links. This work was originally motivated by the desire to exploit multiple bearer channels in ISDN, but is equally applicable to any situation in which multiple PPP links connect two systems, including async links. This is accomplished by means of new PPP [2] options and protocols.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc1990.txt
+|events={{Change Event
+|order=1
+|date=2003-03-19
+|flag=added
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=2
+|date=2005-09-16
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

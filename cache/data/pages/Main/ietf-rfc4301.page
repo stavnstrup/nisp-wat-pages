@@ -1,0 +1,47 @@
+{{Standard
+|uuid=cfa5c56f-03da-4d6e-a993-02c1e0404340
+|publisher=IETF
+|code=RFC 4301
+|title=Security Architecture for the Internet Protocol
+|dateissued=2005
+|substandards=
+|description=
+This document specifies the base architecture for IPsec-compliant systems. It describes how to provide a set of security services for traffic at the IP layer, in both the IPv4 [Pos81a] and IPv6 [DH98] environments. This document describes the requirements for systems that implement IPsec, the fundamental elements of such systems, and how the elements fit together and fit into the IP environment. It also describes the security services offered by the IPsec protocols, and how these services can be employed in the IP environment. This document does not address all aspects of the IPsec architecture. Other documents address additional architectural details in specialized environments, e.g., use of IPsec in Network Address Translation (NAT) environments and more comprehensive support for IP multicast.
+|responsible=C3B-CAP4
+|website=http://www.ietf.org/rfc/rfc4301.txt
+|events={{Change Event
+|order=1
+|date=1999-01-15
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-07-17
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2005-09-23
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2010-10-30
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=5
+|date=2017-01-14
+|flag=changed
+|rfcp=9-13
+|version=10.0
+}}
+}}

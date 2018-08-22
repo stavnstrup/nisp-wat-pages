@@ -1,0 +1,6 @@
+A free text format to describe the implementation guidance for a standards profile.
+
+A "Implementation Guidance" is a text value that reflects a short explanation (no more than a couple of paragraphs) for a implementation guidance. A description may include some wiki markup."
+
+This is a property of type [[Has type::Text]].
+

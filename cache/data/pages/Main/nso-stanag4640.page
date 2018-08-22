@@ -1,0 +1,52 @@
+{{Standard
+|uuid=561fbb12-3007-45a9-b1a9-cf3bb77fb7c1
+|publisher=NSO
+|code=STANAG 4640
+|title=TACOMS: Lower Layer Specifications
+|dateissued=2010-06-18
+|substandards=
+|description=
+This STANAG defines and specifies the protocols operating at the lower layers of the OSI model at each TACOMS Phase 1 interface.It provides the following information to implement a TACOMS Phase 1 interface:
+
+
+
+* physical and electrical/optical characteristics of the interface cable; and
+
+* characteristics of the data link.
+
+
+
+The specifications refer to applicable existing Base Standards (BSs), or to TACOMS-defined BSs which are developed by specifying changes to existing base standards.
+
+
+|responsible=NS
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2005-07-31
+|flag=added
+|rfcp=6-11
+|version=0.7
+}}
+{{Change Event
+|order=2
+|date=2009-07-28
+|flag=changed
+|rfcp=
+|version=4.0
+}}
+{{Change Event
+|order=3
+|date=2010-11-02
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=4
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+}}

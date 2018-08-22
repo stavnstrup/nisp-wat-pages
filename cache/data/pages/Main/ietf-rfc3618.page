@@ -1,0 +1,26 @@
+{{Standard
+|uuid=15b8a4a5-8681-40bc-9932-d56dfb27116d
+|publisher=IETF
+|code=RFC 3618
+|title=Multicast Source Discovery Protocol (MSDP)
+|dateissued=2003
+|substandards=
+|description=
+The Multicast Source Discovery Protocol (MSDP) describes a mechanism to connect multiple IP Version 4 Protocol Independent Multicast Sparse-Mode (PIM-SM) domains together. Each PIM-SM domain uses its own independent Rendezvous Point (RP) and does not have to depend on RPs in other domains.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc3618.txt
+|events={{Change Event
+|order=1
+|date=2013-07-26
+|flag=added
+|rfcp=7-27
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

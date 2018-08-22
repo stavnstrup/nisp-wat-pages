@@ -1,0 +1,19 @@
+{{Standard
+|uuid=f5ccf950-1ed2-4347-923f-25c2288a44c7
+|publisher=IICWG
+|code=SCIP-233.422
+|title=NATO Fixed Filler Generation Specification Rev. 1.0.
+|dateissued=
+|substandards=
+|description=
+
+|responsible=NS
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

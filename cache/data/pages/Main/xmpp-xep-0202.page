@@ -1,0 +1,33 @@
+{{Standard
+|uuid=2af4648b-4bc1-48eb-a259-ce25f6ec9cca
+|publisher=XMPP
+|code=XEP-0202
+|title=XEP-0202: Entity Time
+|dateissued=2009-09-11
+|substandards=
+|description=
+This specification defines an XMPP protocol extension for communicating the local time of an entity, including the time in UTC according to the entity as well as the offset from UTC. The time format itself conforms to the dateTime profile of ISO 8601 defined in XEP-0082.
+|responsible=NCIA
+|website=http://xmpp.org/extensions/xep-0202.html
+|events={{Change Event
+|order=1
+|date=2010-12-08
+|flag=added
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-26
+|flag=deleted
+|rfcp=9-21
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-04-19
+|flag=changed
+|rfcp=9-15
+|version=10.0
+}}
+}}

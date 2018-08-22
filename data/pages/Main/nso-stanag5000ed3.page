@@ -1,0 +1,40 @@
+{{Standard
+|uuid=8ba35a02-296b-4e8e-92da-61d195d1b043
+|publisher=NSO
+|code=STANAG 5000 Ed 3
+|title=Interoperability of Tactical Digital Facsimile Equipment
+|dateissued=2006-06-08
+|substandards=
+|description=
+STANAG 5000 includes all required transmission, signalling, timing, protocol, and performance requirements for secure facsimile. Optional requirements of NATO STANAG 5000 are operation at 1.2, 4.8 and 9.6 Kbps operation in low and high resolution, and operation in all handshake compressed and uncompressed modes. STANAG 5000 equipment is to be used with a Group 3 facsimile. The facsimile equipment output may be either analog, as defined by CCITT Group 3 protocol, or digital, as defined by CCITT Group 4, STANAG 5000 Type I, and STANAG 5000 Type II protocols.
+|responsible=NS
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=1999-02-02
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2005-09-06
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2007-08-02
+|flag=changed
+|rfcp=
+|version=2.0
+}}
+{{Change Event
+|order=4
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+}}

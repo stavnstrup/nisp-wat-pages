@@ -1,0 +1,47 @@
+<includeonly>{{#arraydefine:result1|0}}<!--
+-->{{#arraydefine:result2|0}}<!--
+-->{{#ifexpr:{{#len:{{{1|}}}}}>8|{{#arraydefine:result1|1}}}}<!--
+-->{{#ifexpr:{{#len:{{{1|}}}}}=8|{{#ifexpr:{{#switch:{{#sub:{{{1|}}}|-8|1}}<!--
+-->|0|1|2|3|4|5|6|7|8|9|A|a|B|b|C|c|D|d|E|e|F|f=0|1}}=1|{{#arraydefine:result1|1}}<!--
+-->|{{#arraydefine:result2|{{#expr:{{#arrayprint:result2}}+{{#switch:{{#sub:{{{1|}}}|-8|1}}<!--
+-->|0=0|1=1|2=2|3=3|4=4|5=5|6=6|7=7|8=8|9=9|A|a=10|B|b=11|C|c=12|D|d=13|E|e=14|F|f=15|0}}*268435456}}}}}}}}<!--
+-->{{#ifexpr:{{#len:{{{1|}}}}}>=7|{{#ifexpr:{{#switch:{{#sub:{{{1|}}}|-7|1}}<!--
+-->|0|1|2|3|4|5|6|7|8|9|A|a|B|b|C|c|D|d|E|e|F|f=0|1}}=1|{{#arraydefine:result1|1}}<!--
+-->|{{#arraydefine:result2|{{#expr:{{#arrayprint:result2}}+{{#switch:{{#sub:{{{1|}}}|-7|1}}<!--
+-->|0=0|1=1|2=2|3=3|4=4|5=5|6=6|7=7|8=8|9=9|A|a=10|B|b=11|C|c=12|D|d=13|E|e=14|F|f=15|0}}*16777216}}}}}}}}<!--
+-->{{#ifexpr:{{#len:{{{1|}}}}}>=6|{{#ifexpr:{{#switch:{{#sub:{{{1|}}}|-6|1}}<!--
+-->|0|1|2|3|4|5|6|7|8|9|A|a|B|b|C|c|D|d|E|e|F|f=0|1}}=1|{{#arraydefine:result1|1}}<!--
+-->|{{#arraydefine:result2|{{#expr:{{#arrayprint:result2}}+{{#switch:{{#sub:{{{1|}}}|-6|1}}<!--
+-->|0=0|1=1|2=2|3=3|4=4|5=5|6=6|7=7|8=8|9=9|A|a=10|B|b=11|C|c=12|D|d=13|E|e=14|F|f=15|0}}*1048576}}}}}}}}<!--
+-->{{#ifexpr:{{#len:{{{1|}}}}}>=5|{{#ifexpr:{{#switch:{{#sub:{{{1|}}}|-5|1}}<!--
+-->|0|1|2|3|4|5|6|7|8|9|A|a|B|b|C|c|D|d|E|e|F|f=0|1}}=1|{{#arraydefine:result1|1}}<!--
+-->|{{#arraydefine:result2|{{#expr:{{#arrayprint:result2}}+{{#switch:{{#sub:{{{1|}}}|-5|1}}<!--
+-->|0=0|1=1|2=2|3=3|4=4|5=5|6=6|7=7|8=8|9=9|A|a=10|B|b=11|C|c=12|D|d=13|E|e=14|F|f=15|0}}*65536}}}}}}}}<!--
+-->{{#ifexpr:{{#len:{{{1|}}}}}>=4|{{#ifexpr:{{#switch:{{#sub:{{{1|}}}|-4|1}}<!--
+-->|0|1|2|3|4|5|6|7|8|9|A|a|B|b|C|c|D|d|E|e|F|f=0|1}}=1|{{#arraydefine:result1|1}}<!--
+-->|{{#arraydefine:result2|{{#expr:{{#arrayprint:result2}}+{{#switch:{{#sub:{{{1|}}}|-4|1}}<!--
+-->|0=0|1=1|2=2|3=3|4=4|5=5|6=6|7=7|8=8|9=9|A|a=10|B|b=11|C|c=12|D|d=13|E|e=14|F|f=15|0}}*4096}}}}}}}}<!--
+-->{{#ifexpr:{{#len:{{{1|}}}}}>=3|{{#ifexpr:{{#switch:{{#sub:{{{1|}}}|-3|1}}<!--
+-->|0|1|2|3|4|5|6|7|8|9|A|a|B|b|C|c|D|d|E|e|F|f=0|1}}=1|{{#arraydefine:result1|1}}<!--
+-->|{{#arraydefine:result2|{{#expr:{{#arrayprint:result2}}+{{#switch:{{#sub:{{{1|}}}|-3|1}}<!--
+-->|0=0|1=1|2=2|3=3|4=4|5=5|6=6|7=7|8=8|9=9|A|a=10|B|b=11|C|c=12|D|d=13|E|e=14|F|f=15|0}}*256}}}}}}}}<!--
+-->{{#ifexpr:{{#len:{{{1|}}}}}>=2|{{#ifexpr:{{#switch:{{#sub:{{{1|}}}|-2|1}}<!--
+-->|0|1|2|3|4|5|6|7|8|9|A|a|B|b|C|c|D|d|E|e|F|f=0|1}}=1|{{#arraydefine:result1|1}}<!--
+-->|{{#arraydefine:result2|{{#expr:{{#arrayprint:result2}}+{{#switch:{{#sub:{{{1|}}}|-2|1}}<!--
+-->|0=0|1=1|2=2|3=3|4=4|5=5|6=6|7=7|8=8|9=9|A|a=10|B|b=11|C|c=12|D|d=13|E|e=14|F|f=15|0}}*16}}}}}}}}<!--
+-->{{#ifexpr:{{#len:{{{1|}}}}}>=1|{{#ifexpr:{{#switch:{{#sub:{{{1|}}}|-1|1}}<!--
+-->|0|1|2|3|4|5|6|7|8|9|A|a|B|b|C|c|D|d|E|e|F|f=0|1}}=1|{{#arraydefine:result1|1}}<!--
+-->|{{#arraydefine:result2|{{#expr:{{#arrayprint:result2}}+{{#switch:{{#sub:{{{1|}}}|-1|1}}<!--
+-->|0=0|1=1|2=2|3=3|4=4|5=5|6=6|7=7|8=8|9=9|A|a=10|B|b=11|C|c=12|D|d=13|E|e=14|F|f=15|0}}}}}}}}}}<!--
+-->{{#ifeq:{{#arrayprint:result1}}|0|{{#if:{{{2|}}}|{{#ifexpr:{{{2}}}>{{#len:{{#arrayprint:result2}}}}|{{#sub:00000000|0|{{#expr:{{{2}}}-{{#len:{{#arrayprint:result2}}}}}}}}}}}}{{#arrayprint:result2}}|N/A}}</includeonly><noinclude>
+; Description
+It is used to convert a hexadecimal number to a decimal.
+; Format
+<pre>
+{{Hex2dec
+ | Hexadecimal number
+ | Minimum number of characters in result (invoking leading zeros), default=0
+}}</pre>
+; See also
+* [[Template:Dec2hex]]
+</noinclude>

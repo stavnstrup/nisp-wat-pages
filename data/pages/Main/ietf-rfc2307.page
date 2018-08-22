@@ -1,0 +1,28 @@
+{{Standard
+|uuid=3b6a02a4-da49-4f54-aa8e-747c62e34ce6
+|publisher=IETF
+|code=RFC 2307
+|title=Using LDAP as a Network Information Service
+|dateissued=1998
+|substandards=
+|description=
+This document describes an experimental mechanism for mapping entities related to TCP/IP and the UNIX system into X.500 entries so that they may be resolved with the Lightweight Directory Access Protocol. A set of attribute types and object classes are proposed, along with specific guidelines for interpreting them.The intention is to assist the deployment of LDAP as an organizational nameservice. No proposed solutions are intended as standards for the Internet. Rather, it is hoped that a general consensus will emerge as to the appropriate solution to such problems, leading eventually to the adoption of standards. The proposed mechanism has already been implemented with some success.
+
+
+|responsible=NCIA-CES
+|website=http://www.ietf.org/rfc/rfc2307.txt
+|events={{Change Event
+|order=1
+|date=2010-11-13
+|flag=added
+|rfcp=4-25
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

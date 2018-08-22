@@ -1,0 +1,54 @@
+{{Standard
+|uuid=7a7cd2ee-cad2-4479-a98f-05d9215f285f
+|publisher=ITU-T
+|code=H.323
+|title=Packet-based Multimedia Communication System
+|dateissued=2001-07
+|substandards=
+|description=
+The H.323 specification describes terminals and other entities that provide multimedia communication services over packet based networks which may not provide a guaranteed QoS. H.323 entities may provide real-time audio, video and/or data communications. Support for audio is mandatory, while data and video are optional. The packet based network over which H.323 entities communicate may be a point-to-point connection, a single network segment, or an internetwork having multiple segments with complex topologies. H.323 entities may be used in point-to-point, multi-point or broadcast (as described in ITU-T H.332) configurations.
+|responsible=FMN-CPWG
+|website=http://www.itu.int/rec/T-REC-H.223-200107-I
+|events={{Change Event
+|order=1
+|date=1999-03-03
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=3
+|date=2005-09-08
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2007-07-27
+|flag=changed
+|rfcp=
+|version=2.0
+}}
+{{Change Event
+|order=5
+|date=2010-08-09
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=6
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

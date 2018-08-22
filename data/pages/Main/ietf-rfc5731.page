@@ -1,0 +1,19 @@
+{{Standard
+|uuid=dc75936c-b693-4f05-81f3-f57788b64742
+|publisher=IETF
+|code=RFC 5731
+|title=Extensible Provisioning Protocol (EPP) Domain Name Mapping
+|dateissued=2009-08
+|substandards=
+|description=
+This document describes an Extensible Provisioning Protocol (EPP) mapping for the provisioning and management of Internet domain names stored in a shared central repository. Specified in XML, the mapping defines EPP command syntax and semantics as applied to domain names.
+|responsible=NCIA
+|website=http://www.ietf.org/rfc/rfc5731.txt
+|events={{Change Event
+|order=1
+|date=2017-12-19
+|flag=added
+|rfcp=10-28
+|version=11.0
+}}
+}}

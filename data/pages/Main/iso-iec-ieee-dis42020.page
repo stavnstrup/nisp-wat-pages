@@ -1,0 +1,26 @@
+{{Standard
+|uuid=15e04559-8649-4674-a657-2adf271da262
+|publisher=ISO-IEC-IEEE
+|code=DIS42020
+|title=Enterprise, systems and software - Architecture processes
+|dateissued=2017-03-28
+|substandards=
+|description=
+This International Standard establishes a common framework of process descriptions for the development and use of architectures. This International Standard defines a set of processes and associated terminology for the architecting, managing, and governing of architectures, along with enabling activities in support of the architecting Processes.
+|responsible=C3B-ARCHCAT
+|website=http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=68982
+|events={{Change Event
+|order=1
+|date=2016-12-12
+|flag=added
+|rfcp=9-5
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-09-18
+|flag=changed
+|rfcp=10-25
+|version=11.0
+}}
+}}

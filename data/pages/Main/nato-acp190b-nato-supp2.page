@@ -1,0 +1,26 @@
+{{Standard
+|uuid=acbd1b76-802f-47e9-a20c-5c15aa5a2448
+|publisher=NATO
+|code=ACP 190(B) NATO Supp 2
+|title=ACP 190 (B) Classified Frequencies
+|dateissued=2003
+|substandards=
+|description=
+This publication addresses classified frequencies for use by NATO and coalition forces
+|responsible=ACP
+|website=
+|events={{Change Event
+|order=1
+|date=2003-10-03
+|flag=added
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=2
+|date=2005-09-23
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+}}

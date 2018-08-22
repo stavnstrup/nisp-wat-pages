@@ -1,0 +1,44 @@
+{{Service Profile
+|uuid=ca3f8dfb-8b2a-4d8b-8c88-aa0bf93d86b3
+|title=Domain Naming Service Profile 2.0
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-20
+|version=2.0
+|description=
+The Domain Naming Profile provides standards and guidance to support the hierarchical distributed naming system for computers, services, or any resource connected to a federated mission network.
+|taxonomynodes=Domain Name Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=ietf-rfc1034;
+ietf-rfc1035;
+ietf-rfc2181;
+ietf-rfc2782;
+ietf-rfc3258;
+ietf-rfc4786;
+ietf-rfc5936;
+ietf-rfc5966;
+ietf-rfc6382;
+ietf-rfc6891;
+ietf-rfc7094;
+
+}}
+|guideline=
+The Domain Naming Profile provides standards and guidance to support the hierarchical distributed naming system for computers, services, or any resource connected to a federated mission network.
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-12-06
+|flag=changed
+|rfcp=10-29
+|version=11.0
+}}
+}}

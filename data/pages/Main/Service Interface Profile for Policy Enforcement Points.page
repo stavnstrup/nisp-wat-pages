@@ -1,0 +1,23 @@
+{{Capability Profile
+|uuid=43d2d947-33de-481a-982a-ab00238fbdc6
+|title=Service Interface Profile for Policy Enforcement Points
+|publisher=NCIA
+|code=AI_TECH_2016.06.02.04
+|spectitle=Service Interface Profile for Policy Enforcement Points
+|dateissued=2015-02-04
+|version=1.0
+|guideline=
+The purpose of this Service Interface Profile (SIP), which should be read along with the Agency Directive 06.05.04.02.H 2, "Service Interface Profile for Security Services" [NCIA AD 06.05.04.02.H], is to specify how services may be called that are protected by the Core Enterprise Services (CES) Security Services.
+
+
+|profiles=
+|serviceprofiles=Policy Enforcement Points;
+
+|events={{Change Event
+|order=1
+|date=2017-04-21
+|flag=added
+|rfcp=9-15
+|version=10.0
+}}
+}}

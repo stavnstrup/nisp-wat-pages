@@ -1,0 +1,26 @@
+{{Standard
+|uuid=61c66b1a-4dae-413d-ab5b-ebc5632ab1e0
+|publisher=IETF
+|code=RFC 4632
+|title=Classless Inter-domain Routing (CIDR):           The Internet Address Assignment and Aggregation Plan
+|dateissued=2006-08
+|substandards=
+|description=
+This memo discusses the strategy for address assignment of the existing 32-bit IPv4 address space with a view toward conserving the address space and limiting the growth rate of global routing state.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc4632.txt
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

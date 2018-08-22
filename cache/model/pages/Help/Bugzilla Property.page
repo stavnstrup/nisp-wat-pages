@@ -1,0 +1,75 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+The '''Bugzilla Type''' represents bugzilla issues for specific products and components.
+
+It assumes the following syntax to be entered as a text value of the property:
+<pre>
+#<PRODUCT NAME>;
+<VERSION><COMPONENT NAME>;
+<VERSION><COMPONENT NAME>;
+...
+#<PRODUCT NAME>;
+<VERSION><COMPONENT NAME>;
+<VERSION><COMPONENT NAME>;
+...
+</pre>
+
+Example:
+<pre>
+#FMN Spiral 3 Specification;
+Draft FMN Spiral 3 Service Instructions for Geospatial Information;
+Draft FMN Spiral 3 Procedural Instructions for Recognized Environmental Picture;
+#FMN Spiral 2 Specification;
+Final FMN Spiral 2 Service Instructions for Geospatial Information;
+Final FMN Spiral 2 Procedural Instructions for Recognized Environmental Picture;
+Proposed FMN Spiral 2 Service Instructions for Geospatial Information;
+Proposed FMN Spiral 2 Procedural Instructions for Recognized Environmental Picture;
+Candidate FMN Spiral 2 Service Instructions for Geospatial Information;
+Candidate FMN Spiral 2 Procedural Instructions for Recognized Environmental Picture;
+Draft FMN Spiral 2 Service Instructions for Geospatial Information;
+Draft FMN Spiral 2 Procedural Instructions for Recognized Environmental Picture;
+</pre>
+
+
+==Definition==
+The Bugzilla Property extends a common definition of the [[Help:Property|Property Definition]] with the following elements:
+
+<pre>
+<property ... rows={ROWS} ...>
+</property>
+</pre>
+
+{| class="helptable"
+|-
+! {ROWS}
+| A number of initially displayed rows. Default value: 5.
+|}
+
+
+==Semantic database==
+The Bugzilla Property is implemented as a [[Special:Types/Text]] datatype.
+
+
+==Example==
+<pre>
+<property name="Bugzilla issues" type="Bugzilla" label="Components" attribute="components">
+  <description>Bugzilla issues.</description>
+  <instruction/>
+</property>
+</pre>
+
+
+==User Interface==
+* '''View Page'''
+The property displays a matrix with the bugzilla issues in a rows and a number of issues in various states in the columns.
+
+* '''Edit Page'''
+The property provides a multi-line text input field to enter the definition of the required components.
+A number of initially displayed rows is controlled by the "rows" attribute.
+
+* '''Search Page'''
+The property allows user to choose a search operator from the following options: ''Starts with, Contains, Equals, Ends with, Has any value''
+and allows user to enter a desired value in multi-line text input field.
+
+TBD: review it and make more reasonable.

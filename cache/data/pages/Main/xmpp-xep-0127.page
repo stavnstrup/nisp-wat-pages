@@ -1,0 +1,19 @@
+{{Standard
+|uuid=37d8b658-f355-4e17-a76a-2a1b444af0f3
+|publisher=XMPP
+|code=XEP-0127
+|title=XEP-0127: Common Alerting Protocol (CAP) Over XMPP
+|dateissued=2004-12-09
+|substandards=
+|description=
+The Common Alerting Protocol (CAP) is an open format for alerts and notifications, defined by OASIS. CAP was developed to address the call, published in a (U.S.) National Science and Technology Council report, for "a standard method ... to collect and relay instantaneously and automatically all types of hazard warnings and reports". Given that the Extensible Messaging and Presence Protocol (see XMPP Core) provides a near-real-time transport mechanism for structured information, and that CAP is defined as an XML data format, it makes sense to define a way to transport CAP information over XMPP. Such a method is defined herein.
+|responsible=NCIA
+|website=http://xmpp.org/extensions/xep-0127.html
+|events={{Change Event
+|order=1
+|date=2017-04-20
+|flag=added
+|rfcp=9-15
+|version=10.0
+}}
+}}

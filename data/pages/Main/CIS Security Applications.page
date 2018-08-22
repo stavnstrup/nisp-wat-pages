@@ -1,0 +1,9 @@
+{{Taxonomy Node
+|uuid=3b312283-63a3-4403-9fbe-7d5f6c357898
+|order=26
+|parent=User_Applications
+|title=CIS Security Applications
+|description=The CIS Security Applications enable users to create and maintain a secure environment that meets the security objectives of Communications and Information Systems (CIS) to handle all information.
+
+The CIS Security Applications aim to ensure: the confidentiality of information by controlling the disclosure of, and access to information, supporting systems, services and resources; the integrity and availability of information, supporting systems, services and resources; the reliable identification and authentication of persons, devices and services accessing CIS; and the appropriate non-repudiation for individuals and entities having processed the information.
+}}

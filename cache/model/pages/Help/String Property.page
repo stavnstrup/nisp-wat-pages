@@ -1,0 +1,62 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+The '''String Property Type''' represents a textual content limited to one line.
+
+The Wiki Automation Tool supports editing, viewing and searching on the String properties.
+
+
+==Definition==
+
+The String Property extends a common definition of the [[Help:Property|Property Definition]] with the following elements:
+
+<pre>
+
+<concept>
+  <structure>
+    <property name="{PROPERTY NAME}" format="{FORMAT}"/>
+  </structure>
+</concept>
+
+<properties>
+  <property name="{PROPERTY NAME}" ... size={SIZE}>
+  </property>
+</properties>
+</pre>
+
+{| class="helptable"
+|-
+! {SIZE}
+| A length of the input field. Default value: 50.
+|-
+! {FORMAT}
+| A format to be used to display the multi-value fields. The following values are allowed:
+* ''bullets'' (default)
+* ''commas''
+|}
+
+
+==Semantic database==
+The String Property is implemented as a [[Special:Types/Text]] MediaWiki datatype.
+
+
+==Example==
+<pre>
+<property name="Title" type="String" label="Title" attribute="title" size="10">
+  <description>A text string for the title of a certain entity - not necessarily the corresponding page title.</description>
+  <instruction>A "Title" is a string value that reflects the full title of a taxonomy element.</instruction>
+</property>
+</pre>
+
+
+==User Interface==
+* '''View Page'''
+The property displays a text value entered by the user.
+
+* '''Edit Page'''
+The property provides one line text input field.
+A length of the field is controlled by the 'size' attribute.
+
+* '''Search Page'''
+The property allows user to choose a search operator from the following options: ''Starts with, Contains, Equals, Ends with, Has any''
+and allows user to enter a desired value in one line text input field.

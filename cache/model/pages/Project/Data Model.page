@@ -1,0 +1,298 @@
+__NOCACHE__ __NOEDITSECTION__ __NOTOC__ {{Project:Navigator}}
+
+{{Help:Data Model Introduction}}
+
+
+=Overview=
+The following diagram presents the the dependencies between Packages within the ''Data Model''.
+{{#tag:graphviz|digraph "NISP Data Model" {
+rankdir=LR;
+nodesep=0.3;
+compound=true;
+node [style="filled" fillcolor="#f9f9f9" color="#333333" fontname="Arial" fontsize=8 width="0.03" height="0.03"];
+/* xxx Concepts xxxx*/
+
+
+"Mrecord-Standards" [shape="Mrecord" URL="[[Project:Concept - Standards]]" fillcolor="#becde6" color="#{{Get Color Shade|becde6}}" label="STANDARDS"] ;
+"Mrecord-Basic-Standards-Service-Profiles" [shape="Mrecord" URL="[[Project:Concept - Basic Standards Service Profiles]]" fillcolor="#becde6" color="#{{Get Color Shade|becde6}}" label="BASIC STANDARDS SERVICE PROFILES"] ;
+"Mrecord-Capability-Profiles" [shape="Mrecord" URL="[[Project:Concept - Capability Profiles]]" fillcolor="#becde6" color="#{{Get Color Shade|becde6}}" label="CAPABILITY PROFILES"] ;
+"Mrecord-Profiles" [shape="Mrecord" URL="[[Project:Concept - Profiles]]" fillcolor="#becde6" color="#{{Get Color Shade|becde6}}" label="PROFILES"] ;
+"Mrecord-Service-Profiles" [shape="Mrecord" URL="[[Project:Concept - Service Profiles]]" fillcolor="#becde6" color="#{{Get Color Shade|becde6}}" label="SERVICE PROFILES"] ;
+subgraph "cluster_Standards-Management" { color=blue;label="Standards Management"; URL="[[Project:Package - Standards Management]]"  "Mrecord-Standards" "Mrecord-Basic-Standards-Service-Profiles" "Mrecord-Capability-Profiles" "Mrecord-Profiles" "Mrecord-Service-Profiles"; }
+
+"Mrecord-Organizations" [shape="Mrecord" URL="[[Project:Concept - Organizations]]" fillcolor="#becde6" color="#{{Get Color Shade|becde6}}" label="ORGANIZATIONS"] ;
+subgraph "cluster_Organizations-Management" { color=blue;label="Organizations Management"; URL="[[Project:Package - Organizations Management]]"  "Mrecord-Organizations"; }
+
+
+"Mrecord-Taxonomy-Nodes" [shape="Mrecord" URL="[[Project:Concept - Taxonomy Nodes]]" fillcolor="#f0cdb4" color="#{{Get Color Shade|f0cdb4}}" label="TAXONOMY NODES"] ;
+subgraph "cluster_C3-Taxonomy" { color=blue;label="C3 Taxonomy"; URL="[[Project:Package - C3 Taxonomy]]"  "Mrecord-Taxonomy-Nodes"; }
+edge [color="#696969" arrowhead="normal" penwidth="0.5"];
+
+
+"Mrecord-Standards" -> "Mrecord-Organizations" [label="  " ltail="cluster_Standards-Management" lhead="cluster_Organizations-Management"] ;
+"Mrecord-Standards" -> "Mrecord-Taxonomy-Nodes" [label="  " ltail="cluster_Standards-Management" lhead="cluster_C3-Taxonomy"] ;
+
+
+
+} |format="png"|renderer="dot"}}
+
+
+=Packages=
+The ''Data Model'' incorporates the following Packages:
+{| class="wikitable sortable"
+|-
+! Package || Description
+
+|-
+| [[Project:Package - Common Library|Package - Common Library]]
+| Concepts related to common library
+
+|-
+| [[Project:Package - Standards Management|Package - Standards Management]]
+| Concepts representing NISP standards and profiles
+
+|-
+| [[Project:Package - Organizations Management|Package - Organizations Management]]
+| Concepts to manage Organizations
+
+|-
+| [[Project:Package - Catalogue Management|Package - Catalogue Management]]
+| Concepts to manage Standards Catalogue
+
+|-
+| [[Project:Package - C3 Taxonomy|Package - C3 Taxonomy]]
+| Concepts representing C3 Taxonomy
+|}
+
+= Concepts =
+The ''Data Model'' defines the following Concepts:
+
+{| class="wikitable sortable"
+|-
+! Definition || Topic || Data || Records || Package
+|-
+| [[Image:profile.png|link=|20px]] [[Project:Concept - Basic Standards Service Profiles|Basic Standards Service Profiles]]
+| 
+| &nbsp;[[Image:Concept List Icon.png|link=|20px]] [[:Category:Basic Standards Service Profiles|List]] &nbsp;{{#queryformlink:form=Basic Standards Service Profiles Search Form
+|link text=[[Image:Concept Search Icon.png|link=|20px]] Search
+|link type=text
+|new window
+}} &nbsp;[[Image:Concept Add Icon.png|link=|20px]] [[Form:Basic Standards Service Profile|Add new]] 
+| {{#ask:[[Category:Basic Standards Service Profiles]]|format=count}}
+| [[Project:Package - Standards Management|Standards Management]]
+|-
+| [[Image:profile.png|link=|20px]] [[Project:Concept - Capability Profiles|Capability Profiles]]
+| 
+| &nbsp;[[Image:Concept List Icon.png|link=|20px]] [[:Category:Capability Profiles|List]] &nbsp;{{#queryformlink:form=Capability Profiles Search Form
+|link text=[[Image:Concept Search Icon.png|link=|20px]] Search
+|link type=text
+|new window
+}} &nbsp;[[Image:Concept Add Icon.png|link=|20px]] [[Form:Capability Profile|Add new]] 
+| {{#ask:[[Category:Capability Profiles]]|format=count}}
+| [[Project:Package - Standards Management|Standards Management]]
+|-
+| [[Image:organization.png|link=|20px]] [[Project:Concept - Organizations|Organizations]]
+| 
+| &nbsp;[[Image:Concept List Icon.png|link=|20px]] [[:Category:Organizations|List]] &nbsp;{{#queryformlink:form=Organizations Search Form
+|link text=[[Image:Concept Search Icon.png|link=|20px]] Search
+|link type=text
+|new window
+}} &nbsp;[[Image:Concept Add Icon.png|link=|20px]] [[Form:Organization|Add new]] 
+| {{#ask:[[Category:Organizations]]|format=count}}
+| [[Project:Package - Organizations Management|Organizations Management]]
+|-
+| [[Image:profile.png|link=|20px]] [[Project:Concept - Profiles|Profiles]]
+| 
+| &nbsp;[[Image:Concept List Icon.png|link=|20px]] [[:Category:Profiles|List]] &nbsp;{{#queryformlink:form=Profiles Search Form
+|link text=[[Image:Concept Search Icon.png|link=|20px]] Search
+|link type=text
+|new window
+}} &nbsp;[[Image:Concept Add Icon.png|link=|20px]] [[Form:Profile|Add new]] 
+| {{#ask:[[Category:Profiles]]|format=count}}
+| [[Project:Package - Standards Management|Standards Management]]
+|-
+| [[Image:profile.png|link=|20px]] [[Project:Concept - Service Profiles|Service Profiles]]
+| 
+| &nbsp;[[Image:Concept List Icon.png|link=|20px]] [[:Category:Service Profiles|List]] &nbsp;{{#queryformlink:form=Service Profiles Search Form
+|link text=[[Image:Concept Search Icon.png|link=|20px]] Search
+|link type=text
+|new window
+}} &nbsp;[[Image:Concept Add Icon.png|link=|20px]] [[Form:Service Profile|Add new]] 
+| {{#ask:[[Category:Service Profiles]]|format=count}}
+| [[Project:Package - Standards Management|Standards Management]]
+|-
+| [[Image:standard.jpeg|link=|20px]] [[Project:Concept - Standards|Standards]]
+| 
+| &nbsp;[[Image:Concept List Icon.png|link=|20px]] [[:Category:Standards|List]] &nbsp;{{#queryformlink:form=Standards Search Form
+|link text=[[Image:Concept Search Icon.png|link=|20px]] Search
+|link type=text
+|new window
+}} &nbsp;[[Image:Concept Add Icon.png|link=|20px]] [[Form:Standard|Add new]] 
+| {{#ask:[[Category:Standards]]|format=count}}
+| [[Project:Package - Standards Management|Standards Management]]
+|-
+| [[Image:Services.png|link=|20px]] [[Project:Concept - Taxonomy Nodes|Taxonomy Nodes]]
+| 
+| &nbsp;[[Image:Concept List Icon.png|link=|20px]] [[:Category:Taxonomy Nodes|List]] &nbsp;[[Image:Concept Tree Icon.png|link=|20px]] [[Taxonomy Nodes Tree|Tree]] &nbsp;{{#queryformlink:form=Taxonomy Nodes Search Form
+|link text=[[Image:Concept Search Icon.png|link=|20px]] Search
+|link type=text
+|new window
+}} &nbsp;[[Image:Concept Add Icon.png|link=|20px]] [[Form:Taxonomy Node|Add new]] 
+| {{#ask:[[Category:Taxonomy Nodes]]|format=count}}
+| [[Project:Package - C3 Taxonomy|C3 Taxonomy]]
+|}
+
+= Properties =
+The ''Data Model'' defines the following Properties:
+
+{| class="wikitable sortable"
+|-
+! Property || Type || Used by
+
+|-
+| [[Property:Color|Color]]
+|Text
+|
+|-
+| [[Property:Count|Count]]
+|Number
+|
+|-
+| [[Property:Description|Description]]
+|Text
+|[[Project:Concept - Organizations|Organization]] [[Project:Concept - Service Profiles|Service Profile]] [[Project:Concept - Standards|Standard]] [[Project:Concept - Taxonomy Nodes|Taxonomy Node]] 
+|-
+| [[Property:Image|Image]]
+|Image
+|
+|-
+| [[Property:Is child of|Is child of]]
+|Page
+|[[Project:Concept - Taxonomy Nodes|Taxonomy Node]] 
+|-
+| [[Property:Is parent of|Is parent of]]
+|Page
+|
+|-
+| [[Property:Modification date|Modification date]]
+|DateTime
+|[[Project:Concept - Basic Standards Service Profiles|Basic Standards Service Profile]] [[Project:Concept - Capability Profiles|Capability Profile]] [[Project:Concept - Organizations|Organization]] [[Project:Concept - Profiles|Profile]] [[Project:Concept - Service Profiles|Service Profile]] <br/>[[Project:Concept - Standards|Standard]] [[Project:Concept - Taxonomy Nodes|Taxonomy Node]] 
+|-
+| [[Property:Name|Name]]
+|String
+|
+|-
+| [[Property:Order|Order]]
+|Number
+|[[Project:Concept - Basic Standards Service Profiles|Basic Standards Service Profile]] [[Project:Concept - Capability Profiles|Capability Profile]] [[Project:Concept - Profiles|Profile]] [[Project:Concept - Service Profiles|Service Profile]] [[Project:Concept - Standards|Standard]] <br/>[[Project:Concept - Taxonomy Nodes|Taxonomy Node]] 
+|-
+| [[Property:Remarks|Remarks]]
+|Text
+|
+|-
+| [[Property:Title|Title]]
+|String
+|[[Project:Concept - Capability Profiles|Capability Profile]] [[Project:Concept - Profiles|Profile]] [[Project:Concept - Service Profiles|Service Profile]] [[Project:Concept - Standards|Standard]] [[Project:Concept - Taxonomy Nodes|Taxonomy Node]] <br/>
+|-
+| [[Property:UUID|UUID]]
+|String
+|[[Project:Concept - Basic Standards Service Profiles|Basic Standards Service Profile]] [[Project:Concept - Capability Profiles|Capability Profile]] [[Project:Concept - Organizations|Organization]] [[Project:Concept - Profiles|Profile]] [[Project:Concept - Service Profiles|Service Profile]] <br/>[[Project:Concept - Standards|Standard]] [[Project:Concept - Taxonomy Nodes|Taxonomy Node]] 
+|-
+| [[Property:Acronym|Acronym]]
+|String
+|[[Project:Concept - Organizations|Organization]] 
+|-
+| [[Property:Change event date|Change event date]]
+|Date
+|[[Project:Concept - Capability Profiles|Capability Profile]] [[Project:Concept - Profiles|Profile]] [[Project:Concept - Service Profiles|Service Profile]] [[Project:Concept - Standards|Standard]] 
+|-
+| [[Property:Change event flag|Change event flag]]
+|Option
+|[[Project:Concept - Capability Profiles|Capability Profile]] [[Project:Concept - Profiles|Profile]] [[Project:Concept - Service Profiles|Service Profile]] [[Project:Concept - Standards|Standard]] 
+|-
+| [[Property:Change event rfcp|Change event rfcp]]
+|String
+|[[Project:Concept - Capability Profiles|Capability Profile]] [[Project:Concept - Profiles|Profile]] [[Project:Concept - Service Profiles|Service Profile]] [[Project:Concept - Standards|Standard]] 
+|-
+| [[Property:Change event version|Change event version]]
+|String
+|[[Project:Concept - Capability Profiles|Capability Profile]] [[Project:Concept - Profiles|Profile]] [[Project:Concept - Service Profiles|Service Profile]] [[Project:Concept - Standards|Standard]] 
+|-
+| [[Property:Date issued|Date issued]]
+|Date
+|[[Project:Concept - Capability Profiles|Capability Profile]] [[Project:Concept - Profiles|Profile]] [[Project:Concept - Service Profiles|Service Profile]] [[Project:Concept - Standards|Standard]] 
+|-
+| [[Property:Description|Description]]
+|Text
+|[[Project:Concept - Organizations|Organization]] [[Project:Concept - Service Profiles|Service Profile]] [[Project:Concept - Standards|Standard]] [[Project:Concept - Taxonomy Nodes|Taxonomy Node]] 
+|-
+| [[Property:Guideline|Guideline]]
+|Text
+|[[Project:Concept - Capability Profiles|Capability Profile]] [[Project:Concept - Profiles|Profile]] [[Project:Concept - Service Profiles|Service Profile]] 
+|-
+| [[Property:Has substandards|Has substandards]]
+|Page
+|[[Project:Concept - Standards|Standard]] 
+|-
+| [[Property:Is adding standard|Is adding standard]]
+|Page
+|
+|-
+| [[Property:Is published by|Is published by]]
+|Page
+|[[Project:Concept - Capability Profiles|Capability Profile]] [[Project:Concept - Profiles|Profile]] [[Project:Concept - Service Profiles|Service Profile]] [[Project:Concept - Standards|Standard]] 
+|-
+| [[Property:Is related to|Is related to]]
+|Page
+|[[Project:Concept - Basic Standards Service Profiles|Basic Standards Service Profile]] [[Project:Concept - Service Profiles|Service Profile]] 
+|-
+| [[Property:Is responsible for|Is responsible for]]
+|Page
+|[[Project:Concept - Basic Standards Service Profiles|Basic Standards Service Profile]] [[Project:Concept - Standards|Standard]] 
+|-
+| [[Property:Obligation Type|Obligation Type]]
+|Option
+|[[Project:Concept - Service Profiles|Service Profile]] 
+|-
+| [[Property:Reference code|Reference code]]
+|String
+|[[Project:Concept - Capability Profiles|Capability Profile]] [[Project:Concept - Profiles|Profile]] [[Project:Concept - Service Profiles|Service Profile]] [[Project:Concept - Standards|Standard]] 
+|-
+| [[Property:Specification Title|Specification Title]]
+|Text
+|[[Project:Concept - Capability Profiles|Capability Profile]] [[Project:Concept - Profiles|Profile]] [[Project:Concept - Service Profiles|Service Profile]] 
+|-
+| [[Property:Standard|Standard]]
+|Page
+|
+|-
+| [[Property:Version|Version]]
+|String
+|[[Project:Concept - Capability Profiles|Capability Profile]] [[Project:Concept - Profiles|Profile]] [[Project:Concept - Service Profiles|Service Profile]] [[Project:Concept - Standards|Standard]] 
+|-
+| [[Property:Website|Website]]
+|URL
+|[[Project:Concept - Capability Profiles|Capability Profile]] [[Project:Concept - Organizations|Organization]] [[Project:Concept - Profiles|Profile]] [[Project:Concept - Service Profiles|Service Profile]] [[Project:Concept - Standards|Standard]] <br/>
+|-
+| [[Property:Is implementing profile|Is implementing profile]]
+|Page
+|[[Project:Concept - Capability Profiles|Capability Profile]] [[Project:Concept - Profiles|Profile]] 
+|-
+| [[Property:Is implementing service profile|Is implementing service profile]]
+|Page
+|[[Project:Concept - Capability Profiles|Capability Profile]] [[Project:Concept - Profiles|Profile]] 
+|-
+| [[Property:Is implementing standard|Is implementing standard]]
+|Page
+|[[Project:Concept - Service Profiles|Service Profile]] 
+|-
+| [[Property:Is implementing mandatory standard|Is implementing mandatory standard]]
+|Page
+|[[Project:Concept - Basic Standards Service Profiles|Basic Standards Service Profile]] 
+|-
+| [[Property:Is implementing candidate standard|Is implementing candidate standard]]
+|Page
+|[[Project:Concept - Basic Standards Service Profiles|Basic Standards Service Profile]] 
+|}
+
+<headertabs />

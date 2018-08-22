@@ -1,0 +1,6 @@
+{{Basic Standards Service Profile
+|taxonomynode=Policy Decision Point Services
+|responsible=
+|mandatorystandards=nso-stanag4715ed1;
+|candidatestandards=nato-npki-certp;oasis-xacml-3.0-core-spec-os;us-dod-ebts-1.2;us-dod-ebts-2.0;ansinist-itl-1-2000;iso-19794-2;iso-19794-5;iso-19794-6;
+}}

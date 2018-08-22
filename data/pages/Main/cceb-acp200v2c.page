@@ -1,0 +1,19 @@
+{{Standard
+|uuid=2389e7ee-d165-4ee8-96c8-82f944c4f866
+|publisher=CCEB
+|code=ACP 200 V2 (C) 
+|title=Mobile Tactical Wide Area Networking (MTWAN) Technical Instructions
+|dateissued=
+|substandards=
+|description=
+
+|responsible=ACP
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

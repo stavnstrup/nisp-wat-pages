@@ -1,0 +1,26 @@
+{{Standard
+|uuid=ce7c5b38-1eb5-41f1-909f-824b2efa6813
+|publisher=W3C
+|code=REC-xmlbase-20010627
+|title=XML Base
+|dateissued=2001-06-27
+|substandards=
+|description=
+This document proposes a facility, similar to that of HTML BASE, for defining base URIs for parts of XML documents
+|responsible=NCIA-CES
+|website=http://www.w3.org/TR/2001/REC-xmlbase-20010627/
+|events={{Change Event
+|order=1
+|date=2004-05-25
+|flag=added
+|rfcp=5-11
+|version=0.6
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

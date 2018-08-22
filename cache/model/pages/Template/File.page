@@ -1,0 +1,62 @@
+<includeonly><span class="plainlinks"><!--
+xxxxxxxxxx Icon based on "type" field or variable 1, otherwise empty xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxx Icon links to file page for "filename" field xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+-->{{#arraydefine:@type|{{#if:{{{type|}}}|{{{type}}}|{{#if:{{{1|}}}|{{{1}}}|{{#sub:{{{filename}}}|{{#expr:{{#rpos:{{{filename}}}|.}}+1}}}}}}}}}}<!--
+-->{{#arraydefine:@showextension|1}}<!--
+switch -->{{#switch:{{lc:{{#arrayprint:@type}}}}<!--
+for Microsoft Word -->|doc|docx|word=[[image:Microsoft Word 2013 Icon.png|16px|link={{#ifeq:{{lc:{{{online}}}}}|yes| |File:{{{filename}}}}}]]&nbsp;<!--
+for Microsoft Excel -->|xls|xlsx|excel=[[image:Microsoft Excel 2013 Icon.png|16px|link={{#ifeq:{{lc:{{{online}}}}}|yes| |File:{{{filename}}}}}]]&nbsp;<!--
+for Microsoft PowerPoint -->|ppt|pptx|powerpoint=[[image:Microsoft PowerPoint 2013 Icon.png|16px|link={{#ifeq:{{lc:{{{online}}}}}|yes| |File:{{{filename}}}}}]]&nbsp;<!--
+for Microsoft Project  -->|mpp|project=[[image:Microsoft Project 2013 Icon.png|16px|link={{#ifeq:{{lc:{{{online}}}}}|yes| |File:{{{filename}}}}}]]&nbsp;<!--
+for Adobe Acrobat and Reader -->|pdf|adobe=[[image:Adobe Reader XI Icon.png|16px|link={{#ifeq:{{lc:{{{online}}}}}|yes| |File:{{{filename}}}}}]]&nbsp;<!--
+for MPEG  -->|mpg|mpeg=[[image:MPEG Icon.png|16px|link={{#ifeq:{{lc:{{{online}}}}}|yes| |File:{{{filename}}}}}]]&nbsp;<!--
+for ZIP  -->|tar|zip=[[image:Zip Icon.png|16px|link={{#ifeq:{{lc:{{{online}}}}}|yes| |File:{{{filename}}}}}]]&nbsp;<!--
+for ICS  -->|ics|ical=[[image:ICS Icon.jpg|16px|link={{#ifeq:{{lc:{{{online}}}}}|yes| |File:{{{filename}}}}}]]&nbsp; <!--
+for Flash  -->|swf|flash=[[image:Adobe Flash Icon.png|16px|link={{#ifeq:{{lc:{{{online}}}}}|yes| |File:{{{filename}}}}}]]&nbsp; <!--
+for image -->|jpg|jpeg|gif|png=[[image:Frame.jpg|16px|link={{#ifeq:{{lc:{{{online}}}}}|yes| |File:{{{filename}}}}}]]&nbsp; <!--
+for blank -->|{{#arraydefine:@showextension|0}}}}<!--
+xxxxxxxxxx Link to file with "file" field or to url when "online" is true xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+if -->{{#ifeq:{{lc:{{{online}}}}}|yes <!--
+then if -->|{{#if:{{{text|}}}<!--
+  then if -->|{{#ifeq:{{{text}}}|X<!--
+    then -->|[{{{filename}}} ]<!--
+    else -->|[{{{filename}}} {{{text}}}]<!-- endif -->}}<!--
+  else -->|{{{filename}}}<!-- endif -->}}<!--
+else -->| [[media:{{{filename}}}<!--
+  if -->|{{#if:{{{text|}}}<!--
+  then if -->|{{#ifeq:{{{text|}}}|X<!--
+    then -->|&nbsp;<!--
+    else -->|{{{text}}}<!-- endif -->}}<!--
+  else if -->|{{#ifeq:{{#arrayprint:@showextension}}|1<!--
+    then -->|{{#sub:{{{filename}}}|0|{{#rpos:{{{filename}}}|.}}}}<!--
+    else -->|{{{filename}}}<!-- endif -->}}<!-- endif -->}}]]<!-- endif -->}}</span><!--
+xxxxxxxxxx Last status of file when "history" is on xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+if -->{{#ifeq:{{lc:{{{history}}}}}|on <!--
+then -->| &#32;({{#time:h:i, j F Y|{{REVISIONTIMESTAMP:File:{{{filename}}}}}}} {{User Link|{{REVISIONUSER:File:{{{filename}}}}}}})<!-- endif -->}}</includeonly><!--
+--><noinclude>
+; Description
+It is used to create links to files, either on the wiki itself or online, accompanied by a logo for the filetype. In case on wiki files, the logo will link to the page in the "File" namespace. The text in the link can be manipulated to hold either the filename (or in case of online files, the URL), a blank or text string of choice.
+; Format
+<pre>
+{{File
+|type=
+|filename=name of file plus extension, or full url to file location
+|text=
+|online=yes, no (default)
+|history=on, off (default)
+}}
+</pre>
+; Icons
+* [[image:Microsoft Word 2013 Icon.png|16px]] for 'doc', 'docx' and 'word'
+* [[image:Microsoft Excel 2013 Icon.png|16px]] for 'xls', 'xlsx' and 'excel'
+* [[image:Microsoft PowerPoint 2013 Icon.png|16px]] for 'ppt', 'pptx' and 'powerpoint'
+* [[image:Microsoft Project 2013 Icon.png|16px]] for 'mpp' and 'project'
+* [[image:Adobe Reader XI Icon.png|16px]] for 'pdf', 'adobe'
+* [[image:MPEG Icon.png|16px]] for 'mpg', 'mpeg'
+* [[image:Adobe Flash Icon.png|16px]] for 'swf', 'flash'
+* [[image:Zip Icon.png|16px]] for 'zip'
+* [[image:ICS Icon.jpg|16px]] for 'ics', "ical"
+* [[image:Frame.jpg|16px]] for 'jpg', jpeg', 'gif', 'png'
+; Archive
+* {{File|filename=Template File Images.zip}}
+</noinclude>

@@ -1,0 +1,29 @@
+{{Service Profile
+|uuid=6f797e39-1041-4a90-ae06-f74d883691c2
+|title=Messaging
+|publisher=NCIA
+|code=AI_TECH_2016.06.02.06
+|spectitle=Service Interface Profile for Messaging
+|dateissued=2015-02-04
+|version=1.0
+|description=
+|taxonomynodes=Undefined Taxonomy Node;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=w3c-rec-soap12-part1-20030624;
+w3c-note-soap-20000508;
+w3c-address;
+ws-i-bp20;
+ws-i-bp12;
+
+}}
+|guideline=
+|events={{Change Event
+|order=1
+|date=2017-04-21
+|flag=added
+|rfcp=9-15
+|version=10.0
+}}
+}}

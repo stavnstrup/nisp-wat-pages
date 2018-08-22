@@ -1,0 +1,90 @@
+<includeonly>{{#switch:{{lc:{{{1}}}}}
+| afghanistan = AFG
+| albania = ALB
+| algeria = DZA
+| armenia = ARM
+| australia = AUS
+| austria = AUT
+| azerbaijan = AZE
+| bahrain = BHR
+| belarus = BLR
+| belgium = BEL
+| bosnia | bosnia and herzegovina = BIH
+| bulgaria = BGR
+| canada = CAN
+| croatia = HRV
+| czech republic = CZE
+| denmark = DNK
+| egypt = EGY
+| estonia = EST
+| finland = FIN
+| macedonia | former yugoslav republic of macedonia = FYROM
+| france = FRA
+| georgia = GEO
+| germany = DEU
+| greece = GRC
+| hungary = HUN
+| iceland = ISL
+| iraq = IRQ
+| ireland = IRL
+| israel = ISR
+| italy = ITA
+| japan = JPN
+| jordan = JOR
+| kazakhstan = KAZ
+| korea | south korea = KOR
+| kuwait = KWT
+| kyrgyzstan = KGZ
+| latvia = LVA
+| lithuania = LTU
+| luxembourg = LUX
+| malta = MLT
+| mauritania = MRT
+| moldova = MLD
+| mongolia = MNG
+| montenegro = MNE
+| morocco = MAR
+| nato = NATO
+| netherlands = NLD
+| new zealand = NZL
+| norway = NOR
+| pakistan = PAK
+| poland = POL
+| portugal = PRT
+| qatar = QAT
+| romania = ROU
+| russia = RUS
+| serbia = SRB
+| singapore = SGP
+| slovakia = SVK
+| slovenia = SVN
+| spain = ESP
+| sweden = SWE
+| switzerland = CHE
+| tajikistan = TJK
+| tunisia = TUN
+| turkey = TUR
+| turkmenistan = TKM
+| ukraine = UKR
+| united arab emirates = ARE
+| united kingdom = GBR
+| united states = USA
+| uzbekistan = UZB
+| yemen = YEM
+}}</includeonly><noinclude>
+; Description
+It is used to find the ISO 3166-1 3-letter code of a country.
+; Format
+<pre>
+{{Get Country Code
+ |string
+}}</pre>
+; Examples
+{| border=0
+|- style="vertical-align:top;"
+| <tt><nowiki>{{Get Country|Netherlands}}</nowiki></tt> || &nbsp; || NLD
+|}
+; See also
+* [[Template:Flag]]
+* [[Template:Get Country]]
+</noinclude>

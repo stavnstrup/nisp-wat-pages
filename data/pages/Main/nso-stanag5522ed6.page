@@ -1,0 +1,19 @@
+{{Standard
+|uuid=87f4b7de-62c5-425c-827f-f6e82457f495
+|publisher=NSO-E
+|code=STANAG 5522 Ed 6 / ATDLP-5.22(B)
+|title=Link-22 - ATDLP-5.22 Edition B
+|dateissued=
+|substandards=
+|description=
+
+|responsible=TDL
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-23
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

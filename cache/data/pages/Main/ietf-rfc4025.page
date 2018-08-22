@@ -1,0 +1,26 @@
+{{Standard
+|uuid=7f496411-f326-4716-8606-304463a4cc7a
+|publisher=IETF
+|code=RFC 4025
+|title=A Method for Storing IPsec Keying Material in DNS
+|dateissued=2005-02
+|substandards=
+|description=
+This document describes a new resource record for the Domain Name System (DNS). This record may be used to store public keys for use in IP security (IPsec) systems. The record also includes provisions for indicating what system should be contacted when an IPsec tunnel is established with the entity in question.
+|responsible=NCIA-CS
+|website=http://www.ietf.org/rfc/rfc4025.txt
+|events={{Change Event
+|order=1
+|date=2012-09-02
+|flag=added
+|rfcp=6-23
+|version=7.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

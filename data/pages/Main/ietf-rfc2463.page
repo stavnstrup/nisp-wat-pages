@@ -1,0 +1,33 @@
+{{Standard
+|uuid=d3969013-2fda-4ef1-af05-160ba21398a0
+|publisher=IETF
+|code=RFC 2463
+|title=Internet Control Message Protocol (ICMPv6) for IPv6
+|dateissued=1998
+|substandards=
+|description=
+This document specifies a set of Internet Control Message Protocol (ICMP) messages for use with version 6 of the Internet Protocol (IPv6).
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc2463.txt
+|events={{Change Event
+|order=1
+|date=1998-12-01
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2005-09-16
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

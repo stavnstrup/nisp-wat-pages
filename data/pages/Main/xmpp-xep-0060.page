@@ -1,0 +1,33 @@
+{{Standard
+|uuid=5be5cc23-2023-4fad-a7a7-e38c8656efc1
+|publisher=XMPP
+|code=XEP-0060
+|title=XEP-0060: Publish and Subscribe
+|dateissued=2010-07-12
+|substandards=
+|description=
+This specification defines an XMPP protocol extension for generic publish-subscribe functionality. The protocol enables XMPP entities to create nodes (topics) at a pubsub service and publish information at those nodes; an event notification (with or without payload) is then broadcasted to all entities that have subscribed to the node. Pubsub therefore adheres to the classic Observer design pattern and can serve as the foundation for a wide variety of applications, including news feeds, content syndication, rich presence, geolocation, workflow systems, network management systems, and any other application that requires event notifications.
+|responsible=NCIA
+|website=http://xmpp.org/extensions/xep-0060.html
+|events={{Change Event
+|order=1
+|date=2013-09-04
+|flag=added
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-26
+|flag=deleted
+|rfcp=9-21
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-04-19
+|flag=changed
+|rfcp=9-15
+|version=10.0
+}}
+}}

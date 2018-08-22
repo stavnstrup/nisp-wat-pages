@@ -1,0 +1,49 @@
+{{Service Profile
+|uuid=fc2fcf1c-0773-450c-bf62-5400301cd271
+|title=Video-based Collaboration Service Profile 1.0
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 1 Profile
+|dateissued=2015-09-30
+|version=1.0
+|description=
+The Video-based Collaboration Profile provides standards and guidance for the implementation and configuration of Video Tele Conferencing (VTC) systems and services in a federated mission network.
+|taxonomynodes=Video-based Communication Services;
+|obligations={{Obligation Group
+|obligationtype=conditional
+|description=
+Not required at this time, but when available it can be implemented between MNE’s after approval from the MN administrative authority.
+|standards=ietf-rfc4582;
+itu-t-h.239;
+
+}}
+{{Obligation Group
+|obligationtype=mandatory
+|description=
+The following standards are required for VTC services.
+|standards=itu-t-g.722;
+
+}}
+{{Obligation Group
+|obligationtype=mandatory
+|description=
+The following standards are required for VTC over Internet Protocol (VTCoIP) networking.
+|standards=itu-t-h.323;
+itu-t-h.225.0;
+itu-t-h.245;
+itu-t-h.264;
+itu-t-h.263;
+itu-t-g.722;
+ietf-rfc3550;
+
+}}
+|guideline=
+The Video-based Collaboration Profile provides standards and guidance for the implementation and configuration of Video Tele Conferencing (VTC) systems and services in a federated mission network.
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+}}

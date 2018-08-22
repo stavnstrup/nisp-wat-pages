@@ -1,0 +1,9 @@
+{{Taxonomy Node
+|uuid=7a409ea6-6137-442d-8f77-f19ba8387772
+|order=316
+|parent=Message-based_Access_Services
+|title=Tactical Messaging Access Services
+|description=The Tactical Messaging Access Services provide the delivery or exchange of Tactical Data Link (TDL)-formatted messages, over a man-machine interface (e.g. a keyboard) or machine-machine interface (e.g. an avionics two-wire data bus).  
+
+The physical layer of the Tactical Data Links is covered under Transmission Services (Air-Ground-Air, and Maritime Surface-Surface).
+}}

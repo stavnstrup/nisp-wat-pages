@@ -1,0 +1,26 @@
+{{Standard
+|uuid=d6304777-6ea3-40c8-885c-a3f64fbf42bc
+|publisher=IETF
+|code=RFC 2649
+|title=An LDAP Control and Schema for Holding Operation Signatures
+|dateissued=1999
+|substandards=
+|description=
+In many environments clients require the ability to validiate the source and integrity of information provided by the directory. This document describes an LDAP message control which allows for the retrieval of digitally signed information. This document defines an LDAP v3 based mechanism for signing directory operations in order to create a secure journal of changes that have been made to each directory entry. Both client and server based signatures are supported. An object class for subsequent retrieval are "journal entries" is also defined. This document specifies LDAP v3 controls that enable this functionality. It also defines an LDAP v3 schema that allows for subsequent browsing of the journal information.
+|responsible=NCIA-CES
+|website=http://www.ietf.org/rfc/rfc2649.txt
+|events={{Change Event
+|order=1
+|date=2010-11-13
+|flag=added
+|rfcp=4-25
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

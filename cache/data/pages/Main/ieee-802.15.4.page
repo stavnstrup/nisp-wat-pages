@@ -1,0 +1,26 @@
+{{Standard
+|uuid=f9ae84ab-5987-44ba-8e6c-59764db5909f
+|publisher=IEEE
+|code=802.15.4
+|title=ZigBee
+|dateissued=2005-06-13
+|substandards=
+|description=
+This network standard defines a low data rate solution with multi-month to multi-year battery life and very low complexity. It is operating in an unlicensed, international frequency band. ZigBee claims to be 10 times more efficient and half the cost than that of Bluetooth technology. Potential applications are sensors, interactive toys, smart badges, remote controls, and home automation.
+|responsible=NCIA-NSII
+|website=http://www.zigbee.org
+|events={{Change Event
+|order=1
+|date=2007-02-23
+|flag=added
+|rfcp=
+|version=1.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

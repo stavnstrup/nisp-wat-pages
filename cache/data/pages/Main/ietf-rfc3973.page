@@ -1,0 +1,33 @@
+{{Standard
+|uuid=39d4c529-c956-4f32-bad3-b29baaa6c606
+|publisher=IETF
+|code=RFC 3973
+|title=Protocol Independent Multicasting Dense Mode (PIM-DM)
+|dateissued=2005
+|substandards=
+|description=
+This specification defines a multicast routing algorithm efficient for multicast groups that are densely distributed across a network. This protocol does not have a topology discovery mechanism often used by a unicast routing protocol. It employs the same packet formats sparse-mode PIM uses. This protocol is called dense-mode PIM.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc3973.txt
+|events={{Change Event
+|order=1
+|date=2002-10-11
+|flag=added
+|rfcp=
+|version=0.4
+}}
+{{Change Event
+|order=2
+|date=2005-11-20
+|flag=changed
+|rfcp=6-19
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

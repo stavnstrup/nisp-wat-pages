@@ -1,0 +1,36 @@
+{{Service Profile
+|uuid=3009cc06-7b90-4026-9f5a-3e71bb6b72f8
+|title=Priority and Pre-emption Profile
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|description=
+The Priority and Pre-emption Profile provides standards are used to execute priority and pre-emption service with SIP.
+|taxonomynodes=Video-based Communication Services;
+Audio-based Communication Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=ietf-rfc4411;
+ietf-rfc4412;
+
+}}
+|guideline=
+The Priority and Pre-emption Profile provides standards are used to execute priority and pre-emption service with SIP.
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-12-06
+|flag=changed
+|rfcp=11-29
+|version=11.0
+}}
+}}

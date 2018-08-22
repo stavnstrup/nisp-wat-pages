@@ -1,0 +1,26 @@
+{{Standard
+|uuid=e0ebcf28-b277-4320-a759-dce13dfbbbaf
+|publisher=IETF
+|code=RFC 3952
+|title=Real-time Transport Protocol (RTP) Payload Format for internet Low Bit Rate Codec (iLBC) Speech
+|dateissued=2004-12
+|substandards=
+|description=
+This document describes the Real-time Transport Protocol (RTP) payload format for the internet Low Bit Rate Codec (iLBC) Speech developed by Global IP Sound (GIPS). Also, within the document there are included necessary details for the use of iLBC with MIME and Session Description Protocol (SDP).
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc3952.txt
+|events={{Change Event
+|order=1
+|date=2012-09-02
+|flag=added
+|rfcp=6-27
+|version=7.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,9 @@
+{{Taxonomy Node
+|uuid=0da06e93-72a6-4f7c-b102-7d3cd30ad9fd
+|order=24
+|parent=CIS_Capabilities
+|title=User-Facing Capabilities
+|description=The "User-Facing Capabilities" layer in the C3 Taxonomy represents the interaction between users and Communication and Information Systems (CIS) Capabilities, in order to process the Information Products in support of Business Processes. 
+
+User-Facing Capabilities incorporate the User Equipment, as well as the User Applications that run on that equipment.
+}}

@@ -1,0 +1,14 @@
+*'''Install Wiki Platform and create new Wiki Instance'''
+** [[Help:Wiki Platform#Installation|Install Wiki Platform]]  ''(Recommendation: create a Virtual Machine with local Wiki Platform installation)''
+** [[Help:Wiki Platform#Wiki Management|Create Wiki Instance]] ''(Recommendation: use CreateWiki or CloneWiki scripts)''
+** [[Help:Wiki Platform#Wiki Configuration|Configure Wiki Instance]]
+** alternatively send a request to '''tide@act.nato.int''' to create a new Wiki Instance on the '''Tidepedia Wiki Farm''' available at http://tide.act.nato.int
+*'''Install and configure Wiki Automation Tool'''
+** [[Help:Wiki_Automation_Tool#Installation|Install Wiki Automation Tool]]  ''(Recommendation: install the tool on a local development machine)''
+** [[Help:Wiki_Automation_Tool#Configuration|Configure Wiki Automation Tool]]
+*'''Design and deploy Wiki Model'''
+** [[Help:Project Structure|Create Project Structure]] ''(Recommendation: maintain project files in a source version control system)''
+** [[Help:Wiki Model|Design Wiki Model]]
+*** [[Help:Data Model|Design Data Model]]
+*** [[Help:Widgets|Enrich Data Presentation]]
+** [[Help:Wiki Automation Tool#Command Line Tool|Deploy Wiki Model to Wiki Instance]]

@@ -1,0 +1,38 @@
+{{Service Profile
+|uuid=27665711-843c-43a3-b9f5-3c8ec07a27f8
+|title=SRTP-based Media Infrastructure Security Profile
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|description=
+The SRTP-based Media Infrastructure Security Profile provides security standards that are used for security of media infrastructure based on Transport Layer Security (TLS) and Secure Real-time Transport Protocol (SRTP).
+|taxonomynodes=Transport CIS Security Services;
+|obligations={{Obligation Group
+|obligationtype=conditional
+|description=
+Securing the MN Media infrastructure can be done in several ways and that the selection of the appropriate method is to be done during the mission planning. For this specific method, the following standard apply
+|standards=ietf-rfc3711;
+ietf-rfc4568;
+ietf-rfc5246;
+ietf-rfc7919;
+
+}}
+|guideline=
+The SRTP-based Media Infrastructure Security Profile provides security standards that are used for security of media infrastructure based on Transport Layer Security (TLS) and Secure Real-time Transport Protocol (SRTP).
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-12-06
+|flag=changed
+|rfcp=11-29
+|version=11.0
+}}
+}}

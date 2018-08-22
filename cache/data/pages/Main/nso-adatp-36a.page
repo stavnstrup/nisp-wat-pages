@@ -1,0 +1,19 @@
+{{Standard
+|uuid=d2782c9e-2833-4b72-808e-fdbd79211c74
+|publisher=NSO
+|code=ADatP-36A
+|title=NATO FRIENDLY FORCE INFORMATION (FFI) STANDARD FOR INTEROPERABILITY OF FRIENDLY FORCE TRACKING SYSTEMS (FFTS)
+|dateissued=
+|substandards=
+|description=
+
+|responsible=C3B-CAP2-FFT
+|website=
+|events={{Change Event
+|order=1
+|date=2017-05-01
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+}}

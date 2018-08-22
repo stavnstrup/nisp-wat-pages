@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=2e2c82a5-672b-4529-9069-176a16db68fc
+|order=189
+|parent=Business_Support_SMC_Services
+|title=Application Store Services
+|description=The Application Store Services provides a form of application provisioning. It provides the means to download executable content over a network.  It also provides the means to search and discover applications, including application data, from an application repository, typically through the use of an application provisioning portal.
+}}

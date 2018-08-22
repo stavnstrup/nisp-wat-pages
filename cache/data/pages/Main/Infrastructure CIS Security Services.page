@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=d339cfb9-96a1-493a-a2ab-11cf0dae8aab
+|order=265
+|parent=Infrastructure_Services
+|title=Infrastructure CIS Security Services
+|description=The Infrastructure CIS Security Services provide the necessary means to implement and enforce CIS Security policies at the infrastructure level.
+}}

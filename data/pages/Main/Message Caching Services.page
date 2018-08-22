@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=9e32682e-4610-49b6-ac10-002988455da0
+|order=244
+|parent=Message-Oriented_Middleware_Services
+|title=Message Caching Services
+|description=The Message Caching Services provide functionality to conditionally store messages sent between producers and consumers. The messages can be later served to consumers if they need to resynchronize their state or were unavailable and lost some messages. The cache can support synchronous (request/response) and asynchronous (fire and forget, publish/subscribe) communication.
+}}

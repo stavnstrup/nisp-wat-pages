@@ -1,0 +1,35 @@
+{{Service Profile
+|uuid=6d99f3c4-a932-494c-8446-7daf26939c26
+|title=Geospatial Web Feeds Service Profile 1.0
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 1 Profile
+|dateissued=2015-09-30
+|version=1.0
+|description=
+The Geospatial Web Feeds Profile provides standards and guidance for the delivery of geospatial content to web sites and to user agents, including the encoding of location as part of web feeds. Feed processing software is required to either read or ignore these extensions and shall not fail if these extensions are present, so there is no danger of breaking someone's feed reader (or publisher) by including this element in a feed.
+|taxonomynodes=Web Hosting Services;
+|obligations={{Obligation Group
+|obligationtype=recommended
+|description=
+GeoRSS GML Profile 1.0 a GML subset for point 'gml:Point', line 'gml:LineString', polygon 'gml:Polygon', and box 'gml:Envelope'. In Atom feeds, location shall be specified using Atom 1.0's official extension mechanism in combination with the GeoRSS GML Profile 1.0 whereby a 'georss:where' element is added as a child of the element.
+|standards=ogc-06-050r3;
+
+}}
+{{Obligation Group
+|obligationtype=mandatory
+|description=
+GeoRSS Simple encoding for "georss:point", "georss:line", "georss:polygon", "georss:box".
+|standards=ogc-11-044;
+
+}}
+|guideline=
+The Geospatial Web Feeds Profile provides standards and guidance for the delivery of geospatial content to web sites and to user agents, including the encoding of location as part of web feeds. Feed processing software is required to either read or ignore these extensions and shall not fail if these extensions are present, so there is no danger of breaking someone's feed reader (or publisher) by including this element in a feed.
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+}}

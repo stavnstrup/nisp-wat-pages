@@ -1,0 +1,43 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+The '''Geographical coordinates Type''' represents a geographical coordinates expressed as a latitude and longitude values (separated by comma).
+
+Below are some examples of correct coordinates.<br>As the symbols used for degrees, minutes, and seconds can be confused with a variety<br>of other similar symbols, it can be helpful to copy directly from these examples.
+::--&nbsp;&nbsp;&nbsp;32 42 54  N, 117 9 45  W
+::--&nbsp;&nbsp;&nbsp;32.715 N, 117.163 W
+::--&nbsp;&nbsp;&nbsp;-32.715, -77.03201
+
+
+==Definition==
+The Date Type doesn't define any additional configuration attributes in the  [[Help:Property|Property Definition]] section.
+
+
+==Extensions==
+The following features are providing additional capabilities related to this Property Type:
+* [[Help:Map|Map]]
+
+
+==Semantic database==
+The Geographic coordinates Property is implemented as a [[Special:Types/Geographic coordinates]] MediaWiki datatype.
+
+
+==Example==
+<pre>
+<property name="Coordinates" type="Geographic coordinates" label="Coordinates" attribute="coordinates">
+  <description>A geographic coordinate in the Locations concept.</description>
+  <instruction>"Coordinates" are geographic coordinates that reflect the values for latitude and longitude of a Location, separated by a comma or a semicolon.
+</property>
+</pre>
+
+
+==User Interface==
+* '''View Page'''
+The property displays coordinates entered by the user.
+
+* '''Edit Page'''
+The property provides one line text input field.
+
+* '''Search Page'''
+The property allows user to choose a search operator from the following options: ''Equals, Has any value''
+and allows user to enter a desired value in one line text input field.

@@ -1,0 +1,57 @@
+{{Service Profile
+|uuid=6d2d297f-91c2-44c8-b2f1-4873e691b8e2
+|title=Web Services Profile 2.0
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|description=
+The Web Services Profile provides standards and guidance for transport-neutral mechanisms to address structured exchange of information in a decentralized, distributed environment via web services.
+|taxonomynodes=Web Hosting Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+Provide the elements a web service needs to deliver a suitable UI service, such as remote portlet functionality.
+|standards=w3c-cr-cors-20130129;
+
+}}
+{{Obligation Group
+|obligationtype=conditional
+|description=
+|standards=acm-2002-rest-toit;
+
+}}
+{{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=w3c-note-soap-20000508;
+w3c-note-wsdl-20010315;
+w3c-note-wsdl20-soap11-binding-20070626;
+w3c-address;
+
+}}
+{{Obligation Group
+|obligationtype=recommended
+|description=
+Reliable messaging for web services, describes a protocol that allows messages to be transferred reliably between nodes implementing this protocol in the presence of software component, system, or network failures.
+|standards=oasis-relmes;
+
+}}
+|guideline=
+The Web Services Profile provides standards and guidance for transport-neutral mechanisms to address structured exchange of information in a decentralized, distributed environment via web services.
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-12-06
+|flag=changed
+|rfcp=11-29
+|version=11.0
+}}
+}}

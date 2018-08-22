@@ -1,0 +1,26 @@
+{{Standard
+|uuid=8991ce18-22b4-4177-bf7f-31346dae41b6
+|publisher=ETSI
+|code=en300468
+|title=Digital Video Broadcasting (DVB); Specification for Service Information(SI)in DVB systems, v.1.11.1
+|dateissued=2010-04
+|substandards=
+|description=
+The document specifies the Service Information (SI) data which forms a part of DVB bitstreams, in order that the user can be provided with information to assist in selection of services and/or events within the bitstream, and so that the Integrated Receiver Decoder (IRD) can automatically configure itself for the selected service. SI data for automatic configuration is mostly specified within ISO/IEC 13818-1 [18] as Program Specific Information (PSI).
+|responsible=NCIA-NSII
+|website=http://www.etsi.org/deliver/etsi_en/300400_300499/300468/01.11.01_60/en_300468v011101p.pdf
+|events={{Change Event
+|order=1
+|date=2011-10-17
+|flag=added
+|rfcp=5-60
+|version=6.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

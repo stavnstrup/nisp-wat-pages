@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=6b74ce8a-25ef-476e-bfd7-f1414bdc4485
+|order=182
+|parent=Modeling_and_Simulation_Enabling_Services
+|title=Ground Truth Battlespace Objects Services
+|description=Ground Truth Battlespace Objects Services allow for the discovery, exchange, access and modification of Ground Truth Battlespace Objects (BSOs) which are generated as input to simulations. Ground Truth Battlespace Objects Services enable the stimulated development of percieved truth BSOs by Battlespace Object Services.
+}}

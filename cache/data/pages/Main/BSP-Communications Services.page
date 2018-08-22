@@ -1,0 +1,6 @@
+{{Basic Standards Service Profile
+|taxonomynode=Communications Services
+|responsible=
+|mandatorystandards=ieee-802.1d;ieee-802.1w;ieee-802.1q;ieee-802.1ab;ieee-802.3-2013;iso-iec-11801;itu-t-g.652;iec-61754-20;nso-stanag4285ed1;nso-stanag4415ed2;nso-stanag4481ed1;nso-stanag4529ed1;nso-stanag4538ed1;nso-stanag5065ed1;nso-stanag5066ed3;nso-stanag4292ed2;nso-stanag4246ed3;nso-stanag4372ed3;nso-stanag4691ed2;nso-stanag4681ed1;ietf-rfc1998;ietf-rfc3531;ietf-rfc4541;ietf-rfc4862;nso-stanag4731ed1;
+|candidatestandards=ieee-802.15.4;usb.org-wusb;ietf-rfc4919;ieee-802.16e;ieee-802.20;ieee-802.16e-wibro;etsi-ts102-624-1;ietf-rfc3561;ietf-draft-ietf-manet-dsr-09;ecma-368;ogf-draft-ogf-ogsa-spec-1.5-011;ieee-802.1s;nso-stanag4538ed2;nso-stanag4706ed1;oasis-cap1.2;
+}}

@@ -1,0 +1,45 @@
+{{Standard
+|uuid=ebc2c42f-359d-4498-81f8-15936f84f367
+|publisher=IETF
+|code=RFC 2821
+|title=Simple Mail Transfer Protocol
+|dateissued=2001-04-00
+|substandards=
+|description=
+This document is a self-contained specification of the basic protocol for the Internet electronic mail transport. It consolidates, updates and clarifies, but doesn't add new or change existing functionality of the following:
+
+* the original SMTP (Simple Mail Transfer Protocol) specification of RFC 821 [30],
+
+* domain name system requirements and implications for mail transport from RFC 1035 [22] and RFC 974 [27],
+
+* the clarifications and applicability statements in RFC 1123 [2], and
+
+* material drawn from the SMTP Extension mechanisms [19]
+
+It obsoletes RFC 821, RFC 974, and updates RFC 1123 (replaces the mail transport materials of RFC 1123). However, RFC 821 specifies some features that were not in significant use in the Internet by the mid-1990s and (in appendices) some additional transport models. Those sections are omitted here in the interest of clarity brevity; readers needing them should refer to RFC 821.
+
+
+|responsible=UNDEFINED
+|website=http://www.ietf.org/rfc/rfc2821.txt
+|events={{Change Event
+|order=1
+|date=2010-09-22
+|flag=added
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-26
+|flag=deleted
+|rfcp=9-21
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-11-16
+|flag=changed
+|rfcp=
+|version=11.0
+}}
+}}

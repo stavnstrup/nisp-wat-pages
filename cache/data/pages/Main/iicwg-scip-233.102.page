@@ -1,0 +1,19 @@
+{{Standard
+|uuid=835962d2-b5fd-4cc5-993b-fcf0b39216cf
+|publisher=IICWG
+|code=SCIP-233.102
+|title=NATO Elliptic Curve (EC) Key Material Specification Rev. 1.0.
+|dateissued=
+|substandards=
+|description=
+
+|responsible=NS
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

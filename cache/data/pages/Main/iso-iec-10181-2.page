@@ -1,0 +1,40 @@
+{{Standard
+|uuid=2cc6de15-20ec-4f43-88a3-77c57dea5774
+|publisher=ISO-IEC
+|code=10181-2
+|title=Security Framework in Open Systems Part 2: Authentication framework
+|dateissued=1996
+|substandards=
+|description=
+Addresses the application of security services in an Open Systems environment, where the term Open Systems is taken to include areas such as Database, Distributed Applications, Open Distributed Processing and OSI.
+|responsible=C3B-CAP4
+|website=http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?ics1=35&ics2=100&ics3=01&csnumber=24404
+|events={{Change Event
+|order=1
+|date=1998-11-10
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2005-09-23
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2010-10-31
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=4
+|date=2017-01-14
+|flag=changed
+|rfcp=9-13
+|version=10.0
+}}
+}}

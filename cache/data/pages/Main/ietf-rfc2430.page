@@ -1,0 +1,35 @@
+{{Standard
+|uuid=9f2619e7-5687-4c71-b835-c77d2d1c91fc
+|publisher=IETF
+|code=RFC 2430
+|title=A Provider Architecture for Differentiated Services and Traffic Engineering (PASTE)
+|dateissued=1998
+|substandards=
+|description=
+This document describes the Provider Architecture for Differentiated Services and Traffic Engineering (PASTE) for Internet Service Providers (ISPs). Providing differentiated services in ISPs is a challenge because the scaling problems presented by the sheer number of flows present in large ISPs makes the cost of maintaining per-flow state unacceptable. Coupled with this, large ISPs need the ability to perform traffic engineering by directing aggregated flows of traffic along specific paths.PASTE addresses these issues by using Multiprotocol Label Switching (MPLS) and the Resource Reservation Protocol (RSVP) to create a scalable traffic management architecture that supports differentiated services.
+
+
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc2430.txt
+|events={{Change Event
+|order=1
+|date=2004-07-24
+|flag=added
+|rfcp=5-33
+|version=0.6
+}}
+{{Change Event
+|order=2
+|date=2010-10-30
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

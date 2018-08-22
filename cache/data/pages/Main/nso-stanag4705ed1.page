@@ -1,0 +1,40 @@
+{{Standard
+|uuid=1ce95c9b-c1ec-45c9-8730-c66cda526507
+|publisher=NSO
+|code=STANAG 4705 Ed 1
+|title=International Network Numbering for Communications Systems in use in NATO
+|dateissued=2015-02-18
+|substandards=
+|description=
+This STANAG defines the network numbering to be used between NATO and national defence communications systems between all levels (strategic down to tactical levels). It supersedes STANAG 4214.
+|responsible=NS
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2012-11-26
+|flag=added
+|rfcp=6-74
+|version=7.0
+}}
+{{Change Event
+|order=2
+|date=2015-12-16
+|flag=changed
+|rfcp=8-28
+|version=9.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+{{Change Event
+|order=4
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

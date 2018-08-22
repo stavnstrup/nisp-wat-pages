@@ -1,0 +1,48 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+The '''Number Property Type''' represents a numerical values.
+
+The Wiki Automation Tool supports editing, viewing and searching on the Number properties.
+
+
+==Definition==
+
+The Number Property extends a common definition of the [[Help:Property|Property Definition]] with the following elements:
+
+<pre>
+<property ... size={SIZE}>
+</property>
+</pre>
+
+{| class="helptable"
+|-
+! {SIZE}
+| A length of the input field. Default value: 8.
+|}
+
+
+==Semantic database==
+The Number Property is implemented as a [[Special:Types/Number]] MediaWiki datatype.
+
+
+==Example==
+<pre>
+<property name="Size" type="Number" label="Size" attribute="size" size="3">
+  <description>An integer value used to manage the size of an object in width or height dimensions or other discriminating number.</description>
+  <instruction/>
+</property>
+</pre>
+
+
+==User Interface==
+* '''View Page'''
+The property displays a numeric value.
+
+* '''Edit Page'''
+The property provides one line text input field to enter numerical value.
+A length of the field is controlled by the 'size' attribute.
+
+* '''Search Page'''
+The property allows user to choose a search operator from the following options: ''Equals, Less than, Greater than, Has any value''
+and allows user to enter a desired numeric value in one line text input field.

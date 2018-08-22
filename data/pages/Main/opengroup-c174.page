@@ -1,0 +1,19 @@
+{{Standard
+|uuid=b0f358af-e685-497a-bc4a-d48774fcd8fc
+|publisher=OPENGROUP
+|code=c174
+|title=ArchiMate Model Exchange File Format for the ArchiMate Modeling Language, Version 3.0
+|dateissued=2017-05-26
+|substandards=
+|description=
+The Open Group ArchiMate Model Exchange File Format Standard defines a file format that can be used to exchange data between tools that wish to import and export ArchiMate Version 3 models. ArchiMate exchange files enable exporting content from one ArchiMate modeling tool or repository and importing it into another while retaining information describing the model in the file and how it is structured, such as a list of model elements and relationships. The Standard focuses on the packaging and transport of ArchiMate models.
+|responsible=C3B-ARCHCAT
+|website=https://publications.opengroup.org/c174
+|events={{Change Event
+|order=1
+|date=2017-12-13
+|flag=added
+|rfcp=10-1
+|version=11.0
+}}
+}}

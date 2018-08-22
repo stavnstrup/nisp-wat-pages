@@ -1,0 +1,26 @@
+{{Standard
+|uuid=5d03d691-de4f-45d7-afb1-53b3a4d76449
+|publisher=IETF
+|code=RFC 3315
+|title=Dynamic Host Configuration Protocol for IPv6 (DHCPv6)
+|dateissued=2003
+|substandards=
+|description=
+The Dynamic Host Configuration Protocol for IPv6 (DHCP) enables DHCP servers to pass configuration parameters such as IPv6 network addresses to IPv6 nodes. It offers the capability of automatic allocation of reusable network addresses and additional configuration flexibility. This protocol is a stateful counterpart to "IPv6 Stateless Address Autoconfiguration" (RFC 2462), and can be used separately or concurrently with the latter to obtain configuration parameters.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc3315.txt
+|events={{Change Event
+|order=1
+|date=2005-11-20
+|flag=added
+|rfcp=6-19
+|version=0.7
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

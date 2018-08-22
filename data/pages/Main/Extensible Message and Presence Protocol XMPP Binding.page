@@ -1,0 +1,35 @@
+{{Service Profile
+|uuid=2f5bc26e-b6ae-4861-99b6-3a6e37b01dcd
+|title=Extensible Message and Presence Protocol XMPP Binding
+|publisher=NCIA
+|code=TN-1491
+|spectitle=Extensible Message and Presence Protocol (XMPP) Binding Profile
+|dateissued=2017-05-18
+|version=1.0
+|description=
+|taxonomynodes=Information Annotation Services;
+Content Management Services;
+Information Labeling Services;
+Text-based Collaboration Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=ietf-rfc2634;
+nso-stanag4774;
+nso-stanag4778;
+xmpp-xep-0258;
+xmpp-xep-0060;
+ietf-rfc6122;
+ietf-rfc6120;
+ietf-rfc6121;
+
+}}
+|guideline=
+|events={{Change Event
+|order=1
+|date=2017-04-24
+|flag=added
+|rfcp=9-2
+|version=10.0
+}}
+}}

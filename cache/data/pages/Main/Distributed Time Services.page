@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=f15d7721-33a3-48e1-b2c6-b0d896f642dc
+|order=297
+|parent=Infrastructure_Networking_Services
+|title=Distributed Time Services
+|description=The Distributed Time Services provide synchronized time co-ordination as required among distributed processes when executed on different infrastructure segments and across timezones.
+}}

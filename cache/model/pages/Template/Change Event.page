@@ -1,0 +1,21 @@
+<includeonly>{{#set_internal:Event
+|UUID={{{uuid|null}}}
+|Change event date={{{date|}}}
+|Change event flag={{{flag|}}}
+|Change event rfcp={{{rfcp|}}}
+|Change event version={{{version|}}}}}</includeonly><noinclude>
+; Description
+The template sets semantic values for the '''Change Event''' subobjects within '''Service Profile''' concept.
+; Format
+The template should be called in the following format:
+<pre>
+{{Change Event
+|uuid=
+|date=
+|flag=
+|rfcp=
+|version=
+}}</pre>
+; See also
+* [[Template:Service Profile]]
+</noinclude>

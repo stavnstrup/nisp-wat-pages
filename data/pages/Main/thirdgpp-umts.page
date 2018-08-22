@@ -1,0 +1,26 @@
+{{Standard
+|uuid=0acac947-1946-4e07-9ad5-33dcbbb76049
+|publisher=X3GPP
+|code=
+|title=3GPP UMTS Series
+|dateissued=
+|substandards=
+|description=
+Universal Mobile Telecommunications System (UMTS) is a third generation mobile cellular technology for networks based on the GSM standard. Developed by the 3GPP (3rd Generation Partnership Project), UMTS is a component of the International Telecommunications Union IMT-2000 standard set and compares with the cdma2000 standard set for networks based on the competing cdmaOne technology. UMTS employs wideband code division multiple access (W-CDMA) radio access technology to offer greater spectral efficiency and bandwidth to mobile network operators. UMTS specifies a complete network system, covering the radio access network (UMTS Terrestrial Radio Access Network, or UTRAN), the core network (Mobile Application Part, or MAP) and the authentication of users via SIM cards (Subscriber Identity Module).
+|responsible=NCIA-NSII
+|website=http://www.3gpp.org/specifications
+|events={{Change Event
+|order=1
+|date=2011-10-17
+|flag=added
+|rfcp=5-26
+|version=6.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

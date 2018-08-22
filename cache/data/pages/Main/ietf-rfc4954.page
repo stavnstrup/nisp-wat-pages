@@ -1,0 +1,47 @@
+{{Standard
+|uuid=ed34dc7d-7cae-4e3a-b838-2d0c3533e935
+|publisher=IETF
+|code=RFC 4954
+|title=SMTP Service Extension for Authentication
+|dateissued=2007
+|substandards=
+|description=
+This document defines a Simple Mail Transport Protocol (SMTP) extension whereby an SMTP client may indicate an authentication mechanism to the server, perform an authentication protocol exchange, and optionally negotiate a security layer for subsequent protocol interactions during this session. This extension includes a profile of the Simple Authentication and Security Layer (SASL) for SMTP.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc4954.txt
+|events={{Change Event
+|order=1
+|date=2001-11-20
+|flag=added
+|rfcp=
+|version=0.3
+}}
+{{Change Event
+|order=2
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=3
+|date=2005-09-15
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2010-10-30
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=5
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

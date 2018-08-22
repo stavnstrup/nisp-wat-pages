@@ -1,0 +1,28 @@
+{{Standard
+|uuid=40cb3cbd-2fa0-4d5d-bf10-bc9e041f3797
+|publisher=NSO
+|code=STANAG 7149 Ed 6/APP-11 Edition D v2
+|title=NATO Message Catalogue, APP-11 Edition D v2
+|dateissued=2017
+|substandards=
+|description=
+The purpose of APP-11 is to provide user's with definitive reference of messages and supporting tables mandated for use in Joint, Land, Maritime and Air Operations. It is a compendium of formatted, structured and voice general purpose messages for command and control of NATO forces at all levels of the Chain of Command down to and including individual units.The formatted messages of APP-11 are taken from the ADatP-3 database published in form of a baseline.
+
+
+|responsible=MC-MCJSB-IERHWG
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2017-05-12
+|flag=added
+|rfcp=9-39
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2018-04-16
+|flag=changed
+|rfcp=10-33
+|version=11.0
+}}
+}}

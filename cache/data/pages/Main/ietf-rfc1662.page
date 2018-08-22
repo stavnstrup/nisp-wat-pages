@@ -1,0 +1,33 @@
+{{Standard
+|uuid=398a86c9-60e7-4c02-b17d-cf9a8494888f
+|publisher=IETF
+|code=RFC 1662
+|title=PPP in HDLC-like Framing
+|dateissued=1994
+|substandards=
+|description=
+The Point-to-Point Protocol (PPP) provides a standard method for transporting multi-protocol datagrams over point-to-point links. This document describes the use of HDLC-like framing for PPP encapsulated packets.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc1662.txt
+|events={{Change Event
+|order=1
+|date=1998-11-06
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2005-09-16
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

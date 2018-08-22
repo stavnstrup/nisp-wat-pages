@@ -1,0 +1,26 @@
+{{Standard
+|uuid=94d4728d-d3b1-47df-9b92-9b2b50def848
+|publisher=NATO
+|code=NINE-Traffic-Protection
+|title=NINE-Traffic Protection Internet Key Exchange version 2 Suite B Cryptography, v.1.0.3
+|dateissued=2012
+|substandards=
+|description=
+
+|responsible=NS
+|website=
+|events={{Change Event
+|order=1
+|date=2012-11-26
+|flag=added
+|rfcp=6-83
+|version=7.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+}}

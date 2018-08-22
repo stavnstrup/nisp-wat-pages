@@ -1,0 +1,40 @@
+{{Standard
+|uuid=5364d8bb-a119-440d-b1a8-b8fec3a17758
+|publisher=ISO-IEC
+|code=10181-5
+|title=Security Framework in Open Systems Part 5: Confidentiality framework
+|dateissued=1996
+|substandards=
+|description=
+Specifies a general framework for the provision of confidentiality services.
+|responsible=C3B-CAP4
+|website=http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=24329
+|events={{Change Event
+|order=1
+|date=1998-11-10
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2005-09-23
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2010-10-31
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=4
+|date=2017-01-14
+|flag=changed
+|rfcp=9-13
+|version=10.0
+}}
+}}

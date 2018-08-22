@@ -1,0 +1,40 @@
+{{Standard
+|uuid=1d8bbc68-a1f4-4d16-ad9f-e4960fa5e3d6
+|publisher=IETF
+|code=RFC 1643
+|title=Definitions of Managed Objects for the Ethernet-like Interface Types
+|dateissued=1994
+|substandards=
+|description=
+This standard defines a portion of the Management Information Base (MIB) for use with network management protocols in the Internet community. In particular, it defines objects for managing Ethernet-like objects.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc1643.txt
+|events={{Change Event
+|order=1
+|date=1999-02-02
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-03-20
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2005-09-08
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

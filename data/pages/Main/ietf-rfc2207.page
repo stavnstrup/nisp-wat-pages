@@ -1,0 +1,33 @@
+{{Standard
+|uuid=5168ca4e-7ace-4b4b-a36a-ef7d57702c9b
+|publisher=IETF
+|code=RFC 2207
+|title=RSVP Extensions for IPSEC Data Flows
+|dateissued=1997
+|substandards=
+|description=
+This document presents extensions to Version 1 of RSVP. These extensions permit support of individual data flows using RFC 1826, IP Authentication Header (AH) or RFC 1827, IP Encapsulating Security Payload (ESP). RSVP Version 1 as currently specified can support the IPSEC protocols, but only on a per address, per protocol basis not on a per flow basis. The presented extensions can be used with both IPv4 and IPv6.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc2207.txt
+|events={{Change Event
+|order=1
+|date=2004-07-24
+|flag=added
+|rfcp=5-33
+|version=0.6
+}}
+{{Change Event
+|order=2
+|date=2010-10-29
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

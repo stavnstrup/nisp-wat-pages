@@ -1,0 +1,6 @@
+{{Basic Standards Service Profile
+|taxonomynode=Packet-based Transport Services
+|responsible=
+|mandatorystandards=ietf-rfc3232;ietf-rfc791;ietf-rfc2460;ietf-rfc2236;ietf-std89;ietf-rfc2003;
+|candidatestandards=ietf-rfc5555;nso-stanag4711ed1;nato-tn-1417;
+}}

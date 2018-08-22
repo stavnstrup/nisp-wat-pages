@@ -1,0 +1,25 @@
+{{Profile
+|uuid=4cff03c2-b6f1-499c-add5-97d012a9b429
+|title=Federated Communication Profile
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 1 Profile
+|dateissued=2015-09-30
+|version=1.0
+|guideline=
+|profiles=
+|serviceprofiles=Inter-Autonomous Systems IP Transport Service Profile 1.0;
+IP Routing Information Service Profile 1.0;
+Inter-Autonomous Systems Multicast Routing Service Profile 1.0;
+IP Quality of Service Service Profile 1.0;
+Inter-Autonomous Systems Routing Service Profile 1.0;
+Routing Encapsulation Service Profile 1.0;
+
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+}}

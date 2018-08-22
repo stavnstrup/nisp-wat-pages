@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=13aba303-3b24-4b90-9d48-ad9ac4313c37
+|order=261
+|parent=SOA_Platform_Services
+|title=Mediation Services
+|description=The Mediation Services provide a middle layer between incompatible producers of information and consumers of information. Mediation services process the data of the information producer and transform it into a representation which is understandable for the consumer. In doing so Mediation Services bridge the gap between both parties, enabling interaction between them which has not been possible beforehand.
+}}

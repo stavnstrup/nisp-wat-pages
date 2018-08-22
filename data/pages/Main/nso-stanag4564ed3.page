@@ -1,0 +1,19 @@
+{{Standard
+|uuid=07d861b5-1acf-4c06-bf4e-3df2b2f72d87
+|publisher=NSO
+|code=STANAG 4564 Ed 3
+|title=Standard on warship Electronic Chart Display and Information Systems (WECDIS)
+|dateissued=
+|substandards=
+|description=
+This STANAG defines a standard for WECDIS in order to ensure that all electronic chart / geographic information systems fitted on warships from NATO nations will provide a minimum common set of functions to the operator and accept digital data in common international approved (IMO as well as NATO) standard formats. It specifies performance standards with respect to optional functions on these systems. Secondly, this STANAG contains the framework for product specifications and guidance for the description of military layers of information. The systems must be able to accept and process data developed using these guidelines. It should be noted that these guidelines are specified in a generic way, so that in principle they can also be utilised for other, non Maritime digital geographic data. Finally, this STANAG describes the services that shall be provided by data transmission media to be used for update of data sets on board of ships at sea.
+|responsible=C3B-IFFCAT
+|website=http://www.nso.int/
+|events={{Change Event
+|order=1
+|date=2017-09-19
+|flag=added
+|rfcp=10-21
+|version=11.0
+}}
+}}

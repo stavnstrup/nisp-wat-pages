@@ -1,0 +1,53 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Widgets}}
+
+==Introduction==
+The '''Help''' component displays contextual help information for the user.
+
+The following help information is provided:
+* tooltips for the form fields (instructions how to enter information for particular property)
+* Concept Help pages (summary of the Concept purpose, structure and restrictions)
+
+
+==Definition==
+<pre>
+<properties>
+  <property name="{NAME}">
+    <instruction>{EDIT INSTRUCTION}</instruction>
+  </property>
+  <property name="{PROPERTY}">
+    <instruction>{EDIT INSTRUCTION}</instruction>
+  </property>
+</properties>
+</pre>
+
+{| class="helptable"
+|-
+! {NAME}
+| A name of the Property
+|-
+! {EDIT INSTRUCTION}
+| An edit instructions for given property. This content is displayed as a tooltip for the form field associated with the property.
+|}
+
+
+
+==Example==
+<pre>
+<properties>
+  <property name="Description" type="Text" label="Description" attribute="description">
+    <description>A free text format to describe the purpose, relevance and functionality of a certain entity.</description>
+    <instruction>A "Description" is a text value that reflects a short explanation for a taxonomy element. </instruction>
+  </property>
+</properties>
+</pre>
+
+
+==User Interface==
+The help information is provided in the:
+* Edit and Search Pages (tooltips for each form field)
+* User Manual pages
+
+<gallery>
+File:Help Tooltip Edit Page.png
+File:Concept Help Page.png
+</gallery>

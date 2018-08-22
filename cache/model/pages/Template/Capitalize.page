@@ -1,0 +1,12 @@
+<includeonly>{{#arraydefine:text|{{{1}}}}}{{#arraydefine:text|{{#replace:{{#arrayprint:text}}| |;}}}}{{#arraymap:{{#arrayprint:text}}|;|@x|{{uc:{{#sub:@x|0|1}}}}{{lc:{{#sub:@x|1}}}}|&#32;}}</includeonly><noinclude>
+; Description
+It is used to capitalize a string of text. For every piece of text separated by a space character, it will set the first charter in uppercase and the rest in lowercase.
+; Format
+<pre>
+{{capitalize
+| string
+}}</pre>
+; Example
+: <nowiki>{{</nowiki> capitalize | the quick brown FOX jumps over the LAZY DOG <nowiki>}}</nowiki>
+: The Quick Brown Fox Jumps Over The Lazy Dog
+</noinclude>

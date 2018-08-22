@@ -1,0 +1,70 @@
+{{Standard
+|uuid=e2360dd9-c33b-4cc3-8947-8f12fa23e34d
+|publisher=OMG
+|code=formal/2011-08-05
+|title=Unified Modeling Language, v2.4.1:2011
+|dateissued=2011
+|substandards=
+|description=
+The Unified Modeling Language (UML) is a graphical language for visualizing, specifying, constructing, and documenting the artifacts of a software-intensive system. The UML offers a standard way to write a system's blueprints, including conceptual things such as business processes and system functions as well as concrete things such as programming language statements, database schemas, and reusable software components.Beginning with UML 2.0, the UML Specification was split into two complementary specifications: Infrastructure and Superstructure. The UML infrastructure specification defines the foundational language constructs required for UML 2.4.1 It is complemented by UML Superstructure, which defines the user level constructs required for UML 2.4.1 The two complementary specifications constitute a complete specification for the UML 2 modeling language.
+
+
+|responsible=NCIA-SSTRAT-SEA
+|website=http://www.omg.org/spec/UML/2.4.1/
+|events={{Change Event
+|order=1
+|date=1997-02-20
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2001-11-19
+|flag=changed
+|rfcp=
+|version=0.3
+}}
+{{Change Event
+|order=3
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=4
+|date=2010-08-09
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=5
+|date=2011-11-25
+|flag=changed
+|rfcp=5-18
+|version=6.0
+}}
+{{Change Event
+|order=6
+|date=2012-11-29
+|flag=changed
+|rfcp=
+|version=7.0
+}}
+{{Change Event
+|order=7
+|date=2013-09-01
+|flag=changed
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=8
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

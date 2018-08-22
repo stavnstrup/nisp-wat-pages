@@ -1,0 +1,37 @@
+{{Standard
+|uuid=d5f3d632-e2b2-4db3-986f-17a78ca9206b
+|publisher=NSO
+|code=STANAG 4706 (RD) Ed 1
+|title=Interoperability Standard for Satellite SHF Deployable Terminals Control and Command Services
+|dateissued=2015-03-25
+|substandards=
+|description=
+The Satellite Control and Command Service will provide NATO forces with high capacity satellite communications.The purpose of this STANAG is to provide a standard for deployable NATO SHF satellite terminals monitoring and control interface and to allow cross operation between NATO SATCOM infrastructure and national SATCOM infrastructure.
+
+The aim of this agreement is to define a common interface baseline between stations and management infrastructure by using the available resources.
+
+
+|responsible=SATCOM
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2013-11-29
+|flag=added
+|rfcp=7-42
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-03-03
+|flag=changed
+|rfcp=9-46
+|version=10.0
+}}
+}}

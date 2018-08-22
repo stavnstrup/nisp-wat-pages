@@ -1,0 +1,19 @@
+{{Standard
+|uuid=766344c7-0139-4c9d-853f-8635844bcdac
+|publisher=IETF
+|code=RFC 6308
+|title=Overview of the Internet Multicast Addressing Architecture
+|dateissued=2011-06-01
+|substandards=
+|description=
+The lack of up-to-date documentation on IP multicast address allocation and assignment procedures has caused a great deal of confusion. To clarify the situation, this memo describes the allocation and assignment techniques and mechanisms currently (as of this writing) in use.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc6308.txt
+|events={{Change Event
+|order=1
+|date=2017-05-01
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+}}

@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=9ae4494f-07fb-4ab5-9b18-efc4d5af3182
+|order=86
+|parent=COI-Specific_CIS_Security_Services
+|title=CIS Security Audit Analysis Services
+|description=The CIS Security Audit Analysis Services provide functionality to periodically and systematically review the application of CIS security during operations.  The CIS Security Audit Analysis Services process collected information relating to policy compliance and risk management to gather evidence of undesirable behaviors and effects.  These services support the presentation of findings to the appropriate authorities for the purpose of accountability.
+}}

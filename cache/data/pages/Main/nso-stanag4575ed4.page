@@ -1,0 +1,33 @@
+{{Standard
+|uuid=a34a301e-8564-488d-944e-791b1faf178b
+|publisher=NSO
+|code=STANAG 4575 Ed 4
+|title=NATO Advanced Data Storage Interface (NADSI) - AEDP-06 Edition B
+|dateissued=2014-12-02
+|substandards=
+|description=
+This STANAG defines an interface for advanced digital storage systems, such as solid state memories or disk arrays, with the aim of providing cross servicing capabilities for NATO nations reconnaissance and surveillance assets as well as the exploitation of the imagery data in any reconnaissance ground station. The interface will be a high data rate port to allow direct download of the imagery and auxiliary data, either at the air platform or at the ground station. Once the memory has been transferred to a reconnaissance exploitation ground station, it can be exploited using normal tools.
+|responsible=NCIA-OTHER
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2014-05-05
+|flag=added
+|rfcp=
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-03-03
+|flag=changed
+|rfcp=9-46
+|version=10.0
+}}
+}}

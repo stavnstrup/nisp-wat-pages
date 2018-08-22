@@ -1,0 +1,54 @@
+{{Standard
+|uuid=6e8787dc-e401-41c5-82c9-4182bbc54785
+|publisher=IETF
+|code=RFC 4750
+|title=OSPF version 2 Management Information Base:2006
+|dateissued=2006
+|substandards=
+|description=
+This memo defines a portion of the Management Information Base (MIB) for use with network management protocols in TCP/IP-based internets. In particular, it defines objects for managing OSPF Version 2.
+|responsible=NCIA-SMC
+|website=http://www.ietf.org/rfc/rfc4750.txt
+|events={{Change Event
+|order=1
+|date=2000-04-13
+|flag=added
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=2
+|date=2003-08-01
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=3
+|date=2005-09-08
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2009-09-08
+|flag=changed
+|rfcp=
+|version=4.0
+}}
+{{Change Event
+|order=5
+|date=2010-08-10
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=6
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

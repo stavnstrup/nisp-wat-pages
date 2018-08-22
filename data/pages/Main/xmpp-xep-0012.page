@@ -1,0 +1,33 @@
+{{Standard
+|uuid=6bc7852f-37ea-436b-9e8c-3bfdc1651e9f
+|publisher=XMPP
+|code=XEP-0012
+|title=XEP-0012: Last Activity
+|dateissued=2008-11-26
+|substandards=
+|description=
+This specification defines an XMPP protocol extension for communicating information about the last activity associated with an XMPP entity. It is typically used by an IM client to retrieve the most recent presence information from an offline contact by sending a last activity request to the server that hosts the account controlled by the contact.
+|responsible=FMN-CPWG
+|website=http://xmpp.org/extensions/xep-0012.html
+|events={{Change Event
+|order=1
+|date=2013-09-04
+|flag=added
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-26
+|flag=deleted
+|rfcp=9-21
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-04-29
+|flag=changed
+|rfcp=9-6
+|version=10.0
+}}
+}}

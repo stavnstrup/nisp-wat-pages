@@ -1,0 +1,33 @@
+{{Standard
+|uuid=98ac08ba-3b92-4b21-b946-8992e2fa6080
+|publisher=NATO
+|code=oir
+|title=Operational Incident Report (OIR)
+|dateissued=2011-09
+|substandards=
+|description=
+
+|responsible=FMN-CPWG
+|website=
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-26
+|flag=deleted
+|rfcp=9-21
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-05-01
+|flag=changed
+|rfcp=9-6
+|version=10.0
+}}
+}}

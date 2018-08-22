@@ -1,0 +1,31 @@
+{{Service Profile
+|uuid=b57a32ff-c22a-41a9-aa29-f55643a8c56a
+|title=Inter-Autonomous Systems Anycast Routing Profile
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|description=
+The Inter-Autonomous Systems Anycast Routing Profile provides standards and guidance for Anycast routing between inter-autonomous systems.
+|taxonomynodes=Packet Routing Services;
+IPv4 Routed Access Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+The following standards apply for anycast.
+|standards=ietf-rfc4786;
+ietf-rfc6382;
+ietf-rfc7094;
+
+}}
+|guideline=
+The Inter-Autonomous Systems Anycast Routing Profile provides standards and guidance for Anycast routing between inter-autonomous systems.
+|events={{Change Event
+|order=1
+|date=2017-12-06
+|flag=added
+|rfcp=10-29
+|version=11.0
+}}
+}}

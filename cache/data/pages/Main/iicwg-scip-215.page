@@ -1,0 +1,33 @@
+{{Standard
+|uuid=2f34f707-5a2c-4625-b95c-f7202ba69701
+|publisher=IICWG
+|code=SCIP-215
+|title=U.S. SCIP/IP Implementation Standard and MER Publication rev.2.2
+|dateissued=2011-07-08
+|substandards=
+|description=
+
+|responsible=FMN-CPWG
+|website=
+|events={{Change Event
+|order=1
+|date=2012-11-26
+|flag=added
+|rfcp=6-84
+|version=7.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

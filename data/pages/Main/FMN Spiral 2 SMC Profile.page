@@ -1,0 +1,31 @@
+{{Profile
+|uuid=3e0b9e65-17f2-4ab7-9836-cf8859a35643
+|title=FMN Spiral 2 SMC Profile
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|guideline=
+The FMN Spiral 2 Service Management and Control (SMC) Profile arranges standards profiles for the facilitation and exploitation of SMC services.
+|profiles=
+|serviceprofiles=SMC Orchestration Profile;
+Rest Security;
+Rest Messaging;
+Service Implementation Trouble Ticketing Profile;
+
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-12-06
+|flag=changed
+|rfcp=11-29
+|version=11.0
+}}
+}}

@@ -1,0 +1,19 @@
+{{Standard
+|uuid=688a104b-2501-4009-904f-5a3480ea9714
+|publisher=NSO
+|code=ADatP-31 (C)
+|title=Standard Operating Procedures for Link 1
+|dateissued=2009-06-22
+|substandards=
+|description=
+
+|responsible=TDL
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

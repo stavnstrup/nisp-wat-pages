@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=824de756-bd2b-4bcc-a6a7-f6c334f450c1
+|order=284
+|parent=Infrastructure_Services
+|title=Infrastructure Storage Services
+|description=The Infrastructure Storage Services provide access to shared physical and/or virtual storage components for data and information persistence. They offer data/information retention at different levels of complexity, ranging from simple block level access to sophisticated big data object storage with metadata or relational databases.
+}}

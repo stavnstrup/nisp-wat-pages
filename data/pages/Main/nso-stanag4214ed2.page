@@ -1,0 +1,26 @@
+{{Standard
+|uuid=aa25abe8-82bb-4b4b-aa81-494c93b7ff45
+|publisher=NSO
+|code=STANAG 4214 Ed 2
+|title=International Routing and Directory for Tactical Communications Systems
+|dateissued=2005-10-11
+|substandards=
+|description=
+This STANAG specifies the routing prefixes and their application in order to route calls from one tactical communications network to another one, from one network to the communications network or facilities of a unit under command or vice-versa, and even from one communications network via that of a unit under command to the communications network or facilities of a unit under command of a unit under command or vice-versa. It also specifies prefixes to route calls from tactical to strategic networks.
+|responsible=NS
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2009-09-15
+|flag=added
+|rfcp=3-3
+|version=4.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+}}

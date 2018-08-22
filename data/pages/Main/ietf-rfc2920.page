@@ -1,0 +1,54 @@
+{{Standard
+|uuid=bd26db2c-8272-4847-8c1e-ad0ff04d73d4
+|publisher=IETF
+|code=RFC 2920
+|title=SMTP Service Extension for Command Pipelining
+|dateissued=2000
+|substandards=
+|description=
+This document defines an extension to the Simple Mail Transfer Protocol (SMTP) service whereby a server can indicate the extent of its ability to accept multiple commands in a single Transmission Control Protocol (TCP) send operation. Using a single TCP send operation for multiple commands can improve SMTP performance significantly.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc2920.txt
+|events={{Change Event
+|order=1
+|date=2001-11-20
+|flag=added
+|rfcp=
+|version=0.3
+}}
+{{Change Event
+|order=2
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=3
+|date=2005-09-15
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2009-09-12
+|flag=deleted
+|rfcp=
+|version=4.0
+}}
+{{Change Event
+|order=5
+|date=2015-10-29
+|flag=changed
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=6
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

@@ -1,0 +1,56 @@
+{{Standard
+|uuid=6cb25485-e648-43ba-84de-4c62563b2cd4
+|publisher=ISO-IEC
+|code=10746-4
+|title=ODP Part 4: Architectural Semantics
+|dateissued=1998
+|substandards=
+|description=
+This Recommendation | International Standard is an integral part of the ODP Reference Model. It contains a formalisation of the ODP modeling concepts defined in ITU-T Rec. X.902 - ISO/IEC 10746-2, clauses 8 and 9. The formalisation is achieved by interpreting each concept in terms of the constructs of the different standardised formal description techniques.This Recommendation | International Standard is accompanied by an amendment and a technical report. The associated amendment focuses on the formalisation of the computational viewpoint language contained n ITU-T Rec. X.903 | ISO/IEC 10746-3. The associated technical report contains examples on how the formalisation of the ODP Reference Model can be applied to develop specifications.
+
+
+|responsible=NCIA-CES
+|website=http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=32328
+|events={{Change Event
+|order=1
+|date=1998-11-10
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-03-21
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2003-08-01
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=4
+|date=2005-09-23
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=5
+|date=2010-10-31
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=6
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

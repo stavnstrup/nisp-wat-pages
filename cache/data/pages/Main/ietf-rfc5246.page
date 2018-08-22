@@ -1,0 +1,47 @@
+{{Standard
+|uuid=b54dc613-472c-4097-a135-e6ac063e6087
+|publisher=IETF
+|code=RFC 5246
+|title=Transport Layer Security (TLS)
+|dateissued=2008
+|substandards=
+|description=
+This document specifies Version 1.2 of the Transport Layer Security (TLS) protocol. The TLS protocol provides communications security over the Internet. The protocol allows client/server applications to communicate in a way that is designed to prevent eavesdropping, tampering, or message forgery.
+|responsible=C3B-CAP4
+|website=http://www.ietf.org/rfc/rfc5246.txt
+|events={{Change Event
+|order=1
+|date=2002-10-11
+|flag=added
+|rfcp=
+|version=0.4
+}}
+{{Change Event
+|order=2
+|date=2005-09-08
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2007-07-27
+|flag=changed
+|rfcp=
+|version=2.0
+}}
+{{Change Event
+|order=4
+|date=2009-09-08
+|flag=changed
+|rfcp=
+|version=4.0
+}}
+{{Change Event
+|order=5
+|date=2017-01-14
+|flag=changed
+|rfcp=9-13
+|version=10.0
+}}
+}}

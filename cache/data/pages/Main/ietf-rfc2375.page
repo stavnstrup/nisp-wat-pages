@@ -1,0 +1,33 @@
+{{Standard
+|uuid=70442e8c-4818-49ee-8607-a0fce237ab40
+|publisher=IETF
+|code=RFC 2375
+|title=IPv6 Multicast Address Assigments
+|dateissued=1998
+|substandards=
+|description=
+This document defines the initial assignment of IPv6 multicast addresses. It is based on the "IP Version 6 Addressing Architecture" [ADDARCH] and current IPv4 multicast address assignment. It adapts the IPv4 assignments that are relevant to IPv6 assignments. IPv4 assignments that were not relevant were not converted into IPv6 assignments. Comments are solicited on this conversion. All other IPv6 multicast addresses are reserved.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc2375.txt
+|events={{Change Event
+|order=1
+|date=1998-06-01
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2005-09-16
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

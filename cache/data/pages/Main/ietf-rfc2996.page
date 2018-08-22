@@ -1,0 +1,35 @@
+{{Standard
+|uuid=5b7447c3-5e1b-4735-922b-f36dc1de401e
+|publisher=IETF
+|code=RFC 2996
+|title=Format of the RSVP DCLASS Object
+|dateissued=2000
+|substandards=
+|description=
+Resource Reservation Protocol (RSVP) signaling may be used to request Quality of Service (QoS) services and enhance the manageability of application traffic's QoS in a differentiated service (diff-serv or DS) network. Then using RSVP with DS networks it is useful to be able to carry carry Differentiated Services Code Points (DSCPs) in RSVP message objects. One example of this is the use of RSVP to arrange for the marking of packets with a particular DSCP upstream from the DS network's ingress point, at the sender or at a previous network's egress router.The DCLASS object is used to represent and carry DSCPs within RSVP messages. This document specifies the format of the DCLASS object and briefly discusses its use.
+
+
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc2996.txt
+|events={{Change Event
+|order=1
+|date=2004-07-24
+|flag=added
+|rfcp=5-33
+|version=0.6
+}}
+{{Change Event
+|order=2
+|date=2010-10-30
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

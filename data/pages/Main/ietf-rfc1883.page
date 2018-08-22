@@ -1,0 +1,42 @@
+{{Standard
+|uuid=d3c830aa-1dfd-423b-922b-d1b67ca1337d
+|publisher=IETF
+|code=RFC 1883
+|title=Internet Protocol (TCP/IP) (IP Version 6)
+|dateissued=1995
+|substandards=
+|description=
+This document specifies version 6 of the Internet Protocol (IPv6), also sometimes referred to as IP Next Generation or IPng.IP version 6 (IPv6) is a new version of the Internet Protocol, designed as a successor to IP version 4 (IPv4).
+
+
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc1883.txt
+|events={{Change Event
+|order=1
+|date=1998-08-07
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2005-09-15
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2010-10-29
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=4
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

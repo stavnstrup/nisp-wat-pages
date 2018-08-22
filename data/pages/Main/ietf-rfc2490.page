@@ -1,0 +1,33 @@
+{{Standard
+|uuid=93e78bc1-14cb-4774-bf64-e76f7fd01ffd
+|publisher=IETF
+|code=RFC 2490
+|title=A Simulation Model for IP Multicast with RSVP
+|dateissued=1999
+|substandards=
+|description=
+This document describes a detailed model of IPv4 multicast with RSVP that has been developed using the OPNET simulation package, with protocol procedures defined in the C language. The model was developed to allow investigation of performance constraints on routing but should have wide applicability in the Internet multicast/resource reservation community. We are making this model publicly available with the intention that it can be used to provide expanded studies of resource-reserved multicasting.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc2490.txt
+|events={{Change Event
+|order=1
+|date=2004-07-24
+|flag=added
+|rfcp=5-33
+|version=0.6
+}}
+{{Change Event
+|order=2
+|date=2010-10-30
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

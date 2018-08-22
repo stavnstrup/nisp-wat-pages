@@ -1,0 +1,72 @@
+{{Standard
+|uuid=397a6026-2a89-44f4-a403-389afdeea76a
+|publisher=ISO-IEC
+|code=2540-1
+|title=Systems and software Quality Requirements and Evaluation (SQuaRE) - Evaluation process
+|dateissued=2011
+|substandards=
+|description=
+ISO/IEC 25040:2011 revises ISO/IEC 14598:1999 and contains requirements and recommendations for the evaluation of software product quality and clarifies the general concepts. It provides a process description for evaluating software product quality and states the requirements for the application of this process. The evaluation process can be used for different purposes and approaches. The process can be used for the evaluation of the quality of pre-developed software, commercial-off-the-shelf software or custom software and can be used during or after the development process.ISO/IEC 25040:2011 establishes the relationship of the evaluation reference model to the SQuaRE documents as well as shows how each SQuaRE document should be used during the activities of the evaluation process.
+
+It is intended for those responsible for software product evaluation and is appropriate for developers, acquirers and independent evaluators of software products. These three different approaches are detailed in ISO/IEC 14598-3, ISO/IEC 14598-4, and ISO/IEC 14598-5.
+
+It is not intended for evaluation of other aspects of software products (such as functional requirements, process requirements, business requirements, etc.).
+|responsible=NCIA-SSTRAT-SEA
+|website=http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=35765
+|events={{Change Event
+|order=1
+|date=1998-11-06
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-02-25
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2001-11-09
+|flag=changed
+|rfcp=
+|version=0.3
+}}
+{{Change Event
+|order=4
+|date=2002-10-11
+|flag=changed
+|rfcp=
+|version=0.4
+}}
+{{Change Event
+|order=5
+|date=2005-09-23
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=6
+|date=2010-11-01
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=7
+|date=2012-11-30
+|flag=changed
+|rfcp=
+|version=7.0
+}}
+{{Change Event
+|order=8
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

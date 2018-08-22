@@ -1,0 +1,20 @@
+{{Standard
+|uuid=ffc87416-4520-4c83-ba23-31bdd17b2a54
+|publisher=W3C
+|code=REC-xmlschema11-1-20120405
+|title=XML Schema Definition
+Language (XSD) 1.1 Part 1: Structures
+|dateissued=2012-04-05
+|substandards=
+|description=
+XML Schema: Structures specifies the XML Schema definition language, which offers facilities for describing the structure and constraining the contents of XML 1.0 documents, including those which exploit the XML Namespace facility. The schema language, which is itself represented in XML 1.0 and uses namespaces, substantially reconstructs and considerably extends the capabilities found in XML 1.0 document type definitions (DTDs). This specification depends on XML Schema Part 2: Datatypes.
+|responsible=ARCHIVE
+|website=http://www.w3.org/TR/2012/REC-xmlschema11-1-20120405/
+|events={{Change Event
+|order=1
+|date=2014-11-27
+|flag=added
+|rfcp=8-2
+|version=9.0
+}}
+}}

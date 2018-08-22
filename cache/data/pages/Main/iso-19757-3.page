@@ -1,0 +1,19 @@
+{{Standard
+|uuid=da38b203-92cb-4831-bc99-3dcd69ca958b
+|publisher=ISO
+|code=19757-3
+|title=Information Technology - Document Schema Definition Languages (DSDL) - Part 3: Rules-based validation - Schematron Second Edition
+|dateissued=2016-01-15
+|substandards=
+|description=
+
+|responsible=NCIA
+|website=http://standards.iso.org/ittf/PubiclyAvailableStandards/c055982_ISO_IEC_19757-3_2016.zip
+|events={{Change Event
+|order=1
+|date=2017-12-19
+|flag=added
+|rfcp=10-28
+|version=11.0
+}}
+}}

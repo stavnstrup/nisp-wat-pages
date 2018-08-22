@@ -1,0 +1,26 @@
+{{Standard
+|uuid=011889e0-f877-4015-9725-7be6b58f1545
+|publisher=IETF
+|code=RFC 3633
+|title=IPv6 Prefix Options for Dynamic Host Configuration Protocol (DHCP) version 6
+|dateissued=2003
+|substandards=
+|description=
+The Prefix Delegation options provide a mechanism for automated delegation of IPv6 prefixes using the Dynamic Host Configuration Protocol (DHCP). This mechanism is intended for delegating a long-lived prefix from a delegating router to a requesting router, across an administrative boundary, where the delegating router does not require knowledge about the topology of the links in the network to which the prefixes will be assigned.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc3633.txt
+|events={{Change Event
+|order=1
+|date=2005-11-20
+|flag=added
+|rfcp=6-19
+|version=0.7
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=913128ae-4838-4883-a03f-730df0cb0517
+|order=227
+|parent=SOA_Platform_CIS_Security_Services
+|title=Security Token Services
+|description=The Security Token Services (STS) provide functionality of identity providers responsible for issuing Security Tokens, which may or may not be structured as XML. The Security Tokens are issued after entity authentication to the STS, and are used to pass entity identity information to other services (Relying Parties) which trust the STS and its tokens.
+}}

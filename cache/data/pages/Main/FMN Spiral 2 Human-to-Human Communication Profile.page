@@ -1,0 +1,32 @@
+{{Profile
+|uuid=ad88f9d0-bf63-4d33-95b1-5120576318dd
+|title=FMN Spiral 2 Human-to-Human Communication Profile
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|guideline=
+The Human-to-Human Communications Profile arranges standards profiles for the facilitation of information sharing and exchange on user platforms.
+|profiles=FMN Spiral 2 Geospatial Profile;
+FMN Spiral 2 Information Management Profile;
+FMN Spiral 2 Web Authentication Profile;
+FMN Spiral 2 Web Hosting Profile;
+FMN Spiral 2 Unified Collaboration Profile;
+
+|serviceprofiles=
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-12-06
+|flag=changed
+|rfcp=11-29
+|version=11.0
+}}
+}}

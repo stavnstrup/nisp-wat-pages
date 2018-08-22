@@ -1,0 +1,19 @@
+{{Standard
+|uuid=37cdbf9c-3f4d-46b6-b7e8-e58a33bd4765
+|publisher=OGC
+|code=11-157
+|title=Corrigendum 1 for OGC Web Services Common Standard v2.0.0 - Multilingual
+|dateissued=2011-10-18
+|substandards=
+|description=
+This document defines the corrigendum change notes for OGC Web Services Common Standard v2.0.0.
+|responsible=NCIA
+|website=https://portal.opengeospatial.org/files/?artifact_id=46435
+|events={{Change Event
+|order=1
+|date=2016-12-12
+|flag=added
+|rfcp=9-11
+|version=10.0
+}}
+}}

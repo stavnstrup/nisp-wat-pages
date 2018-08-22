@@ -1,0 +1,26 @@
+{{Standard
+|uuid=c84030a9-41dd-4bd4-8db9-1174fe6d5bc2
+|publisher=W3C
+|code=REC-ws-addr-metadata-20070904
+|title=Web Services Addressing 1.0 - Metadata
+|dateissued=2007-09-04
+|substandards=
+|description=
+Web Services Addressing provides transport-neutral mechanisms to address Web services and messages. Web Services Addressing 1.0 - Metadata (this document) defines how the abstract properties defined in Web Services Addressing 1.0 - Core are described using WSDL, how to include WSDL metadata in endpoint references, and how WS-Policy can be used to indicate the support of WS-Addressing by a Web service.
+|responsible=NCIA-CES
+|website=http://www.w3.org/TR/2007/REC-ws-addr-metadata-20070904
+|events={{Change Event
+|order=1
+|date=2013-09-04
+|flag=added
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,20 @@
+/*
+*  Styling of Banner Layout
+*/
+div.banner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px; 0px;
+}
+
+div.banner-center {
+  font-size:26px;
+}
+
+div.banner-bottom {
+  font-size:20px;
+  text-align: center;
+}

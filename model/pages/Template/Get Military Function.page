@@ -1,0 +1,37 @@
+<includeonly>{{#switch:{{{1}}}
+|01=MF 01 - Command and Control
+|02=MF 02 - Reconnaissance, Surveillance and Target Acquisition
+|03=MF 03 - Intelligence Support
+|04=MF 04 - Education Training Exercises and Evaluation
+|05=MF 05 - NBC Defence
+|06=MF 06 - Special Operations
+|07=MF 07 - Electronic Warfare
+|09=MF 09 - Logistics
+|10=MF 10 - Plans and Policy
+|11=MF 11 - Combined Joint Operations
+|12=MF 12 - Land Operations
+|13=MF 13 - Air Operations
+|14=MF 14 - Maritime Operations
+}}</includeonly><noinclude>
+; Description
+It is used to convert a string of two numbers to the corresponding Military Function.
+; Format
+<pre>
+{{Get Military Function
+ |xx
+}}</pre>
+; Values
+* 01 -- MF 01 - Command and Control
+* 02 -- MF 02 - Reconnaissance, Surveillance and Target Acquisition
+* 03 -- MF 03 - Intelligence Support
+* 04 -- MF 04 - Education Training Exercises and Evaluation
+* 05 -- MF 05 - NBC Defence
+* 06 -- MF 06 - Special Operations
+* 07 -- MF 07 - Electronic Warfare
+* 09 -- MF 09 - Logistics
+* 10 -- MF 10 - Plans and Policy
+* 11 -- MF 11 - Combined Joint Operations
+* 12 -- MF 12 - Land Operations
+* 13 -- MF 13 - Air Operations
+* 14 -- MF 14 - Maritime Operations
+</noinclude>

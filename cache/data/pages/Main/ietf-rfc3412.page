@@ -1,0 +1,61 @@
+{{Standard
+|uuid=30baaf3a-009f-406f-8295-3b35dd6dbe43
+|publisher=IETF
+|code=RFC 3412
+|title=Message Processing and Dispatching for the Simple Nemwork Management Protocol (SNMPv3 Management Protocol)
+|dateissued=2002
+|substandards=
+|description=
+This document describes the Message Processing and Dispatching for Simple Network Management Protocol (SNMP) messages within the SNMP architecture. It defines the procedures for dispatching potentially multiple versions of SNMP messages to the proper SNMP Message Processing Models, and for dispatching PDUs to SNMP applications. This document also describes one Message Processing Model - the SNMPv3 Message Processing Model.
+|responsible=NCIA-SMC
+|website=http://www.ietf.org/rfc/rfc3412.txt
+|events={{Change Event
+|order=1
+|date=1999-01-15
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-03-20
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2001-11-21
+|flag=changed
+|rfcp=
+|version=0.3
+}}
+{{Change Event
+|order=4
+|date=2003-08-01
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=5
+|date=2005-09-08
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=6
+|date=2010-10-30
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=7
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

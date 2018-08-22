@@ -1,0 +1,96 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+The '''Filtering''' feature allows to filter the list of pages from the referred Concept, which might be associated with given referring page.
+
+The filter allows to define criteria on any of the property in the referred Concept using:
+* static value/text; or
+* current value of specified property in the referring page.
+
+The filter is applied in the Edit Page for given [[Help:Page Property|Page Property]] (Association) when offering the list of items to the user.
+
+
+==Definition==
+
+The filtering feature is activated through the "filter" attribute added to the definition of the Page Property (Association):
+
+<pre>
+    <!-- Referred Concept -->
+    <concept name="TARGET CONCEPT">     <!-- Not all pages from this Concept might be referred -->
+      <structure>
+        <property name="Property1"/>    <!-- Filter can be based on any of this Concept properties -->
+        <property name="Property2"/>
+        <property name="Property3"/>
+        <property name="Property4"/>
+      </structure>
+    </concept>
+
+    <!-- Referring Concept -->
+    <concept name="SOURCE CONCEPT">
+      <structure>
+        <property name="Property A"/>
+        <property name="{REFERRING PROPERTY}" refersTo="{TARGET CONCEPT}" filter="{FILTER}">
+      </structure>
+    </concept>
+</pre>
+
+{| class="helptable"
+|-
+! {SOURCE CONCEPT}
+| A name of the Concept which refers to Target Concept.
+|-
+! {TARGET CONCEPT}
+| A name of the Concept which is referred from the Source Concept.
+|-
+! {REFERRING PROPERTY}
+| A name of the Property which refers to the Target Concept from the Source Concept.
+|-
+! {FILTER}
+| A filter to be applied on the Target Concept to limit the items which might be associated with the current referring data entity.
+It follows the general format of the filter used by the Semantic MediaWiki's #ask parser function,
+with an addition to dynamically inject current property values from the referring data entity.
+The property value to be replaced in the query is denoted in ${} brackets e.g.:
+ ''<nowiki>[[Property1::Static text]][[Property4::${PropertyA}]]</nowiki>''.
+Above query will be translated to ''Property1 = "Static text" AND Property4 = Value of {PropertyA} in the referring data entity''
+|}
+
+
+==Semantic database==
+Not applicable.
+
+
+==Example==
+<pre>
+<concept name="Event">
+  <structure>
+    <property name="Title" mandatory="true"/>
+    <property name="Description" mandatory="true"/>
+  </structure>
+</concept>
+
+<concept name="Objective">
+  <structure>
+    <property name="Title" mandatory="true"/>
+    <property name="Is objective of" refersTo="Event">
+  </structure>
+</concept>
+
+<concept name="Test Case">
+  <structure>
+    <property name="Title" mandatory="true"/>
+    <property name="Is tested during" refersTo="Event">
+    <property name="Is addressing" refersTo="Objective" filter="[[Is objective of::${Is tested during}]]">
+  </structure>
+</concept>
+</pre>
+
+In the above example:
+* ''Event'' represents testing event
+* ''Event has several ''Objectives'' (association ''"Is objective of"'' from ''Objective'' to ''Event'')
+* During ''Event'' several ''Test Case'' are tested (association ''"Is tested during"'' from ''Test Case'' to ''Event'')
+* ''Test Case'' addresses one of the Objective of the Event (association ''"Is addressing"'' from ''Test Case'' to ''Event'')
+** the list of Objectives in this association has to be limited to the Objectives defined for the ''Event'' current ''Test Case'' is tested at.
+
+
+==User Interface==
+The feature limits the number of items displayed in the autocomplete fields for Page Properties in the Edit Pages to items which match the filter criteria.

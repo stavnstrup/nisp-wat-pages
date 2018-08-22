@@ -1,0 +1,65 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+The '''Image Type''' represents an image uploaded to the MediaWiki.
+
+The property allows user to enter a name of the image to be displayed.
+
+An image file has to be uploaded to the MediaWiki using "Upload file" capability (outside of the form).
+
+
+==Definition==
+
+The Image Property extends a common definition of the [[Help:Property|Property Definition]] with the following elements:
+
+<pre>
+<concept>
+  <structure>
+    <property name="{IMAGE PROPERTY}" width={WIDTH}/>
+  </structure>
+<concept>
+
+<properties>
+  <property name="{IMAGE PROPERTY}" size={SIZE} width="{WIDTH}"/>
+</properties>
+</pre>
+
+{| class="helptable"
+|-
+! {IMAGE PROPERTY}
+| A name of the image property.
+|-
+! {SIZE}
+| A length of the input field used to enter image file name. Default value: 50.
+|-
+! {WIDTH}
+| A desired width of the image.
+If not specified the original size image will be displayed.
+If specified the image will be scaled to desired width.
+Can be set in the property definition section. Can be overwritten in Concept Property section.
+|}
+
+
+==Semantic database==
+The Image Property is implemented as a [[Special:Types/Text]] MediaWiki datatype.
+
+
+==Example==
+<pre>
+<property name="Picture" type="Image" label="Picture" attribute="picture" size="80" width="200">
+  <description>A filename plus extension of an image - in the file namespace.</description>
+  <instruction>An "Picture" is a string value that reflects the name plus extension of an image, as used in the definition of a taxonomy element.</instruction>
+</property>
+</pre>
+
+==User Interface==
+* '''View Page'''
+The property displays an image.
+
+* '''Edit Page'''
+The property provides one line text input field to enter the image file name.
+A length of the field is controlled by the 'size' attribute.
+
+* '''Search Page'''
+The property allows user to choose a search operator from the following options: ''Starts with, Contains, Equals, Ends with, Has any value''
+and allows user to enter an image file name in one line text input field.

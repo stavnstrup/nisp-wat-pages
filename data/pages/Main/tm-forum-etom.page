@@ -1,0 +1,26 @@
+{{Standard
+|uuid=37a5f2d8-1403-4516-a184-ca224186e598
+|publisher=TM-FORUM
+|code=eTOM Rel.13
+|title=Enhanced Telecom Operations Map
+|dateissued=2012
+|substandards=
+|description=
+eTOM is a reference framework that categorizes the business processes that a service provider will use. It broadens the TOM model to a complete enterprise framework and addresses the impact of e-business environments and business drivers. eTOM can be considered a blueprint for standardizing business processes as well as operations support systems (OSS) and business support systems (BSS). Another area of improvement is process-modeling methodology, which provides the linkage necessary for Next-Generation Operations Support Systems (NGOSS). NGOSS programs implement a common system infrastructure framework, in which components that adhere to the specifications can interoperate in a flexible application infrastructure.
+|responsible=NCIA-SMC
+|website=www.tmforum.org/DownloadRelease13/14767/home.html
+|events={{Change Event
+|order=1
+|date=2013-12-12
+|flag=added
+|rfcp=7-44
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,19 @@
+{{Standard
+|uuid=82e68809-b924-4e2a-9e1a-88a483b265ac
+|publisher=IICWG
+|code=SCIP-233.519
+|title=Secure Full Bandwidth (FB) Data rev.1.0
+|dateissued=2010-09-24
+|substandards=
+|description=
+
+|responsible=SCIP
+|website=
+|events={{Change Event
+|order=1
+|date=2012-11-26
+|flag=added
+|rfcp=6-84
+|version=7.0
+}}
+}}

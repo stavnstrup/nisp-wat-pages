@@ -1,0 +1,30 @@
+{{Service Profile
+|uuid=42d8ed1c-5c5d-49dd-b872-10ab1364d2bc
+|title=Generic Open Packaging Convention
+|publisher=NCIA
+|code=TN-1491
+|spectitle=Generic Open Packaging Convention (OPC) Binding Profile
+|dateissued=2017-05-18
+|version=1.0
+|description=
+|taxonomynodes=Information Annotation Services;
+Content Management Services;
+Information Labeling Services;
+Office Automation Applications;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=nso-stanag4774;
+nso-stanag4778;
+iso-iec-29500-2-2012;
+
+}}
+|guideline=
+|events={{Change Event
+|order=1
+|date=2017-04-25
+|flag=added
+|rfcp=9-2
+|version=10.0
+}}
+}}

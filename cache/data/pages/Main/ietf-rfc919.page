@@ -1,0 +1,33 @@
+{{Standard
+|uuid=0580e2b9-126c-4b52-a1e5-01e5051b85de
+|publisher=IETF
+|code=RFC 919
+|title=Broadcasting Internet Datagrams
+|dateissued=1984
+|substandards=
+|description=
+We propose simple rules for broadcasting Internet datagrams on local networks that support broadcast, for addressing broadcasts, and for how gateways should handle them. This RFC suggests a proposed protocol for the ARPA-Internet community, and requests discussion and suggestions for improvements.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc919.txt
+|events={{Change Event
+|order=1
+|date=1998-11-06
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2005-09-16
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

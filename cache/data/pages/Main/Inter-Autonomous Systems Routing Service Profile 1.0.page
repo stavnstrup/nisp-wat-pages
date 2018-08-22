@@ -1,0 +1,47 @@
+{{Service Profile
+|uuid=dd145032-f16e-4447-9a9e-7adb65b22635
+|title=Inter-Autonomous Systems Routing Service Profile 1.0
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 1 Profile
+|dateissued=2015-09-30
+|version=1.0
+|description=
+The Inter-Autonomous Systems Routing Profile provides standards and guidance for routing between inter-autonomous systems
+|taxonomynodes=Packet Routing Services;
+IPv4 Routed Access Services;
+|obligations={{Obligation Group
+|obligationtype=recommended
+|description=
+Additionally, the following standard applies for 32-bit autonomous system numbers (ASN)
+|standards=ietf-rfc5668;
+
+}}
+{{Obligation Group
+|obligationtype=mandatory
+|description=
+The following standard applies for unicast routing
+|standards=ietf-rfc4632;
+
+}}
+{{Obligation Group
+|obligationtype=mandatory
+|description=
+The following standards apply for all IP interconnections
+|standards=ietf-rfc1997;
+ietf-rfc4360;
+ietf-rfc3392;
+ietf-rfc4271;
+ietf-rfc4760;
+
+}}
+|guideline=
+The Inter-Autonomous Systems Routing Profile provides standards and guidance for routing between inter-autonomous systems
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+}}

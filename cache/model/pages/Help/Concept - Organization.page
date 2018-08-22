@@ -1,0 +1,11 @@
+__NOTOC__ __NOEDITSECTION__ __NOCACHE__{{User Manual Navigator}}
+;Description
+Organizations are those entities that are not considered actors (actively contributing to the business processes described in the C3 Taxonomy) and are meaningful for referencing or otherwise supporting the architecture, such as: governments, companies (industry) and standards organizations.
+
+;Category
+The category of this concept is [[:Category:Organizations]].
+
+;Attributes
+* Acronym (String)
+* Description (Text)
+* Website (URL)

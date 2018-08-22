@@ -1,0 +1,26 @@
+{{Standard
+|uuid=769692d6-706f-4c59-88d1-114b4241a957
+|publisher=NATO
+|code=TIDE/TIDE-ID-RR
+|title=TIDE Information Discovery (Request-Response) Protocol v2.3
+|dateissued=2009
+|substandards=
+|description=
+The TIDE Information Discovery concept evolved out of the requirement to discover, extract, and make useful, information from emerging and legacy systems. The Information Discovery Protocols contribute to these goals by combining existing technologies in a new way. But this is not enough. To achieve the desired effect numerous systems must implement the Information Discovery Protocol (a standard). To support this goal the protocol is designed to be small and easy to implement and scalable. This approach reduces the implementation cost and increases the probability of adoption by legacy systems. The TIDE Information Discovery Request-Response Protocol takes the concepts implements the general Information Discovery concept as a web service.
+|responsible=NCIA-CES
+|website=https://tide.act.nato.int/tidepedia/index.php/TIDE_Information_Discovery_%28Request-Response%29
+|events={{Change Event
+|order=1
+|date=2008-12-11
+|flag=added
+|rfcp=2-21
+|version=3.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

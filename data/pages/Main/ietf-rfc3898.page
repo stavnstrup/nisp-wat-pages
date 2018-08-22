@@ -1,0 +1,26 @@
+{{Standard
+|uuid=d5128a77-70ed-4f44-96c8-f15c79f199a7
+|publisher=IETF
+|code=RFC 3898
+|title=Network Information Service (NIS) Configuration Options for DHCPv6
+|dateissued=2004
+|substandards=
+|description=
+This document describes four options for Network Information Service (NIS) related configuration information in Dynamic Host Configuration Protocol for IPv6 (DHCPv6): NIS Servers, NIS+ Servers, NIS Client Domain Name, NIS+ Client Domain name.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc3898.txt
+|events={{Change Event
+|order=1
+|date=2005-11-20
+|flag=added
+|rfcp=6-19
+|version=0.7
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

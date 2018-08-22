@@ -1,0 +1,19 @@
+{{Standard
+|uuid=c5d6fff7-2ddc-4f87-9790-2fa338a6900e
+|publisher=NSO
+|code=STANAG 4494 (RD) Ed 1
+|title=Advanced SATCOM Network Management and Control
+|dateissued=2010-04-08
+|substandards=
+|description=
+
+|responsible=SATCOM
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

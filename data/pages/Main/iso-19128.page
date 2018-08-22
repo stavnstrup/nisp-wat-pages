@@ -1,0 +1,40 @@
+{{Standard
+|uuid=265b3c0c-24bc-4f00-b7b5-47b1431f4ad4
+|publisher=ISO
+|code=19128
+|title=Geographic information - Web map server interface
+|dateissued=2005
+|substandards=
+|description=
+ISO 19128:2005 specifies the behaviour of a service that produces spatially referenced maps dynamically from geographic information. It specifies operations to retrieve a description of the maps offered by a server, to retrieve a map, and to query a server about features displayed on a map. ISO 19128:2005 is applicable to pictorial renderings of maps in a graphical format; it is not applicable to retrieval of actual feature data or coverage data values.
+|responsible=FMN-CPWG
+|website=http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=32546
+|events={{Change Event
+|order=1
+|date=2004-05-28
+|flag=added
+|rfcp=5-27
+|version=0.6
+}}
+{{Change Event
+|order=2
+|date=2012-11-29
+|flag=changed
+|rfcp=
+|version=7.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-26
+|flag=deleted
+|rfcp=9-21
+|version=10.0
+}}
+{{Change Event
+|order=4
+|date=2017-05-01
+|flag=changed
+|rfcp=9-6
+|version=10.0
+}}
+}}

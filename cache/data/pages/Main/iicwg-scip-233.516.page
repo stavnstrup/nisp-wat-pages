@@ -1,0 +1,19 @@
+{{Standard
+|uuid=7252a2e7-7b64-4070-a885-6990ea63acf7
+|publisher=IICWG
+|code=SCIP-233.516
+|title=Secure Reliable Transport (RT) Asynchronous Data Specification Rev. 1.1.
+|dateissued=2011-07-12
+|substandards=
+|description=
+
+|responsible=NS
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

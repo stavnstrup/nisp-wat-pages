@@ -1,0 +1,97 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+The default approach to create new pages after clicking on the [[Image:Concept Add Icon.png|20px]] '''Add new''' button is a three phases processes:
+* Step 1. user is asked for a page name in a one line input field ('''user might enter any value''')
+* Step 2. after clicking "Create or Edit" button user is redirected to the "Edit Form" where he can provide all data entity details
+* Step 3. after clicking on "Save" button the page with the name provided in Step 1 and details provided in Step 2 is created.
+
+
+This above approach can be modified by the following mechanisms:
+;Formal definition of the page naming schema
+The page naming schema might be represented using formal Regex expressions.
+Upon opening the Edit Page (Step 2 in above process or after clicking on "Edit with form"),
+or the View Page, system verifies if the actual page name follows that format.
+If a check is negative a warning message is displayed in the top part of the page
+and user is recommended to change the name of the page.
+
+;Automatic page name assignment
+The Wiki Model can define the naming schema which should be automatically followed when a new page is created.
+The naming schema string can mix:
+:* static text fragments (e.g. ' Applications', Test Case ', ' @ ')
+:* references to the Concept Properties in the brackets (e.g. '{Is lead by}', '{Is tested during}')
+:* automatically assigned sequence number ('[AUTOINDEX])
+
+In this approach the processes is simplified. Upon clicking on the [[Image:Concept Add Icon.png|20px]] '''Add new''' button, user is redirected straight to the 'Edit Form'
+to provide data entity values. Upon saving the page the automatic page name assignment string is processed and final page name derived.
+
+
+==Definition==
+<pre>
+<concept name="{CONCEPT}">
+  <nomenclature nameschema="{PAGE NAME SCHEMA}" autopage="{AUTO PAGE NAME SCHEMA}">{PAGE NAME NOMENCLATURE}<nomenclature>
+  ...
+</concept>
+</pre>
+
+{| class="helptable"
+|-
+! {CONCEPT}
+| A short name of the Concept.
+|-
+! {PAGE NAME NOMENCLATURE}
+| A short, informal description of the rules governing name page conventions for this Concept
+|-
+! {PAGE NAME SCHEMA}
+| A formal Regex expression to define the naming format of the pages. If {AUTO PAGE NAME SCHEMA} is defined the Regex expression will be derived from the auto page name schema definition.
+|-
+! {AUTO PAGE NAME SCHEMA}
+| A formal naming schema to be followed by automatically assigned page names.
+The schema string can mix:
+:* static text fragments (e.g. ' Applications', Test Case ', ' @ ')
+:* references to the Concept Properties in the brackets preceded with $ (e.g. '${Is lead by}', '${Is tested during}')
+:* automatically assigned sequence number ('[AUTOINDEX:{NUMBER}]), where {NUMBER} represents the starting value of the sequence
+Note that the properties used in the naming schema must be marked as 'mandatory'.
+|}
+
+
+==Semantic database==
+The rules described in this page govern the page names stored in the database.
+
+
+==Example==
+<pre>
+<concept name="Enclave">
+  <nomenclature nameschema="/(.+?) Enclave$/">All pages should end with "Enclave" suffix</nomenclature>
+</concept>
+</pre>
+The Enclave page names will have to end with "Enclave" phrase.
+
+<pre>
+<concept name="Enclave">
+</concept>
+
+<concept name="Site">
+  <nomenclature autopage="${Title} (${Is part of})">The page name is automatically assigned and follows the pattern {TITLE} ({ENCLAVE})</nomenclature>
+  <structure>
+    <property="Title" mandatory="true"/>
+    <property="Is part of" refersTo="Enclave" mandatory="true"/>
+  </structure>
+</concept>
+</pre>
+The Site page names will be assigned automatically and will follow the "City (Enclave)" pattern: "Bydgoszcz (CFBL)".
+
+<pre>
+<concept name="Test Case">
+  <nomenclature autopage="Test Case [AUTOINDEX:00001]@${Is tested at}">The page name is automatically assigned and follows the (Test Case 00004@Event) pattern: "Test Case 0004@CWIX 2017"</nomenclature>
+  <structure>
+    <property name="Description"/>
+    <property name="Is tested at" refersTo="Event" mandatory="true"/>
+  </structure>
+</concept>
+</pre>
+The Test Case page names will be assigned automatically and will follow the (Test Case 00004@Event) pattern: "Test Case 0004@CWIX 2017"
+
+
+==User Interface==
+Not applicable.

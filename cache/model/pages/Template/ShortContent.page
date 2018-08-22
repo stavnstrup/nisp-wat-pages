@@ -1,0 +1,13 @@
+<includeonly>{{#arraydefine:xslice1|{{#ask:[[{{{1}}}]]|mainlabel=-|?{{{2}}}|headers=hide}}|/\n/}}{{#ifexpr:{{#arraysize:xslice1}}>0|{{#arrayslice:xslice2|xslice1|0|1}}<div style="width:100%;"><div style="display:table-cell; width:25px;">&nbsp;</div><div style="display:table-cell;">''{{#arrayprint:xslice2}}''{{#ifexpr:{{#arraysize:xslice2}}<{{#arraysize:xslice1}}-1|&#32;...''[[{{{1}}}|more]]''}}</div></div>}}</includeonly><noinclude>
+; Description
+It is used to display short version of the page property.
+; Format
+<pre>
+{{ShortContent
+| page
+| property
+}}</pre>
+; Example
+: <nowiki>{{ShortContent|{{PAGENAME}}|Description}}</nowiki>
+: The Quick Brown Fox Jumps Over The Lazy Dog
+</noinclude>

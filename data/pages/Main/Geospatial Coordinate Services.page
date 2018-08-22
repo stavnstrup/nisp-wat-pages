@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=ed04f89a-d902-4208-8887-e94faba7edf1
+|order=222
+|parent=Geospatial_Services
+|title=Geospatial Coordinate Services
+|description=The Geospatial Coordinate Services translate geospatial coordinates between spatial reference systems.  A spatial reference system (SRS) is a coordinate-based local, regional or global system used to locate geographical entities. A spatial reference system defines a specific map projection, as well as transformations between different spatial reference systems.
+}}

@@ -1,0 +1,4 @@
+<includeonly>{{#arraydefine:@LIST|{{{1}}}|{{{2}}}}}{{#arrayprint:@LIST|{{{3}}}|@ITEM|@ITEM}}</includeonly><noinclude>
+; Description
+Equivalent to {{#replace}} from StringFunctions but without restrictions on the length of string
+</noinclude>

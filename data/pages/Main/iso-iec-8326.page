@@ -1,0 +1,73 @@
+{{Standard
+|uuid=d27d9d6a-0a3d-4b14-8d5b-bcd89f7ddd5d
+|publisher=ISO-IEC
+|code=8326
+|title=CO/CL Session services
+|dateissued=1996
+|substandards=
+|description=
+This Recommendation | International Standard defines in an abstract way the externally visible service provided by the OS1 Session Layer in terms of:
+
+* the primitive actions and events of the service;
+
+* the parameter data associated with each primitive action and event;
+
+* the relationship between, and the valid sequence of these actions and events.
+
+
+
+The service defined in this Recommendation | International Standard is that which is provided by the OS1 session protocol (in conjunction with the transport service) and which may be used by the OS1 presentation protocol.
+
+
+|responsible=NCIA-NSII
+|website=http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=36817
+|events={{Change Event
+|order=1
+|date=1998-11-10
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-03-17
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=4
+|date=2005-09-15
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=5
+|date=2010-11-01
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=6
+|date=2013-06-14
+|flag=changed
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=7
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

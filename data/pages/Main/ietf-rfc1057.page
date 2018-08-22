@@ -1,0 +1,26 @@
+{{Standard
+|uuid=5c3e4551-fd39-4424-96b4-b00a2ff3c098
+|publisher=IETF
+|code=RFC 1057
+|title=Open Network Computing (ONC) Remote Procedure Call (RPC) Specification version 2
+|dateissued=1988
+|substandards=
+|description=
+RPC is a communication service to transfer procedure calls to a remote server and return results, errors, or associated call backs. ONC RPC is independent of security and directory infrastructure, while DCE RPC is integrated directly with security and directory.
+|responsible=NCIA-CS
+|website=http://www.ietf.org/rfc/rfc1057.txt
+|events={{Change Event
+|order=1
+|date=1996-03-13
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

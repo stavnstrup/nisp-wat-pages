@@ -1,0 +1,35 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+The '''String Property Type''' represents a date values.
+
+The Wiki Automation Tool supports editing, viewing and searching on the Date properties.
+
+
+==Definition==
+The Date Type doesn't define any additional configuration attributes in the  [[Help:Property|Property Definition]] section.
+
+
+==Semantic database==
+The Date Property is implemented as a [[Special:Types/Date]] MediaWiki datatype.
+
+
+==Example==
+<pre>
+<property name="Start date" type="Date" label="Start date" attribute="startdate">
+  <description>A date to start an event in a concept.</description>
+  <instruction/>
+</property>
+</pre>
+
+
+==User Interface==
+* '''View Page'''
+The property displays a date value.
+
+* '''Edit Page'''
+The property provides a Date Picker input field.
+
+* '''Search Page'''
+The property allows user to choose a search operator from the following options: ''After (exc), After (inc), Before (exc), Before (inc), Equals (day), Has any value''
+and allows user to enter a desired date using Date Picker input field.

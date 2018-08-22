@@ -1,0 +1,19 @@
+{{Standard
+|uuid=a641fad2-e5db-47f6-bdcf-6ffa44b598a1
+|publisher=XMPP
+|code=XEP-0141
+|title=XEP-0141: Data Forms Layout
+|dateissued=2005-05-12
+|substandards=
+|description=
+Data Forms (XEP-0004) ("x:data") provides a simple and interoperable way to request and present information for both applications and humans. However, the simple nature of "x:data" requires the form renderer to use a generic "key/value" format. This document builds upon "x:data" to enable applications to specify additional layout information.
+|responsible=NCIA
+|website=http://xmpp.org/extensions/xep-0141.html
+|events={{Change Event
+|order=1
+|date=2017-04-20
+|flag=added
+|rfcp=9-15
+|version=10.0
+}}
+}}

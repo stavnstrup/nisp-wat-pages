@@ -1,0 +1,23 @@
+{{Project:Navigator}}
+
+==Issues==
+
+The Issues for this site are managed through the [https://tide.act.nato.int/issues/buglist.cgi?component=Wiki%20Automation%20Tool&list_id=3033&product=Platform Issue Tracker]
+
+=Closed=
+The table below lists all the issues which were closed in the current milestone.
+
+{| class="wikitable"
+|-
+| '''#'''|| '''Title''' || '''Resolution'''
+|}
+
+=Open=
+The table below lists all the issues which are still open in the current milestone.
+
+{| class="wikitable"
+|-
+| '''#'''|| '''Title''' || '''Status'''
+|}
+
+<headertabs />

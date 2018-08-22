@@ -1,0 +1,33 @@
+{{Standard
+|uuid=abe7ee83-8d29-47c2-b989-cdf03488ff2f
+|publisher=IETF
+|code=RFC 3476
+|title=IANA assignments for LDP, RSVP, and RSVP-TE Extensions for Optical UNI Signaling
+|dateissued=2003
+|substandards=
+|description=
+The Optical Interworking Forum (OIF) has defined extensions to the Label Distribution Protocol (LDP) and the Resource ReSerVation Protocol (RSVP) for optical User Network Interface (UNI) signaling. These extensions consist of a set of new data objects and error codes. This document describes these extensions.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc3476.txt
+|events={{Change Event
+|order=1
+|date=2004-07-24
+|flag=added
+|rfcp=5-33
+|version=0.6
+}}
+{{Change Event
+|order=2
+|date=2010-10-30
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

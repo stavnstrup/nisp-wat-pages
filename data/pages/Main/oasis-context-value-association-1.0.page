@@ -1,0 +1,19 @@
+{{Standard
+|uuid=51017667-f420-429a-bcf4-d4441056640f
+|publisher=OASIS
+|code=context-value-association-1.0
+|title=Context/value Association using genericode 1.0
+|dateissued=2010-04-15
+|substandards=
+|description=
+
+|responsible=NCIA
+|website=http://docs.oasis-open.org/codelist/ns/ContextValueAssociation/1.0/doc/context-value-association.pdf
+|events={{Change Event
+|order=1
+|date=2017-12-19
+|flag=added
+|rfcp=10-28
+|version=11.0
+}}
+}}

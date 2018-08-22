@@ -1,0 +1,37 @@
+{{Service Profile
+|uuid=4bfdff90-937c-4654-b214-84ac2e00f242
+|title=Informal Messaging Profile 1.0
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 1 Profile
+|dateissued=2015-09-30
+|version=1.0
+|description=
+The Informal Messaging Profile provides standards and guidance for SMTP settings and the marking and classification of informal messages.
+|taxonomynodes=Informal Messaging Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+Regarding Simple Mail Transfer Protocol (SMTP), the following standards are mandated for interoperability of e-mail services within the Mission Network.
+|standards=ietf-rfc5321;
+ietf-rfc1870;
+ietf-rfc1985;
+ietf-rfc2034;
+ietf-rfc2920;
+ietf-rfc3207;
+ietf-rfc3461;
+ietf-rfc3798;
+ietf-rfc3885;
+ietf-rfc4954;
+
+}}
+|guideline=
+The Informal Messaging Profile provides standards and guidance for SMTP settings and the marking and classification of informal messages.
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+}}

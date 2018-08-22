@@ -1,0 +1,6 @@
+{{Basic Standards Service Profile
+|taxonomynode=Packet Routing Services
+|responsible=
+|mandatorystandards=nso-stanag5067ed1;
+|candidatestandards=nso-stanag5067ed2;nso-stanag4711ed1;nato-tn-1417;
+}}

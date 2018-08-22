@@ -1,0 +1,19 @@
+{{Standard
+|uuid=274d8411-63c0-4063-90ac-1b6d58d0dd46
+|publisher=IICWG
+|code=SCIP-233.105
+|title=Universal Elliptic Curve (EC) Key Material Specification Rev. 1.0
+|dateissued=2011-07-12
+|substandards=
+|description=
+
+|responsible=NS
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

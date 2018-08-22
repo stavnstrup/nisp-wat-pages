@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=4fc6c0c9-0205-4572-9059-024f28cf90ba
+|order=34
+|parent=Service_Management_Domain_Applications
+|title=Service Problem Management Application
+|description=The Service Problem Management Application enables users to manage service problems affecting customers. This includes functionality to receive information about application and/or infrastructure troubles/faults, to relate the various problems, and to resolve them in an efficient manner.
+}}

@@ -1,0 +1,40 @@
+{{Standard
+|uuid=7b2ea3c2-8019-488d-86cf-52a9fe0bab84
+|publisher=IETF
+|code=RFC 3418
+|title=Management Information Base for Version 2 of the Simple Network Management Protocol
+|dateissued=2002
+|substandards=
+|description=
+Management stations execute management applications which monitor and control managed elements. Managed elements are devices such as hosts, routers, terminal servers, etc., which are monitored and controlled via access to their management information. Management information is viewed as a collection of managed objects, residing in a virtual information store, termed the Management Information Base (MIB). Collections of related objects are defined in MIB modules. These modules are written using a subset of OSI's Abstract Syntax Notation One (ASN.1), termed the Structure of Management Information (SMI). The management protocol, SNMPv2, provides for the exchange of messages which convey management information between the agents and the management stations. It is the purpose of this document to define managed objects which describe the behavior of a SNMPv2 entity.
+|responsible=NCIA-SMC
+|website=http://www.ietf.org/rfc/rfc3418.txt
+|events={{Change Event
+|order=1
+|date=2002-10-11
+|flag=added
+|rfcp=
+|version=0.4
+}}
+{{Change Event
+|order=2
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=3
+|date=2005-09-16
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

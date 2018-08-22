@@ -1,0 +1,19 @@
+{{Standard
+|uuid=cc17f124-7080-4ecb-80a0-500e7401955c
+|publisher=IETF
+|code=RFC 6665
+|title=SIP-Specific Event Notification
+|dateissued=2012-07
+|substandards=
+|description=
+This document describes an extension to the Session Initiation Protocol (SIP) defined by RFC 3261. The purpose of this extension is to provide an extensible framework by which SIP nodes can request notification from remote nodes indicating that certain events have occurred.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc6655.txt
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+}}

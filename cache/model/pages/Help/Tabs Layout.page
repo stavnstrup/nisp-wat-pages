@@ -1,0 +1,66 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Widgets}}
+
+==Introduction==
+A '''Tabs Layout''' renders group of components using the following rules:
+* the first component of the group is rendered above the bar with tabs
+* the following components of the group create a new Tab
+* a component label is used as a Tab Label
+* a component content (e.g. property value) is rendered as a Tab content
+
+
+==Definition==
+<pre>
+<concept>
+  <structure layout="tabs">
+    <group name="A">                          <!-- content above bar with tabs -->
+      <property name="Property A.1">
+      <property name="Property A.1">
+      <property name="Property A.1">
+    </group>
+    <group name="B">                          <!-- first tab -->
+      <group name="1">                        <!-- properties displayed as table   -->
+        <property name="Property B.1">
+        <property name="Property B.2">
+        <property name="Property B.3">
+      </group>
+    </group>
+    <group name="C">                          <!-- second tab -->
+      <property name="Property C.1">          <!-- properties displayed as sections -->
+      <property name="Property C.2">
+      <property name="Property C.3">
+    </group>
+  <structure>
+</concept>
+</pre>
+
+
+==Example==
+<pre>
+<concept name="User" plural="Users" type="Dynamic" image="User.png" color="f9f9f9">
+  <description></description>
+  <structure layout="tabs">
+    <group name="Name"layout="table" >
+      <property name="Prefix" />
+      <property name="First name" mandatory="true" />
+      <property name="Last name" mandatory="true" />
+    </group>
+    <group name="Organization" layout="table">
+      <property name="Organization"/>
+      <property name="Function"/>
+      <property name="Address"/>
+    </group>
+    <group name="Contact information">
+      <property name="Telephone"/>
+      <property name="Email"/>
+    </group>
+    <property name="Remarks"/>
+  </structure>
+</concept>
+</pre>
+
+
+==User Interface==
+<gallery>
+File:Tabs Layout View Page.png
+File:Tabs Layout Edit Page.png
+</gallery>

@@ -1,0 +1,6 @@
+{{Basic Standards Service Profile
+|taxonomynode=Service Discovery Services
+|responsible=
+|mandatorystandards=oasis-uddi-v3.00-published-20020719;ebxml-ebta;oasis-regrep-rs-3.0;nato-tide-sd-sp;w3c-note-wsdl-20010315;
+|candidatestandards=oasis-ebms2;oasis-ws-discovery-1.1;nato-tide-sd-sp;ietf-rfc6763;w3c-rec-wsdl20-20070626;
+}}

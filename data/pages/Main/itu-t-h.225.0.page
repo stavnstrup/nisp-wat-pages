@@ -1,0 +1,26 @@
+{{Standard
+|uuid=9dfda814-e38f-4c27-aba5-c320edeab6eb
+|publisher=ITU-T
+|code=H.225.0
+|title=Call signalling protocols and media stream packetization for packet-based multimedia communication systems
+|dateissued=2009-12
+|substandards=
+|description=
+This Recommendation describes the means by which audio, video, data, and control are associated, coded, and packetized for transport between H.323 equipment on a packet-based network. This includes the use of an H.323 gateway, which in turn may be connected to H.320, H.324, or H.310/H.321 terminals on N-ISDN, GSTN, or B-ISDN respectively. The equipment descriptions and procedures are described in ITU-T Rec. H.323 while this Recommendation covers protocols and message formats. Communication via an H.323 gateway to an H.322 gateway for guaranteed Quality of Service (QoS) LANs and thus to H.322 endpoints is also possible.
+|responsible=FMN-CPWG
+|website=http://www.itu.int/rec/T-REC-H.225.0-200912-I
+|events={{Change Event
+|order=1
+|date=2010-12-04
+|flag=added
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

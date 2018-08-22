@@ -1,0 +1,47 @@
+{{Standard
+|uuid=ebe2108e-d55d-454c-b176-6dd41863e01b
+|publisher=MICROSOFT
+|code=MS-SMB - 20130118
+|title=Server Message Block (SMB)
+|dateissued=2013-01-18
+|substandards=
+|description=
+SMB provides a file and print sharing service which preserves, as well as is possible, the semantics of a DOS or MS Windows system to an application. SMB is the default protocol for resource sharing in an environment comprising Microsoft operating system based computers. Servers support either user-level and share-level security to cover all possible client workstation types.
+|responsible=NCIA-CES
+|website=
+|events={{Change Event
+|order=1
+|date=1997-05-26
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2005-09-08
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2010-07-12
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=4
+|date=2013-06-11
+|flag=changed
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=5
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

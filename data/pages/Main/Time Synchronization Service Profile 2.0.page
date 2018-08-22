@@ -1,0 +1,29 @@
+{{Service Profile
+|uuid=2a1706d3-5032-4ce5-83fc-ffed044d2354
+|title=Time Synchronization Service Profile 2.0
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|description=
+The Time Synchronization Profile provides standards and guidance to support the synchronization of clients and servers across a network or a federation of networks and the safeguard of the accurate use of timestamps.
+|taxonomynodes=Distributed Time Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+Service providers must synchronize their network segment with a stratum 1 time server directly connected to a stratum 0 device, or over a reliable network path to a stratum 1 time server of another service provider. All other entities in the federation must use the time service of their host service provider.
+|standards=ietf-rfc5905;
+itu-r-tf.460-6;
+
+}}
+|guideline=
+The Time Synchronization Profile provides standards and guidance to support the synchronization of clients and servers across a network or a federation of networks and the safeguard of the accurate use of timestamps.
+|events={{Change Event
+|order=1
+|date=2017-12-06
+|flag=added
+|rfcp=10-29
+|version=11.0
+}}
+}}

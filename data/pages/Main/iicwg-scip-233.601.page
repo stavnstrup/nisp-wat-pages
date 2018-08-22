@@ -1,0 +1,19 @@
+{{Standard
+|uuid=152e75c9-4ad6-4ad8-9fdf-39db9a451172
+|publisher=IICWG
+|code=SCIP-233.601
+|title=AES-256 Encryption Algorithm Specification Rev. 1.0.
+|dateissued=2011-07-12
+|substandards=
+|description=
+
+|responsible=NS
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

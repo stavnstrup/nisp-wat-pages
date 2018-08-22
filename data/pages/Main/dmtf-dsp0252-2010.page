@@ -1,0 +1,42 @@
+{{Standard
+|uuid=d65bfe5c-95b6-485a-8072-670259136b7f
+|publisher=DMTF
+|code=DSP0252
+|title=Configuration Management Database (CMDB) Federation Specification
+|dateissued=2010-04-22
+|substandards=
+|description=
+Many organizations are striving to base IT management on a Configuration Management Database (CMDB). A CMDB contains data describing the following entities:
+
+* managed resources, such as computer systems and application software
+
+* process artifacts, such as incident, problem, and change records
+
+* relationships among managed resources and process artifacts
+
+The contents of the CMDB should be managed by a configuration management process and serve as the foundation for other IT management processes, such as change management and availability management.
+
+However, in practice it is challenging to implement such a CMDB because the management data are scattered across repositories that are poorly integrated or coordinated.
+
+The definition of a CMDB in the context of this specification is based on the definition described in the IT Infrastructure Library (ITIL): a database that tracks and records configuration items associated with the IT infrastructure and the relationships between them. Strictly speaking, the ITIL CMDB contains a record of the expected configuration of the IT environment, as authorized and controlled through the change management and configuration management processes. The federated CMDB in this specification extends this base definition to federate any management information that complies with the specification’s patterns, schema, and interfaces, such as the discovered actual state in addition to the expected state. Typically, an administrator selects the data to be included in a CMDB by configuring the tool that implements the CMDB.
+
+The federated CMDB described in this specification is a collection of services and data repositories that contain configuration and other data records about resources. The term "resource" includes configuration items (for example, a computer system, an application, or a router), process artifacts (for example, an incident record or a change record), and relationships between configuration items and process artifacts. The architecture describes a logical model and does not necessarily reflect a physical manifestation.
+
+
+|responsible=AMN-TMO
+|website=http://www.dmtf.org/sites/default/files/standards/documents/DSP0252_1.0.0.pdf
+|events={{Change Event
+|order=1
+|date=2013-07-28
+|flag=added
+|rfcp=7-27
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

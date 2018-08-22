@@ -1,0 +1,26 @@
+{{Standard
+|uuid=5dd9210b-65d0-4adc-bb40-20efc9ecd888
+|publisher=NSO
+|code=STANAG 1401 Ed 15
+|title=Joint Brevity Words - APP-7 Edition F
+|dateissued=2015-04-13
+|substandards=
+|description=
+This publication standardizes air-to-air, and air-to-surface, surface-to-air brevity code words. The scope is limited to those brevity codes used in multiservice operations and does not include words unique to single-service operations. While not authoritative in nature, all services agree to these brevity code meanings.
+|responsible=MC-MCJSB-IERHWG
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2017-03-03
+|flag=added
+|rfcp=9-46
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2018-04-16
+|flag=changed
+|rfcp=10-33
+|version=11.0
+}}
+}}

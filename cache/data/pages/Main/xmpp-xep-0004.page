@@ -1,0 +1,26 @@
+{{Standard
+|uuid=9bb020f3-e0c4-4a40-944e-9e01846909d8
+|publisher=XMPP
+|code=XEP-0004
+|title=XEP-0004: Data Forms
+|dateissued=2007-08-13
+|substandards=
+|description=
+This specification defines an XMPP protocol extension for data forms that can be used in workflows such as service configuration as well as for application-specific data description and reporting. The protocol includes lightweight semantics for forms processing (such as request, response, submit, and cancel), defines several common field types (boolean, list options with single or multiple choice, text with single line or multiple lines, single or multiple JabberIDs, hidden fields, etc.), provides extensibility for future data types, and can be embedded in a wide range of applications. The protocol is not intended to provide complete forms-processing functionality as is provided in the W3C XForms technology, but instead provides a basic subset of such functionality for use by XMPP entities.
+|responsible=FMN-CPWG
+|website=http://xmpp.org/extensions/xep-0004.html
+|events={{Change Event
+|order=1
+|date=2013-10-22
+|flag=added
+|rfcp=7-27
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

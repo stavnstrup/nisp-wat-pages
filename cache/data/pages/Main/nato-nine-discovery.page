@@ -1,0 +1,26 @@
+{{Standard
+|uuid=990e5c46-e285-4444-afc5-e56dfcc0a746
+|publisher=NATO
+|code=NINE-Discovery
+|title=NINE-Specification: Dynamic Multicast Discovery And Keying Extension, v.1.0.3
+|dateissued=2012
+|substandards=
+|description=
+
+|responsible=NS
+|website=
+|events={{Change Event
+|order=1
+|date=2012-11-26
+|flag=added
+|rfcp=6-83
+|version=7.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+}}

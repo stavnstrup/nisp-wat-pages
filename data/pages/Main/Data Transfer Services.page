@@ -1,0 +1,12 @@
+{{Taxonomy Node
+|uuid=6d22f034-635e-4e05-92a7-f5de15688d2b
+|order=295
+|parent=Infrastructure_Networking_Services
+|title=Data Transfer Services
+|description=The Data Transfer Services provide data communication functionality to other services and applications making use of the IP communication layers made available by LAN infrastructure and/or Communications Services. The data transfer functions have many dimensions for various data transfer scenarios, the major emphasis being on the following:
+* Synchronous - Asynchronous
+* Connection Oriented - Connectionless
+* Point to Point - Point to Multipoint
+* Real Time - Non Real Time
+* Guaranteed - Not Guaranteed
+}}

@@ -1,0 +1,19 @@
+{{Standard
+|uuid=d322f80b-45a2-440b-9e05-cfb1653361d5
+|publisher=IETF
+|code=RFC 7321
+|title=Cryptographic Algorithm Implementation Requirements and Usage Guidance for Encapsulating Security Payload (ESP) and Authentication Header (AH)
+|dateissued=2014-08-01
+|substandards=
+|description=
+ESP and AH protocols make use of various cryptographic algorithms to provide confidentiality and/or data origin authentication to protected data communications in the IP Security (IPsec) architecture. To ensure interoperability between disparate implementations, the IPsec standard specifies a set of mandatory-to-implement algorithms.
+|responsible=C3B-CAP4
+|website=https://tools.ietf.org/rfc/rfc7321.txt
+|events={{Change Event
+|order=1
+|date=2016-12-13
+|flag=added
+|rfcp=9-12
+|version=10.0
+}}
+}}

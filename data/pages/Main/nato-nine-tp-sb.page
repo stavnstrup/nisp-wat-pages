@@ -1,0 +1,19 @@
+{{Standard
+|uuid=6d94df22-0f8d-41a8-ae03-5dbbc73124fb
+|publisher=NATO
+|code=NINE-TP-SB
+|title=NINE-Traffic Protection Suite B Cryptography, v.1.0.4
+|dateissued=
+|substandards=
+|description=
+
+|responsible=NS
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

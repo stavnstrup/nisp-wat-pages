@@ -1,0 +1,19 @@
+{{Standard
+|uuid=53648adc-1ea3-4f55-9bea-4ff8819ff733
+|publisher=NSO
+|code=STANAG 2211 Ed 7
+|title=Geodetic Datums, Projections, Grids and Grid References - AGeoP-21 Edition A
+|dateissued=2016-02-25
+|substandards=
+|description=
+The aim of this STANAG is to establish the U.S. Department of Defense World Geodetic System 1984 (WGS 84) as the standard coordinate reference system for geospatial information used by NATO Armed Forces when acting in land, sea and air operations. Information is provided to facilitate the transition to WGS 84, including the interim use of existing geospatial information not referenced to WGS 84.
+|responsible=MC-MCJSB-JGS
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2017-03-03
+|flag=added
+|rfcp=9-46
+|version=10.0
+}}
+}}

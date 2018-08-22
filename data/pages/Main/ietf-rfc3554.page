@@ -1,0 +1,30 @@
+{{Standard
+|uuid=38d13e2b-c7d9-4e9d-a8cd-1851f6de268d
+|publisher=IETF
+|code=RFC 3554
+|title=On the Use of Stream Control Transmission Protocol (SCTP) with IPsec
+|dateissued=2003-07-01
+|substandards=
+|description=
+The Stream Control Transmission Protocol (SCTP) is a reliable transport protocol operating on top of a connection-less packet network such as IP. SCTP is designed to transport PSTN signaling messages over IP networks, but is capable of broader applications.When SCTP is used over IP networks, it may utilize the IP security protocol suite [RFC2402][RFC2406] for integrity and confidentiality. To dynamically establish IPsec Security Associations (SAs), a key negotiation protocol such as IKE (RFC2409) may be used.
+
+This document describes functional requirements for IPsec and IKE to facilitate their use in securing SCTP traffic. In particular, we discuss additional support in the form of a new ID type in IKE (RFC2409) and implementation choices in the IPsec processing to accommodate for the multiplicity of source and destination addresses associated with a single SCTP association.
+
+
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc3554.txt
+|events={{Change Event
+|order=1
+|date=2007-02-21
+|flag=added
+|rfcp=
+|version=1.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

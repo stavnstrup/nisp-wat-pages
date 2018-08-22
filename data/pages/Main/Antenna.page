@@ -1,0 +1,11 @@
+{{Taxonomy Node
+|uuid=be71df76-2a91-4400-ba54-82390e22bb92
+|order=372
+|parent=Communications_Equipment
+|title=Antenna
+|description=A radio antenna is an electrical device which converts electric currents into radio waves, and vice versa. Antennas are essential components of all equipment that uses radio and are usually used with a radio transmitter or radio receiver. Antennas can also be used as sensor equipment. 
+
+According to their applications and technology available, antennas generally fall in one of two categories:
+# Omnidirectional or only weakly directional antennas which receive or radiate more or less in all directions. These are employed when the relative position of the other station is unknown or arbitrary. They are also used at lower frequencies where a directional antenna would be too large, or simply to cut costs in applications where a directional antenna isn't required.
+# Directional or beam antennas which are intended to preferentially radiate or receive in a particular direction or directional pattern.
+}}

@@ -1,0 +1,19 @@
+{{Standard
+|uuid=4df48857-074c-4b53-ac93-72f7ebb7b472
+|publisher=IETF
+|code=RFC 6286
+|title=Autonomous-System-Wide Unique BGP Identifier for BGP-4
+|dateissued=2011-06-01
+|substandards=
+|description=
+To accommodate situations where the current requirements for the BGP Identifier are not met, this document relaxes the definition of the BGP Identifier to be a 4-octet, unsigned, non-zero integer and relaxes the "uniqueness" requirement so that only Autonomous-System- wide (AS-wide) uniqueness of the BGP Identifiers is required. These revisions to the base BGP specification do not introduce any backward compatibility issues.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc6286.txt
+|events={{Change Event
+|order=1
+|date=2017-05-01
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+}}

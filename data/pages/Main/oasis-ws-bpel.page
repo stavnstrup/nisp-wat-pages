@@ -1,0 +1,26 @@
+{{Standard
+|uuid=05361cde-db06-4653-ad7d-c69b5d3a3ca7
+|publisher=OASIS
+|code=ws-bpel
+|title=Web Services Business Process Execution Language (WSBPEL) version 2.0
+|dateissued=2007-01-31
+|substandards=
+|description=
+WS-BPEL provides a language for the specification of Executable and Abstract business processes. By doing so, it extends the Web Services interaction model and enables it to support business transactions. Note: the final version have bben approved, and will be released shortly.
+|responsible=NCIA-CES
+|website=http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=wsbpel
+|events={{Change Event
+|order=1
+|date=2007-02-23
+|flag=added
+|rfcp=
+|version=1.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

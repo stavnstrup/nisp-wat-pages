@@ -1,0 +1,26 @@
+{{Standard
+|uuid=db494b0a-7bdd-4d09-adec-f1c90bda230b
+|publisher=IETF
+|code=RFC 4752
+|title=The Kerberos v5 Simple Authentication and Security Layer (SASL) Mechanism
+|dateissued=2006
+|substandards=
+|description=
+The Simple Authentication and Security Layer (SASL) is a framework for adding authentication support to connection-based protocols. This document describes the method for using the Generic Security Service Application Program Interface (GSS-API) Kerberos V5 in the SASL.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc4752.txt
+|events={{Change Event
+|order=1
+|date=2010-12-05
+|flag=added
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

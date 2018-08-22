@@ -1,0 +1,29 @@
+{{Profile
+|uuid=f59fc2d3-effd-4df6-9edf-d98d349ca08d
+|title=FMN Spiral 2 Communications and Networking Profile
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|guideline=
+The Communications and Networking Profile arranges standards profiles for the facilitation of the platform and communications infrastructure of federated mission networks.
+|profiles=FMN Spiral 2 Networking Profile;
+FMN Spiral 2 Communications Profile;
+
+|serviceprofiles=
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-12-06
+|flag=changed
+|rfcp=10-29
+|version=11.0
+}}
+}}

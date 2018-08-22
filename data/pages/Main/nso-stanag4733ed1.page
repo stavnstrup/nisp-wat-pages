@@ -1,0 +1,19 @@
+{{Standard
+|uuid=6188f16a-51a3-4431-9335-87d23aa37165
+|publisher=NSO
+|code=STANAG 4733 Ed. 1
+|title=NATO VECTOR GRAPHICS (NVG) - ADatP-4733 Ed. A (RD)
+|dateissued=
+|substandards=
+|description=
+
+|responsible=NCIA
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2018-07-06
+|flag=added
+|rfcp=10-39
+|version=11.0
+}}
+}}

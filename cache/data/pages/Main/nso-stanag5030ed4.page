@@ -1,0 +1,33 @@
+{{Standard
+|uuid=c33c4576-b9d7-4e6c-807a-0fda94d143ef
+|publisher=NSO
+|code=STANAG 5030 Ed 4
+|title=Single and Multichannel VLF and LF On-Line Broadcast and Off-Line OOK Systems
+|dateissued=1995-02-14
+|substandards=
+|description=
+
+|responsible=BLOS
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2009-09-15
+|flag=added
+|rfcp=3-3
+|version=4.0
+}}
+{{Change Event
+|order=2
+|date=2010-08-09
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+}}

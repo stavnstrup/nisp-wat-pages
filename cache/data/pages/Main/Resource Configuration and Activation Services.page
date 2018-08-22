@@ -1,0 +1,9 @@
+{{Taxonomy Node
+|uuid=aef65b0c-0232-47c8-97bb-47ff9bbb6ad5
+|order=307
+|parent=Communications_Access_SMC_Services
+|title=Resource Configuration and Activation Services
+|description=The Resource Configuration and Activation Services provide the necessary means to implement and enforce SMC resource configuration and activation policies at the communications level.
+
+The Resource Configuration and Activation Services will configure and activate those resources allocated against an issued resource order. At the successful conclusion of configuration and activation the status of the specific resources will be changed from allocated to activated (i.e. in use).
+}}

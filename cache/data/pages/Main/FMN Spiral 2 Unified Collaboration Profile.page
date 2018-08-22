@@ -1,0 +1,29 @@
+{{Profile
+|uuid=777b9cb0-e177-4e49-8351-36f5c695740a
+|title=FMN Spiral 2 Unified Collaboration Profile
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|guideline=
+|profiles=FMN Spiral 2 Basic Text-based Collaboration Chatroom Profile;
+Video-based Collaboration Profile 2.0;
+Formatted Messages Profile 2.0;
+Numbering Plans Profile 2.0;
+Audio-based Collaboration Profile 2.0;
+Secure Voice Profile 2.0;
+Content Encapsulation Profile 2.0;
+FMN Spiral 2 Unified Audio and Video Profile;
+Informal Messaging Profile;
+
+|serviceprofiles=Basic Text-based Collaboration Service Profile 2.0;
+
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+}}

@@ -1,0 +1,11 @@
+{{Taxonomy Node
+|uuid=a6fef4f6-40e5-4a5c-a3b0-9ee60e4507dd
+|order=336
+|parent=Edge_Services
+|title=Packet-based Transport Services
+|description=The Packet-based Transport Services provide the transport of Internet Protocol (IP) packets between two or more end-points, involving forwarding between packet-based routers using destination-based or policy-based routing protocols natively or over Virtual Private Network (VPN) tunnels. In these services the routing is performed on a per-packet basis. The services' "unit" is the packet flow, a flow of packets sharing a given attribute coded in the packet header (e.g. source, destination address or type of service).
+
+Packet-based Transport Services can interface to Transmission Services through various possible Cross-layer Adaptation Functions (CLAF) such as Packet Optical Transport (P-OTS), based on the transport of IP packets over fibre using Multiprotocol Label Swiching Transport Profile (MPLS-TP).
+
+The same breakdown provided under the Packet-based Access Services class applies to the Packet-based Transport Services class. Only certain service types like Session-based VPNs are not applicable in this Transport Services context as those can only be initiated from the user end-point devices and applications (e.g. a browser running on a laptop, in turn served by a packet-based access service on its network interface).
+}}

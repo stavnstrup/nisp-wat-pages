@@ -1,0 +1,77 @@
+{{Standard
+|uuid=88649e49-a1b7-4960-b0f6-908541410ab0
+|publisher=ISO-IEC
+|code=14496-14
+|title=Coding of audio-visual objects -- Part 14: MP4 file format
+|dateissued=2003
+|substandards=
+|description=
+ISO/IEC 14496-14:2003 specifies the MP4 file format as derived from ISO/IEC 14496-12 and ISO/IEC 15444-12, the ISO base media file format. It revises and completely replaces Clause 13 of ISO/IEC 14496-1, in which the file format was previously specified.The MP4 file format defines the storage of MPEG-4 content in files. It is a flexible format, permitting a wide variety of usages, such as editing, display, interchange and streaming.
+
+
+|responsible=NCIA-CES
+|website=http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=38538
+|events={{Change Event
+|order=1
+|date=1999-01-14
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-07-17
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2001-11-09
+|flag=changed
+|rfcp=
+|version=0.3
+}}
+{{Change Event
+|order=4
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=5
+|date=2005-09-14
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=6
+|date=2007-08-02
+|flag=changed
+|rfcp=
+|version=2.0
+}}
+{{Change Event
+|order=7
+|date=2010-11-01
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=8
+|date=2013-08-23
+|flag=changed
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=9
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

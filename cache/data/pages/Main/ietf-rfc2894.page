@@ -1,0 +1,28 @@
+{{Standard
+|uuid=efc25ba5-3a59-47f7-91a9-e5211afb0c53
+|publisher=IETF
+|code=RFC 2894
+|title=Router Renumbering for IPv6
+|dateissued=2000
+|substandards=
+|description=
+IPv6 Neighbor Discovery and Address Autoconfiguration conveniently make initial assignments of address prefixes to hosts. Aside from the problem of connection survival across a renumbering event, these two mechanisms also simplify the reconfiguration of hosts when the set of valid prefixes changes.This document defines a mechanism called Router Renumbering ("RR") which allows address prefixes on routers to be configured and reconfigured almost as easily as the combination of Neighbor Discovery and Address Autoconfiguration works for hosts. It provides a means for a network manager to make updates to the prefixes used by and advertised by IPv6 routers throughout a site.
+
+
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc2894.txt
+|events={{Change Event
+|order=1
+|date=2005-11-20
+|flag=added
+|rfcp=6-19
+|version=0.7
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,26 @@
+{{Standard
+|uuid=fa95617b-8ee0-41b5-8b54-310e5907d361
+|publisher=IETF
+|code=RFC 2508
+|title=Compressing IP/UDP/RTP Headers for Low-Speed Serial Links
+|dateissued=1999
+|substandards=
+|description=
+This document describes a method for compressing the headers of IP/UDP/RTP datagrams to reduce overhead on low-speed serial links. In many cases, all three headers can be compressed to 2-4 bytes.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc2508.txt
+|events={{Change Event
+|order=1
+|date=2005-11-20
+|flag=added
+|rfcp=6-19
+|version=0.7
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,33 @@
+{{Standard
+|uuid=9f1447e9-74b5-4407-bb26-562b79996f91
+|publisher=IETF
+|code=RFC 5668
+|title=4-Octet AS Specific BGP Extended Community
+|dateissued=2009
+|substandards=
+|description=
+This document defines a new type of a BGP extended community, which carries a 4-octet Autonomous System (AS) number.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc5668.txt
+|events={{Change Event
+|order=1
+|date=2013-10-21
+|flag=added
+|rfcp=7-27
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

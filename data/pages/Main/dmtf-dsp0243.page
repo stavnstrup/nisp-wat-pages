@@ -1,0 +1,28 @@
+{{Standard
+|uuid=9300c5ed-6e0e-48e3-9630-3b68e8f8e38f
+|publisher=DMTF
+|code=DSP0243
+|title=Open Virtualization Format Specification, v.2.0.1
+|dateissued=2013-08-30
+|substandards=
+|description=
+The Open Virtualization Format (OVF) Specification describes an open, secure, portable, efficient and 200 extensible format for the packaging and distribution of software to be run in virtual machines.This version of the specification (2.0) is intended to allow OVF 1.x tools to work with OVF 2.0 descriptors.
+
+
+|responsible=AMN-TMO
+|website=http://www.dmtf.org/standards/ovf
+|events={{Change Event
+|order=1
+|date=2013-12-12
+|flag=added
+|rfcp=7-44
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

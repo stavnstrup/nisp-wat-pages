@@ -1,0 +1,26 @@
+{{Standard
+|uuid=77f5f10e-a16c-48e5-889a-9dc37328bad2
+|publisher=ISO
+|code=15836
+|title=The Dublin Core Metadata Element Set
+|dateissued=2010-04-08
+|substandards=
+|description=
+ISO 15836:2009 establishes a standard for cross-domain resource description, known as the Dublin Core Metadata Element Set. Like RFC 3986, ISO 15836:2009 does not limit what might be a resource. ISO 15836:2009 defines the elements typically used in the context of an application profile which constrains or specifies their use in accordance with local or community-based requirements and policies. However, it does not define implementation detail, which is outside the scope of ISO 15836:2009
+|responsible=NCIA-SSTRAT-SEA
+|website=http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=52142
+|events={{Change Event
+|order=1
+|date=2010-09-22
+|flag=added
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

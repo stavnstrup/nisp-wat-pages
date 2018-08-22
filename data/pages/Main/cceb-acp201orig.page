@@ -1,0 +1,19 @@
+{{Standard
+|uuid=ddcfa41d-1e38-4b22-9580-0c3573d0c3a1
+|publisher=CCEB
+|code=ACP 201 (Orig)
+|title=Communications Instructions Internet Protocol (IP) Services
+|dateissued=
+|substandards=
+|description=
+
+|responsible=ACP
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

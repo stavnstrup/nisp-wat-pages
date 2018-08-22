@@ -1,0 +1,33 @@
+{{Standard
+|uuid=400c3bb0-ba99-429d-abeb-09988b8b3e73
+|publisher=IICWG
+|code=SCIP-220
+|title=Requirement Document
+|dateissued=2006-07-13
+|substandards=
+|description=
+
+|responsible=FMN-CPWG
+|website=
+|events={{Change Event
+|order=1
+|date=2013-07-28
+|flag=added
+|rfcp=7-27
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

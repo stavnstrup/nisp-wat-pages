@@ -1,0 +1,62 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Widgets}}
+
+==Introduction==
+The '''Query''' widget '''displays a list of pages''' from based on the custom query.
+The widget allows to apply different styles to rendered list.
+
+
+==Definition==
+<pre>
+<concept name="">
+  <structure>
+    <property name="Property 1"/>
+    <property name="Property 2"/>
+    <property name="Property 3"/>
+    <query name="{NAME}" label="{LABEL}" concept="{CONCEPT}" filter="{FILTER}" sortBy="{SORT BY}" sortOrder="{SORT ORDER}" format="{FORMAT}" icon="{ICON}"
+      <columns>
+        <column name="{COLUMN NAME}"/>
+        <column name="{COLUMN NAME}"/>
+        <column name="{COLUMN NAME}"/>
+      </columns>
+    </query>
+  </structure>
+</concept>
+</pre>
+
+
+{| class="helptable"
+|-
+! {NAME}
+| A name of the query.
+|-
+! {LABEL}
+| A label of the quwery, if not set the {NAME} is used as a label.
+|-
+! {CONCEPT}
+| A concepts which are returned from the query.
+|-
+! {FILTER}
+| An additional filter to be set on the related entities (e.g. [[Test result:Limited success]]
+|-
+! {SORT BY}
+| The name of the property to be used for sorting purposes
+|-
+! {SORT ORDER}
+| The order of the sorting. The following values are allowed:
+* ''desc''
+* ''asc''
+|-
+! {FORMAT}
+| A layout type used to render referring Source Concept pages. The following options are allowed:
+* table. The "table" layout displays a table with referring pages. The first column displays a Source page name, and the following columns display the values of the properties defined in the {COLUMNS} attribute.
+* list. The "link" layout displays a list of referring pages. The main list heading displays a Source page name, and under it the values of the properties defined in the {COLUMNS} attribute.
+* link. The "link" layout displays simple list of links to the referring Source pages.
+* gallery. The "gallery" layout displays gallery of images/logos associated with the pages.
+* gallerylist. The "gallerylist" layout displays a list of images/logos associated with the pages with the values of the properties defined in the {COLUMNS} attribute..
+|-
+! {COLUMN NAME}
+| A name of the column to be displayed next to the page name.
+|-
+! {ICON}
+| An optional icon (with link) to be displayed instead of a page name. Useful for cases where page name might be long and might not be user friendly (e.g. with automatically generated numbering)
+|}

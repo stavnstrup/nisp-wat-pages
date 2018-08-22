@@ -1,0 +1,28 @@
+{{Standard
+|uuid=766aa881-f19f-4af5-9c79-2123643756b5
+|publisher=IETF
+|code=RFC 3045
+|title=Storing Vendor Information in the LDAP root DSE
+|dateissued=2001
+|substandards=
+|description=
+This document specifies two Lightweight Directory Access Protocol (LDAP) attributes, vendorName and vendorVersion that MAY be included in the root DSA-specific Entry (DSE) to advertise vendor-specific information. These two attributes supplement the attributes defined in section 3.4 of RFC 2251.The information held in these attributes MAY be used for display and informational purposes and MUST NOT be used for feature advertisement or discovery.
+
+
+|responsible=NCIA-CES
+|website=http://www.ietf.org/rfc/rfc3045.txt
+|events={{Change Event
+|order=1
+|date=2010-11-13
+|flag=added
+|rfcp=4-25
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

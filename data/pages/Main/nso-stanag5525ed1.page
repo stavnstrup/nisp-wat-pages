@@ -1,0 +1,19 @@
+{{Standard
+|uuid=aa87d88b-f20a-4e66-8bf6-68a3fb33ccf5
+|publisher=NSO
+|code=STANAG 5525
+|title=Joint Consultation, Command and Control Information Exchange Data Model (JC3IEDM)
+|dateissued=2007-06-26
+|substandards=
+|description=
+
+|responsible=FMN-CPWG
+|website=
+|events={{Change Event
+|order=1
+|date=2017-05-01
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+}}

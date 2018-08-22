@@ -1,0 +1,54 @@
+{{Standard
+|uuid=ae3c760c-7cb9-445a-8eee-86fcb440e722
+|publisher=IETF
+|code=RFC 3584
+|title=Coexistence between Version 1 and Version 2 of the Internet-standard Network Management Framework
+|dateissued=2003
+|substandards=
+|description=
+The purpose of this document is to describe coexistence between version 3 of the Internet-standard Network Management Framework, (SNMPv3), version 2 of the Internet-standard Network Management Framework (SNMPv2), and the original Internet-standard Network Management Framework (SNMPv1). This document also describes how to convert MIB modules from SMIv1 format to SMIv2 format.
+|responsible=NCIA-SMC
+|website=http://www.ietf.org/rfc/rfc3584.txt
+|events={{Change Event
+|order=1
+|date=1999-01-15
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-03-20
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2003-08-01
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=4
+|date=2005-09-08
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=5
+|date=2010-10-30
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=6
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

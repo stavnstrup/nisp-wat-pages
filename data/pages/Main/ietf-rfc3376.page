@@ -1,0 +1,33 @@
+{{Standard
+|uuid=81198b81-d251-4dde-99c0-95a6755cc542
+|publisher=IETF
+|code=RFC 3376
+|title=Internet Group Management Protocol, Version 3
+|dateissued=2002
+|substandards=
+|description=
+This memo documents IGMPv3, used by IP hosts to report their multicast group memberships to routers. It obsoletes RFC 2236:1997. IGMPv3 allows group membership termination to be quickly reported to the routing protocol, which is important for high-bandwidth multicast groups and/or subnets with highly volatile group membership.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc3376.txt
+|events={{Change Event
+|order=1
+|date=2003-03-12
+|flag=added
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=2
+|date=2005-09-16
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

@@ -1,0 +1,19 @@
+{{Standard
+|uuid=53dc6740-d36a-48ea-bdcf-21637fe24ac2
+|publisher=SIP
+|code=SIP Connect v.1.1. 
+|title=SIP Connect v.1.1. - Technical Recommendation (2011)
+|dateissued=2011-10-03
+|substandards=
+|description=
+
+|responsible=NCIA
+|website=https://www.sipforum.org/download/sipconnect-technical-recommendation-version-1-1/?wpdmdl=2619
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

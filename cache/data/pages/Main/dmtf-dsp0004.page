@@ -1,0 +1,33 @@
+{{Standard
+|uuid=f858b84c-427a-4305-a744-fd9ca0d2d9c4
+|publisher=DMTF
+|code=DSP0004
+|title=Common Information Model (CIM) v2.2
+|dateissued=1999
+|substandards=
+|description=
+The DMTF Common Information Model (CIM) is an approach to the management of systems and networks that applies the basic structuring and conceptualization techniques of the object-oriented paradigm. The approach uses a uniform modeling formalism that - together with the basic repertoire of object-oriented constructs - supports the cooperative development of an object-oriented schema across multiple organizations. A management schema is provided to establish a common conceptual framework at the level of a fundamental typology - both with respect to classification and association, and with respect to a basic set of classes intended to establish a common framework for a description of the managed environment.
+|responsible=AMN-TMO
+|website=http://dmtf.org/standards/cim
+|events={{Change Event
+|order=1
+|date=2002-10-11
+|flag=added
+|rfcp=
+|version=0.4
+}}
+{{Change Event
+|order=2
+|date=2003-08-01
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

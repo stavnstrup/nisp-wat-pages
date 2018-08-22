@@ -1,0 +1,11 @@
+{{Taxonomy Node
+|uuid=b08fa4bc-9038-4303-9f09-5e312a7738e5
+|order=263
+|parent=Mediation_Services
+|title=Data Format Transformation Services
+|description=The Data Format Transformation Services support the encoding of information in different formats. This is needed when information consumers cannot directly process the information in the format chosen by the information provider. Data Format Transformation Services also play a role when the boundary between one network type to another is crossed (e.g. static IP network to tactical radio network) and a conversion from one data representation to another (e.g. for bandwidth utilization purposes) is required.
+
+The relation between the data and the information which it represents can be changed during a data format transformation. To this regard important aspects of data transformation include format conversion where data is encoded differently using another format. Both data encodings represent the same information and are usually compatible. Typical examples are the conversion of temperature from Celsius to Fahrenheit, or the conversion of the bit representation between Big- and Little-Endian formats.
+
+Not all information can always be preserved during the data transformation (lossy). Reasons can be that some information is deliberately omitted and not captured in the new data (e.g. when compressing data), or that the target format is not capable of representing data in a way that the original information is completely preserved.
+}}

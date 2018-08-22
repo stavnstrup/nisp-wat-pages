@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=56a3866e-cb4a-4ce1-996e-d4e72a524d0c
+|order=277
+|parent=Infrastructure_SMC_Services
+|title=Infrastructure Provisioning Services
+|description=The Infrastructure Provisioning Services manage the instantiation, runtime management and disposal of dynamically scalable and virtualized infrastructure resources.  The Infrastructure Provisioning Services sustains the infrastructure footprint for all consumers and locations continuously.
+}}

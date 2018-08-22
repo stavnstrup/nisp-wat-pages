@@ -1,0 +1,26 @@
+{{Standard
+|uuid=1691605d-2f85-4cc4-91e8-93fc66e96f24
+|publisher=XMPP
+|code=XEP-0115
+|title=XEP-0115: Entity Capabilities
+|dateissued=2008-02-26
+|substandards=
+|description=
+This document defines an XMPP protocol extension for broadcasting and dynamically discovering client, device, or generic entity capabilities. In order to minimize network impact, the transport mechanism is standard XMPP presence broadcast (thus forestalling the need for polling related to service discovery data), the capabilities information can be cached either within a session or across sessions, and the format has been kept as small as possible.
+|responsible=FMN-CPWG
+|website=http://xmpp.org/extensions/xep-0115.html
+|events={{Change Event
+|order=1
+|date=2013-10-22
+|flag=added
+|rfcp=7-27
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

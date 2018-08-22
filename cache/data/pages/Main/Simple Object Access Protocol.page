@@ -1,0 +1,32 @@
+{{Service Profile
+|uuid=eef3b31b-4108-4f09-9ed3-6ef14d4b7e9f
+|title=Simple Object Access Protocol
+|publisher=NCIA
+|code=TN-1491
+|spectitle=Simple Object Access Protocol (SOAP) Binding Profile
+|dateissued=2017-05-18
+|version=1.0
+|description=
+|taxonomynodes=Information Annotation Services;
+Content Management Services;
+Information Labeling Services;
+Information Access Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=nso-stanag4774;
+nso-stanag4778;
+w3c-note-soap-20000508;
+w3c-rec-soap12-part1-20030624;
+w3c-rec-xmldsig-core-20080610;
+
+}}
+|guideline=
+|events={{Change Event
+|order=1
+|date=2017-04-21
+|flag=added
+|rfcp=9-2
+|version=10.0
+}}
+}}

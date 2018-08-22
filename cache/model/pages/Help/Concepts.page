@@ -1,0 +1,26 @@
+<noinclude>{{User Manual Navigator}}</noinclude>
+In the context of the {{SITENAME}} wiki, a concept is an abstract representation of business information. This means that a concept not only captures a set of data, it also holds additional information that  gives context to that data, for instance by adding semantic value. The concept is an overarching model for a set of wiki articles, and that is why the concept definition provides: the details that are used to specify [[Help:Categories|Categories]] for the organization of the articles; the original [[Help:Datasets|Datasets]] when applicable; the basic information to develop one or more [[Help:Templates|Templates]] for the structure of articles and the assignment of properties; and in some cases, the availability of [[Help:Forms|Forms]] to facilitate data entry and editing. Other metadata in the concept definition control the use of color, graphics, nomenclature, export functions and, for instance, the link to specific pages in this User Manual.
+
+:> [[:Category:Project Concepts|Click here]] for the category of Concept articles in the {{SITENAME}} Wiki.
+
+There are four types of concepts that can be used in the {{SITENAME}} Wiki, each with their specific capabilities for consumers and contributors:
+* [[Help:Dynamic Concepts|Dynamic Concepts]] - ''based on user input and that often have an option to "edit with form".''
+* [[Help:Static Concepts|Static Concepts]] -  ''based on imported data from a trusted source , not requiring any user input.''
+* [[Help:Virtual Concepts|Virtual Concepts]] - ''based on combination of other concepts without relevant data themselves".
+* Project Concepts - ''based on the management of the wiki, not containing typical content.''
+
+For the proper naming convention of properties, the following rules apply.
+* Concept names are written in ''''title case'' : the first letter in the text and the first letter of each subsequent word are capitalized. Example: <code><span style="color:darkgreen;">{{Case|title|Concept - Information Products}}</span></code>.
+* Concept names are chosen from simple terms, preferably using nouns in plural format.
+* Related [[Help:Categories|Categories]], [[Help:Templates|Templates]] and [[Help:Forms|Forms]] usually have similar names, in either singular or plural format.
+
+<!--DOC_GEN_IGNORE_START-->
+; Dynamic Concepts
+{{Help:Dynamic Concepts}}
+; Static Concepts
+{{Help:Static Concepts}}
+; Virtual Concepts
+{{Help:Virtual Concepts}}
+<!--DOC_GEN_IGNORE_END-->
+; Project Concepts
+Project concepts are those that are used to manage the wiki. Therefore, these concepts do not contain content in the nature of the {{SITENAME}} Wiki itself, rather meta-data to create the structure of the datasets, to build semantic relations and define the [[Help:Data Model|Data Model]].

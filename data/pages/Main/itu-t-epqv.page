@@ -1,0 +1,33 @@
+{{Standard
+|uuid=c04c253f-3cf6-4dd7-8b8a-2cf2f5410eac
+|publisher=ITU-T
+|code=EPQV
+|title=ITU-T E, P, Q, V Series
+|dateissued=
+|substandards=
+|description=
+The ITU-T E, P, Q, V Series contain the standards for various analogue narrowband telephone systems.
+|responsible=NCIA-NSII
+|website=http://www.itu.int/en/ITU-T/publications/
+|events={{Change Event
+|order=1
+|date=2002-10-11
+|flag=added
+|rfcp=
+|version=0.4
+}}
+{{Change Event
+|order=2
+|date=2005-09-23
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

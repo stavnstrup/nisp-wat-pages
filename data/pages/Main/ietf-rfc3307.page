@@ -1,0 +1,26 @@
+{{Standard
+|uuid=af3c55ad-08a0-47ee-b59c-3e404aa05371
+|publisher=IETF
+|code=RFC 3307
+|title=Allocation Guidelines for IPv6 Multicast Addresses
+|dateissued=2002
+|substandards=
+|description=
+This document specifies guidelines that must be implemented by any entity responsible for allocating IPv6 multicast addresses. This includes, but is not limited to, any documents or entities wishing to assign permanent IPv6 multicast addresses, allocate dynamic IPv6 multicast addresses, and define permanent IPv6 multicast group identifiers. The purpose of these guidelines is to reduce the probability of IPv6 multicast address collision, not only at the IPv6 layer, but also at the link-layer of media that encode portions of the IP layer address into the MAC layer address.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc3307.txt
+|events={{Change Event
+|order=1
+|date=2005-11-20
+|flag=added
+|rfcp=6-19
+|version=0.7
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

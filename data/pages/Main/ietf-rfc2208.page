@@ -1,0 +1,33 @@
+{{Standard
+|uuid=6783c109-9713-43db-9c63-e7bfba187bc5
+|publisher=IETF
+|code=RFC 2208
+|title=Resource ReSerVation Protocol (RSVP) -- Version 1 Applicability Statement Some Guidelines on Deployment
+|dateissued=1997
+|substandards=
+|description=
+This document describes the applicability of RSVP along with the Integrated Services protocols and other components of resource reservation and offers guidelines for deployment of resource reservation at this time. This document accompanies the first submission of RSVP and integrated services specifications onto the Internet standards track.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc2208.txt
+|events={{Change Event
+|order=1
+|date=2004-07-24
+|flag=added
+|rfcp=5-33
+|version=0.6
+}}
+{{Change Event
+|order=2
+|date=2010-10-29
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

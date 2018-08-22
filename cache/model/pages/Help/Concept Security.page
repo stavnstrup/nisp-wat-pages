@@ -1,0 +1,59 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+For each '''Concept''' the following security features can be enabled:
+
+* '''Page protection'''
+Concepts can be marked as 'protected', which means that pages which contain the records of this Concept shall be protected.
+These pages shall be protected by the import scripts or manually by the users.
+System displays an error message if such page is not protected.
+
+* '''Permission to create new records'''
+Creation of new records can be limited only to members of specific '''User Groups'''.
+Such a group is defined via '''createPermission''' option. See [[Help:User Groups|User Groups]] for more information how to define User Groups.
+
+
+==Definition==
+<pre>
+<concept
+    name="{CONCEPT NAME}" protected="{CONCEPT PROTECTION}" createPermission="{CREATE USER GROUP}">
+
+  <structure>
+  </structure>
+
+  <userGroup name="{USER GROUP NAME}" label="{USER GROUP LABEL}">{USER GROUP DESCRIPTION}</userGroup>
+  <userGroup name="{USER GROUP NAME}" label="{USER GROUP LABEL}">{USER GROUP DESCRIPTION}</userGroup>
+
+</concept>
+</pre>
+
+{| class="helptable"
+|-
+! {CONCEPT NAME}
+| A short name of the Concept.
+|-
+! {CONCEPT PROTECTION}
+| A boolean flag indicating if all pages for this concept shall be protected (so only admins could edit them).
+If this value is set to "true" and page is not protected, appropriate warning will be displayed.
+|-
+! {CREATE USER GROUP}
+| A name of the User Group which is allowed to create new entities of this Concept. See [[Help:User Groups|User Groups]] how to define User Group.
+|-
+! {USER GROUP NAME}
+| A name of the User Group. The name should end up with the "User Group" suffix.
+|}
+
+
+==Example==
+<pre>
+<concept name="Standard" protected="true">
+  <structure>
+  </structure>
+</concept>
+
+
+<concept name="Standard" createPermission="Admins User Group">
+  <structure>
+  </structure>
+</concept>
+</pre>

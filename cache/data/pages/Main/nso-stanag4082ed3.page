@@ -1,0 +1,26 @@
+{{Standard
+|uuid=70a90176-27e1-42ef-b47a-f01ff8579a92
+|publisher=NSO
+|code=STANAG 4082 Ed 3
+|title=Adoption of a Standard Artillery Computer Meteorological Message
+|dateissued=2012-03-29
+|substandards=
+|description=
+The aim of this STANAG is to define a computer meteorological message and to standardize the number of its information digits and their meanings for use by any artillery service of any country. This will make it possible for all armed forces to understand and be able to use an unweighted artillery meteorological message which is compatible with computers.
+|responsible=NCIA-C2
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2010-08-13
+|flag=added
+|rfcp=4-13
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

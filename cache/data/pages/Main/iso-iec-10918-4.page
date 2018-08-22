@@ -1,0 +1,51 @@
+{{Standard
+|uuid=2240896a-43e0-4058-ac3e-c6f238185f80
+|publisher=ISO-IEC
+|code=10918-4
+|title=Digital compression and coding of continuous-tone still images: Registration of JPEG profiles, SPIFF profiles, SPIFF tags, SPIFF colour spaces, APPn markers, SPIFF compression types and Registration Authorities (REGAUT)
+|dateissued=1999
+|substandards=
+|description=
+The Basic Image Interchange Format (BIIF) provides a file format that is suitable for the interchange, storage, and retrieval of map and imagery information. The file format consists of a file header and associated image(s), symbol(s), text and/or associated data in a way that is compatible between systems of different architectures and devices of differing capabilities and design.The BPJ2K01.00 profile defines allowed data values and ranges for JPEG 2000 header and subheader fields contained in an NSIF01.00 file.
+
+The NSIF01.00 profile is designed to promote interoperability for the exchange of digital electronic imagery among multi-national Command, Control, Communications, and Intelligence (C3I) Systems, and those systems needing to interoperate with C3I imagery systems. Adoption by NSIF of JPEG 2000 for compression of digital image data significantly enhances the ability of NSIF to meet its user requirements.
+
+
+|responsible=NCIA-CES
+|website=http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=25431
+|events={{Change Event
+|order=1
+|date=2002-10-10
+|flag=added
+|rfcp=
+|version=0.4
+}}
+{{Change Event
+|order=2
+|date=2005-09-15
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2010-10-31
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=4
+|date=2013-08-23
+|flag=changed
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=5
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

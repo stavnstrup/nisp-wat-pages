@@ -1,0 +1,27 @@
+{{Service Profile
+|uuid=c12c14b0-f64e-4e15-84e2-107c8f2715c4
+|title=Still Image Raster - Archive Service Profile
+|publisher=NATO
+|code=AC/324-D(2014)0008
+|spectitle=Directive on the Preservation of NATO Digital Information of Permanent Value
+|dateissued=2014-07-03
+|version=1.0
+|description=
+|taxonomynodes=Bitmap/raster images;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=iso-iec-15444-1;
+iso-iec-10918-1;
+adobe-tiff;
+
+}}
+|guideline=
+|events={{Change Event
+|order=1
+|date=2014-11-24
+|flag=added
+|rfcp=8-2
+|version=9.0
+}}
+}}

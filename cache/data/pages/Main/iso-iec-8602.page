@@ -1,0 +1,61 @@
+{{Standard
+|uuid=30c18e91-1093-426f-aace-b7270776945f
+|publisher=ISO-IEC
+|code=8602
+|title=Connectionless Transport protocol
+|dateissued=1995
+|substandards=
+|description=
+Cancels and replaces the first edition (1987). Specifies procedures for the connectionless-mode transmission of data and protocol control information; procedures for the correct interpretation of transport protocol control information; the functional requirements for implementations claiming conformance to this standard; the encoding of the transport-protocol-data-units used for the transmission of data and control information.
+|responsible=NCIA-NSII
+|website=http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=15907
+|events={{Change Event
+|order=1
+|date=1998-11-10
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-07-17
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=4
+|date=2005-09-15
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=5
+|date=2010-11-01
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=6
+|date=2013-08-12
+|flag=changed
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=7
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,42 @@
+{{Standard
+|uuid=92cb17df-51ed-40f1-8ad9-362e27054e8c
+|publisher=NSO
+|code=STANAG 4444 Ed 1
+|title=Voice Coding Algorithm
+|dateissued=2015-07-10
+|substandards=
+|description=
+The aim of this STANAG is to define the technical specifications (standards) to ensure the interoperability of land, air and maritime HF equipment operating in a slow-hop EPM mode.The transmitting system accepts a continuous data bitstream at 2400 bps from the vocoder system. This data bitstream is the digitally processed voice that has been FEC encoded and interleaved by the vocoder system. Its duration corresponds to each PTT voice input. It is transmitted on the traffic channel without any error-control techniques added by the HF EPM system when EEWF4 is employed.
+
+
+|responsible=BLOS
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2002-12-04
+|flag=added
+|rfcp=
+|version=0.4
+}}
+{{Change Event
+|order=2
+|date=2005-09-14
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2010-08-10
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=4
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+}}

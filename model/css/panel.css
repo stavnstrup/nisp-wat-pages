@@ -1,0 +1,24 @@
+div.panel {
+  border:0px solid #989ea5;
+}
+
+/* panel title */
+div.panel > div:first-child {
+  border-bottom:0px solid #989ea5;
+	background-color:white;
+  color:black;
+  text-align:center;
+  font-size: 18pt;
+  font-weight:bold;
+  padding:4px;
+}
+
+/* panel body */
+div.panel > div:nth-child(2) {
+  padding:5px;
+}
+
+/* center all Table Layout tables inside of panels */
+div.panel > div:nth-child(2) > table.wikitable {
+  margin: auto;
+}

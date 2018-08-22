@@ -1,0 +1,9 @@
+{{Taxonomy Node
+|uuid=53151cf1-2071-4aa5-a73a-07bb4dc5de9c
+|order=196
+|parent=Unified_Communication_and_Collaboration_Services
+|title=Video-based Communication Services
+|description=The Video-based Communication Services provide a two-way video transmission between different parties on the network, including call set-up, call co-ordination, full motion display of events and participants in a bi-directional manner, support for the management of directing the cameras, ranging from fixed position, to sender directed, to receiver directed, to automated sound pickup.
+
+These services also provide simultaneous videoconferencing among two or more remote points by means of a Multipoint Control Unit (MCU). This is a bridge that interconnects calls from several sources (in a similar way to the audio conference call). All parties call the MCU unit, or the MCU unit can also call the parties which are going to participate, in sequence. There are MCU bridges for IP and ISDN-based videoconferencing. There are MCUs which are pure software, and others which are a combination of hardware and software. An MCU is characterized according to the number of simultaneous calls it can handle, its ability to conduct transposing of data rates and protocols (translating and transcoding), and features such as Continuous Presence, in which multiple parties can be seen onscreen at once.
+}}

@@ -1,0 +1,26 @@
+{{Standard
+|uuid=b4033d47-84c0-4933-95ac-25497c254bcb
+|publisher=OGC
+|code=07-147r2
+|title=OGC KML
+|dateissued=2008-04-14
+|substandards=
+|description=
+KML is an XML language focused on geographic visualization, including annotation of maps and images. Geographic visualization includes not only the presentation of graphical data on the globe, but also the control of the user's navigation in the sense of where to go and where to look. From this perspective, KML is complementary to most of the key existing OGC standards including GML (Geography Markup Language), WFS (Web Feature Service) and WMS (Web Map Service). Currently, KML 2.2 utilizes certain geometry elements derived from GML 2.1.2. These elements include point, line string, linear ring, and polygon.
+|responsible=FMN-CPWG
+|website=http://www.opengeospatial.org/standards/kml/
+|events={{Change Event
+|order=1
+|date=2010-09-22
+|flag=added
+|rfcp=4-28
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

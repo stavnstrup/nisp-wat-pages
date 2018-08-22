@@ -1,0 +1,9 @@
+{{Taxonomy Node
+|uuid=26c8e604-d72a-4eb1-b03f-71214fed385f
+|order=362
+|parent=Transmission_Services
+|title=Wireless BLOS Mobile Transmission Services
+|description=The Wireless Beyond Line of Sight (BLOS) Mobile Transmission Services support wireless transfer of data amongst two or more nodes, where one or more of the nodes are operating on the move, Beyond Line of Sight (BLOS) of each other, employing modulated Radio Frequency (RF) carriers in different frequency bands. Selection of frequency bands is based on coverage, capacity, propagation, transceiver attributes, and frequency coordination constraints.
+
+In the context of these services, the wireless transmission path between the mobile nodes can be established passively (i.e. wireless signal is refracted back to earth by different atmospheric layers) or actively (i.e. wireless signal is transmitted back to earth via a transponder). Example transponders can be a satellite (i.e. satellite communications on-the-move) or a Medium/High Altitude Long Endurance (HALE) relay such as an Unmanned Aerial Vehicles (UAV) carrying a Communications Relay Package (CRP).
+}}

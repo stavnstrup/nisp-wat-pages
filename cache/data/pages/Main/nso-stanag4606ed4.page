@@ -1,0 +1,19 @@
+{{Standard
+|uuid=fbd4ae70-cd95-4eac-9b95-855f940cf9d0
+|publisher=NSO-E
+|code=STANAG 4606 Ed 4
+|title=Super High Frequency (SHF) Medium Data Rate (MDR) Military Satellite  COMmunications (MILSATCOM) jam-resistant modem interoperability standards
+|dateissued=
+|substandards=
+|description=
+
+|responsible=SATCOM
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

@@ -1,0 +1,78 @@
+/* CSS placed here will affect the print output */
+
+body {
+   background-color:white;
+   <!--background-image: url("https://tide.act.nato.int/cwix/images/4/44/CWIX_LOGO.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;-->
+   <!--font-size: 1.0em;-->
+
+}
+
+#firstHeading  {
+ display: none;
+}
+
+#siteSub   {
+  visibility: hidden;
+}
+
+#mw-data-after-content {
+  visibility: hidden;
+}
+
+
+#bodyContent > div.printfooter {
+ display: none;
+}
+
+#catlinks {
+ display:none;
+}
+
+#footer {
+ display: none;
+}
+
+.infobox {
+  display: none !important;
+}
+
+#mw-content-text > table > tbody {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@media print {
+    #footer,
+    #content,
+    body { font-size: 8pt !important; }
+    h1 { font-size: 17pt }
+    h2 { font-size: 14pt }
+    h3 { font-size: 11pt }
+    h4 { font-size: 9pt }
+    h5 { font-size: 8pt }
+    h6 {
+        font-size: 8pt;
+        font-weight: normal;
+    }
+}
+
+/* Expand URLs for printing */
+.mw-body a.external.text:after,
+.mw-body a.external.autonumber:after {
+	content: "";
+}

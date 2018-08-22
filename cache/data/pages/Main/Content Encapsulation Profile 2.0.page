@@ -1,0 +1,27 @@
+{{Profile
+|uuid=d58e02c4-5615-4eb0-b776-4140081da0d8
+|title=Content Encapsulation Profile 2.0
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|guideline=
+|profiles=
+|serviceprofiles=Content Encapsulation;
+
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-12-06
+|flag=changed
+|rfcp=11-29
+|version=11.0
+}}
+}}

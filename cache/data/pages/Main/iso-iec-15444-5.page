@@ -1,0 +1,81 @@
+{{Standard
+|uuid=1b28c61d-39d2-4e25-878e-cd5846b14dbc
+|publisher=ISO-IEC
+|code=15444-5
+|title=JPEG 2000 image coding system: Reference software
+|dateissued=2003
+|substandards=
+|description=
+ISO/IEC 15444-5:2003 provides two independently created software reference implementations of ISO/IEC 15444-1, in order to assist implementers of ISO/IEC 15444-1 in testing and understanding its content. ISO/IEC 15444-1 defines a set of lossless and lossy compression methods for coding continuous-tone, bi-level, greyscale or colour digital still images.The reference software is informative only. ISO/IEC 15444-5:2003 does not define any additional part of the JPEG 2000 image coding system.
+
+Each version of the reference software contains source code, which may be compiled to provide the following functionality:
+
+
+
+* transcoding from selected, widely available image formats into a JPEG 2000 codestream;
+
+* transcoding from selected, widely available image formats into the JP2 file format;
+
+* selection of a wide range of JPEG 2000 encoding options (as documented in each reference software);
+
+* decoding from a JPEG 2000 codestream to a range of selected widely available image formats;
+
+* partial processing of a JP2 file to extract a JPEG 2000 codestream for decoding to a range of selected widely available image formats (Note that the reference software does not implement a conforming JP2 file reader.);
+
+* some additional tools to help with evaluation and testing.
+
+
+
+
+|responsible=NCIA-JISR
+|website=http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=33877
+|events={{Change Event
+|order=1
+|date=2001-11-09
+|flag=added
+|rfcp=
+|version=0.3
+}}
+{{Change Event
+|order=2
+|date=2003-07-31
+|flag=changed
+|rfcp=
+|version=0.5
+}}
+{{Change Event
+|order=3
+|date=2005-09-06
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2007-08-02
+|flag=changed
+|rfcp=
+|version=2.0
+}}
+{{Change Event
+|order=5
+|date=2010-11-01
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=6
+|date=2013-08-28
+|flag=changed
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=7
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,67 @@
+__NOCACHE__ __NOEDITSECTION__ __NOTOC__{{Project:Navigator}}
+
+==Description==
+Concepts representing C3 Taxonomy
+==Concepts==
+The ''C3 Taxonomy Package'' defines the following Concepts:
+{| class="wikitable sortable"
+|-
+! Concept || Topic || Data || Records
+
+|-
+| [[Image:Services.png|link=|20px]] [[Project:Concept - Taxonomy Nodes|Taxonomy Nodes]]
+| 
+| &nbsp;[[Image:Concept List Icon.png|link=|20px]] [[:Category:Taxonomy Nodes|List]] &nbsp;[[Image:Concept Tree Icon.png|link=|20px]] [[Taxonomy Nodes Tree|Tree]] &nbsp;{{#queryformlink:form=Taxonomy Nodes Search Form
+|link text=[[Image:Concept Search Icon.png|link=|20px]] Search
+|link type=text
+|new window
+}} &nbsp;[[Image:Concept Add Icon.png|link=|20px]] [[Form:Taxonomy Node|Add new]] 
+| {{#ask:[[Category:Taxonomy Nodes]]|format=count}}
+|}
+
+<div style="clear:both"></div>
+
+=Model=
+The following diagram presents the structure and dependencies between Concepts within the ''C3 Taxonomy Package''.
+{{#tag:graphviz|digraph "C3 Taxonomy Model" {
+rankdir=LR;
+nodesep=0.3;
+node [style="filled" fillcolor="#f9f9f9" color="#333333" fontname="Arial" fontsize=8 width="0.03" height="0.03"];
+edge [color="#696969" fontname="Arial" fontsize=10 penwidth="0.5"];
+/* Concept: Taxonomy Node with subobjects */
+"Mrecord-Taxonomy-Nodes" [shape="Mrecord" URL="[[Project:Concept - Taxonomy Nodes]]" fillcolor="#f0cdb4" color="#{{Get Color Shade|f0cdb4}}" label="<f0>TAXONOMY NODES{{!}}<f1>UUID{{!}}<f2>Modification date{{!}}<f3>Is child of{{!}}<f4>Order{{!}}<f5>Title{{!}}<f6>Description"] ;
+
+subgraph "Cluster-Taxonomy-Nodes" { color=none; "Mrecord-Taxonomy-Nodes"; }
+
+subgraph "cluster_C3-Taxonomy" { color=blue;label="C3 Taxonomy";  "Mrecord-Taxonomy-Nodes"; }
+/* Concept associations */
+"Mrecord-Taxonomy-Nodes":f3 -> "Mrecord-Taxonomy-Nodes" [ arrowhead="normal" headlabel=" 0..1 "];
+
+} |format="png"|renderer="dot"}}
+
+
+=Dependencies=
+===Dependencies===
+The ''C3 Taxonomy Package'' depends on (uses concepts from) the following packages:
+
+{| class="wikitable sortable"
+|-
+! Package || Description
+|}
+
+===Usage===
+The ''C3 Taxonomy Package'' is used by the following packages:
+
+{| class="wikitable sortable"
+|-
+! Package || Description
+|-
+| [[Project:Package - Standards Management|Package - Standards Management]]
+| Concepts representing NISP standards and profiles
+|}
+
+=Reports=
+
+
+
+<headertabs />

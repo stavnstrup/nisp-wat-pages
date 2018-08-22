@@ -1,0 +1,47 @@
+{{Standard
+|uuid=9a4a44b5-63cd-4443-9b05-c9da3e7f0ebe
+|publisher=ISO-IEC
+|code=3166-1
+|title=ISO Country Codes
+|dateissued=2006
+|substandards=
+|description=
+ISO 3166-1:2006 is intended for use in any application requiring the expression of current country names in coded form; it also includes basic guidelines for its implementation and maintenance.
+|responsible=NCIA-SSTRAT-SEA
+|website=http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=39719
+|events={{Change Event
+|order=1
+|date=1998-11-06
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-07-17
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2005-09-23
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2010-11-01
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=5
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,26 @@
+{{Standard
+|uuid=b3082187-6f62-4e3b-b584-cf305b14b1ff
+|publisher=IETF
+|code=RFC 2392
+|title=Content-ID and Message-ID Uniform Resource Locators
+|dateissued=1998
+|substandards=
+|description=
+The Uniform Resource Locator (URL) schemes, "cid:" and "mid:" allow references to messages and the body parts of messages. For example, within a single multipart message, one HTML body part might include embedded references to other parts of the same message.
+|responsible=NCIA-CES
+|website=http://www.ietf.org/rfc/rfc2392.txt
+|events={{Change Event
+|order=1
+|date=2010-12-05
+|flag=added
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

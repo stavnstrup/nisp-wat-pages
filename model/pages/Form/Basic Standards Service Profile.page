@@ -1,0 +1,57 @@
+<noinclude>{{Basic Standards Service Profiles Navigator}}
+
+To create a page with this <tt>{{PAGENAME}}</tt> form, enter the page name below; if a page with that name already exists, you will be sent to a form to edit that page.
+
+{{#forminput:form={{PAGENAME}}}}
+</noinclude><includeonly>__NOTOC__ __NOEDITSECTION__
+<!-- Context variables for filters on autocompletion pages
+-->
+<div id="wikiPreview" style="display:none; padding-bottom:25px; margin-bottom:25px; border-bottom:1px solid #AAAAAA;"></div>
+{| class="formtable"
+{{{for template|Basic Standards Service Profile}}}
+
+{{#if:{{#show:{{PAGENAME}}|?UUID}}||{{{field|uuid|default={{UUID}}|hidden}}} }}
+
+! Order
+| {{{field|order|size=8}}}
+|-
+|}
+
+<table class="wikitable">
+<tr>
+<th>Taxonomy</th>
+<td>{{{field|taxonomynode|input type=textarea with autocomplete|cols=50|rows=1|values from category=Taxonomy Nodes|remote autocompletion}}}
+
+</td>
+</tr>
+<tr>
+<th>Responsible</th>
+<td>{{{field|responsible|input type=textarea with autocomplete|cols=50|rows=1|values from category=Organizations|remote autocompletion}}}
+
+</td>
+</tr>
+<tr>
+<th>{{nowrap|Mandatory Standards}}</th>
+<td>{{{field|mandatorystandards|input type=textarea with autocomplete|list|delimiter=;|cols=80|rows=3|autogrow|values from category=Standards|remote autocompletion}}}
+
+</td>
+</tr>
+<tr>
+<th>{{nowrap|Candidate Standards}}</th>
+<td>{{{field|candidatestandards|input type=textarea with autocomplete|list|delimiter=;|cols=80|rows=3|autogrow|values from category=Standards|remote autocompletion}}}
+
+</td>
+</tr>
+</table>
+
+{{{end template}}}
+<headertabs />
+Additional Wiki text
+{{{standard input|free text|rows=2}}}
+
+{{{standard input|summary}}}
+
+{{{standard input|minor edit}}} {{{standard input|watch}}}
+
+{{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
+</includeonly>

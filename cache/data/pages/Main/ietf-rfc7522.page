@@ -1,0 +1,19 @@
+{{Standard
+|uuid=e5bde63c-9f11-455d-928a-c5896f965f24
+|publisher=IETF
+|code=RFC 7522
+|title=Security Assertion Markup Language (SAML) 2.0 Profile       for OAuth 2.0 Client Authentication and Authorization Grants
+|dateissued=2015-05
+|substandards=
+|description=
+This document defines how a SAML Assertion can be used to request an access token when a client wishes to utilize an existing trust relationship, expressed through the semantics of the SAML Assertion, without a direct user approval step at the authorization server.
+|responsible=NCIA
+|website=http://www.ietf.org/rfc/rfc7522.txt
+|events={{Change Event
+|order=1
+|date=2017-04-18
+|flag=added
+|rfcp=9-15
+|version=10.0
+}}
+}}

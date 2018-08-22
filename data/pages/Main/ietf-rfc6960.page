@@ -1,0 +1,26 @@
+{{Standard
+|uuid=5d4a29de-2045-4c92-9864-d15768dd8106
+|publisher=IETF
+|code=RFC 6960
+|title=X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP
+|dateissued=2013-06
+|substandards=
+|description=
+This document specifies a protocol useful in determining the current status of a digital certificate without requiring Certificate Revocation Lists (CRLs).
+|responsible=FMN-CPWG
+|website=https://tools.ietf.org/html/rfc6960
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

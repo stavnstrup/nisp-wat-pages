@@ -1,0 +1,26 @@
+{{Standard
+|uuid=79c06126-7a0b-41a1-94fb-b00c167eacc0
+|publisher=IETF
+|code=RFC 3687
+|title=LDAP Component Matching Rules
+|dateissued=2004
+|substandards=
+|description=
+The syntaxes of attributes in a Lightweight Directory Access Protocol (LDAP) or X.500 directory range from simple data types, such as text string, integer, or boolean, to complex structured data types, such as the syntaxes of the directory schema operational attributes. Matching rules defined for the complex syntaxes usually only provide the most immediately useful matching capability. This document defines generic matching rules that can match any user selected component parts in an attribute value of any arbitrarily complex attribute syntax.
+|responsible=NCIA-CES
+|website=http://www.ietf.org/rfc/rfc3687.txt
+|events={{Change Event
+|order=1
+|date=2010-11-13
+|flag=added
+|rfcp=4-25
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

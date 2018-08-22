@@ -1,0 +1,22 @@
+{{Profile
+|uuid=52995f5a-d8a1-4fe5-aec6-f613d3878b13
+|title=Federated Human-to-Human Communications Profile
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 1 Profile
+|dateissued=2015-09-30
+|version=1.0
+|guideline=
+|profiles=Federated Unified Collaboration Profile;
+Federated Information Management Profile;
+Federated Web Hosting Profile;
+
+|serviceprofiles=
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+}}

@@ -1,0 +1,29 @@
+/*
+*  Overarching style for Portal Layout.
+*  Individual grid cells are styled using 'panel' class defined in panel.css
+*/
+div.portal {
+  width: auto;
+  overflow: hidden;
+}
+
+div.portal > table {
+  width: 100%;
+	border: 0px;
+	table-layout:fixed;
+	border-spacing: 10px;
+}
+
+div.portal > table > tbody > tr > td {
+  padding: 0px;
+	vertical-align: top;
+}
+
+div.portal > table > tbody > tr > td.panelcell {
+	border:1px solid #949596;
+	background-color: #FFFFFF;
+}
+
+td.panelcell > div.panel {
+  border: 0px !important; /* Avoid double borders from table and panel*/
+}

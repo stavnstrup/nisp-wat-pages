@@ -1,0 +1,23 @@
+{{Capability Profile
+|uuid=01dfcdb7-5522-4be1-9b13-a3a53694e55e
+|title=Service Interface Profile for Messaging
+|publisher=NCIA
+|code=AI_TECH_2016.06.02.06
+|spectitle=Service Interface Profile for Messaging
+|dateissued=2015-02-04
+|version=1.0
+|guideline=
+This specification provides the interface control for simple object access protocol (SOAP) web services that are deployed within the NNEC web service infrastructure.
+
+
+|profiles=
+|serviceprofiles=Messaging;
+
+|events={{Change Event
+|order=1
+|date=2017-04-21
+|flag=added
+|rfcp=9-15
+|version=10.0
+}}
+}}

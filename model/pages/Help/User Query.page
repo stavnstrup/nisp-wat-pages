@@ -1,0 +1,113 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Widgets}}
+
+==Introduction==
+The '''User Query''' widget allows:
+* on the Concept Edit Page, to define custom filter on the Queried Concept using its Search Form component
+* on the View Page, to display the results of the query.
+
+The query might refer to the other Concept than in which the widget is used.
+
+
+==Definition==
+<pre>
+<concept name="{CONCEPT}">
+  <structure>
+    ...
+    <userQuery name="{NAME}" concept="{QUERIED CONCEPT}" label="{LABEL}" new="{NEW}" format="{FORMAT}">
+    <columns>
+      <column name="{COLUMN NAME}"/>
+      <column name="{COLUMN NAME}"/>
+      <column name="{COLUMN NAME}"/>
+    </columns>
+    </userQuery>
+    ...
+  </structure>
+</concept>
+
+<concept name="{QUERIED CONCEPT}">
+  <structure>
+    <property name="Property A"/>
+    <property name="Property B"/>
+    <property name="Property C"/>
+  </structure>
+</concept>
+</pre>
+
+{| class="helptable"
+|-
+! {CONCEPT}
+| A name of the Concept, where the results of the query will be presented.
+|-
+! {QUERIED CONCEPT}
+| A name of the Concept, which will be the subject of the query.
+|-
+! {NAME}
+| A name of the Query
+|-
+! {LABEL}
+| A label of the Query.
+|-
+! {NEW}
+|
+|-
+! {FORMAT}
+| A format type used to render the list of returned pages. The following options are allowed:
+* table. The "table" layout displays a table. The first column displays a page name, and the following columns display the values of the properties defined in the {COLUMNS} attribute.
+* list. The "link" layout displays a list. The main list heading displays a page name, and under it the values of the properties defined in the {COLUMNS} attribute.
+* tree. The "tree" layout displays a tree hierarchy.
+|-
+! {COLUMNS}
+| A colon-separated list of properties from the Queried Concept to be displayed next to the Page name in the "table" and "list" layouts.
+|}
+
+
+
+==Example==
+<pre>
+<concept name="User Group">              <!-- Concept displaying results -->
+  <structure>
+    <property name="Title"/>
+    <property name="Description"/>
+    <userQuery name="Users" concept="User" format="table">
+      <columns>
+        <column name="First name"/>
+        <column name="Last name"/>
+        <column name="Organization"/>
+      </columns>
+    </userQuery>
+  </structure>
+</concept>
+
+<concept name="User">                     <!-- Queried Concept -->
+  <structure>
+    <group name="Name">
+      <property name="Prefix" />
+      <property name="First name" mandatory="true" />
+      <property name="Last name" mandatory="true" />
+    </group>
+    <group name="Organization">
+      <property name="Organization"/>
+      <property name="Function"/>
+      <property name="Address"/>
+    </group>
+    <group name="Contact information">
+      <property name="Telephone"/>
+      <property name="Email"/>
+    </group>
+    <property name="Remarks"/>
+  </structure>
+</concept>
+</pre>
+
+In the example above "User Group" will allow user to create group entities which will display user lists based on the custom search criteria (e.g. on Function) defined on the "User Group" Edit Page.
+
+
+
+==User Interface==
+The "User Query" widget displays Search Form on the Edit page and the results of the search on the View Page.
+
+<gallery>
+File:Query Edit Page.png
+File:Query Table Layout View Page.png
+File:Query List Layout View Page.png
+</gallery>

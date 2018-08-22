@@ -1,0 +1,58 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+Data entities of various Concepts might be organized in different hierarchies: '''tree''' or '''forest'''.
+
+In the "tree" hierarchy each data entity can have one parent data entity, while in the "forest" hierarchy each data entity can have multiple parents.
+
+The Wiki Automation Tool provides additional hierarchical visualizations for Concepts which data are organized in one of these hierarchies.
+
+
+==Definition==
+<pre>
+<concept name="{CONCEPT}" ... hierarchy="{HIERARCHY TYPE}">
+</concept>
+</pre>
+
+{| class="helptable"
+|-
+! {CONCEPT}
+| A short name of the 'Concept.
+|-
+! {HIERARCHY TYPE}
+| A type of the hierarchy supported by given Concept. Allowed values <nowiki>[tree|forest]</nowiki>.
+|}
+
+
+==Semantic database==
+For Concepts supporting "tree" hierarchy, additional '''Is child of''' property is added to each data entity.
+This property is used to refer to the parent data entity.
+
+For Concepts supporting "forest" hierarchy, additional '''Is parent of''' property is added to each data entity.
+This property is used to refer to all children of given data entity.
+
+
+==Example==
+<pre>
+<concept name="Service" hierarchy="tree">
+  <structure>
+    <property name="Name"/>
+  </structure>
+</concept>
+</pre>
+
+In the example above all Service instances (data entities) are organized in a tree structure.
+Each Service might be broken down into more detailed Services (which would refer to its parent using "Is child of" property).
+
+
+==User Interface==
+For Concepts supporting hierarchical data the following visualization are provided:
+* on the '''Edit Page''' additional input field is added to capture information about the parent (for "tree" hierarchy) or children (for "forest" hierarchy)
+* on the '''View Page''' additional section (called "Context") is added. This section displays a simple graph presenting a parent(s) and children of the current page.
+* new '''Tree Page''' is generated. The page displays entire tree of all data entities for given Concept.
+
+<gallery>
+File:Tree Edit Page.png
+File:Tree View Page.png
+File:Tree Category Page.png
+</gallery>

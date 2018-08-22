@@ -1,0 +1,14 @@
+{{Taxonomy Node
+|uuid=92b6a7e7-7f82-41f4-90e2-45569d3cccbd
+|order=345
+|parent=Aggregation_Services
+|title=Packet-based Aggregation Services
+|description=The Packet-based Aggregation Services provide the termination of tunnels carrying Internet Protocol (IP) packets or, in other words, the termination of Access Services under the packet-based category VPN class through VPN concentrators.
+
+Packet-based Aggregation Services also provide the termination of IP flows (not tunnelled) in star topologies supported over wireless or SATCOM (e.g. IP SATCOM hub). In this case the services terminate packet-based [[IPv4 Routed Access Services]] or [[IPv6 Routed Access Services]] (subtended over SATCOM or radio).
+
+Hence, the following three service types can be considered for aggregation:
+* IPv4 Routed Access Services;
+* IPv6 Routed Access Services; and
+* VPN Services or virtual IP routed services, which can either be Packet-based VPN termination Services (IP VPN) or Session-based VPN termination Services (SSL/TLS VPN).
+}}

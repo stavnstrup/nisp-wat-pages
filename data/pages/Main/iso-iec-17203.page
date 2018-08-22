@@ -1,0 +1,26 @@
+{{Standard
+|uuid=56dfa7c6-f993-45d5-b1b4-b41c60485a5c
+|publisher=ISO-IEC
+|code=17203
+|title=Open Virtualization Format (OVF) specification
+|dateissued=2011-11-21
+|substandards=
+|description=
+ISO/IEC 17203:2011 specifies an open, secure, portable, efficient and extensible format for the packaging and distribution of software to be run in virtual machines.
+|responsible=NCIA-CES
+|website=http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=59388
+|events={{Change Event
+|order=1
+|date=2013-12-12
+|flag=added
+|rfcp=7-44
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

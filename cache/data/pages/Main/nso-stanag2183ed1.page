@@ -1,0 +1,19 @@
+{{Standard
+|uuid=2cc59543-34fa-4b0b-9e91-e5024db3cbe5
+|publisher=NSO
+|code=STANAG 2183 ed.1
+|title=NATO ASSET TRACKING COMMUNICATION REQUIREMENTS
+|dateissued=2009-11-09
+|substandards=
+|description=
+The aim of this STANAG is to have NATO countries agree on the minimum communication characteristics required for the transmission, receiving and utilisation of consignment tracking data in a multinational environment in order to support the Consignment Tracking To-Be BPM (Business Process Model) as defined in STANAG 2291/AAP-51 Edition 1.
+|responsible=NCIA-OTHER
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2010-09-22
+|flag=added
+|rfcp=
+|version=5.0
+}}
+}}

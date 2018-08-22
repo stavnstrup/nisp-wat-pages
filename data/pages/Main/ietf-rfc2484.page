@@ -1,0 +1,19 @@
+{{Standard
+|uuid=c975cf33-2a46-4612-821f-0e91f6405fac
+|publisher=IETF
+|code=RFC 2484
+|title=PPP LCP Internationalization Configuration Option
+|dateissued=1999-01-01
+|substandards=
+|description=
+The Point-to-Point Protocol (PPP) provides a standard method for transporting multi-protocol datagrams over point-to-point links. PPP also defines an extensible Link Control Protocol (LCP), which allows negotiation of an Authentication Protocol for authenticating its peer before allowing Network Layer protocols to transmit over the link. Both LCP and Authentication Protocol packets may contain text which is intended to be human-readable. This document defines an LCP configuration option for the negotiation of character set and language usage, as required by RFC 2277.
+|responsible=C3B-CAP4
+|website=https://tools.ietf.org/rfc/rfc2484.txt
+|events={{Change Event
+|order=1
+|date=2016-12-13
+|flag=added
+|rfcp=9-12
+|version=10.0
+}}
+}}

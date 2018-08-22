@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=d46e44a9-17df-4751-9d70-a42676e18dd3
+|order=154
+|parent=Community_Of_Interest_(COI)_Services
+|title=COI-Enabling Services
+|description=The Community of Interest (COI)-Enabling Services provide COI-dependant functionality required by more than one communities of interest. They are similar to Enterprise Support Services in that they provide building blocks for domain-specific service development. The distinction between the two is that Enterprise Support Services provide generic COI-independent capabilities for the entire enterprise (e.g. collaboration and information management services) and COI-Enabling Services provide those COI-dependant services that are typically shared by a group of communities (e.g. operational planning and situational awareness capabilities). A second distinction is that COI-Enabling Services tend to be specific for NATO's Consultation, Command and Control (C3) processes whereas Enterprise Support Services tend to be more generic and can be used by any business or enterprise.
+}}

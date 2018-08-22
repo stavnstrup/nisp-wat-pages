@@ -1,0 +1,37 @@
+{{Standard
+|uuid=7ef2f7cd-36ca-4307-af2b-7f32892d6d10
+|publisher=NSO
+|code=STANAG 4631 Ed 1
+|title=Profile for the Use of S/MIME protocols Cryptographic Message Syntax (CMS) and Enhanced Security Services (ESS) for S/MIME
+|dateissued=2008-06-04
+|substandards=
+|description=
+The aim of the STANAG is to define a profile for the use of the S/MIME protocols Cryptographic Message Syntax [CMS] and Enhanced Security Services for S/MIME [ESS], for adding cryptographic services to messaging objects. For X.400 objects, this document supplements the two IETF Drafts ?Securing X.400 Content with S/MIME? [x400Wrap] and ?Transporting S/MIM Objects in X.400? [x400Transport].The S/MIME protocols Cryptographic Message Syntax [CMS] and Enhanced Security Services for S/MIME [ESS], leave the vendors with many options that has to be agreed on in order to achieve interoperability. This document is a profile for the use of the standards [CMS] and [ESS], and describes which of the different elements of service that has to be present on origination and reception of a message, in order to claim conformance to this profile.
+
+For X.400 contents (e.g. P22, P772), this document supplements the two IETF RFC Drafts ?Securing X.400 Content with S/MIME? [x400Wrap] an ?Transporting S/MIME Objects in X.400? [x400Transport].
+
+
+|responsible=C3B-CAP1
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2005-07-31
+|flag=added
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=2
+|date=2005-09-15
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2010-08-09
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+}}

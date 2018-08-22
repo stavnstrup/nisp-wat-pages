@@ -1,0 +1,50 @@
+{{Service Profile
+|uuid=8caffb5c-1cc9-4623-8ae3-d3fd90066ed5
+|title=Inter-Autonomous Systems IP Transport Service Profile 1.0
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 1 Profile
+|dateissued=2015-09-30
+|version=1.0
+|description=
+The Inter-Autonomous Systems IP Transport Profile provides standards and guidance for Edge Transport Services between autonomous systems, using Internet Protocol (IP) over point-to-point Ethernet links on optical fibre.
+|taxonomynodes=Packet-based Transport Services;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+Section 3 - Clause 58 - 1000BASE-LX10, nominal transmit wavelength 1310nm
+|standards=ieee-802.3-2013;
+
+}}
+{{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=iso-iec-11801;
+
+}}
+{{Obligation Group
+|obligationtype=mandatory
+|description=
+Standards for IP version 4 (IPv4) over Ethernet
+|standards=ietf-rfc826;
+
+}}
+{{Obligation Group
+|obligationtype=mandatory
+|description=
+The use of LC-connectors is required for network interconnections inside shelters (or inside other conditioned infrastructure). If the interconnection point is outside a shelter in a harsh environment, the interconnection shall follow STANAG 4290 connector specification.
+|standards=itu-t-g.652;
+iec-61754-20;
+nso-stanag4290ed1;
+
+}}
+|guideline=
+The Inter-Autonomous Systems IP Transport Profile provides standards and guidance for Edge Transport Services between autonomous systems, using Internet Protocol (IP) over point-to-point Ethernet links on optical fibre.
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+}}

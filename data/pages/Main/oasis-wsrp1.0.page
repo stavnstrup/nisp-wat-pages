@@ -1,0 +1,28 @@
+{{Standard
+|uuid=a076b148-1f57-4e13-bec8-f35ce1ff818a
+|publisher=OASIS
+|code=wsrp-specification-1.0
+|title=Web Services for Remote Portlets Specification
+|dateissued=2003-09-03
+|substandards=
+|description=
+Integration of remote content and application logic into an End-User presentation has been a task requiring significant custom programming effort. Typically, vendors of aggregating applications, such as a portal, write special adapters for applications and content providers to accommodate the variety of different interfaces and protocols those providers use. The goal of this specification is to enable an application designer or administrator to pick from a rich choice of compliant remote content and application providers, and integrate them with just a few mouse clicks and no programming effort.This specification is a joint effort of two OASIS technical committees. Web Services for Interactive Applications (WSIA) and Web Services for Remote Portals (WSRP) aim to simplify the integration effort through a standard set of web service interfaces allowing integrating applications to quickly exploit new web services as they become available. The joint authoring of these interfaces by WSRP and WSIA allows maximum reuse of presentation-oriented, interactive web services while allowing the consuming applications to access a much richer set of standardized web services.
+
+
+|responsible=NCIA-CES
+|website=http://www.oasis-open.org/committees/wsrp
+|events={{Change Event
+|order=1
+|date=2014-01-22
+|flag=added
+|rfcp=7-49
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

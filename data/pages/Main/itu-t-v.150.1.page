@@ -1,0 +1,26 @@
+{{Standard
+|uuid=eefb562e-80b3-487f-b453-9009c369966e
+|publisher=ITU-T
+|code=V.150.1
+|title=Modem-over-IP networks: Procedures for the end-to-end connection of V-series DCEs, incorporating changes introduced by Corrigendum 1 and 2.
+|dateissued=2004-03
+|substandards=
+|description=
+This Recommendation defines the inter-operation of two PSTN to IP network gateways that facilitate the end-to-end connection of V-series DCEs over an IP network. The principal characteristics of these gateways are: a mechanism to allow the transparent transport of modem signals end-to-end, a mechanism to allow the termination of modem signals at the gateways and the transport of the data between gateways, the definition of a transport protocol, which is suitable to relay data between gateways, and procedures to allow gateways to transition between Voice-over-Internet Protocol and Modem-over-Internet Protocol operation.
+|responsible=FMN-CPWG
+|website=http://www.itu.int/ITU-T/recommendations/rec.aspx?rec=6223
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

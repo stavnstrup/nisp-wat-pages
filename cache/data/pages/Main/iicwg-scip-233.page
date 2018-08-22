@@ -1,0 +1,33 @@
+{{Standard
+|uuid=f041d4d9-a641-4baa-ade9-bc4a4dc0f4f7
+|publisher=IICWG
+|code=SCIP-233
+|title=SCIP Cryptography Specification - Main Module rev.1.1
+|dateissued=2012-08-06
+|substandards=
+|description=
+
+|responsible=FMN-CPWG
+|website=
+|events={{Change Event
+|order=1
+|date=2012-11-26
+|flag=added
+|rfcp=6-84
+|version=7.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

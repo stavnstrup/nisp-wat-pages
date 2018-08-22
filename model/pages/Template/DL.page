@@ -1,0 +1,8 @@
+<includeonly>-&nbsp;{{{1}}}<br></includeonly><noinclude>
+; Description
+It is used to build a list of results where each line starts with a dash and a space, hence DL for "dashed list".
+
+In Mediawiki, OL stands for "ordered list" and UL for "unordered list". DL is not a standard listing phenomenon in Mediawiki. It is used on the wiki for display of query results.
+; Format
+<pre>|format=template|template=DL</pre>
+</noinclude>

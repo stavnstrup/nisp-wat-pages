@@ -1,0 +1,40 @@
+{{Standard
+|uuid=28e6ff7e-e15d-431b-bd3c-6b43bef29d1d
+|publisher=NSO
+|code=STANAG 5522 Ed 2
+|title=NATO Improved Link Eleven (NILE) - Link 22
+|dateissued=2008-09-29
+|substandards=
+|description=
+Link-22 is important for long distance communication and is planned to replace Link-11 in the future and to be used during some period in parallel with Link-11. Link-22 Transmission media will be used to exchange Link-22 messages. Link-22 messages, comprised of F-Series formats, will be used for the exchange of maritime operational data between tactical data systems using line of sight (UHF) and beyond line of sight (HF) bands. The standard for Link-22 waveform is under development.
+|responsible=TDL
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=1999-02-02
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2005-09-15
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=3
+|date=2007-08-02
+|flag=changed
+|rfcp=
+|version=2.0
+}}
+{{Change Event
+|order=4
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+}}

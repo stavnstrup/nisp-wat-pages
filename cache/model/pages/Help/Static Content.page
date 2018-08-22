@@ -1,0 +1,55 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Widgets}}
+
+==Introduction==
+The '''Static Content''' widget allows to display any arbitrary content defined using MediaWiki syntax.
+
+In most cases it is used to display just a static text and images.
+
+
+==Definition==
+<pre>
+<concept name="{CONCEPT}">
+  <structure>
+    ...
+    <staticContent name="{NAME}" label="{LABEL}"/>
+      <text>{CONTENT}</text>
+    </staticContent>
+    ...
+  </structure>
+</concept>
+</pre>
+
+{| class="helptable"
+|-
+! {CONCEPT}
+| A name of the Concept.
+|-
+! {NAME}
+| A name of the Static Content widget.
+|-
+! {LABEL}
+| A label of the Static Content widget, if not set the {NAME} is used as a label.
+|-
+! {CONTENT}
+| The content to be displayed on the page.
+|}
+
+
+
+==Example==
+<pre>
+<concept name="Event">
+  <structure>
+    <staticContent name="Title">
+      <text>
+Any text content [[File:Any image.png]] ..
+'''Some bold content''' ... and ''italic''
+      </text>
+    </staticContent>
+  </structure>
+</concept>
+</pre>
+
+
+==User Interface==
+The content of the "Static Content" widget is displayed on View and Edit Pages.

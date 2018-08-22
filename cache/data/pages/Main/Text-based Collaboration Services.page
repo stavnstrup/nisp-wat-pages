@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=f6a4c0a6-787d-43c2-bd3e-48eeb41d4827
+|order=198
+|parent=Unified_Communication_and_Collaboration_Services
+|title=Text-based Collaboration Services
+|description=The Text-based Collaboration Services provide the ability to exchange relatively brief text messages, in near real-time, between network addressable entities. Text-based Collaboration Services offers capability to exchange messages supporting the multiple  scenarios including One-to-One messaging exchange between any two network addressable entities, Multi-Party messaging exchange between multiple network addressable entities, Notification or alerting messaging exchange between network addressable entities, Structured request and response messaging exchange between network addressable entities and cross-domain sharing information exchanges.
+}}

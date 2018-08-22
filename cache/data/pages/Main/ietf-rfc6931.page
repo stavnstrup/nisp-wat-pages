@@ -1,0 +1,33 @@
+{{Standard
+|uuid=359e75ec-ee58-407a-aa8f-0e88bea240e0
+|publisher=IETF
+|code=RFC 6931
+|title=Additional XML Security Uniform Resource Identifiers (URIs)
+|dateissued=2013-04
+|substandards=
+|description=
+This document expands, updates, and establishes an IANA registry for the list of URIs intended for use with XML digital signatures, encryption, canonicalization, and key management. These URIs identify algorithms and types of information. This document obsoletes RFC 4051.
+|responsible=NCIA
+|website=http://www.ietf.org/rfc/rfc6931.txt
+|events={{Change Event
+|order=1
+|date=2017-01-17
+|flag=added
+|rfcp=9-2
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-26
+|flag=deleted
+|rfcp=9-21
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-04-24
+|flag=changed
+|rfcp=9-2
+|version=10.0
+}}
+}}

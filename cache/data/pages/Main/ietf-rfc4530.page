@@ -1,0 +1,26 @@
+{{Standard
+|uuid=40755288-2a7d-41ee-b167-2bfc8d688f5e
+|publisher=IETF
+|code=RFC 4530
+|title=LDAP: entryUUID
+|dateissued=2006
+|substandards=
+|description=
+This document describes the LDAP/X.500 entryUUID operational attribute and associated matching rules and syntax. The attribute holds a server-assigned Universally Unique Identifier (UUID) for the object. Directory clients may use this attribute to distinguish objects identified by a distinguished name or to locate an object after renaming.
+|responsible=NCIA-CES
+|website=http://www.ietf.org/rfc/rfc4530.txt
+|events={{Change Event
+|order=1
+|date=2010-11-13
+|flag=added
+|rfcp=4-25
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

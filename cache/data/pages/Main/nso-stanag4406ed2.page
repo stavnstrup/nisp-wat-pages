@@ -1,0 +1,54 @@
+{{Standard
+|uuid=70a76229-547a-4c32-b55e-09edf1a84b88
+|publisher=NSO
+|code=STANAG 4406 Ed 2
+|title=Military Message Handling System (MMHS)
+|dateissued=2006-10-26
+|substandards=
+|description=
+An interoperability standard for military message handling systems based on the ITU-T X.400:1992 message handling system (MHS) standard has been developed by NATO. The Military Base Standard (MBS) is defined by a set of extensions to the civilian Message Handling System standard [X.400 | ISO/IEC 10021] which are required for Military Messaging (MM). This standard fully supports the Interpersonal Messaging defined in the civil X.400 standards (i.e. both P2 and P22 Content types) as well as the Military Messaging defined by these extensions.
+|responsible=C3B-CAP1
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=1996-07-01
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-09-29
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2001-11-20
+|flag=changed
+|rfcp=
+|version=0.3
+}}
+{{Change Event
+|order=4
+|date=2005-09-15
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=5
+|date=2007-07-27
+|flag=changed
+|rfcp=
+|version=2.0
+}}
+{{Change Event
+|order=6
+|date=2010-08-09
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+}}

@@ -1,0 +1,42 @@
+{{Standard
+|uuid=ec862363-93f9-46fa-a76d-92367e024639
+|publisher=IETF
+|code=RFC 3308
+|title=Layer Two Tunnelling Protocol (L2TP) Differentiated Services Extension
+|dateissued=2002-11
+|substandards=
+|description=
+This document describes mechanisms which enable the Layer Two Tunneling Protocol (L2TP) to negotiate desired Per Hop Behavior (PHB) code for the L2TP control connection, as well as individual sessions within an L2TP tunnel.L2TP provides a standard method for tunneling PPP packets. The current specification provides no provisions for supporting Differentiated Services (diffserv) over the L2TP control connection or subsequent data sessions. As a result, no standard mechanism currently exists within L2TP to provide L2TP protocol negotiations for service discrimination.
+
+
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc3308.txt
+|events={{Change Event
+|order=1
+|date=2004-07-24
+|flag=added
+|rfcp=5-33
+|version=0.6
+}}
+{{Change Event
+|order=2
+|date=2010-10-30
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=3
+|date=2011-10-16
+|flag=changed
+|rfcp=5-53
+|version=6.0
+}}
+{{Change Event
+|order=4
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

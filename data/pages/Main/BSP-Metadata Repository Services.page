@@ -1,0 +1,6 @@
+{{Basic Standards Service Profile
+|taxonomynode=Metadata Repository Services
+|responsible=
+|mandatorystandards=w3c-xmldsig-core;
+|candidatestandards=w3c-rec-ws-metadata-exchange-20111213;
+}}

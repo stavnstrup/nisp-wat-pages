@@ -1,0 +1,6 @@
+/*
+*  Overwrite default MediaWiki skin
+*/
+.mw-body-content {
+	font-size: 9pt;   /* make font smaller */
+}

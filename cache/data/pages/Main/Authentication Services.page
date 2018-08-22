@@ -1,0 +1,9 @@
+{{Taxonomy Node
+|uuid=ba82b230-5e03-44bc-897a-ea5890dae4cb
+|order=268
+|parent=Infrastructure_CIS_Security_Services
+|title=Authentication Services
+|description=The Authentication Services provide functionality to verify that a claimed identity is genuine and based on valid credentials. Authentication typically leads to a mutually shared level of assurance by the relying parties in the identity. Authentication may occur through a variety of mechanisms including challenge/response, time-based code sequences, biometric comparison, PKI or other techniques.
+
+The Authentication Services provide also functionality required to manage trust relationships between organizations and/or within an organization to enable access to electronic assets across boundaries of entity's governance realms and/or security domains.
+}}

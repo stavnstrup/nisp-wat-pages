@@ -1,0 +1,96 @@
+<includeonly>{{#switch:{{lc:{{{1}}}}}
+| afg | afghanistan=Afghanistan
+| alb | albania = Albania
+| are | united arab emirates = United Arab Emirates
+| arm | armenia = Armenia
+| aus | australia = Australia
+| aut | austria = Austria
+| aze | azerbaijan = Azerbaijan
+| bel | belgium = Belgium
+| bgr | bulgaria = Bulgaria
+| bhr | bahrain = Bahrain
+| bih | bosnia | bosnia and herzegovina = Bosnia and Herzegovina
+| blr | belarus = Belarus
+| can | canada = Canada
+| che | switzerland = Switzerland
+| cze | czech republic = Czech Republic
+| deu | ger | germany = Germany
+| dnk | denmark = Denmark
+| dza | algeria = Algeria
+| egy | egypt = Egypt
+| esp | spain = Spain
+| est | estonia = Estonia
+| eu | europe | european union = European Union
+| fin | finland = Finland
+| fra | france = France
+| fyrom | mkd | former yugoslav republic of macedonia = Former Yugoslav Republic of Macedonia
+| gbr | united kingdom = United Kingdom
+| geo | georgia = Georgia
+| grc | greece = Greece
+| hrv | croatia = Croatia
+| hun | hungary = Hungary
+| irl | ireland = Ireland
+| irq | iraq = Iraq
+| isl | iceland = Iceland
+| isr | israel = Israel
+| ita | italy = Italy
+| jor | jordan = Jordan
+| jpn | japan = Japan
+| kaz | kazakhstan = Kazakhstan
+| kor | korea | south korea = South Korea
+| kgz | kyrgyzstan = Kyrgyzstan
+| kwt | kuwait = Kuwait
+| ltu | lithuania = Lithuania
+| lux | luxembourg = Luxembourg
+| lva | latvia = Latvia
+| mar | morocco = Morocco
+| mld | moldova = Moldova
+| mlt | malta = Malta
+| mne | montenegro = Montenegro
+| mng | mongolia = Mongolia
+| mrt | mauritania = Mauritania
+| nato = NATO
+| nld | the netherlands | netherlands = Netherlands
+| nor | norway = Norway
+| nzl | new zealand = New Zealand
+| pak | pakistan = Pakistan
+| pol | poland = Poland
+| prt | portugal = Portugal
+| qat | qatar = Qatar
+| rou | romania = Romania
+| rus | russia = Russia
+| sgp | singapore = Singapore
+| srb | serbia = Serbia
+| svk | slovakia = Slovakia
+| svn | slovenia = Slovenia
+| swe | sweden = Sweden
+| tjk | tajikistan = Tajikistan
+| tkm | turkmenistan = Turkmenistan
+| tun | tunisia = Tunisia
+| tur | turkey = Turkey
+| ukr | ukraine = Ukraine
+| usa | united states = United States
+| uzb | uzbekistan = Uzbekistan
+| yem | yemen = Yemen
+| {{{1}}}
+}}</includeonly><noinclude>
+; Description
+It is used to find the official page name of a country based on <tt><nowiki>{{{1}}}</nowiki></tt> parameter input, preferably ISO-3166-1 3-letter code or text string. If no associated country is found, use the link string in the parameter <tt><nowiki>{{{1}}}</nowiki></tt> itself.
+; Format
+<pre>
+{{Get Country
+ |string
+}}</pre>
+; Examples
+{| border=0
+|- style="vertical-align:top;"
+| <tt><nowiki>{{Get Country|ARE}}</nowiki></tt> || width=50px | &nbsp; || United Arab Emirates
+|- style="vertical-align:top;"
+| <tt><nowiki>{{Get Country|The Netherlands}}</nowiki></tt> || &nbsp; || Netherlands
+|- style="vertical-align:top;"
+| <tt><nowiki>{{Get Country|Bosnia}}</nowiki></tt> || &nbsp; || Bosnia and Herzegovina
+|}
+; See also
+* [[Template:Flag]]
+* [[Template:Get Country]] &bull; [[Template:Get Country Code]]
+</noinclude>

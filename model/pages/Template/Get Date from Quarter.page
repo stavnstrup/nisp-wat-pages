@@ -1,0 +1,10 @@
+<includeonly>{{#ifeq:{{uc:{{#sub:{{{1}}}|4|3}}}}|QTR
+|1 {{#switch:{{#sub:{{{1}}}|0|1}}|2=April|3=July|4=October|January}} {{#sub:{{{1}}}|-4}}|}}</includeonly><noinclude>
+; Description
+It is used to convert a string expression of a quarter in the format "xth Qtr yyyy" to a date value, in particular the first day of either January, April, July or October.
+; Format
+<pre>
+{{Get Date from Quarter
+ |text
+}}</pre>
+</noinclude>

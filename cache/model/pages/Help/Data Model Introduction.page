@@ -1,0 +1,42 @@
+The '''Data Model''' defines a '''conceptual data model for a specific domain''' to be managed by given Wiki.
+
+
+{{#tag:graphviz | digraph "Data Model Concept" {
+rankdir=LR;
+compound=true;
+nodesep=0.3;
+node [style="filled" fillcolor="#f9f9f9" color="#333333" fontname="Arial" fontsize=8 width="0.03" height="0.03"];
+edge [color="#333333" arrowhead="normal" fontname="Arial" fontsize=8 fontcolor="#333333"];
+
+nodeWikiModel [ label = "Data Model" shape="box" fillcolor="#b5b5bd"];
+nodePackages [ label = "Packages" shape="box"  fillcolor="#ffcc00"];
+nodeConcept [ label = "Concepts" shape="box" fillcolor="#C6D729"];
+nodeSubobject [ label = "Subobjects" shape="box"  fillcolor="#C6D729"];
+nodeProperty [ label = "Properties" shape="box"  fillcolor="#C296B6"];
+nodePropertyType [ label = "Property Type" shape="box"  fillcolor="#ff9900"];
+
+nodeWikiModel ->nodePackages [label="groups related Concepts by"];
+nodeWikiModel ->nodeProperty [label="defines a common set of"];
+nodePackages ->nodeConcept [label="define a set of related"];
+nodeConcept ->nodeProperty [label="are composed of"];
+nodeConcept ->nodeSubobject [label="are composed of"];
+nodeSubobject ->nodeProperty [label="are composed of"];
+nodeConcept ->nodeConcept [label="might be related to another"];
+nodeProperty ->nodePropertyType [label="are of"];
+
+{rank=same nodeSubobject nodeProperty}
+
+} | format="png" | renderer="dot" }}
+
+The '''Data Model''':
+* defines a set of '''Concepts''' relevant for a specific domain
+** each Concept represents a single data entity (data structure)
+** related Concepts are grouped by '''Packages'''
+** Concepts might be related (linked) to other Concepts (e.g. Cities are located in Countries)
+** Concepts might create hierarchy of similar Concepts (e.g. Tracks, Convertibles, SUVs concepts are subclasses of Car concept and thus are considered cars as well)
+** each Concept is composed of a set of '''Properties''', which store singe data attribute
+** each Concept might manage '''Subobjects''': embedded sub-records which are being a part of the data entity (e.g. Car's Parts)
+* Subobject, like Concept, is composed of a set of '''Properties''', which store singe data attribute
+* defines a set of common Properties which are shared/reused across all Concepts
+** each Property has a specific Property Type
+* supports the following '''Property Types''': String, Text, Boolean, Number, Date, Page, Option, URL, File, Image, Geographic coordinates, Bugzilla

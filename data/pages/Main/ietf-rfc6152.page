@@ -1,0 +1,19 @@
+{{Standard
+|uuid=084af188-3339-43db-b52c-ec3547fbb527
+|publisher=IETF
+|code=RFC 6152
+|title=SMTP Service Extension for 8-bit MIME Transport
+|dateissued=2011-03-01
+|substandards=
+|description=
+This memo defines an extension to the SMTP service whereby an SMTP content body consisting of text containing octets outside of the US-ASCII octet range (hex 00-7F) may be relayed using SMTP.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc6152.txt
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+}}

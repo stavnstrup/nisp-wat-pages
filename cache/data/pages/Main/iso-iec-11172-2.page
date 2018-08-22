@@ -1,0 +1,61 @@
+{{Standard
+|uuid=b625c6c2-3c33-4dad-8a0a-ed450d52faa5
+|publisher=ISO-IEC
+|code=11172-2
+|title=MPEG-1 Part 2: Video
+|dateissued=1993
+|substandards=
+|description=
+Specifies the coded representation of video for digital storage media and the decoding process. Is primarily applicable to digital storage media supporting a continuous transfer rate up to about 1,5 Mbit/s, such as compact disc, digital audio tape, and magnetic hard disc, and for non-interlaced video formats having approximately 288 lines of 352 pels and picture rates around 24 Hz to 30 Hz. Nevertheless it can be used more widely than this because of the generic approach taken.
+|responsible=NCIA-NSII
+|website=http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=22411
+|events={{Change Event
+|order=1
+|date=1998-11-06
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-07-17
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2005-09-14
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2007-08-02
+|flag=changed
+|rfcp=
+|version=2.0
+}}
+{{Change Event
+|order=5
+|date=2010-10-31
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=6
+|date=2013-08-22
+|flag=changed
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=7
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,106 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+The '''Subobjects''' allow to add/edit/view a dynamic set of sub-records on a Concept page (e.g. list of departments in the company, each department is described by a set of properties).
+
+The definition of the Subobject consists of two elements:
+* '''definition of the Subobject structure''': one of the Concepts defined in the <nowiki><concepts></nowiki> section of the Data Model (see [[Help:Data Model|Data Model]] for more details) with type="Internal"
+* '''intent of using subobject in a specific Concept''': subobject element in the Concept "structure" element (among property elements)
+
+Styling of the Subobject is defined in the Concept element which represents Subobject structure. See [[Help:Concept Styling|Concept Styling]] for more details.
+
+
+==Definition==
+<pre>
+  ...
+    <concept name="A">
+      <structure>
+        ...
+        <subobject name="{NAME}" attribute="{ATTRIBUTE}" concept="{CONCEPT NAME}" label="{LABEL}"/>
+        ...
+      </structure>
+    </concept>
+
+    <concept name="{CONCEPT NAME}" type="Internal">
+      <structure layout="{SUBOBJECT LAYOUT TYPE}">
+        <property name="Property 1"/>
+        <property name="Property 2"/>
+        <property name="Property 3"/>
+        <customView>
+          {SUBOBJECT CUSTOM LAYOUT}
+        </customView>
+      </structure>
+    </concept>
+  ...
+</pre>
+
+{| class="helptable"
+|-
+! {NAME}
+| A name of the Subobject property.
+|-
+! {NAME}
+| A name of the attribute to be used as on Template pages.
+|-
+! {CONCEPT NAME}
+| A name of the Concept which defines a structure of the Subobject.
+|-
+! {LABEL}
+| A heading/label to be displayed for the list of sub-records.
+|-
+! {SUBOBJECT LAYOUT TYPE}
+| A layout type used to render list of selected pages. Allowed values <nowiki>[table|list|link]</nowiki>
+|-
+! {SUBOBJECT CUSTOM LAYOUT}
+| A MediaWiki syntax to render defined Subobject properties.
+|}
+
+
+==Semantic database==
+The Subobject meta-data are NOT being defined/represented in the semantic database.
+
+Only data created using generated Concept/Subobject forms are stored in the semantic database:
+* Each Subobject Record is stored on the Concept Data Entity page
+* Each Subobject Record gets automatically assigned UUID (global unique identifier)
+* Each Subobject Record stores a set of Subobject properties (if provided by the user/imported by the script).
+
+
+==Example==
+<pre>
+   ...
+      <concept name="Test Case">
+        <structure>
+          ...
+          <subobject name="Test Steps" concept="Test Step" label="Steps"/>
+          ...
+        </structure>
+      </concept>
+
+      <concept name="Test Step" type="Internal">
+        <structure layout="table">
+          <property name="Property 1"/>
+          <property name="Property 2"/>
+          <property name="Property 3"/>
+        </structure>
+      </concept>
+
+</pre>
+
+
+==User Interface==
+* '''View Page'''
+The Subobject is displayed as a table, list or using custom template. The layout is controlled by the style/layout attribute of the Subobject Concept.
+<gallery>
+File:Subobject Table Layout.png
+File:Subobject List Layout.png
+</gallery>
+
+
+* '''Edit Page'''
+The Subobject provides a dedicated section on the page which allows to edit and delete sub-records.
+The section provides also a button to create a new sub-record.
+
+* '''Search Page'''
+Displaying subobjects in the search results table is not supported.
+
+UYsing subobjects as a search filter is not suppported.

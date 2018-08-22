@@ -1,0 +1,87 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+The '''Aggregation''' represents stronger form of the '''Association''' between two Concepts,
+in which one Concept is an integral part of another Concept and can't exists without it.
+
+The Composition has all of the futures of the [[Help:Page Property|Association]], and adds additional 'Add {SOURCE CONCEPT}' buttons
+on the {TARGET CONCEPT} pages. This makes it easier for the user to add part/composite objects to the current page.
+
+
+==Definition==
+
+The Aggregation feature is activated through the '''"stereotype"''' attribute of the Association (Page Property) set to '''"aggregation"'''.
+
+The Page Property which represents "aggregation" must be marked as '''mandatory="true" and multiplicity="one"'''.
+
+<pre>
+    <!-- Referred Concept -->
+    <concept name="TARGET CONCEPT">
+    </concept>
+
+    <!-- Referring Concept -->
+    <concept name="SOURCE CONCEPT">
+      <structure>
+        ...
+        <property name="{REFERRING PROPERTY}" refersTo="{TARGET CONCEPT}"
+                  mandatory="true" multiplicity="one"
+                  stereotype="aggregation">
+        ...
+      </structure>
+    </concept>
+</pre>
+
+{| class="helptable"
+|-
+! {SOURCE CONCEPT}
+| A name of the Concept which refers to Target Concept.
+|-
+! {TARGET CONCEPT}
+| A name of the Concept which is referred from the Source Concept.
+|-
+! {REFERRING PROPERTY}
+| A name of the Property which refers to the Target Concept from the Source Concept.
+|}
+
+
+==Semantic database==
+Not applicable.
+
+
+==Example==
+<pre>
+<concept name="Enclave">
+  <structure>
+    <property name="Title"/>
+    <property name="Description"/>
+    <property name="Classification"/>
+    <reference name="Sites" refersFrom="Site" property="Is part of"/>
+  </structure>
+</concept>
+
+<concept name="Site">
+  <structure>
+    <property name="Title"/>
+    <property name="Description"/>
+    <property name="Is part of" refersTo="Enclave" mandatory="true" multiplicity="one" stereotype="aggregation"/>
+  </structure>
+</concept>
+</pre>
+
+In the example above:
+* ''Enclave'' represents a computer network
+* ''Enclave'' is composed of several ''Sites'' (association ''"Is part of"'' from ''Site'' to ''Enclave'')
+* Sites are very strongly associated with the Enclave: they can't exists without the Enclave, thus the association is marked as "aggregation"
+
+
+==User Interface==
+The Aggregation feature:
+* adds [[Image:Concept Add Icon.png|20px]] '''Add {SOURCE CONCEPT}''' button in the Navigator widget of the {TARGET Concept}
+* adds [[Image:Concept Add Icon.png|20px]] '''Add {SOURCE CONCEPT}''' button in the associated Reference widget on the {TARGET Concept} (if [[Help:Reference|Reference]] widget is defined for this association)
+* upon clicking on the [[Image:Concept Add Icon.png|20px]] '''Add {SOURCE CONCEPT}''' button system opens the Edit Page for new {SOURCE Concept}.
+: The value of the {REFERRING PROPERTY} Property is automatically set to the {TARGET Concept} page from which the Edit Page was opened.
+
+<gallery>
+File:Aggregation Navigator Page.png
+File:Aggregation Reference Edit Page.png
+</gallery>

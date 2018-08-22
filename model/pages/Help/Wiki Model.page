@@ -1,0 +1,69 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Environment}}
+
+==Introduction==
+The '''WikiModel''' element contains all Wiki model definitions and is stored in the '''model.xml''' file.
+
+It allows to:
+* record all changes made in the model over the time (in the structure and custom visualizations),
+* define a domain specific data model to be managed in the Wiki
+* and define a structure and content of the reports generated based on the data.
+
+
+==Definition==
+
+<pre>
+<WikiModel xmlns="http://tide.act.nato.int/team/wat"
+  name="{WIKI NAME}" image="{WIKI LOGO}" theme="{THEME}">
+  <description>{WIKI DESCRIPTION}</description>
+  <header>{WIKI HEADER}</header>
+
+  <ChangeLog>{CHANGE LOG}</ChangeLog>
+  <DataModel>{DATA MODEL}</DataModel>
+  <ReportsModel>{REPORTS MODEL}</ReportsModel>
+<WikiModel>
+</pre>
+
+{| class="helptable"
+|-
+! {WIKI NAME}
+| A short name of the Wiki.
+|-
+! {WIKI LOGO}
+| A name of image with the Wiki logo.
+|-
+! {THEME}
+| A styling theme to be used to render Wiki pages. The following options are currently suppoeted:
+* pluton
+* mars
+|-
+! {WIKI DESCRIPTION}
+| A long description of the Wiki.
+|-
+! {WIKI HEADER}
+| A text displayed in a header of every Wiki page. Usually contains security markings applicable for Wiki instance.
+|-
+! {CHANGE LOG}
+| A list of changes made in the model. See [[Help:Change Log|Change Log]] for more details.
+|-
+! {DATA MODEL}
+| A domain specific data model to be managed in the Wiki. See [[Help:Data Model|Data Model]] for more details.
+|-
+! {REPORTS MODEL}
+| A structure and content of the reports generated based on the data. See [[Help:Reports|Reports]] for more details.
+|}
+
+
+==Example==
+<pre>
+<WikiModel xmlns="http://tide.act.nato.int/team/wat" name="CIAV" version="1.0" image="CIAV.png">
+  <description>The CIAV Wiki is the online information repository and tool for the Federated Mission Networking (FMN) Coalition Interoperability Assurance and Validation (CIAV) community.</description>
+
+  <ChangeLog>...</ChangeLog>
+  <DataModel>...</DataModel>
+  <ReportsModel>...</ReportsModel>
+<WikiModel>
+</pre>
+
+
+==User Interaface==
+The content of the Wiki Model file is uploaded in the '''Project:Wiki Model''' page.

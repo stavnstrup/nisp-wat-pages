@@ -1,0 +1,23 @@
+{{Capability Profile
+|uuid=dad5c435-937d-4918-a87e-cf9ab849cc11
+|title=Service Interface Profile for Rest Messaging
+|publisher=NCIA
+|code=AI_TECH_2016.06.02.07
+|spectitle=Service Interface Profile for Rest Messaging
+|dateissued=2015-02-04
+|version=1.0
+|guideline=
+This specification provides the profile for securing representational state transfer (REST) web services (known as RESTful web services) that are deployed within the NNEC web service infrastructure. This covers only the call from a Web Service Consumer to a Web Service Provider using REST, and the response from the service provider. It includes how the message must be structured and the elements that must be contained within the call.
+
+
+|profiles=
+|serviceprofiles=Rest Messaging;
+
+|events={{Change Event
+|order=1
+|date=2017-04-21
+|flag=added
+|rfcp=9-15
+|version=10.0
+}}
+}}

@@ -1,0 +1,19 @@
+{{Standard
+|uuid=4ee9fd9b-1af0-44ac-b8b5-c2f972a8a1f8
+|publisher=OGC
+|code=12-128r12
+|title=OGC GeoPackage Encoding Standard Version 1.1
+|dateissued=2015-08-04
+|substandards=
+|description=
+
+|responsible=FMN-CPWG
+|website=
+|events={{Change Event
+|order=1
+|date=2017-05-01
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+}}

@@ -1,0 +1,32 @@
+{{Standard
+|uuid=4b7fafe4-865b-4d76-8dab-6c9ae6a37446
+|publisher=IETF
+|code=RFC 2589
+|title=LDAPv3: Extensions for Dynamic Directory Services
+|dateissued=1999
+|substandards=
+|description=
+This document defines the requirements for dynamic directory services and specifies the format of request and response extended operations for supporting client-server interoperation in a dynamic directories environment.The Lightweight Directory Access Protocol (LDAP) supports lightweight access to static directory services, allowing relatively fast search and update access. Static directory services store information about people that persists in its accuracy and value over a long period of time.
+
+Dynamic directory services are different in that they store information that only persists in its accuracy and value when it is being periodically refreshed. This information is stored as dynamic entries in the directory. A typical use will be a client or a person that is either online - in which case it has an entry in the directory, or is offline - in which case its entry disappears from the directory. Though the protocol operations and attributes used by dynamic directory services are similar to the ones used for static directory services, clients that store dynamic information in the directory need to periodically refresh this information, in order to prevent it from disappearing. If dynamic entries are not refreshed within a given timeout, they will be removed from the directory. For example, this will happen if the client that set them goes offline.
+
+A flow control mechanism from the server is also described that allows a server to inform clients how often they should refresh their presence.
+
+
+|responsible=NCIA-CES
+|website=http://www.ietf.org/rfc/rfc2589.txt
+|events={{Change Event
+|order=1
+|date=2010-11-13
+|flag=added
+|rfcp=4-25
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

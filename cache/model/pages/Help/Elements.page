@@ -1,0 +1,45 @@
+<noinclude>{{User Manual Navigator}}</noinclude>
+The structure of the data model for Enterprise Mapping, and successively for the structure of this EM Wiki, contains the following elements.
+; Concepts
+: The [[Help:Concepts|Concepts]] are overarching models for groups of wiki articles that capture not only a set of data, but also hold additional information that gives context to that data, for instance by adding semantic value. Concepts are organized by the use of one or more specific templates that provide the page content and layout, plus they define the properties to their attributes that in turn give semantic relations to the articles. Through the templates, the articles are often gathered in an related category, so that the concept can easily be used in [[Help:How to query|queries]] and in editing with [[Help:Forms|forms]].
+; Templates
+: The [[Help:Templates|Templates]] provide code to build a concept. The template holds attributes with structured data as values and possibly some unassigned free text. The data can come from a dataset by running a scripted import, or from user input via a [[Help:Forms|form]]. The code in the template enables the assignment of properties to these attributes, so that they can be used to create semantic relationships between articles, run queries to select and transpose data from other articles, and provide a page layout for display of the concept pages in a browser.
+; Categories
+: The [[Help:Categories|Categories]] gather pages to be display in an alphabetical list and used for selection, for instance in semantic queries. Pages from concepts are often assigned to associated categories via their templates. Articles can also assigned directly to categories by using designated code. The categories that hold concepts assign a form if these concepts allow user input.
+; Datasets
+: The [[Help:Datasets|Datasets]] provide data from trusted sources that can either be directly downloaded from online repositories or imported from offline data dumps. Datasets can be used to populate one or more concepts. They require a scripted import to fit the code in the associated templates for those concepts.
+; Forms
+: The [[Help:Forms|Forms]] provide a simple user interface for submission of user-provided data in the structure of the accompanying templates. Forms are assigned to concepts through the related category. Fields in the form require either a free user input from subject matter experts or a selection of values from an autocompleted list of entries in designated categories.
+; Properties
+: The [[Help:Properties|Properties]] assign a semantic values to attributes in a temple. The properties are from a certain type that determines the way the values can be further processed in the template code, such as date, number or text. The page property type defines semantic relationships between page, and most often, between concepts. Properties too can be used in [[Help:How to query|queries]].
+{{#ifeq:{{SITENAME}}|EM|
+; Perspectives
+: The [[Daily Perspectives|Perspectives]] are the result of an overnight process to export, convert and generate report, charts and other products. These products have varying designs and content organization in order to respond to information requirements of contrasting user groups; they provide a different perspective on the enterprise architecture depending of the type of stakeholders involved.}}
+
+<center><div style="clear:left; float:center;"><graphviz>
+digraph EM_Wiki_Structure{
+rankdir=TD;
+compound=true;
+node [shape="box" style="filled" fillcolor="#f2f2f2" color="#8898bf" fontcolor=red width="0.03" height="0.03" fontsize=9];
+nodesep=0.1;
+edge [color="#2f4f4f" arrowhead=onormal arrowtail=normal color="#8898bf" fontcolor=black fontsize=10];
+/* ===== nodes =============================================== */
+nConcept [label="CONCEPT"];
+nDataset [label="DATASET"];
+nCategory [label="CATEGORY"];
+nTemplate [label="TEMPLATE"];
+nForm [label="FORM"];
+nProperty [label="PROPERTY"];
+nPerspective [label="PERSPECTIVE"];
+/* ===== edges semantic ======================================== */
+nDataset -> nTemplate [label="&nbsp;data from&nbsp;\n&nbsp;trusted sources&nbsp;"];
+nForm -> nTemplate [label="&nbsp;data from&nbsp;\n&nbsp;user input&nbsp;"];
+nCategory -> nForm [label="&nbsp;form\nassignment&nbsp;"];
+nConcept -> nCategory [label="&nbsp;categorization&nbsp;\n&nbsp;of pages&nbsp;"];
+nTemplate -> nConcept [label="&nbsp;page\ncontent\nand layout&nbsp;"];
+nTemplate -> nProperty [label="&nbsp;property&nbsp;\n&nbsp;assignment&nbsp;"];
+nTemplate -> nCategory [label="&nbsp;category&nbsp;\n&nbsp;assignment&nbsp;"];
+nProperty -> nConcept [label="&nbsp;semantic\nrelation&nbsp;\n&nbsp;to pages&nbsp;"];
+nConcept -> nPerspective [label="&nbsp;query and script&nbsp;\n&nbsp;data output&nbsp;"];
+}
+</graphviz></div></center>

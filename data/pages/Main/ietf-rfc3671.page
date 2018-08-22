@@ -1,0 +1,26 @@
+{{Standard
+|uuid=6e46d3b5-0542-417d-b5a8-b1a2fe1dadbb
+|publisher=IETF
+|code=RFC 3671
+|title=Collective Attributes in LDAP
+|dateissued=2003
+|substandards=
+|description=
+X.500 collective attributes allow common characteristics to be shared between collections of entries. This document summarizes the X.500 information model for collective attributes and describes use of collective attributes in LDAP (Lightweight Directory Access Protocol). This document provides schema definitions for collective attributes for use in LDAP.
+|responsible=NCIA-CES
+|website=http://www.ietf.org/rfc/rfc3671.txt
+|events={{Change Event
+|order=1
+|date=2010-11-13
+|flag=added
+|rfcp=4-25
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,41 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Environment}}
+
+==Introduction==
+The '''ChangeLog''' element records a history of changes to the Wiki model.
+
+
+==Definition==
+<pre>
+<ChangeLog>
+  <version name="{VERSION NUMBER}" date="{VERSION DATE}">{VERSION DESCRIPTION}</version>
+  ...
+</ChangeLog>
+</pre>
+
+{| class="helptable"
+|-
+! {VERSION NUMBER}
+| A version number.
+|-
+! {VERSION DATE}
+| A release date of the version.
+|-
+! {VERSION DESCRIPTION}
+| A long description of the changes introduced in this version
+|}
+
+
+==Example==
+<pre>
+<ChangeLog>
+  <version name="0.1" date="2017-10-12">Initial version</version>
+  <version name="0.2" date="2-17-10-17">Added Event Management package</version>
+</ChangeLog>
+</pre>
+
+
+==User Interface==
+A history of changes to the Wiki Model is displayed on the '''Change Log''' page.
+<gallery>
+File:Change Log Page.png
+</gallery>

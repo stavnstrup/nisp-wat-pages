@@ -1,0 +1,23 @@
+{{Capability Profile
+|uuid=606c0793-76a1-46b0-9f06-80bb6cb20638
+|title=Profiles for Binding Metadata to a Data Object
+|publisher=NCIA
+|code=TN-1491
+|spectitle=Profiles for Binding Metadata to a Data Object
+|dateissued=2017-05-18
+|version=1.0
+|guideline=
+Introduces and describes profiles for Binding Metadata to a Data Object which may and will be reused in other profiles.
+
+
+|profiles=
+|serviceprofiles=Binding Metadata to a Data Object;
+
+|events={{Change Event
+|order=1
+|date=2017-04-25
+|flag=added
+|rfcp=9-2
+|version=10.0
+}}
+}}

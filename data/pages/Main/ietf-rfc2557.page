@@ -1,0 +1,28 @@
+{{Standard
+|uuid=f7d9d452-713c-4be1-a367-6d25121583c2
+|publisher=IETF
+|code=RFC 2557
+|title=MIME Encapsulation of Aggregate Documents, such as HTML (MHTML)
+|dateissued=2006
+|substandards=
+|description=
+HTML [RFC 1866] defines a powerful means of specifying multimedia documents. These multimedia documents consist of a text/html root resource (object) and other subsidiary resources (image, video clip, applet, etc. objects) referenced by Uniform Resource Identifiers (URIs) within the text/html root resource. When an HTML multimedia document is retrieved by a browser, each of these component resources is individually retrieved in real time from a location, and using a protocol, specified by each URI.In order to transfer a complete HTML multimedia document in a single e-mail message, it is necessary to: a) aggregate a text/html root resource and all of the subsidiary resources it references into a single composite message structure, and b) define a means by which URIs in the text/html root can reference subsidiary resources within that composite message structure.
+
+
+|responsible=NCIA-CES
+|website=http://www.ietf.org/rfc/rfc2557.txt
+|events={{Change Event
+|order=1
+|date=2010-12-05
+|flag=added
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

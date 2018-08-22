@@ -1,0 +1,19 @@
+{{Standard
+|uuid=867da4a7-ce12-4026-bed7-489b35d2689c
+|publisher=XMPP
+|code=XEP-0047
+|title=XEP-0047: In-Band Bytestreams
+|dateissued=2012-06-22
+|substandards=
+|description=
+This document describes In-Band Bytestreams (IBB), an XMPP protocol extension that enables two entities to establish a virtual bytestream over which they can exchange Base64-encoded chunks of data over XMPP itself. Because IBB provides a generic bytestream, its usage is open-ended. To date it has been used as a fallback method for sending files (see SI File Transfer (XEP-0096) and Jingle File Transfer (XEP-0234)) when out-of-band methods such as SOCKS5 Bytestreams (XEP-0065) are not available. However, IBB could also be useful for any kind of relatively low-bandwidth activity, such as games, shell sessions, or encrypted text.
+|responsible=FMN-CPWG
+|website=https://xmpp.org/extensions/xep-0047.html
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+}}

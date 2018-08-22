@@ -1,0 +1,19 @@
+{{Standard
+|uuid=ef284a7f-ec12-4025-8e65-837ea8125365
+|publisher=TM-FORUM
+|code=TMF621
+|title=Trouble Ticket REST API Specification R14.5.1 Interface
+|dateissued=2015-06-01
+|substandards=
+|description=
+The Trouble ticketing API provides a standardized client interface to Trouble Ticket Management Systems for creating, tracking and managing trouble tickets among partners as a result of an issue or problem identified by a customer or another system. Examples of Trouble Ticket API clients include CRM applications, network management or fault management systems, or other trouble ticket management systems (e.g. B2B).
+|responsible=FMN-CPWG
+|website=https://www.tmforum.org/resources/standard/tmf621-trouble-ticket-rest-api-specification-r14-5-0/
+|events={{Change Event
+|order=1
+|date=2016-12-12
+|flag=added
+|rfcp=9-4
+|version=10.0
+}}
+}}

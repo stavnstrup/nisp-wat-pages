@@ -1,0 +1,26 @@
+{{Standard
+|uuid=df7ff6ff-c9fb-44e8-97aa-40d97cb54585
+|publisher=ANSINIST
+|code=ITL 1-2000
+|title=Data Format for the Interchange of Fingerprint Facial, and Scar Mark and Tattoo (SMT) Information
+|dateissued=2000-09
+|substandards=
+|description=
+This standard defines the content, format, and units of measurement for the exchange of fingerprint, palmprint, facial/mugshot, and scar, mark, and tattoo (SMT) image information that may be used in the identification process of a subject. The information consists of a variety of mandatory and optional items, including scanning parameters, related descriptive and record data, digitized fingerprint information, and compressed or uncompressed images.
+|responsible=NCIA-JISR
+|website=http://www.nist.gov/customcf/get_pdf.cfm?pub_id=151453
+|events={{Change Event
+|order=1
+|date=2013-09-04
+|flag=added
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,19 @@
+{{Standard
+|uuid=d9e0db0d-7025-4c9d-ac56-0214fd6f3cc8
+|publisher=NSO
+|code=STANAG 4691 Ed 2
+|title=Multi-hop IP Networking with legacy UHF Radios: Mobile ad hoc relay Line of Sight Networking (MARLIN) - AComP-4691 Edition A
+|dateissued=2016-06-30
+|substandards=
+|description=
+The aim of this agreement (MARLIN - Mobile Ad Hoc Relay LIne of sight Networking) is to describe the system concept and set of protocols that provide Internet Protocol (IP) data transfer in multiple-node, multiple-hop dynamic networks employing line of sight (LOS) radio bearers. The protocols were originally developed to provide connectivity amongst ships at sea, but applications with other platforms and in other environments are possible.
+|responsible=LOS
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2017-03-03
+|flag=added
+|rfcp=9-46
+|version=10.0
+}}
+}}

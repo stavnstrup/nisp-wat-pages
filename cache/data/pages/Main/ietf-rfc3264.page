@@ -1,0 +1,26 @@
+{{Standard
+|uuid=bf6ae486-1a7e-472e-a881-9ae1ca1e2698
+|publisher=IETF
+|code=RFC 3264
+|title=An Offer/Answer Model with the Session Description Protocol (SDP)
+|dateissued=2002-01-06
+|substandards=
+|description=
+Th document defines a simple offer/answer model based on SDP. In this model, one participant in the session generates an SDP message that constitutes the offer - the set of media streams and codecs the offerer wishes to use, along with the IP addresses and ports the offerer would like to use to receive the media.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc3264.txt
+|events={{Change Event
+|order=1
+|date=2015-11-02
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

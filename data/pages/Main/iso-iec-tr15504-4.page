@@ -1,0 +1,73 @@
+{{Standard
+|uuid=116f5639-3a4b-4e81-a5c6-7160a1c953a1
+|publisher=ISO-IEC
+|code=TR 15504-4
+|title=Software Process Assessment Part 4: Guidance on use for process improvement and process capability determination
+|dateissued=2004
+|substandards=
+|description=
+ISO/IEC 15504-4:2004 provides guidance on how to utilize a conformant process assessment within a process improvement programme or for process capability determination.Within a process improvement (PI) context, process assessment provides a means of characterizing an organizational unit in terms of the capability of selected processes. Analysis of the output of a conformant process assessment against an organizational unit's business goals identifies strengths, weaknesses and risks related to the processes. This, in turn, can help determine whether the processes are effective in achieving business goals, and provide the drivers for making improvements.
+
+Process capability determination (PCD) is concerned with analysing the output of one or more conformant process assessments to identify the strengths, weaknesses and risks involved in undertaking a specific project using the selected processes within a given organizational unit. A process capability determination can provide a fundamental input to supplier selection, in which case it is often termed a "supplier capability determination".
+
+ISO/IEC 15504-4:2004 describes the PI and PCD processes and how to deploy them, and provides guidance on
+
+
+
+* utilizing process assessment,
+
+* selecting Process Reference Model(s),
+
+* setting target capability,
+
+* defining the assessment input,
+
+* inferring process-related risk from assessment output,
+
+* steps of process improvement,
+
+* steps of process capability determination,
+
+* comparability of assessment output analysis.
+
+
+
+
+|responsible=NCIA-SSTRAT-SEA
+|website=http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=37462
+|events={{Change Event
+|order=1
+|date=1998-11-11
+|flag=added
+|rfcp=
+|version=0.1
+}}
+{{Change Event
+|order=2
+|date=2000-02-25
+|flag=changed
+|rfcp=
+|version=0.2
+}}
+{{Change Event
+|order=3
+|date=2005-09-23
+|flag=changed
+|rfcp=
+|version=0.7
+}}
+{{Change Event
+|order=4
+|date=2010-11-02
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=5
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

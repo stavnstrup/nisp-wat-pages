@@ -1,0 +1,19 @@
+{{Standard
+|uuid=2bae05d6-2e5e-4c0d-b9a7-c20a986413d5
+|publisher=ISO-IEC
+|code=26300-2:2015
+|title=Open Document Format for Office Applications (OpenDocument) v1.2 -- Part 2: Recalculated Formula (OpenFormula) Format
+|dateissued=2015-06-17
+|substandards=
+|description=
+It defines a formula language for OpenDocument documents, which is also called OpenFormula.
+|responsible=FMN-CPWG
+|website=http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=66375
+|events={{Change Event
+|order=1
+|date=2016-12-12
+|flag=added
+|rfcp=9-1
+|version=10.0
+}}
+}}

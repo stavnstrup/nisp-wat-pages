@@ -1,0 +1,26 @@
+{{Standard
+|uuid=2550de12-8692-45ee-85cb-0ab54a65e14c
+|publisher=W3C
+|code=NOTE-ws-policy-guidelines-20071112
+|title=Web Services Policy 1.5 - Guidelines for Policy Assertion Authors
+|dateissued=2007-11-12
+|substandards=
+|description=
+Web Services Policy 1.5 - Guidelines for Policy Assertion Authors is intended to provide guidance for Assertion Authors that will work with the Web Services Policy 1.5 - Framework [Web Services Policy Framework] and Web Services Policy 1.5 - Attachment [Web Services Policy Attachment] specifications to create domain specific assertions. The focus of this document is to provide best practices and patterns to follow as well as illustrate the care needed in using WS-Policy to achieve the best possible results for interoperability. It is a complementary guide to using the specifications.
+|responsible=NCIA-CS
+|website=http://www.w3.org/TR/2007/NOTE-ws-policy-guidelines-20071112
+|events={{Change Event
+|order=1
+|date=2013-09-04
+|flag=added
+|rfcp=
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

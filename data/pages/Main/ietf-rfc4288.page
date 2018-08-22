@@ -1,0 +1,26 @@
+{{Standard
+|uuid=ec68daad-9300-4144-8e19-68c3ed6550fc
+|publisher=IETF
+|code=RFC 4288
+|title=Media Type Specifications and Registration Procedures
+|dateissued=2005-12
+|substandards=
+|description=
+This document defines procedures for the specification and registration of media types for use in MIME and other Internet protocols.
+|responsible=FMN-CPWG
+|website=http://www.rfc-editor.org/rfc/rfc4288.txt
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

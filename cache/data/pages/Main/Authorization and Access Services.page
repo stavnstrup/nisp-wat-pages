@@ -1,0 +1,9 @@
+{{Taxonomy Node
+|uuid=a39e7c43-91c4-4a22-9377-9909bb3f8df8
+|order=270
+|parent=Infrastructure_CIS_Security_Services
+|title=Authorization and Access Services
+|description=The Authorization and Access Services provide functionality to grant or deny  access to information processing services, data and physical facilities. They enforce security policy by ensuring individuals only access those resources they are entitled to use and then only for approved purposes.
+
+The request for access includes the resource and the type of desired access, e.g. reading, writing, opening. The authorization decision is based on the access control rule sets, resulting from privilege management, taking into account the level of assurance of entity's identity determined by the utilized authentication mechanism.
+}}

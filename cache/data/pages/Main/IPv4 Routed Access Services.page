@@ -1,0 +1,9 @@
+{{Taxonomy Node
+|uuid=8b0fcb44-08fd-4757-a12a-0fe3ea9aad7b
+|order=318
+|parent=Packet-based_Access_Services
+|title=IPv4 Routed Access Services
+|description=The IPv4 Routed Access Services provide the delivery or exchange of IP version 4 packets, subject to dynamic, destination- or policy-based routing, based on different routing protocols. The user’s IP v4 address range is assigned by the provider of the Access Service, and it is provided to the Host via a DHCP service. 
+
+Each routing protocol is associated to a service type (i.e. an implementation option for the provider). Examples of IPv4 Routed Access Services implementation options are Static routing, Link-state Unicast routing  (e.g. RIP, EIGRP), Distance-vector Unicast routing (OSPF), Path-vector Unicast routing (BGP), Policy-based Unicast routing (PBR), Multicast routing, and Mobile Ad-hoc Networking (MANET, e.g. OLSR-based).
+}}

@@ -1,0 +1,19 @@
+{{Standard
+|uuid=bce7a56a-2c6e-4870-bb82-cfe97bfe5f99
+|publisher=IICWG
+|code=SCIP-233.603
+|title=MEDLEY Encryption Algorithm Specification Rev. 1.0.
+|dateissued=
+|substandards=
+|description=
+
+|responsible=NS
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

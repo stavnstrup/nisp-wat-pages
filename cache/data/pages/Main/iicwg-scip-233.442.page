@@ -1,0 +1,19 @@
+{{Standard
+|uuid=a94d1d87-e545-43d7-a1a8-89c3ce6b24e9
+|publisher=IICWG
+|code=SCIP-233.442
+|title=Multipoint Cryptographic Verification Specification Rev. 1.0.
+|dateissued=
+|substandards=
+|description=
+
+|responsible=NS
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

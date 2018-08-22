@@ -1,0 +1,26 @@
+{{Standard
+|uuid=e7eab2de-f042-4159-9f95-516c931672ae
+|publisher=W3C
+|code=NOTE-wsdl20-soap11-binding-20070626
+|title=Web Services Description Language (WSDL) Version 2.0 SOAP 1.1 Binding
+|dateissued=2007-06-26
+|substandards=
+|description=
+Web Services Description Language (WSDL) Version 2.0 SOAP 1.1 Binding
+|responsible=FMN-CPWG
+|website=http://www.w3.org/TR/2007/NOTE-wsdl20-soap11-binding-20070626/
+|events={{Change Event
+|order=1
+|date=2015-11-02
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

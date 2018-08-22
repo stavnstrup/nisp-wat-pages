@@ -1,0 +1,9 @@
+{{Taxonomy Node
+|uuid=5c6b2b30-6819-4224-9afa-e299e6e49e33
+|order=341
+|parent=Transit_Services
+|title=Packet Routing Services
+|description=The Packet Routing Services provide static or dynamic routing and forwarding of Internet Protocol (IP) version 4 packets, based on dynamic, destination- or policy-based protocols.
+
+Similar as with [[IPv4 Routed Access Services]], each routing protocol is associated to a service type (i.e. an implementation option for the provider). Examples of IPv4 Routed Access Services implementation options are Static routing, Link-state Unicast routing (e.g. RIP, EIGRP), Distance-vector Unicast routing (OSPF), Path-vector Unicast routing (BGP), Policy-based Unicast routing (PBR), Multicast routing, and Mobile Ad-hoc Networking (MANET, e.g. OLSR-based). On top of those, other applicable service types, related to the provider edge of a transport network, are Traffic Engineering Services (e.g. MPLS-TE), and Virtual Routing and Forwarding Services.
+}}

@@ -1,0 +1,26 @@
+{{Profile
+|uuid=eece6f48-7cdc-4a55-ab89-69ca12871547
+|title=Federated Unified Collaboration Profile
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 1 Profile
+|dateissued=2015-09-30
+|version=1.0
+|guideline=
+|profiles=
+|serviceprofiles=Content Encapsulation Profile 1.0;
+Informal Messaging Profile 1.0;
+Numbering Plans Service Profile 1.0;
+Audio-based Collaboration Service Profile 1.0;
+Secure Voice Service Profile 1.0;
+Video-based Collaboration Service Profile 1.0;
+Basic Text-based Collaboration Service Profile 1.0;
+
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+}}

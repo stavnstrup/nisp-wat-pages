@@ -1,0 +1,26 @@
+{{Standard
+|uuid=68fe6fa0-a7b2-482b-abc6-ff5d96c7965a
+|publisher=DMTF
+|code=DSP0227
+|title=WS-Management CIM Binding Specification
+|dateissued=2010-03-03
+|substandards=
+|description=
+This document describes the CIM binding for WS-Management. It describes how transformed CIM resources, as specified by the WS-CIM Mapping Specification, are bound to WS-Management operations and WSDL definitions.
+|responsible=AMN-TMO
+|website=http://www.dmtf.org/sites/default/files/standards/documents/DSP0227_1.2.0.pdf
+|events={{Change Event
+|order=1
+|date=2013-07-28
+|flag=added
+|rfcp=7-27
+|version=8.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

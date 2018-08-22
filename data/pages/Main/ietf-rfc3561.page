@@ -1,0 +1,40 @@
+{{Standard
+|uuid=a29d0eec-cc0c-4e51-a8b4-ae7e841f2291
+|publisher=IETF
+|code=RFC 3561
+|title=Ad-hoc On-Demand Distance Vector Routing (AODV)
+|dateissued=2003
+|substandards=
+|description=
+The Ad hoc On-Demand Distance Vector (AODV) routing protocol is intended for use by mobile nodes in an ad hoc network. It offers quick adaptation to dynamic link conditions, low processing and memory overhead, low network utilization, and determines unicast routes to destinations within the ad hoc network. It uses destination sequence numbers to ensure loop freedom at all times (even in the face of anomalous delivery of routing control messages), avoiding problems (such as "counting to infinity") associated with classical distance vector protocols.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc3561.txt
+|events={{Change Event
+|order=1
+|date=2007-02-23
+|flag=added
+|rfcp=
+|version=1.0
+}}
+{{Change Event
+|order=2
+|date=2007-12-05
+|flag=changed
+|rfcp=
+|version=2.0
+}}
+{{Change Event
+|order=3
+|date=2012-11-05
+|flag=changed
+|rfcp=
+|version=7.0
+}}
+{{Change Event
+|order=4
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

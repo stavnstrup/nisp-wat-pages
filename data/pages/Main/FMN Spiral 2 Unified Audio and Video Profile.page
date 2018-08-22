@@ -1,0 +1,32 @@
+{{Profile
+|uuid=e4b2ed46-61b5-4d92-9ea0-e94f97d77b28
+|title=FMN Spiral 2 Unified Audio and Video Profile
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|guideline=
+|profiles=
+|serviceprofiles=Priority and Pre-emption Profile;
+Session Initiation and Control Profile;
+Media Infrastructure Taxonomy Profile;
+SRTP-based Media Infrastructure Security Profile;
+IPSec-based Media Infrastructure Security Profile;
+Media Streaming Profile;
+
+|events={{Change Event
+|order=1
+|date=2017-04-30
+|flag=added
+|rfcp=9-6
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-12-06
+|flag=changed
+|rfcp=11-29
+|version=11.0
+}}
+}}

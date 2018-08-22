@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=bb5d1dd2-bf60-4b7e-9035-fdebd33f7b80
+|order=274
+|parent=Infrastructure_CIS_Security_Services
+|title=Infrastructure Guard Services
+|description=The Infrastructure Guard Services connect networks of different security policy and usage areas while controlling data flow between the networks using a set of predefined rules.
+}}

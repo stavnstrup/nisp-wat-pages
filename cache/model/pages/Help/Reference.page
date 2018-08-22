@@ -1,0 +1,136 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Widgets}}
+
+==Introduction==
+The '''Reference''' widget '''displays a list of pages''' from a specific Source Concept with specific Property referring to the current page.
+
+The "Reference" widget might be placed along other Concept properties and widgets, thus allowing to display the list in any place on the page.
+The widget is displayed on View and Edit pages.
+The widget allows to apply different styles to rendered list.
+
+It supports similar functionality to the [[Help:Related Data|Related Data]] widget.
+Both of them display the list(s) of pages referring to the current page.
+The '''Related Data''' widget creates a separate "Related Information" section at the bottom of the page where it '''displays MULTIPLE tabs with separate lists''' for different referring Source Concepts.
+The "Reference" widget on the other hand '''displays only ONE specific list''' (one of the lists displayed in "Related Data" section).
+The list displayed using "Reference" widget is removed from the "Related Data" tabs.
+
+
+
+==Definition==
+<pre>
+<concept name="{SOURCE}">
+  <structure>
+    <property name="Property 1"/>
+    <property name="Property 2"/>
+    <property name="Property 3"/>
+    <property name="{REFERRING PROPERTY NAME}" refersTo="{TARGET}"/>
+  </structure>
+</concept>
+
+<concept name="{TARGET}">
+  <structure>
+    <property name="Property A"/>
+    <property name="Property B"/>
+    <reference name="{REFERENCE NAME}" refersFrom="{SOURCE}" subobject="{SUBOBJECT}"
+               property="{REFERRING PROPERTY NAME}" filter="{FILTER}"
+               sortBy="{SORT PROPERTY}" sortOrder="{SORT ORDER}"
+               context="{CONTEXT}" label="{LABEL}" format="{FORMAT}" icon="{ICON}">
+      <columns>
+        <column name="{COLUMN NAME}"/>
+        <column name="{COLUMN NAME}"/>
+        <column name="{COLUMN NAME}"/>
+      </columns>
+    </reference>
+  </structure>
+</concept>
+</pre>
+
+{| class="helptable"
+|-
+! {SOURCE}
+| A name of the Source Concept.
+|-
+! {SUBOBJECT}
+| A name of the Subobject of Source Concept, which holds the {REFERRING PROPERTY NAME} Property. (Applicable only if the Property is a part of Subobject instead of Concept)
+|-
+! {TARGET}
+| A name of the Target Concept.
+|-
+! {REFERRING PROPERTY NAME}
+| A name of the property of 'Page' type in the Source Concept which refers to the Target Concept.
+|-
+! {REFERENCE NAME}
+| A name of the Reference.
+|-
+! {LABEL}
+| A label of the Reference, if not set the {REFERENCE NAME} is used as a label.
+|-
+! {FILTER}
+| An additional filter to be set on the related entities (e.g. [[Test result:Limited success]] to limit the Test Cases to be displayed only to Limited Success)
+|-
+! {SORT PROPERTY}
+| The name of the property to be used for sorting purposes
+|-
+! {SORT ORDER}
+| The order of the sorting. The following values are allowed:
+* ''desc''
+* ''asc''
+|-
+! {CONTEXT}
+| By default all records displayed by Reference Widget are related to the current page (link to current page).
+Sometimes it is required to change that context, e.g. on Exercise Working Group page to display records related to Exercise instead.
+The {CONTEXT} option allows to change context by defining a name of property on the current page which represents a new context. ("Is part of" to point to Exercise)
+|-
+! {FORMAT}
+| A layout type used to render referring Source Concept pages. The following options are allowed:
+* table. The "table" layout displays a table with referring pages. The first column displays a Source page name, and the following columns display the values of the properties defined in the {COLUMNS} attribute.
+* list. The "link" layout displays a list of referring pages. The main list heading displays a Source page name, and under it the values of the properties defined in the {COLUMNS} attribute.
+* link. The "link" layout displays simple list of links to the referring Source pages.
+* gallery. The "gallery" layout displays gallery of images/logos associated with the pages.
+* gallerylist. The "gallerylist" layout displays a list of images/logos associated with the pages with the values of the properties defined in the {COLUMNS} attribute..
+|-
+! {COLUMN NAME}
+| A name of the column to be displayed next to the page name.
+|-
+! {ICON}
+| An optional icon (with link) to be displayed instead of a page name. Useful for cases where page name might be long and might not be user friendly (e.g. with automatically generated numbering)
+|}
+
+
+
+==Example==
+<pre>
+<concept name="Capability Configuration" ...>          <!-- Source Concept -->
+  <structure>
+    <property name="Title"/>
+    <property name="Description"/>
+    <property name="Is hosted on"/>
+    <property name="Is lead by" refersTo="User">       <!-- Referring Page Property -->
+  </structure>
+</concept>
+
+<concept name="User" ...>                              <!-- Target Concept -->
+  <structure>
+    <property name="First name"/>
+    <property name="Last name"/>
+    <property name="Organization"/>
+    <property name="Function"/>
+    <reference name="Capabilities" refersFrom="Capability Configuration" property="Is lead by" format="table">
+      <columns>
+        <column name="Title"/>
+        <column name="Description"/>
+        <column name="Is hosted on"/>
+      </columns>
+    </reference>
+  </structure>
+</concept>
+</pre>
+
+
+==User Interface==
+The "Reference" widget is displayed on View and Edit Pages of the Target Concept ("User" in the example above).
+
+<gallery>
+File:Reference Table Layout Page.png
+File:Reference List Layout Page.png
+File:Reference Link Layout Page.png
+</gallery>

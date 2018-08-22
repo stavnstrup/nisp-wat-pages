@@ -1,0 +1,26 @@
+{{Standard
+|uuid=f95d0c26-5321-4bc3-b95b-dcf69cb30dd5
+|publisher=W3C
+|code=REC-xml-infoset-20011024
+|title=XML Information Set
+|dateissued=2001-10-24
+|substandards=
+|description=
+This specification provides a set of definitions for use in other specifications that need to refer to the information in an XML document.
+|responsible=NCIA-CES
+|website=http://www.w3.org/TR/2001/REC-xml-infoset-20011024/
+|events={{Change Event
+|order=1
+|date=2004-05-25
+|flag=added
+|rfcp=5-12
+|version=0.6
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

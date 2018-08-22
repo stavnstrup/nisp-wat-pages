@@ -1,0 +1,19 @@
+{{Standard
+|uuid=62a821b5-f66b-43b4-b058-7f7efadfd8f0
+|publisher=IICWG
+|code=SCIP-233.303
+|title=Universal ECMQV Key Agreement and TEK Derivation Specification Rev. 1.0
+|dateissued=2011-07-12
+|substandards=
+|description=
+
+|responsible=NS
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-19
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+}}

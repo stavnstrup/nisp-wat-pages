@@ -1,0 +1,160 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+The '''Workflow Type''' represents a workflow. Each Workflow has:
+* list of possible states
+* list of allowed transitions between states
+* current state
+
+The property of "Workflow" type stores the current state given entity is in.
+
+The ability to change the state (invoke transition) is controlled through the membership to certain [[Help:User Groups|User Groups]].
+
+See [[Help:User Groups|User Groups]] how to define the User Groups.
+
+
+==Definition==
+
+The Widget Property extends a common definition of the [[Help:Property|Property Definition]] with the following elements:
+
+<pre>
+  ...
+    <!-- Referring Concept -->
+    <concept name="CONCEPT">
+      <structure>
+        <property name="{NAME}">
+      </structure>
+    </concept>
+  ...
+
+  <!-- Property Definitions -->
+  <properties>
+    <property name="{NAME}">
+      <states>
+        <state name="{STATE NAME}" label="{STATE LABEL}" color="{STATE COLOR}">
+          <description>{STATE DESCRIPTION}<description>
+          <transition
+              name="{TRANSITION NAME}"
+              label="{TRANSITION LABEL}"
+              icon="{TRANSITION COLOR}"
+              from="{FROM STATE}"
+              to="{TO STATE}"
+              userGroup="{USER GROUP}">
+              {TRANSITION DESCRIPTION}
+          </transition>
+          ...
+        </state>
+        ...
+      </states>
+  </properties>
+</pre>
+
+{| class="helptable"
+|-
+! {CONCEPT}
+| A name of the Concept which has Workflow.
+|-
+! {NAME}
+| A name of the Workflow.
+|-
+! state
+| An element to define state.
+|-
+! {STATE NAME}
+| A name of State.
+|-
+! {STATE LABEL}
+| A label of State.
+|-
+! {STATE COLOR}
+| A color used to render State label.
+|-
+! {STATE DESCRIPTION}
+| A description of State.
+|-
+! transition
+| An element to define transition.
+|-
+! {TRANSITION NAME}
+| A name of Transition.
+|-
+! {TRANSITION LABEL}
+| A label of Transition.
+|-
+! {TRANSITION ICON}
+| A icon used to render Transition button.
+|-
+! {TRANSITION DESCRIPTION}
+| A description of Transition.
+|-
+! {FROM STATE}
+| A start state of the transition.
+|-
+! {TO STATE}
+| An end state of the transition.
+|-
+! {USER GROUP}
+| A name of the [[Help:User Groups|User Groups]], which members should be able to activate given transition.
+If omitted all regular users are permitted to activate the transition.
+A name can contain a static text and references to the properties in the current concept.
+E.g. userGroup="${Is tested during} Analysts User Group"
+|}
+
+
+==Extensions==
+The basic Workflow concept might be extended by the following '''features''':
+* [[Help:Security Model|Security Model]] (to control permissions for transitions)
+* [[Help:Conditional|Conditional]]
+
+
+==Semantic database==
+The Widget Property is implemented as a [[Special:Types/Text]] MediaWiki datatype  and stores current state
+
+
+==Example==
+<pre>
+<property name="Test Case Status" type="Workflow" label="Status" attribute="status">
+  <description></description>
+  <instruction/>
+  <states start="Initial Planning">
+    <state name="Initial Planning" color="lightgreen">
+      <description>An Initial Planning state ...</description>
+      <transition name="Review"   label="Review"   to="Review Planning"    icon="Review Action.png" />
+      <transition name="Withdrew" label="Withdrew" to="Withdrawn"          icon="Withdrew Action.png" userGroup="Admin User Group"/>
+    </state>
+    <state name="Review Planning" color="orange">
+      <description>A Review Planning state ...</description>
+      <transition name="Approve"  label="Approve"  to="Initial Performing" icon="Approve Action.png"  userGroup="Analysts User Group"/>
+      <transition name="Reject"   label="Reject"   to="Initial Planning"   icon="Reject Action.png"   userGroup="Analysts User Group"/>
+      <transition name="Withdrew" label="Withdrew" to="Withdrawn"          icon="Withdrew Action.png"/>
+    </state>
+    <state name="Initial Performing" color="lightgreen">
+      <description>A Initial Performing state ...</description>
+      <transition name="Review"   label="Review"   to="Review Performing"  icon="Review Action.png"/>
+      <transition name="Withdrew" label="Withdrew" to="Withdrawn"          icon="Withdrew Action.png"/>
+    </state>
+    <state name="Review Performing" color="orange">
+      <description>A Review Performing state ...</description>
+      <transition name="Approve"  label="Approve"  to="Final Performing"   icon="Approve Action.png"/>
+      <transition name="Reject"   label="Reject"   to="Initial Performing" icon="Reject Action.png"/>
+      <transition name="Withdrew" label="Withdrew" to="Withdrawn"          icon="Withdrew Action.png"/>
+    </state>
+    <state name="Final" color="green">
+      <description>A Final state ...</description>
+      <transition name="Withdrew5" label="Withdrew" to="Withdrawn"          icon="Withdrew Action.png"/>
+    </state>
+    <state name="Withdrawn" color="red">
+      <description>A Withdrawn state ...</description>
+      <transition name="Reopen"    label="Re-open"  to="Initial Planning"   icon="Reopen Action.png"/>
+    </state>
+  </states>
+</property>
+</pre>
+
+
+==User Interface==
+* '''Navigator on a View Page'''
+Navigator displays a list of buttons representing transitions from current state.
+<gallery>
+File:Workflow Navigator Page.png
+</gallery>

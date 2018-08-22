@@ -1,0 +1,33 @@
+{{Standard
+|uuid=4594acca-7330-4312-9de0-0d7b833813a3
+|publisher=NSO
+|code=STANAG 4724 Ed 1
+|title=VLF / LF MSK Multi Channel Broadcast - AComP-4724 Edition A
+|dateissued=2015-10-23
+|substandards=
+|description=
+Cover stanag for AComP-4724
+|responsible=BLOS
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2012-11-26
+|flag=added
+|rfcp=6-76
+|version=7.0
+}}
+{{Change Event
+|order=2
+|date=2015-12-16
+|flag=changed
+|rfcp=8-28
+|version=9.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+}}

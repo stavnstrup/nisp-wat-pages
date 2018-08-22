@@ -1,0 +1,26 @@
+{{Standard
+|uuid=4f328282-0376-4a8d-a1d1-5cf45e4a86a5
+|publisher=IETF
+|code=RFC 2908
+|title=The Internet Multicast Address Allocation Architecture
+|dateissued=2000-09
+|substandards=
+|description=
+This memo discusses the strategy for address assignment of the existing 32-bit IPv4 address space with a view toward conserving the address space and limiting the growth rate of global routing state.
+|responsible=FMN-CPWG
+|website=http://www.ietf.org/rfc/rfc2908.txt
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

@@ -1,0 +1,13 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Security}}
+
+==Introduction==
+The Wiki Platform enforces an authentication of every user accessing Wiki instances.
+
+The Wiki Platform maintains an LDAP repository with all registered user accounts.
+The LDAP repository is shared by all Wiki instances created within the Wiki Platform.
+
+This means that every Wiki user needs to be registered and has an account created before the first access.
+
+By default all registered users are granted an access to all hosted Wikis instances.
+
+It is possible to limit the access to specific Wiki instance only for the users belonging to the specific LDAP group.

@@ -1,0 +1,7 @@
+{{Taxonomy Node
+|uuid=eb8eccda-967e-4b05-a202-e5083105703d
+|order=228
+|parent=SOA_Platform_CIS_Security_Services
+|title=Policy Enforcement Point Services
+|description=The Policy Enforcement Point (PEP) Services protect other services by providing a logical entry point that serves as an intermediary between a call from a service consumer to a service provider. The PEP can either be deployed as a separate device or appliance that sits between the consumer and provider, or as an inline component that is deployed as part of the container infrastructure of the service. The PEP validates the structure of the message, including the digital signature, and the credentials that are provided with the message. This provides a common mechanism to extract and pass on identity information from the service consumer to the service provider so that an Authorisation decision can be made, either locally or through the use of a Policy Decision Point (PDP).
+}}

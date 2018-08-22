@@ -1,0 +1,33 @@
+{{Standard
+|uuid=3a73e98f-400d-454e-b543-74f35440e0ff
+|publisher=IETF
+|code=RFC 2998
+|title=Framework for Integrated Services Operation over Diffserv Networks
+|dateissued=2000
+|substandards=
+|description=
+The Integrated Services (Intserv) architecture provides a means for the delivery of end-to-end Quality of Service (QoS) to applications over heterogeneous networks. To support this end-to-end model, the Intserv architecture must be supported over a wide variety of different types of network elements. In this context, a network that supports Differentiated Services (Diffserv) may be viewed as a network element in the total end-to-end path. This document describes a framework by which Integrated Services may be supported over Diffserv networks.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc2998.txt
+|events={{Change Event
+|order=1
+|date=2004-07-24
+|flag=added
+|rfcp=5-33
+|version=0.6
+}}
+{{Change Event
+|order=2
+|date=2010-10-30
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

@@ -1,0 +1,26 @@
+{{Standard
+|uuid=7265ca2d-b326-4488-8da9-3a9a4af07829
+|publisher=OASIS
+|code=wsdd-discovery-1.1-spec
+|title=Web Services Dynamic Discovery Version 1.1
+|dateissued=2009-07-01
+|substandards=
+|description=
+This specification defines a discovery protocol to locate services. In an ad hoc mode of operation, probes are sent to a multicast group, and target services that match return a response directly to the requester. To scale to a large number of endpoints and to extend the reach of the protocol, this protocol defines a managed mode of operation and a multicast suppression behavior if a discovery proxy is available on the network. To minimize the need for polling, target services that wish to be discovered send an announcement when they join and leave the network.
+|responsible=NCIA-CES
+|website=http://docs.oasis-open.org/ws-dd/discovery/1.1/os/wsdd-discovery-1.1-spec-os.pdf
+|events={{Change Event
+|order=1
+|date=2012-07-15
+|flag=added
+|rfcp=6-6
+|version=7.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

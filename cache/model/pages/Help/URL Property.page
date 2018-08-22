@@ -1,0 +1,48 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+The '''URL Type''' represents a URL path (hyperlink).
+
+The Wiki Automation Tool supports editing, viewing and searching on the URL properties.
+
+
+==Definition==
+
+The URL Property extends a common definition of the [[Help:Property|Property Definition]] with the following elements:
+
+<pre>
+<property ... size={SIZE}>
+</property>
+</pre>
+
+{| class="helptable"
+|-
+! {SIZE}
+| A length of the input field. Default value: 80.
+|}
+
+
+==Semantic database==
+The URL Property is implemented as a [[Special:Types/URL]] MediaWiki datatype.
+
+
+==Example==
+<pre>
+<property name="Link" type="URL" label="Link" attribute="link">
+  <description>A Uniform Resource Identifier (URI) to identify a name or a web resource.</description>
+  <instruction/>
+</property>
+</pre>
+
+
+==User Interface==
+* '''View Page'''
+The property displays a value as a hyperlink.
+
+* '''Edit Page'''
+The property provides one line text input field.
+A length of the field is controlled by the 'size' attribute.
+
+* '''Search Page'''
+The property allows user to a choose search operator from the following options: ''Starts with, Contains, Equals, Ends with, Has any value''
+and allows user to enter a desired url path in one line text input field.

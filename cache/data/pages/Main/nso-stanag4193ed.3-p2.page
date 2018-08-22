@@ -1,0 +1,19 @@
+{{Standard
+|uuid=df89e777-c5d4-413a-b503-526bdc51f01e
+|publisher=NSO
+|code=STANAG 4193 Ed. 3
+|title=Technical Characteristics of the IFF Mk XIIA System Part II: Classified System Characteristics
+|dateissued=2016-05-23
+|substandards=
+|description=
+
+|responsible=C3B-CAP2
+|website=http://www.nso.int/
+|events={{Change Event
+|order=1
+|date=2018-04-18
+|flag=added
+|rfcp=10-36
+|version=11.0
+}}
+}}

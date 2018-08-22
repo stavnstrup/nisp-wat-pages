@@ -1,0 +1,26 @@
+{{Standard
+|uuid=c90bae76-8fd3-4ff1-9efb-1a5a4080a3de
+|publisher=NSO-E
+|code=STANAG 5516 Ed 6
+|title=NATO Bit-Oriented Message (BOM) Tactical Data Exchange - Link 16
+|dateissued=
+|substandards=
+|description=
+
+|responsible=TDL
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-23
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-03-03
+|flag=changed
+|rfcp=9-46
+|version=10.0
+}}
+}}

@@ -1,0 +1,19 @@
+__NOTOC__ __NOEDITSECTION__ __NOCACHE__{{User Manual Navigator}}
+;Description
+A service profile is a set of one or more standards, with one or more constraints and implementation guidance.
+		A profile is based on the implementation of a pattern or a technical service.
+
+;Category
+The category of this concept is [[:Category:Service Profiles]].
+
+;Attributes
+* Title (String)
+* Is published by (Page)
+* Reference code (String)
+* Specification Title (Text)
+* Date issued (Date)
+* Version (String)
+* Description (Text)
+* Is related to (Page)
+* Guideline (Text)
+* Website (URL)

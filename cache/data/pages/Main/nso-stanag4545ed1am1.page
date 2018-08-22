@@ -1,0 +1,26 @@
+{{Standard
+|uuid=8b9bfc5a-8e00-4eb6-92d0-645237232e27
+|publisher=NSO
+|code=STANAG4545 Ed 1 Am 1
+|title=STANAG 4545 Edition 1 Amendment 1, NATO Secondary Imagery Format (NSIF) 
+|dateissued=2000-04-14
+|substandards=
+|description=
+The NATO Secondary Imagery Format (NSIF) is the standard for formatting digital imagery files and imagery related products and exchanging them among different computer systems.
+|responsible=NCIA-OTHER
+|website=http://www.nato.int/structur/ac/224/standard/4545/4545.htm
+|events={{Change Event
+|order=1
+|date=2014-11-25
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

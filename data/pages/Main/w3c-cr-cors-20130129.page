@@ -1,0 +1,26 @@
+{{Standard
+|uuid=f9581bb2-a077-49c7-8d12-19ffdb7bdfd6
+|publisher=W3C
+|code=CR-cors-20130129
+|title=Cross-Origin Resource Sharing
+|dateissued=2013-01-29
+|substandards=
+|description=
+This document defines a mechanism to enable client-side cross-origin requests. Specifications that enable an API to make cross-origin requests to resources can use the algorithms defined by this specification. If such an API is used on http://example.org resources, a resource on http://hello-world.example can opt in using the mechanism described by this specification (e.g., specifying Access-Control-Allow-Origin: http://example.org as response header), which would allow that resource to be fetched cross-origin from http://example.org.
+|responsible=FMN-CPWG
+|website=http://www.w3.org/TR/2013/CR-cors-20130129/
+|events={{Change Event
+|order=1
+|date=2015-11-02
+|flag=added
+|rfcp=8-5
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-17
+|version=10.0
+}}
+}}

@@ -1,0 +1,101 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Data Model}}
+
+==Introduction==
+A Concepts can '''inherit''' from another Concepts, creating even complex '''Parent -> Child Concepts inheritance hierarchy'''.
+
+All data entities of Children Concepts are considered to belong also to all Parent Concepts categories.
+
+The Children Concept DON'T formally inherit/use the Properties of its Parents.
+However, it is '''recommended''' that:
+* Parent Concept shall define a set of Properties common for all its Children Concepts
+* Children Concepts shall reuse as much as possible the Parents Properties (in optimal case all Parent Properties)
+* Children Concept can add its own specific Properties
+
+If the Parent Concept is abstract, which means no capability to add instances of that Concept, it should be marked as type="Virtual".
+
+
+==Definition==
+<pre>
+<concept name="{PARENT CONCEPT}" ... type="Virtual">
+  <property name="{COMMON PROPERTY 1}">
+  <property name="{COMMON PROPERTY 2}">
+  <property name="{COMMON PROPERTY 3}">
+</concept>
+
+<concept name="{CHILD CONCEPT}" ... parent="{PARENT CONCEPT}">              <!-- reused ALL Parent Properties -->
+  <property name="{COMMON PROPERTY 1}">
+  <property name="{COMMON PROPERTY 2}">
+  <property name="{COMMON PROPERTY 3}">
+  <property name="{SPECIFIC PROPERTY 1}">
+  <property name="{SPECIFIC PROPERTY 2}">
+</concept>
+
+<concept name="{GRAND CHILD CONCEPT}" ... parent="{CHILD CONCEPT}">
+  <property name="{COMMON PROPERTY1}">               <!-- reused property from Grand Parent -->
+  <property name="{SPECIFIC PROPERTY 1}">            <!-- reused property from Parent -->
+  <property name="{SPECIFIC PROPERTY A}">
+  <property name="{SPECIFIC PROPERTY B}">
+</concept>
+</pre>
+
+{| class="helptable"
+|-
+! Virtual
+| Mark abstract Parent classes with type="Virtual"
+|-
+! {PARENT CONCEPT}
+| A short name of the '''Parent''' Concept.
+|-
+! {CHILD CONCEPT}
+| A name of the '''Child''' Concept which inherits from the {PARENT CONCEPT}
+|-
+! {COMMON PROPERTY}
+| A name of the common Property defined in the Parent Concept and re-used in by the Children Concepts
+|-
+! {SPECIFIC PROPERTY}
+| A name of the specific Property defined only in specific Children Concept
+|}
+
+
+==Semantic database==
+Children Concepts are defined as a sub-categories of the Parent Concept.
+
+All queries to the Parent Concept will return also data entities from all Children Concepts (including Category Pages).
+
+
+==Example==
+<pre>
+<concept name="Car">                         <!-- Parent Concept -->
+  <structure>
+    <property name="Made by"/>
+    <property name="Model"/>
+    <property name="Engine"/>
+    <property name="Color"/>
+  </structure>
+</concept>
+
+<concept name="Truck" parent="Car">          <!-- Child Concept -->
+  <structure>
+    <property name="Made by"/>
+    <property name="Model"/>
+    <property name="Engine"/>
+    <property name="Color"/>
+
+    <property name="Tonnage"/>
+  </structure>
+
+  <concept name="Bus" parent="Car">           <!-- Child Concept -->
+    <structure>
+      <property name="Made by"/>
+      <property name="Model"/>
+      <property name="Engine"/>
+      <property name="Color"/>
+
+      <property name="Doors"/>
+    </structure>
+</concept>
+</pre>
+
+
+==User Interface==
+The Cars Category Page will display all Cars: Trucks and Buses.

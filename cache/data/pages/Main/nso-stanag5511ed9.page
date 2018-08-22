@@ -1,0 +1,26 @@
+{{Standard
+|uuid=86f17eee-3ada-42ed-9159-03eb988f1677
+|publisher=NSO-E
+|code=STANAG 5511 ED 9
+|title=Tactical Data Exchange - Link 11/11B - ATDLP-5.11 Edition A
+|dateissued=
+|substandards=
+|description=
+
+|responsible=TDL
+|website=
+|events={{Change Event
+|order=1
+|date=2016-12-23
+|flag=added
+|rfcp=9-16
+|version=10.0
+}}
+{{Change Event
+|order=2
+|date=2017-03-03
+|flag=changed
+|rfcp=9-46
+|version=10.0
+}}
+}}

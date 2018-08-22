@@ -1,0 +1,26 @@
+{{Standard
+|uuid=1a27d4f6-6b1e-4de7-82eb-41aad229dd33
+|publisher=IICWG
+|code=SCIP-214.1
+|title=SCIP over the PSTN rev.1.0
+|dateissued=2008-06-10
+|substandards=
+|description=
+
+|responsible=NS
+|website=
+|events={{Change Event
+|order=1
+|date=2012-11-26
+|flag=added
+|rfcp=6-84
+|version=7.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+}}

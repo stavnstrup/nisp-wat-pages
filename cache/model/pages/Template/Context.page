@@ -1,0 +1,12 @@
+<includeonly>{{#arraydefine:parents|{{#ask:[[{{PAGENAME}}]]|mainlabel=-|?Is child of=|link=none}}}}{{#arraydefine:self|{{PAGENAME}}}}{{#arraymerge:parents|parents|self}}{{#ask:[[Is child of::{{#arrayprint:parents|{{!}}{{!}}}}]]
+| ?Is child of=Parent
+| format=graph
+| sort=Order
+| reverse=Yes
+| highlight={{PAGENAME}}
+}}</includeonly><noinclude>
+; Description
+It is used to render a context graph based on the [[Property:Is child of|'''Is child of''']] property.}}
+; Format
+<pre>{{context}}</pre>
+</noinclude>

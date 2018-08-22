@@ -1,0 +1,23 @@
+{{Capability Profile
+|uuid=de6e342c-6b52-4a0b-91fd-57cd638b6e53
+|title=Extensible Message and Presence Protocol (XMPP) Binding Profile
+|publisher=NCIA
+|code=TN-1491
+|spectitle=Extensible Message and Presence Protocol (XMPP) Binding Profile
+|dateissued=2017-12-15
+|version=2.0
+|guideline=
+Confidentiality metadata labels can be supported in XMPP stanzas as indicated by XEP-0258 whereby a mechanism for carrying Enhanced Security Services (ESS) Security labels is standardized. This profile extends the XEP-0258 specification to support carrying an Embedded or Detached BDO for Message stanzas. This profile supports the XMPP use cases for one-to-one instant messaging and multi-user chat.
+
+
+|profiles=
+|serviceprofiles=Extensible Message and Presence Protocol XMPP Binding;
+
+|events={{Change Event
+|order=1
+|date=2017-12-19
+|flag=added
+|rfcp=10-28
+|version=11.0
+}}
+}}

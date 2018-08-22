@@ -1,0 +1,26 @@
+{{Standard
+|uuid=1cffcafa-861c-45b5-a791-1d08ba25c540
+|publisher=IETF
+|code=RFC 4250
+|title=Secure Shell (SSH)
+|dateissued=2006-01
+|substandards=
+|description=
+The Secure Shell (SSH) Protocol is a protocol for secure remote login and other secure network services over an insecure network. This document describes the architecture of the SSH protocol, as well as the notation and terminology used in SSH protocol documents. It also discusses the SSH algorithm naming system that allows local extensions. The SSH protocol consists of three major components: The Transport Layer Protocol provides server authentication, confidentiality, and integrity with perfect forward secrecy. The User Authentication Protocol authenticates the client to the server. The Connection Protocol multiplexes the encrypted tunnel into several logical channels. Details of these protocols are described in separate documents.
+|responsible=C3B-CAP4
+|website=http://www.ietf.org/rfc/rfc4250.txt
+|events={{Change Event
+|order=1
+|date=2012-09-02
+|flag=added
+|rfcp=6-22
+|version=7.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-13
+|version=10.0
+}}
+}}

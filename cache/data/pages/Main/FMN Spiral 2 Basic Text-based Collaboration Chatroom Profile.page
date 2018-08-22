@@ -1,0 +1,20 @@
+{{Profile
+|uuid=7540ef96-8940-48c6-924d-efb4de2519dc
+|title=FMN Spiral 2 Basic Text-based Collaboration Chatroom Profile
+|publisher=FMN
+|code=
+|spectitle=FMN Spiral 2 Standards Profile
+|dateissued=2017-09-29
+|version=2.0
+|guideline=
+|profiles=
+|serviceprofiles=Basic Text-based Collaboration Chatroom Profile;
+
+|events={{Change Event
+|order=1
+|date=2017-12-06
+|flag=added
+|rfcp=11-29
+|version=11.0
+}}
+}}

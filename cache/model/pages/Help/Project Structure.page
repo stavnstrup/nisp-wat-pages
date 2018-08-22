@@ -1,0 +1,31 @@
+__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Environment}}
+
+==Introduction==
+All '''Wiki Projects''' should follow the same structure of the project folder described below.
+
+==Project Structure==
+<pre>
+--{WIKI NAME}
+ |-images               /* (OPTIONAL) folder with Project images (Model/Package/Concept icons, etc.)     */
+ |-css                  /* (OPTIONAL) folder with Project specific css files                             */
+    |-pages             /*    - to be added to Common.css                                                */
+    |-print             /*    - to be added to Print.css                                                 */
+ |-pages                /* (OPTIONAL) folder with Project custom MediaWiki pages. All subfolders         */
+    |                   /*             correspond to the Wiki namespaces where pages will be uploaded    */
+    |-Template          /*    - folder with Project Templates (*.page)                                   */
+    |-Form              /*    - folder with Project Forms (*.page)                                       */
+    |-Help              /*    - folder with Project Help pages (*.page)                                  */
+    |-Main              /*    - folder with files in Main namespace (*.page)                             */
+ |-tools                /* (OPTIONAL) folder with various command line tools (e.g. import/export)        */
+ |-data                 /* (OPTIONAL) folder with project specific data  (instances of entities)         */
+    |-images            /*    - folder with images                                                       */
+    |-pages             /*    - folder with data pages                                                   */
+      |-Main            /*       - files in the Main namespace (*.page)                                  */
+ |-model.xml            /* (MANDATORY) Wiki Model file                                                   */
+</pre>
+
+* '''model.xml'''
+The content if this file should follow the rules described in [[Help:Wiki Model|Wiki Model]]
+
+==Version Control==
+The Project folder should be maintained in a source version control system.

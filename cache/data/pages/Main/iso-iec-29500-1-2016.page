@@ -1,0 +1,19 @@
+{{Standard
+|uuid=6dc17226-92bd-471d-9506-2e265ad1579d
+|publisher=ISO-IEC
+|code=29500-1
+|title=Office Open XML File Formats -- Part 1: Fundamentals and Markup Language Reference
+|dateissued=2016-11
+|substandards=
+|description=
+ISO/IEC 29500-1:2016 defines a set of XML vocabularies for representing word-processing documents, spreadsheets and presentations. On the one hand, the goal of ISO/IEC 29500 is to be capable of faithfully representing the pre-existing corpus of word-processing documents, spreadsheets and presentations that had been produced by the Microsoft Office applications (from Microsoft Office 97 to Microsoft Office 2008, inclusive) at the date of the creation of ISO/IEC 29500. It also specifies requirements for Office Open XML consumers and producers. On the other hand, the goal is to facilitate extensibility and interoperability by enabling implementations by multiple vendors and on multiple platforms.
+|responsible=C3B-DMCAT
+|website=https://www.iso.org/standard/71691.html
+|events={{Change Event
+|order=1
+|date=2017-12-12
+|flag=added
+|rfcp=10-19
+|version=11.0
+}}
+}}

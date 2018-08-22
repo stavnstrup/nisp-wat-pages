@@ -1,0 +1,119 @@
+{{Infobox
+|abovestyle = background:#becde6;
+|above = [[Help:Developer Manual|Developer Manual]]
+|aboveclass = summary
+|image = [[image:Developer_Manual.png{{!}}100px{{!}}link=Help:Developer Manual]]
+|caption = [[Help:Version|Version Notes]]
+|headerstyle = background:#d7d7d7;
+|labelstyle = background:#d7d7d7;
+|datastyle = background:#ffffff;
+|captionstyle = background:#ffffff;
+|class1 = description
+|header1 = [[Help:Environment|Environment]]
+|data1 =
+<div style="text-align:left;">
+{{#ifeq:{{{chapter|}}}|Environment|
+* [[Help:Wiki Platform|Wiki Platform]]
+* [[Help:Wiki Automation Tool|Wiki Automation Tool]]
+* [[Help:Reports Generator|Reports Generator]]
+* [[Help:Schema|Wiki Model Schema]]
+<hr/>
+* [[Help:Project Structure|Project Structure]]
+* [[Help:Wiki Model|Wiki Model]]
+* [[Help:Change Log|Change Log]]
+<hr/>
+* [[Help:Development Process Page|Development Process]]
+</div>|}}
+|class2 = description
+|header2 = [[Help:Data Model|Data Model]]
+|data2 =
+{{#ifeq:{{{chapter|}}}|Data Model|
+<div style="text-align:left;">
+* [[Help:Package|Package]]
+* [[Help:Concept|Concept]]
+** [[Help:Inheritance|Inheritance]]
+** [[Help:Mapping|Mapping]]
+** [[Help:Page Names|Page Names]]
+** [[Help:Hierarchical Data|Hierarchical Data]]
+** [[Help:Sorting|Sorting]]
+** [[Help:Concept Security|Security]]
+* [[Help:Subobject|Subobject]]
+* [[Help:Property|Property]]
+** [[Help:Boolean Property| Boolean]]
+** [[Help:Bugzilla Property| Bugzilla]]
+** [[Help:Date Property| Date]]
+** [[Help:DateTime Property| DateTime]]
+** [[Help:Email Property| Email]]
+** [[Help:File Property| File]]
+** [[Help:Geographic coordinates Property| Geographic coordinates]]
+** [[Help:Image Property| Image]]
+** [[Help:Number Property| Number]]
+** [[Help:Option Property| Option]]
+** [[Help:Page Property| Page (Association)]]
+*** [[Help:Aggregation|Aggregation]]
+*** [[Help:Composition|Composition]]
+*** [[Help:Filtering|Filtering]]
+** [[Help:String Property| String]]
+** [[Help:Text Property| Text]]
+** [[Help:Time Property| Time]]
+** [[Help:URL Property| URL]]
+** [[Help:Workflow Property| Workflow]]
+</div>|}}
+|class3 = description
+|header3 = [[Help:Widgets|Widgets]]
+|data3 =
+{{#ifeq:{{{chapter|}}}|Widgets|
+<div style="text-align:left;">
+* [[Help:Group|Group]]
+** [[Help:Sections Layout|Sections Layout]]
+** [[Help:Table Layout|Table Layout]]
+** [[Help:Properties Layout|Properties Layout]]
+** [[Help:Pivot Table Layout|Pivot Table Layout]]
+** [[Help:Tabs Layout|Tabs Layout]]
+** [[Help:Portal Layout|Portal Layout]]
+** [[Help:Portal Column Layout|Portal Column Layout]]
+** [[Help:Grid Layout|Grid Layout]]
+** [[Help:Simple Layout|Simple Layout]]
+** [[Help:Banner Layout|Banner Layout]]
+** [[Help:Custom Layout|Custom Layout]]
+* [[Help:Related Data|Related Data]]
+* [[Help:Query|Query]]
+** [[Help:Property List|Property List]]
+** [[Help:Property Groups|Property Groups]]
+** [[Help:Reference|Reference]]
+** [[Help:ReferenceGroup|Reference Group]]
+* [[Help:Map|Map]]
+* [[Help:Navigator|Navigator]]
+** [[Help:Dashboard Actions|Dashboard Actions]]
+** [[Help:Meta-model Actions|Meta-model Actions]]
+** [[Help:Instance Actions|Instance Actions]]
+** [[Help:Concept Actions|Concept Actions]]
+** [[Help:Related Concepts Actions|Related Concepts Actions]]
+** [[Help:Reports Actions|Reports Actions]]
+* [[Help:User Query|User Query]]
+* [[Help:Chart|Chart]]
+* [[Help:Gantt Chart|Gantt Chart]]
+* [[Help:Reports|Reports]]
+* [[Help:Static Content|Static Content]]
+* [[Help:Workflow|Workflow]]
+* [[Help:Conditional|Conditional]]
+* [[Help:Help Information|Help Information]]
+</div>|}}
+|class4 = description
+|header4 = [[Help:Dashboards|Dashboards]]
+|data4 =
+|class5 = description
+|header5 = [[Help:Themes|Themes]]
+|data5 =
+|class6 = description
+|header6 = [[Help:Security Model|Security Model]]
+|data6 =
+{{#ifeq:{{{chapter|}}}|Security|
+<div style="text-align:left;">
+* [[Help:Wiki Access Control|Wiki Access]]
+* [[Help:User Groups|User Groups]]
+* [[Help:Page Editing|Page Editing]]
+* [[Help:Workflow Access Control|Workflow]]
+* [[Help:Concept Security|Concept Security]]
+</div>|}}
+}}

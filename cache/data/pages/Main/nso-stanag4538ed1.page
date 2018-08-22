@@ -1,0 +1,33 @@
+{{Standard
+|uuid=9143641c-5b43-4757-944a-187c725cd8f2
+|publisher=NSO
+|code=STANAG 4538 Ed 1
+|title=Technical Standards for an Automatic Radio Control System (ARCS) for HF Communication Links
+|dateissued=2009-02-24
+|substandards=
+|description=
+This STANAg defines the technical standards required to ensure the interoperability of land, air and maritime HF radio equipment operating in an automated mode by means of an automatic radio control system.
+|responsible=BLOS
+|website=https://nso.nato.int/
+|events={{Change Event
+|order=1
+|date=2009-09-15
+|flag=added
+|rfcp=3-3
+|version=4.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-14
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-03-03
+|flag=changed
+|rfcp=9-46
+|version=10.0
+}}
+}}

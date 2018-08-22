@@ -1,0 +1,30 @@
+<includeonly><div style="display: none;"><!-------------------------------Prepare the list of properties to display-------------------------------->
+{{#ifeq:{{{display_taxonomynode|}}}|Yes|{{#arraydefine:propertylist|{{#arrayprint:propertylist}}taxonomynode,}} }}
+{{#ifeq:{{{display_responsible|}}}|Yes|{{#arraydefine:propertylist|{{#arrayprint:propertylist}}responsible,}} }}
+{{#ifeq:{{{display_mandatorystandards|}}}|Yes|{{#arraydefine:propertylist|{{#arrayprint:propertylist}}mandatorystandards,}} }}
+{{#ifeq:{{{display_candidatestandards|}}}|Yes|{{#arraydefine:propertylist|{{#arrayprint:propertylist}}candidatestandards,}} }}</div>
+
+{{#ask:
+[[Category:Basic Standards Service Profiles]]
+<!---------------------------------------------Querying part---------------------------------------------->
+{{#ifexpr:{{#ifeq:{{{operator_taxonomynode|}}}|Has any value|1|0}} or {{#if:{{{filter_taxonomynode|}}}|1|0}}| {{Query Operator|Is related to|{{{operator_taxonomynode|}}}|{{{filter_taxonomynode|}}} }}}}
+{{#ifexpr:{{#ifeq:{{{operator_responsible|}}}|Has any value|1|0}} or {{#if:{{{filter_responsible|}}}|1|0}}| {{Query Operator|Is responsible for|{{{operator_responsible|}}}|{{{filter_responsible|}}} }}}}
+{{#ifexpr:{{#ifeq:{{{operator_mandatorystandards|}}}|Has any value|1|0}} or {{#if:{{{filter_mandatorystandards|}}}|1|0}}| {{Query Operator|Is implementing mandatory standard|{{{operator_mandatorystandards|}}}|{{{filter_mandatorystandards|}}} }}}}
+{{#ifexpr:{{#ifeq:{{{operator_candidatestandards|}}}|Has any value|1|0}} or {{#if:{{{filter_candidatestandards|}}}|1|0}}| {{Query Operator|Is implementing candidate standard|{{{operator_candidatestandards|}}}|{{{filter_candidatestandards|}}} }}}}|userparam={{#arrayprint:propertylist}}
+|format=template
+|template=Basic Standards Service Profiles Search Results Row
+|link=none
+|limit=9000
+|intro=
+{{{!}} class="wikitable sortable" cellspacing=1 cellpadding=1 width=95%
+{{!}}-
+{{!}} '''Basic Standards Service Profile''' <nowiki/>
+{{#ifeq:{{{display_taxonomynode|}}}|Yes|<nowiki/>
+{{!}}'''Taxonomy'''|}}{{#ifeq:{{{display_responsible|}}}|Yes|<nowiki/>
+{{!}}'''Responsible'''|}}{{#ifeq:{{{display_mandatorystandards|}}}|Yes|<nowiki/>
+{{!}}'''Mandatory Standards'''|}}{{#ifeq:{{{display_candidatestandards|}}}|Yes|<nowiki/>
+{{!}}'''Candidate Standards'''|}}
+|outro=<br>
+{{!}}}
+}}
+</includeonly>

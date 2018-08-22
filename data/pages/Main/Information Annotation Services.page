@@ -1,0 +1,13 @@
+{{Taxonomy Node
+|uuid=cbb48a7d-095f-476b-9697-8861d0bb42a1
+|order=255
+|parent=Information_Platform_Services
+|title=Information Annotation Services
+|description=The Information Annotation Services provide functionality for annotating or enhancing information objects with additional information such as: metadata, tags, comments, attachments, relationship with other information objects and/or content.
+
+An annotation is a collection of assertions about one or more information objects and so must be able to uniquely reference those objects.  Further, annotations are made by an entity, user, system etc. and so information such as who created the annotation, when it was created, the confidence, reliability and authenticity of the assertions must also be recorded.
+
+The Information Annotation Services allow for persisting, searching and retrieving these annotations.  Since the annotations are additional information that makes reference to existing information, an Information Annotation Service can be logically decoupled from the service providing that existing information.
+
+The Information Discovery Services complement the Information Annotation Services by allowing information consumers to query not only the original information objects but also any annotations which relate to them.
+}}

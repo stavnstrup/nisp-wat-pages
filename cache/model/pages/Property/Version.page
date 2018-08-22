@@ -1,0 +1,6 @@
+A version number or code for the version of a certain entity.
+
+A "Version" is a string value that reflects the version identifier that is used in the definition of a taxonomy element.
+
+This is a property of type [[Has type::String]].
+

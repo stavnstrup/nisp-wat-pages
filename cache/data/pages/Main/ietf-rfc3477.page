@@ -1,0 +1,33 @@
+{{Standard
+|uuid=5a5821b3-dda1-45ec-8069-934ff7269d14
+|publisher=IETF
+|code=RFC 3477
+|title=Signalling Unnumbered Links in Resource ReSerVation Protocol - Traffic Engineering (RSVP-TE)
+|dateissued=2003
+|substandards=
+|description=
+Current signalling used by Multi-Protocol Label Switching Traffic Engineering (MPLS TE) does not provide support for unnumbered links. This document defines procedures and extensions to Resource ReSerVation Protocol (RSVP) for Label Switched Path (LSP) Tunnels (RSVP-TE), one of the MPLS TE signalling protocols, that are needed in order to support unnumbered links.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc3477.txt
+|events={{Change Event
+|order=1
+|date=2004-07-24
+|flag=added
+|rfcp=5-33
+|version=0.6
+}}
+{{Change Event
+|order=2
+|date=2010-10-30
+|flag=changed
+|rfcp=
+|version=5.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

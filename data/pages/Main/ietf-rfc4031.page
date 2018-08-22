@@ -1,0 +1,26 @@
+{{Standard
+|uuid=fa01b656-a473-4e5c-8e5a-0f2c7cd5827b
+|publisher=IETF
+|code=RFC 4031
+|title=Service Requirements for Layer 3 Provider Provisioned Virtual Private Networks (PPVPNs)
+|dateissued=2005-04
+|substandards=
+|description=
+This document provides requirements for Layer 3 Virtual Private Networks (L3VPNs). It identifies requirements applicable to a number of individual approaches that a Service Provider may use to provision a Virtual Private Network (VPN) service. This document expresses a service provider perspective, based upon past experience with IP- based service offerings and the ever-evolving needs of the customers of such services. Toward this end, it first defines terminology and states general requirements. Detailed requirements are expressed from a customer perspective as well as that of a service provider.
+|responsible=NCIA-NSII
+|website=http://www.ietf.org/rfc/rfc4031.txt
+|events={{Change Event
+|order=1
+|date=2012-09-02
+|flag=added
+|rfcp=6-23
+|version=7.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+}}

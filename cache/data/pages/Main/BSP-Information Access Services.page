@@ -1,0 +1,6 @@
+{{Basic Standards Service Profile
+|taxonomynode=Information Access Services
+|responsible=
+|mandatorystandards=ietf-rfc4287;w3c-rec-xhtml1-20020801;rss-2.0;
+|candidatestandards=ogc-06-050r3;w3c-rec-xforms-20031014;ietf-rfc2557;
+}}

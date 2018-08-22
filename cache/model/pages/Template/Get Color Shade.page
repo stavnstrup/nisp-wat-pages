@@ -1,0 +1,12 @@
+<includeonly>{{#ifexpr:{{hex2dec|{{#sub:{{{1}}}|0|2}}}}<50|00|{{#ifexpr:{{#expr:{{hex2dec|{{#sub:{{{1}}}|0|2}}}}-50}}<16|0}}{{dec2hex|{{#expr:{{hex2dec|{{#sub:{{{1}}}|0|2}}}}-50}}}}}}{{#ifexpr:{{hex2dec|{{#sub:{{{1}}}|2|2}}}}<50|00|
+{{#ifexpr:{{#expr:{{hex2dec|{{#sub:{{{1}}}|2|2}}}}-50}}<16|0}}{{dec2hex|{{#expr:{{hex2dec|{{#sub:{{{1}}}|2|2}}}}-50}}}}}}{{#ifexpr:{{hex2dec|{{#sub:{{{1}}}|4|2}}}}<50|00|{{#ifexpr:{{#expr:{{hex2dec|{{#sub:{{{1}}}|4|2}}}}-50}}<16|0}}{{dec2hex|{{#expr:{{hex2dec|{{#sub:{{{1}}}|4|2}}}}-50}}}}}}</includeonly><noinclude>
+; Description
+It is used to calculate a darker shade of color to match a given hexadecimal color value.
+; Format
+<pre>
+{{Get Color Shade
+ |HEX color code
+}}
+</pre>
+; See also
+* [[Template:Get Color Code]]

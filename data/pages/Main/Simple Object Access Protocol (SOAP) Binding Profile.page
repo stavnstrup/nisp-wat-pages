@@ -1,0 +1,23 @@
+{{Capability Profile
+|uuid=fe54336a-c1e6-4ade-a08d-9c3f0a1ea310
+|title=Simple Object Access Protocol (SOAP) Binding Profile
+|publisher=NCIA
+|code=TN-1491
+|spectitle=Simple Object Access Protocol (SOAP) Binding Profile
+|dateissued=2017-12-15
+|version=2.0
+|guideline=
+Where there is a requirement to bind metadata to a SOAP message or data object (s) within the SOAP body that is exchanged between a service consumer and a service provider, the SOAP Binding Profile specified must be adhered to.
+
+
+|profiles=
+|serviceprofiles=Simple Object Access Protocol;
+
+|events={{Change Event
+|order=1
+|date=2017-12-19
+|flag=added
+|rfcp=10-28
+|version=11.0
+}}
+}}

@@ -1,0 +1,40 @@
+{{Standard
+|uuid=5de24083-1424-4bec-81db-3ca910fc0e15
+|publisher=WS-I
+|code=BP12
+|title=WS-I Basic Profile 1.2
+|dateissued=2010-11-09
+|substandards=
+|description=
+This document defines the WS-I Basic Profile 1.2, consisting of a set of non-proprietary Web services specifications, along with clarifications, refinements, interpretations and amplifications of those specifications which promote interoperability.
+|responsible=NCIA-CES
+|website=http://ws-i.org/Profiles/BasicProfile-1.2-2010-11-09.html
+|events={{Change Event
+|order=1
+|date=2014-07-13
+|flag=added
+|rfcp=
+|version=9.0
+}}
+{{Change Event
+|order=2
+|date=2017-01-14
+|flag=changed
+|rfcp=9-19
+|version=10.0
+}}
+{{Change Event
+|order=3
+|date=2017-01-17
+|flag=deleted
+|rfcp=9-2
+|version=10.0
+}}
+{{Change Event
+|order=4
+|date=2017-04-18
+|flag=changed
+|rfcp=9-15
+|version=10.0
+}}
+}}

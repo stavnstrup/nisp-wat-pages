@@ -1,0 +1,28 @@
+{{Service Profile
+|uuid=911d5a56-1071-4f7d-afef-cc81135f2a32
+|title=Publishsubscribe Notification Broker with Subscription Manager
+|publisher=NCIA
+|code=AI_TECH_2016.06.02.09
+|spectitle=Service Interface Profile for a Publishsubscribe Notification Broker with Subscription Manager
+|dateissued=2015-02-04
+|version=1.0
+|description=
+|taxonomynodes=Undefined Taxonomy Node;
+|obligations={{Obligation Group
+|obligationtype=mandatory
+|description=
+|standards=oasis-ws-notif;
+oasis-ws-topics;
+oasis-brokerednotif;
+w3c-rec-xpath-19991119;
+
+}}
+|guideline=
+|events={{Change Event
+|order=1
+|date=2017-04-21
+|flag=added
+|rfcp=9-15
+|version=10.0
+}}
+}}

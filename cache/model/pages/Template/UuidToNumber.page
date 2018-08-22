@@ -1,9 +1,0 @@
-<includeonly>{{#sub:{{#replace:{{#replace:{{#replace:{{#replace:{{#replace:{{#replace:{{#replace:{{{1}}}|-|}}|a|10}}|b|11}}|c|12}}|d|13}}|e|14}}|f|15}}|0|15}}</includeonly><noinclude>
-; Description
-It is used to convert an UUID to a very long decimal number
-; Format
-<pre>
-{{UuidToNumber
- | UUID
-}}</pre>
-</noinclude>

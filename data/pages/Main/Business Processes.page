@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=f50b7a95-a560-406c-8e7b-ba95e3c11878
-|order=3
-|parent=Operational_Capabilities
-|title=Business Processes
-|description=The "Business Processes" taxonomy layer represents a collection of related, structured processes and activities that produce a specific service or product (serve a particular goal) for a particular customer or customers. The definition of these business processes are linked with roles, activities, information products and automation needs (applications, services and their respective functions).
-}}

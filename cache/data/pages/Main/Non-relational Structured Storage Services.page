@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=80e56cf6-ed2a-474f-ae28-06029ccf224b
-|order=286
-|parent=Infrastructure_Storage_Services
-|title=Non-relational Structured Storage Services
-|description=The Non-relational Structured Storage Services provide a database system where the intention is to handle large sets of data and handle requests/inserts from many users at the same time. They store data schema-free and use eventual consistency (and not ACID).
-}}

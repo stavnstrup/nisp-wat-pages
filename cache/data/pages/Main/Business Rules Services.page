@@ -1,9 +1,0 @@
-{{Taxonomy Node
-|uuid=298fa287-4d6a-490e-8be9-d213e588c404
-|order=256
-|parent=Information_Platform_Services
-|title=Business Rules Services
-|description=The Business Rules Services provide capability to support the creation, testing, management, deployment and maintenance of Business Rules in an operational environment.
-
-A Business Rules are statements describing a business/enterprise policy or procedure (e.g. discount calculation) and can be represented using formal language.
-}}

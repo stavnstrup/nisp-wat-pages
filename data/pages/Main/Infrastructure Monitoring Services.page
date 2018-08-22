@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=8ef988d6-0627-4824-84ea-bdd6bc3c31f6
-|order=279
-|parent=Infrastructure_SMC_Services
-|title=Infrastructure Monitoring Services
-|description=The Infrastructure Monitoring Services provide the ability to monitor the health and performance of Infrastructure Services and services upon which they are dependent. In case of an exception or fault, an alarm will be raised to notify the appropriate actors.
-}}

@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=3567de6b-7a0a-47c9-bc7f-18d7904c5df6
-|order=184
-|parent=Technical_Services
-|title=Core Services
-|description=The Core Services provide generic, Community of Interest (COI)-independent, technical functionality to implement service-based environments using infrastructure, architectural and enabling building blocks. Core Services provide these building blocks so that these generic, common capabilities do not have to be implemented by individual applications or other services.
-}}

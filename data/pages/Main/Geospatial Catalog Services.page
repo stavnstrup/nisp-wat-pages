@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=fbefe8c3-449e-4fc8-8bb7-feacd4fbee01
-|order=216
-|parent=Geospatial_Services
-|title=Geospatial Catalog Services
-|description=The Geospatial Catalog Services define common interfaces to discover, browse, and query metadata about geospatial data, services, and other potential resources.
-}}

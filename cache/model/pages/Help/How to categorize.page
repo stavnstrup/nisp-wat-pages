@@ -1,7 +1,0 @@
-<noinclude>{{User Manual Navigator|How to contribute}}</noinclude>
-All pages in the {{SITENAME}} Wiki can be grouped in one or more categories. Categories list all pages that are assigned to it in alphabetical order and divides them into successive category pages of maximum 200 pages. The category page can also list files that are assigned to it, in a listing of thumbnails below the page names. Furthermore, categories can be assigned as sub-category to other categories, and will then be listed alphabetically on the overarching category page.
-:> [[Special:Categories|Click here]] for the special page with all categories in the {{SITENAME}} Wiki.
-
-Pages and files can be assigned to a category by including the markup <code><nowiki>[[Category:Category name]]</nowiki></code> somewhere on the page. Often this category assignment is included in a template, and when editing the concepts of the {{SITENAME}} Wiki this part is already taken care of.
-
-The category page is also the location where a form is assigned to a concept. The form is associated with the templates for that concept, and only those pages in the category that are built with these templates are able to be edited with the form. These are the only pages where the "Edit with form" option shows up in the top menu.

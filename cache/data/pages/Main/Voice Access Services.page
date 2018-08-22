@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=d77bcdab-f242-4d6b-96dc-6474aabc0d7d
-|order=328
-|parent=Multimedia_Access_Services
-|title=Voice Access Services
-|description=The Voice Access Services provide the delivery or exchange of voice information over packet-based, frame-based, circuit-based, or digital (link-based) access services, through adaptation (e.g. encoding and compression) the capability for voice appliances like VoIP phones, microphones, handsets, etc.
-}}

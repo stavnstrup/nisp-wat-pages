@@ -1,9 +1,0 @@
-{{Taxonomy Node
-|uuid=83ad154b-3e76-485d-8e72-04a22ea70be8
-|order=302
-|parent=Communications_Access_CIS_Security_Services
-|title=Communications Security Services
-|description=The Communications Security (COMSEC) Services prevent unauthorized interceptors from accessing telecommunications in an intelligible form, while still delivering the content to the intended recipients. COMSEC methods include cryptosecurity, transmission security, emission security, traffic-flow security and physical security of COMSEC equipment. 
-
-COMSEC is used to protect both classified and unclassified traffic on military communications networks, including voice, video, and data. It is used for both analog and digital applications, and both wired and wireless links.
-}}

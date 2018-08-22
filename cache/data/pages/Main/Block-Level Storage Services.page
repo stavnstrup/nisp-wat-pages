@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=f665a37d-72d4-4a0a-a7e7-67373de0f243
-|order=285
-|parent=Infrastructure_Storage_Services
-|title=Block-Level Storage Services
-|description=The Block-Level Storage Services provide access to physical and/or virtual storage devices that manage their available space as a sequence of fixed size data blocks. Consumers of Block-Level Storage Services are responsible for giving meaning to each of the blocks and often file systems or relational databases are used to abstract block-level storage.
-}}

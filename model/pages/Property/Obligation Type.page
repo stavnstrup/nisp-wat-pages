@@ -1,9 +1,0 @@
-An obligation category for a standard in a standards profile.
-
-This is a property of type [[Has type::Text]].
-
-The allowed values for this property are:
-* [[Allows value::mandatory]]
-* [[Allows value::conditional]]
-* [[Allows value::recommended]]
-* [[Allows value::optional]]

@@ -1,9 +1,0 @@
-{{Taxonomy Node
-|uuid=c8ad3ca4-2897-46f0-aacd-0746fc492cd0
-|order=275
-|parent=Infrastructure_CIS_Security_Services
-|title=Infrastructure Cryptography Services
-|description=The Infrastructure Cryptography Services supports the use of ciphers including encryption and decryption processes to ensure confidentiality and integrity of data. 
-
-Typically, asymmetric cryptography is used for authenticated key exchange, symmetric encryption for data confidentiality, and cryprographic hash functions and digital signatures for data integrity.
-}}

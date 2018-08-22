@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=13a17bdd-8eb2-418c-8cb8-7f32a435f432
-|order=271
-|parent=Infrastructure_CIS_Security_Services
-|title=Digital Certificate Services
-|description=The Digital Certificate Services provide functionality required to create, manage, distribute, use, store, suspend, resume and revoke digital certificates. It provides a trust framework across organizational, operational, physical, and network boundaries, required to enable the services that rely on digital certificates.
-}}

@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=73a03cb5-fd4a-426a-a017-1ac32f0270a4
-|order=247
-|parent=Web_Platform_Services
-|title=Web Presentation Services
-|description=The Web Presentation Services allow combining rich content from different data sources into a single client web page or desktop, using a combination of Web 2.0 technologies such as HTML snippets, scripting code (JavaScript), on demand code (AJAX, JSON), web service calls and proprietary code (Flash, ActiveX and so on).
-}}

@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=9b3d1f57-cc2c-4208-a8c0-a45b01f93d38
-|order=219
-|parent=Geospatial_Services
-|title=Geospatial Web Coverage Services
-|description=The Geospatial Web Coverage Services support requests for geographical coverages across the web using platform-independent calls. The coverages are objects (or images) in a geographical area, whereas the WMS interface or online mapping portals like Google Maps return only an image, which end-users cannot edit or spatially analyze.
-}}

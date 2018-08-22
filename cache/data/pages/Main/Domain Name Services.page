@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=92db9afd-4dab-4e76-9ba6-0287ded2d4e7
-|order=296
-|parent=Infrastructure_Networking_Services
-|title=Domain Name Services
-|description=The Domain Name Services provide access to a hierarchical distributed naming system for computers, services, or any resource connected to the Internet or a private network. Domain Name Services associate various information with domain names assigned to each of the participating entities. Most importantly, Domain Name Services translate domain names meaningful to humans into the numerical identifiers associated with networking equipment for the purpose of locating and addressing these devices worldwide.
-}}

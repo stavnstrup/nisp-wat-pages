@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=7f14b843-3b55-44cd-81ef-f614a8e73d2d
-|order=2
-|parent=Operational_Context
-|title=Operational Capabilities
-|description=The "Operational Capabilities" layer in the C3 Taxonomy represents all the capabilities required by the Alliance for the successful completion of missions - stated in Mission Types and refined in Key Tasks - and the achievement of stated ambitions. Operational Capabilities are captured in a Capability Hierarchy Framework (CHF) and are expressed as a set of Capability Codes and Statements (CC/CS). In the same way as the Key Tasks are further refined in Business Processes and their related Information Products, the Capability Codes and Statements are materialized by means of the User-Facing Capabilities (Applications and Equipment).
-}}

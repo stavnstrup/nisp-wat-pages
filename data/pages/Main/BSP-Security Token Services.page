@@ -1,6 +1,0 @@
-{{Basic Standards Service Profile
-|taxonomynode=Security Token Services
-|responsible=
-|mandatorystandards=w3c-wspol-1.5;w3c-note-ws-policy-guidelines-20071112;w3c-note-ws-policy-primer-20071112;oasis-wsfed;ietf-rfc4752;ietf-rfc5280;
-|candidatestandards=ietf-rfc3162;ietf-rfc1510;opengroup-p702;
-}}

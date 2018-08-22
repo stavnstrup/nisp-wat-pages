@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=d8fd520c-940b-48e6-ab46-2ccf9f6858ed
-|order=177
-|parent=Battlespace_Information_Services
-|title=Battlespace Object Services
-|description=The Battlespace Object Services allow for the discovery, identification, access, exchange and modification of operationally relevant Battlespace Objects (BSOs). It enables Order of Battle (ORBAT), Operations and Orders, and Key Personnel to uniquely reference BSOs.
-}}

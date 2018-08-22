@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=6226703b-0575-4d13-a350-a7913ad83f3b
-|order=225
-|parent=SOA_Platform_Services
-|title=SOA Platform CIS Security Services
-|description=The Service Oriented Architecture (SOA) Platform CIS Security Services provide a foundation to implement uniform, consistent, interoperable and effective web service security. They also provide the necessary means to implement and enforce CIS Security policies at the SOA platform level.
-}}

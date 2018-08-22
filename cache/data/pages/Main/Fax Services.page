@@ -1,8 +1,0 @@
-{{Taxonomy Node
-|uuid=e00b1a32-6d87-4ee0-97ca-f47f45001e61
-|order=194
-|parent=Unified_Communication_and_Collaboration_Services
-|title=Fax Services
-|description=The Fax Services provide the ability to send and receive bitmaps of electronic material (both text and images) using an analogue signal over a telephone network, normally to a telephone number connected to a printer or other output device.
-The telephone number of a receiving device is normally required to deliver the fax message across a telephone network. Alternatively, services using FoIP to deliver faxes across IP networks can extend fax delivery to multiple IP and email addressees.
-}}

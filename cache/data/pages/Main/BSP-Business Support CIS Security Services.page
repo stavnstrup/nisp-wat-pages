@@ -1,6 +1,0 @@
-{{Basic Standards Service Profile
-|taxonomynode=Business Support CIS Security Services
-|responsible=
-|mandatorystandards=oasis-wss-v1.1-errata-os-samltokenprofile;oasis-wssutil;oasis-wstrust-1.4;ws-i-basicsecurityprofile-1.1;nato-npki-certp;iso-iec-7501;
-|candidatestandards=ansi-incits-398;fbi-iafis-doc-01078-8.1;
-}}

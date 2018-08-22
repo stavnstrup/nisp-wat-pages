@@ -1,9 +1,0 @@
-{{Taxonomy Node
-|uuid=300cc416-d851-4257-84f6-81a3f9dcfb02
-|order=1
-|parent=
-|title=Operational Context
-|description=The C3 Taxonomy layer for the "Operational Context" represents the environment in which CIS Capabilities will be deployed. The context and scope for these CIS Capabilities are defined by the capture of NATO's overarching political and military guidance and policies, the identification of mission types and key tasks, the cataloging of needed capabilities, and the description of business processes and their related information products.
-
-Information in this part of the C3 Taxonomy is primarily obtained from the NATO Defence Planning Process (NDPP) and business process analysis.
-}}

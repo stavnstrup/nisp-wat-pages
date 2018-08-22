@@ -1,6 +1,0 @@
-{{Basic Standards Service Profile
-|taxonomynode=Geospatial Services
-|responsible=
-|mandatorystandards=nso-stanag7170ed3;nso-stanag7074ed2;nso-stanag3809ed4;osgeo-geotiff;nso-stanag7098ed2;ogc-10-100r2;nga-tr-8350.2;nso-stanag2586ed1;nso-stanag4564ed3;iso-iec-fcd18023-1;nso-stanag2211ed7;ogc-07-147r2;
-|candidatestandards=gdal-gdal;esri-rest;ogc-05-007r7;ogc-07-057r7;
-}}

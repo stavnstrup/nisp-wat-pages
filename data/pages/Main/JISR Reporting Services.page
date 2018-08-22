@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=569dc136-b47b-4af3-8063-18da810cf1c2
-|order=128
-|parent=JISR_Services
-|title=JISR Reporting Services
-|description=The Joint Intelligence, Surveillance and Reconnaissance (JISR) Reporting Services provide the means to retrieve exiting information structures required to produce intelligence reports. These structures may originate from multiple supporting services and include extracted or compiled ISR products, data and metadata, including their relationships to JISR products and intelligence requirements.
-}}

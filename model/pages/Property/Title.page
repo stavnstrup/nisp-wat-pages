@@ -1,6 +1,0 @@
-A text string for the title of a certain entity - not necessarily the corresponding page title.
-
-A "Title" is a string value that reflects the full title of a taxonomy element.
-
-This is a property of type [[Has type::String]].
-

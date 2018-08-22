@@ -1,6 +1,0 @@
-{{Basic Standards Service Profile
-|taxonomynode=SOA Platform SMC Services
-|responsible=
-|mandatorystandards=dmtf-cimschema;dmtf-dsp0252-2010;isaca-cobit5;ietf-rfc1212;ietf-rfc1213;ietf-rfc2790;ietf-rfc1643;ietf-rfc2819;ietf-rfc4750;ietf-rfc1724;ieee-802.1p;itu-t-m.2301;
-|candidatestandards=dmtf-dsp0226;dmtf-dsp0227;tm-forum-etom;dmtf-dsp0252;ietf-rfc2465;ietf-rfc2466;ietf-rfc5519;ietf-rfc2452;ietf-rfc2454;ietf-rfc2021;dmtf-dsp0004;
-}}

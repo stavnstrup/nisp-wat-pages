@@ -1,9 +1,0 @@
-{{Taxonomy Node
-|uuid=e513c109-128d-46ab-b980-84308e99131a
-|order=4
-|parent=Business_Processes
-|title=CIS Security Processes
-|description=The CIS Security Processes are composed of a collection of business processes that are implemented and executed to support an adequate level of security for information handled by Communication and Information Systems (CIS) in an organization.
-
-The CIS Security Processes enable to create a secure environment to meet the security objectives to ensure: the confidentiality of information by controlling the disclosure of, and access to, information, supporting systems, services and resources; the integrity and availability of information, supporting systems, services and resources; the reliable identification and authentication of persons, devices and services accessing CIS; and appropriate non-repudiation for individuals and entities having processed the information.
-}}

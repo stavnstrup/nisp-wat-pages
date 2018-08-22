@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=c31cbe2b-47ef-432a-b428-90cdea2e377c
-|order=200
-|parent=Unified_Communication_and_Collaboration_Services
-|title=Presence Services
-|description=The Presence Services advertise the network availability of other entities hence providing the knowledge of whether those entities are online and available for communication. Presence Services manage a subscription model, in effect a simple publish-subscribe method, whereby entities that have subscribed to another entity's presence receive updated presence information when that entity comes online and goes offline.
-}}

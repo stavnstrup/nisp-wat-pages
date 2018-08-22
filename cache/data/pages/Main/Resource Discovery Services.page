@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=6b4e1375-d5dc-4883-b8c1-dcb1e554e7c7
-|order=311
-|parent=Communications_Access_SMC_Services
-|title=Resource Discovery Services
-|description=The Resource Discovery Services provide the necessary means to implement and enforce SMC resource discovery policies at the communications level. They are automatically discovering the resources and their details through an management channel.
-}}

@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=e08fcb28-5ed9-4542-850b-6a00edf0d64e
-|order=322
-|parent=Frame-based_Access_Services
-|title=Native Frame-based Access Services
-|description=The Native Frame-based Access Services provide the delivery or exchange of frames over an access device that forwards transparently over to the Transport Services or Transmission Services block.
-}}

@@ -1,9 +1,0 @@
-{{Taxonomy Node
-|uuid=3c22730c-af51-467c-9fef-195a0e211138
-|order=358
-|parent=Wireless_LOS_Mobile_Transmission_Services
-|title=Wireless LOS Mobile Wideband Transmission Services
-|description=The Wireless Line of Sight (LOS) Mobile Wideband Transmission Services support the wireless data of amongst two or more nodes, where one or more of the nodes are operating on the move, within Line of Sight (LOS) of each other, employing modulated Radio Frequency (RF) carriers in different frequency bands, and employing wideband high capacity wireless terminals operating in the UHF frequency band, S band (2 to 4 GHz), C band (4 to 8 GHz) and NATO military band IV (4.4 to 5 GHz).
-
-Examples of the Wireless LOS Mobile Wideband Transmission Services are Wireless Personal Area Network (WPAN), Wireless Local Area Network (WLAN), Wireless Metropolitan Area Network (WMAN), Worldwide Interoperability for Microwave Access (WiMAX), Tactical Highband Networking Waveform (HNW), and Future NATO Wideband Waveform (WBWF), all with the consideration that adequate tracking antennas are employed and the transceivers are adapted for platform motion. Additional service types are Wideband Network Radio (WNR) systems, High Capacity Data Radio (HCDR) systems, and Wideband UHF Subnet Relay.
-}}

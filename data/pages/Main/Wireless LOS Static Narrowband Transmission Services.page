@@ -1,9 +1,0 @@
-{{Taxonomy Node
-|uuid=6ee07793-0002-465d-96f9-9df6d7ca0844
-|order=354
-|parent=Wireless_LOS_Static_Transmission_Services
-|title=Wireless LOS Static Narrowband Transmission Services
-|description=The Wireless Line of Sight (LOS) Static Narrowband Transmission Services support the wireless transfer of data amongst two or more static nodes within Line of Sight (LOS) of each other, employing modulated Radio Frequency (RF) carriers in different frequency bands, and employing narrowband low capacity wireless terminals operating mainly in the VHF, UHF frequency bands and in the HF frequency band using direct or ground wave propagation. 
-
-Examples of Wireless LOS Static Narrowband Transmission Services are Single Channel HF/VHF/UHF Radio Equipment, Slow Hop HF EPM Communications Systems, Tactical Data Exchange (Link11/Link 11B), and Future NATO Narrowband Waveform (NBWF).
-}}

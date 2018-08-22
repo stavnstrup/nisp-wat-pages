@@ -1,9 +1,0 @@
-{{Taxonomy Node
-|uuid=7a680c24-4b9e-49c8-bbd1-89d1fe8018f8
-|order=29
-|parent=Service_Management_Domain_Applications
-|title=SLA Management Application
-|description=The Service Level Agreement (SLA) Management Application enables users to assure that SLAs between operators and customers are met. This includes processing measurements made elsewhere and checking the measurements and taking appropriate actions when the specified agreements are not met.
-
-SLAs need to be planned properly, in the sense that information can be collected regarding the service provided, this service can in turn be assessed, and any necessary response can be executed by the organization itself, including the adjustment of the service level agreement itself.
-}}

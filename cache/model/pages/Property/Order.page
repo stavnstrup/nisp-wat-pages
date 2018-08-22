@@ -1,6 +1,0 @@
-An integer value commonly used for sorting sibling entities.
-
-An "Order" is a number value that reflects an integer value for a sorting order of sibling elements in a parent-child hierarchy. This means that if an element has a number of children, these can be sorted in a sequence when they have been assigned different values of order. The default value is 0 (zero).
-
-This is a property of type [[Has type::Number]].
-

@@ -1,6 +1,0 @@
-An acronym is an abbreviation formed from the initial components in a phrase or a word.
-
-An "Acronym" is a string value that reflects an acronym or other abbreviation that is used in the definition of a taxonomy element. Often the acronym is an abbreviation of a title or name. In general the acronym is a combination of uppercase characters.
-
-This is a property of type [[Has type::String]].
-

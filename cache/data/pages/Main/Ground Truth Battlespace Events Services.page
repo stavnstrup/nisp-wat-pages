@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=75afb959-5979-46d3-9bd4-419f46623339
-|order=183
-|parent=Modeling_and_Simulation_Enabling_Services
-|title=Ground Truth Battlespace Events Services
-|description=Ground Truth Battlespace Events Services allow for the discovery, exchange, access and modification of Ground Truth Battlespace Events and Incidents which are generated as input to simulations. Ground Truth Battlespace Events Services enable the stimulated development of percieved truth events by Battlespace Events Services.
-}}

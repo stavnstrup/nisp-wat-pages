@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=d423c6a1-de1a-43ae-887a-2dcb58b5afe0
-|order=325
-|parent=Circuit-based_Access_Services
-|title=Native Circuit-based Access Services
-|description=The Native Circuit-based Access Services provide the delivery or exchange of raw user data through adaptation appliances (e.g. ISDN BRI terminal adapter). At implementation level, different service types can be considered, associated to different implementations of TDM technology (e.g. ISDN, T1, etc).
-}}

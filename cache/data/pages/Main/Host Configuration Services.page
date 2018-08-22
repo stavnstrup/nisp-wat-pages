@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=0337220d-bb82-4719-ad7b-19e9b1d86371
-|order=292
-|parent=Infrastructure_Networking_Services
-|title=Host Configuration Services
-|description=The Host Configuration Services provide the configuration parameters required by a host to complete a subscription to a network.  The required parameters are determined by the network being subscribed to, but may include the host address, sub-net mask, name server and others.
-}}

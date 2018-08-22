@@ -1,7 +1,0 @@
-<noinclude></noinclude><includeonly>__NOCACHE__<nowiki/>{{#arraydefine:propertylist|{{{userparam|}}}|,}}
-|-
-| {{Nowrap|[[{{{1|}}}]]}} <nowiki/> {{#arraysearch:propertylist|taxonomynode|0|<nowiki/>
-{{!}}{{#ask:[[Category:Taxonomy Nodes]][[-Is related to::{{{1|}}}]]|format=ul}}|}}{{#arraysearch:propertylist|responsible|0|<nowiki/>
-{{!}}{{#ask:[[Category:Organizations]][[-Is responsible for::{{{1|}}}]]|format=ul}}|}}{{#arraysearch:propertylist|mandatorystandards|0|<nowiki/>
-{{!}}{{#ask:[[Category:Standards]][[-Is implementing mandatory standard::{{{1|}}}]]|format=ul}}|}}{{#arraysearch:propertylist|candidatestandards|0|<nowiki/>
-{{!}}{{#ask:[[Category:Standards]][[-Is implementing candidate standard::{{{1|}}}]]|format=ul}}|}}</includeonly>

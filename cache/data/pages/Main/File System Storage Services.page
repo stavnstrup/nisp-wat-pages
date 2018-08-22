@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=fa08eb86-75d1-4178-8bd6-bd7ff5849440
-|order=288
-|parent=Infrastructure_Storage_Services
-|title=File System Storage Services
-|description=The File System Storage Services provide controlled hierarchical access to named storage containers. File System Storage Services provide logical access to data since they abstract away physical storage topologies. File System Storage Services also transparently handle fragmentation, caching and storage integrity.
-}}

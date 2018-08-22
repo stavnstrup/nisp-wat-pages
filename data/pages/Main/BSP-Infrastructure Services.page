@@ -1,6 +1,0 @@
-{{Basic Standards Service Profile
-|taxonomynode=Infrastructure Services
-|responsible=
-|mandatorystandards=x-consortium-x11r7.5;ietf-rfc3550;ietf-rfc3977;iso-iec-13818;iso-iec-14496;iso-iec-11172-3;itu-t-g.722;itu-t-g.729;itu-t-h.263;itu-t-h.264;nso-stanag4591ed1;nso-stanag4479ed1;nso-stanag4559ed3;nso-stanag7194ed1;nso-stanag4575ed4;nso-stanag4607ed3;nso-stanag4609ed4;nso-stanag7023ed4;nso-stanag7024ed2;nso-stanag3764ed6;iso-iec-10918-4;
-|candidatestandards=opengroup-f209a;ietf-rfc3711;ietf-rfc3605;nso-stanag7194ed2;
-}}

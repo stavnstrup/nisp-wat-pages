@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=4418c4bd-1ddf-47af-8b7a-6488370fae68
-|order=304
-|parent=Communications_Access_CIS_Security_Services
-|title=Network Firewall Services
-|description=The Network Firewall Services control input, output, and/or access from, to, or by an application or service. They operate by monitoring and potentially blocking the input, output, or system service calls which do not meet the configured policies.
-}}

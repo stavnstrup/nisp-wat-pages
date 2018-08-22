@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=c742df52-642c-4799-b678-4acf5d278fb5
-|order=239
-|parent=Message-Oriented_Middleware_Services
-|title=Direct Messaging Services
-|description=The Direct Messaging Services are any services that can communicate by exchanging messages in a direct communication with another services. The exchange of messages can be implemented using any Message Exchange Pattern (e.g. request/response, publish/subscribe, fire and forget, solicit response). The Direct Messaging Services can be implemented to use synchronous (i.e. blocking) and asynchronous (i.e. non-blocking) communication modes. For example in a Publish-Subscribe scenario a notification producer would be one Direct Messaging Service sending one-way messages to a notification consumer that would be another Direct Messaging Service receiving the message.
-}}

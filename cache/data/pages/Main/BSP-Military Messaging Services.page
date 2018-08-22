@@ -1,6 +1,0 @@
-{{Basic Standards Service Profile
-|taxonomynode=Military Messaging Services
-|responsible=
-|mandatorystandards=nso-stanag4312ed2;nso-stanag4406ed2;nso-stanag4545ed2;nso-stanag5500ed7;nso-stanag5501ed7;nso-stanag5511ed6;nso-stanag5516ed4;nso-stanag5522ed2;nso-stanag7149ed6;
-|candidatestandards=us-dod-mil-std6017c;oasis-wss-v1.1-spec-os-swaprofile;ietf-rfc6477;nso-stanag5511ed10;nso-stanag5516ed8;nso-stanag5522ed6;nso-stanag7149ed6-app11-d2;
-}}

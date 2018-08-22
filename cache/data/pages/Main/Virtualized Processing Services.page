@@ -1,9 +1,0 @@
-{{Taxonomy Node
-|uuid=9908d905-bbe8-4fe9-9e33-2407a01add2b
-|order=283
-|parent=Infrastructure_Processing_Services
-|title=Virtualized Processing Services
-|description=The Virtualized Processing Services hide the physical characteristics of a processing platform and instead present abstracted processing platform to the consumer. 
-
-Virtualization enables the provisioning of simplified, fit-for-purpose, tailor-made and on-demand IT-infrastructure resources, sparing the user from having to understand and manage complex details of IT-infrastructure resources. This service supports the centralization of management and maintenance while more flexibly and efficiently allocating IT-infrastructure resources.
-}}

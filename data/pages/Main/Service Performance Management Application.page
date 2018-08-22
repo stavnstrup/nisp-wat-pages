@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=f9177b73-a631-4f12-b2e2-8ef3314b31c0
-|order=35
-|parent=Service_Management_Domain_Applications
-|title=Service Performance Management Application
-|description=The Service Performance Management Application enables users to monitor, analyze, and report on the end-end service performance. This can include a real-time, end-to-end view to ensure that each service is functioning correctly as well as a historical view.
-}}

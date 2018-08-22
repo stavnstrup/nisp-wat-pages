@@ -1,7 +1,0 @@
-<includeonly><div style="clear:{{#switch:{{{1|}}}|Left|left=left|Right|right=right|Both|both=both|both}};"></div></includeonly><noinclude>
-; Description
-It's purpose is to make content wait until existing content is completed in all columns. It can be used to stop text from flowing next to unrelated images.
-; Format
-<pre>
-{{Clear}}</pre>
-</noinclude>

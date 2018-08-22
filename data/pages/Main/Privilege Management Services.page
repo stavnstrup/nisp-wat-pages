@@ -1,9 +1,0 @@
-{{Taxonomy Node
-|uuid=da635db0-c437-46ec-80e7-1752ad5d91eb
-|order=269
-|parent=Infrastructure_CIS_Security_Services
-|title=Privilege Management Services
-|description=The Privilege Management Services provide functionality to establish and maintain the entitlement or privilege attributes that comprise an individual's access profile. 
-
-These attributes are features of an individual that can be used as the basis for determining access decisions to both physical and logical resources. The Privilege Management Services govern the management of the data that constitutes the user's privileges and other attributes, including the storage, organization and access to information.
-}}

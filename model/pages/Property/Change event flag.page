@@ -1,8 +1,0 @@
-A descriptive flag of a NISP Event.
-
-This is a property of type [[Has type::Text]].
-
-The allowed values for this property are:
-* [[Allows value::added]]
-* [[Allows value::changed]]
-* [[Allows value::deleted]]

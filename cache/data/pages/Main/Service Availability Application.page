@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=ed0b0165-a2a0-4c5e-a034-252dd78084fd
-|order=41
-|parent=Service_Management_Domain_Applications
-|title=Service Availability Application
-|description=The Service Availability Application enables users to define, analyze, plan, measure and improve all aspects of the availability of IT services. Availability Management is responsible for ensuring that all IT infrastructure, processes, tools, roles etc are appropriate for the agreed availability targets.
-}}

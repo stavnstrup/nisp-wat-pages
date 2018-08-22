@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=f9b492da-a24a-4eaa-b797-0fc1c37068ec
-|order=229
-|parent=SOA_Platform_CIS_Security_Services
-|title=Policy Decision Point Services
-|description=The Policy Decision Point (PDP) Services provide authorization decisions by evaluating digital policies against the attributes of an authorization request. The request can contain attributes about the subject of the request (the service consumer), the object of the request (the resource that is being accessed), the action that is being performed and other attributes not related to the subject or resource (the "environment"). A decision is returned to the requesting entity, which can contain further obligations about how the request is to be treated. The PDP can be collocated with a Policy Enforcement Point (PEP) to improve performance.
-}}

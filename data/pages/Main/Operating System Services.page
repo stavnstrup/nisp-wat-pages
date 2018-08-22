@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=16147e4d-3686-423d-bbe8-1a3b1a061316
-|order=282
-|parent=Infrastructure_Processing_Services
-|title=Operating System Services
-|description=The Operating System (OS) Services provide users with the functionality to manage platform resources, including the processor, memory, files, input and output. The Operating System (OS) Services typically encompasses kernel operations, command interpreter, batch processing, file and directory synchronization services.
-}}

@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=60aedc7e-b256-4242-9a18-51b116dc8559
-|order=232
-|parent=SOA_Platform_Services
-|title=SOA Platform SMC Services
-|description=The Service Oriented Architecture (SOA) Platform Service Management and Control (SMC) Services provide a suite of capabilities needed to ensure that SOA services are up and running, accessible and available to users, protected and secure, and that they are operating and performing within agreed upon parameters. They also provide the necessary means to implement and enforce SMC policies at the SOA platform level.
-}}

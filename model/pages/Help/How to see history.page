@@ -1,9 +1,0 @@
-<noinclude>{{User Manual Navigator|How to monitor}}</noinclude>
-Every contribution to any editable page to the {{SITENAME}} Wiki is recorded and attributed to the user who performed it. The page history can be opened with the "View history" option in the top menu. It contains a list of the page's previous revisions in reverse-chronological order, including the date and time (in UTC) of each edit, the username or IP address of the user who made it, and their edit summary. It can also display the difference between any two versions.
-* To view a specific version, click a date.
-* To compare an older page version with the current page, click "cur" of the older version.
-* To compare a version with its predecessor, click "pre".
-* To compare two versions, click the left-column radio button of the older version and the right-column radio button of the newer version, then select "Compare selected revisions".
-* To undo (revert) your own or someone else's edit, click the "undo" link.
-
-It is sometimes useful to link to a specific version of an article - this is called a "permanent link". Copy the link to that older version from the history page and paste it. The address will have the title of the page plus a numeric value for "oldid". A link to the current version of an article is normally available from the sidebar under the "Permanent link" option.

@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=18b42399-8423-4f20-aee1-3f02468d7dc4
-|order=323
-|parent=Frame-based_Access_Services
-|title=Emulated Frame-based Access Services
-|description=The Emulated Frame-based Access Services provide the delivery or exchange of frames over higher layer protocols (e.g. pseudo-wires). The adaptation of the frame layer to the higher layer protocol is performed within the access device. Frame-based protocols (e.g. Ethernet, PPP, PPPoE) and the underlying protocols supporting the emulation, define the various Service Types within this Service Class (e.g. Ethernet over IP/MPLS).
-}}

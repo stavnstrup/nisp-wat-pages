@@ -1,9 +1,0 @@
-{{Taxonomy Node
-|uuid=4b707108-a19f-48a9-96b0-799e592921e1
-|order=264
-|parent=Core_Services
-|title=Infrastructure Services
-|description=The Infrastructure Services provide the foundation to host infrastructure services in a distributed and/or federated environment in support of NATO operations and exercises. They include computing, storage and high-level networking services that can be used as the basis for data centre or cloud computing implementations.
-
-Infrastructure Services in this taxonomy are aligned with "Infrastructure as a Service" (IaaS) concepts that are used and promoted by industry today as part of their Cloud Computing developments.
-}}

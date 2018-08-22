@@ -1,9 +1,0 @@
-{{Taxonomy Node
-|uuid=13e9c092-4043-4584-9fd9-9950c3e77050
-|order=365
-|parent=Back-End_Capabilities
-|title=Information Systems Equipment
-|description=The "Information Systems Equipment" taxonomy layer represents the collection of equipment that is involved in hosting software for the provision of [[Community Of Interest (COI) Services]] and [[Core Services]], as well as the handling of operational data of the enterprise.
-
-Examples of Information Systems (IS) Equipment include database servers, file servers, application servers, back-up solutions and various others. Typical IS equipment are servers and central processing units (mainframes) and all related features and peripheral units, including processor storage, console devices, channel devices, etc.
-}}

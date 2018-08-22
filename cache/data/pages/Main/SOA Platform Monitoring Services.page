@@ -1,9 +1,0 @@
-{{Taxonomy Node
-|uuid=5bef233a-5c30-4e32-a2dd-ad3f20031c8c
-|order=235
-|parent=SOA_Platform_SMC_Services
-|title=SOA Platform Monitoring Services
-|description=The SOA Platform Monitoring Services provide information on the actual utilization and performance of monitored SOA Platform Services. The SOA Platform Monitoring Services monitor service communication based on service calls and message exchange to identify performance issues and determine current availability.
-
-The SOA Platform Monitoring Services provide information about service failures and exceptions and support root-causes analysis to help locate performance bottlenecks, errors, or incomplete transactions. They ensure that any failures are detected proactively, isolated, analyzed, and resolved with as little impact on the end user as possible.
-}}

@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=798ec1db-8146-4020-a41c-22fc6498f1c9
-|order=181
-|parent=Modeling_and_Simulation_Enabling_Services
-|title=Radio Simulation Services
-|description=Radio Simulation Services provides the means to simulate tactical radio communication. Such a simulation is desirable in situations where real radio frequency devices cannot be used or during Collective Training Exercises (CTE).
-}}

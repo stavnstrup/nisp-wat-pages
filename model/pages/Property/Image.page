@@ -1,6 +1,0 @@
-A filename plus extension of an image - in the file namespace.
-
-An "Image" is a string value that reflects the name plus extension of an image, as used in the definition of a taxonomy element.
-
-This is a property of type [[Has type::Text]].
-

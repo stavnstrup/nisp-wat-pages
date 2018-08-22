@@ -1,8 +1,0 @@
-__NOTOC__ __NOEDITSECTION__{{Developer Manual Navigator|chapter=Security}}
-
-==Introduction==
-The Wiki Automation Tool provides a capability to control who can change the state (invoke transition).
-
-The mechanism is based on the membership to certain [[Help:User Groups|User Groups]].
-
-See [[Help:Workflow Property|Workflow Property]] for more details.

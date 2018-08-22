@@ -1,9 +1,0 @@
-{{Taxonomy Node
-|uuid=bc2d3723-4a3a-4a34-a0b4-7886760f3137
-|order=348
-|parent=Transport_Services
-|title=Broadcast Services
-|description=The Broadcast Services provide the distribution of transport flows through a combination both the "within the core" and "at the edge" infrastructure types to form a logical "ring'. Broadcast Services within the core involve the broadcast of transport flows towards multiple edge-points that connect to the broadcast node either directly over transmission lines or through Transit Services. Broadcast Services at the edge involve the broadcast of traffic flows towards multiple end-nodes that connect to the broadcast node over transmission lines. 
-
-Broadcast Services involve Packet-, Frame- and Circuit-based Transport Services, where each of the services uses the same Transmission Service to diverge out of a given network node (often referred to as concentrator).
-}}

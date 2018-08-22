@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=1c9fd0c0-433e-4426-b6cd-f914e3682f74
-|order=291
-|parent=Infrastructure_Services
-|title=Infrastructure Networking Services
-|description=The Infrastructure Networking Services provide access to high-level protocols and methods that fall into the realm of process-to-process communications across an Internet Protocol (IP) network. They are akin to components in the Open Systems Interconnection's (OSI) application layer but are limited to those services required for the infrastructure layer in that taxonomy. OSI application layer protocols such as those for e-mail and directory services are covered by other Core Enterprise Services.
-}}

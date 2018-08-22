@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=d1ad974a-d916-4779-b640-668012377024
-|order=243
-|parent=Message-Oriented_Middleware_Services
-|title=Message Queueing Services
-|description=The Message Queueing Services provide message queues as intermediary buffers, allowing services and consumers to process messages independently by remaining temporally decoupled. Thus they supports asynchronous communication.
-}}

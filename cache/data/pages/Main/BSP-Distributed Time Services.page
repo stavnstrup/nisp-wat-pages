@@ -1,6 +1,0 @@
-{{Basic Standards Service Profile
-|taxonomynode=Distributed Time Services
-|responsible=
-|mandatorystandards=w3c-timezone;ietf-rfc5905;ieee-1588-ptp;
-|candidatestandards=opengroup-c310;
-}}

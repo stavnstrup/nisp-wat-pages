@@ -1,9 +1,0 @@
-{{Taxonomy Node
-|uuid=ee535476-7d57-494a-adc6-1b284d23f1f5
-|order=208
-|parent=Information_Management_Services
-|title=Analytics Services
-|description=The Analytics Services provide analytical services to support the decision-making needs of the enterprise, using information produced by gathering, consolidating, cross-referencing and enhancing information from various sources. Different types of analytics can be applied:
-Descriptive analytics looks at past performance and understands that performance by mining historical data to look for the reasons behind past success or failure. 
-Predictive analytics is an area of data mining that deals with extracting information from data and using it to predict trends and behavior patterns. It is trying to answer the question what will happen.
-}}

@@ -1,9 +1,0 @@
-{{Taxonomy Node
-|uuid=e0434879-3db4-4226-99fb-df0c4e139a87
-|order=123
-|parent=JISR_Services
-|title=Intelligence Requirements Management Services
-|description=The Intelligence Requirements Management Services provide the means to access and manage intelligence requirements, related information objects, their status and relationship to decision making.  The Intelligence Requirements Management Services will also provide the means to generate and consume Requests for Information (RFIs).
-
-The services will allow for the management and tracking of intelligence requirements, and related information objects, throughout the intelligence cycle (direction, collection, processing, analysis, dissemination and feedback).
-}}

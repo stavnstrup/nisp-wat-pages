@@ -1,9 +1,0 @@
-{{Taxonomy Node
-|uuid=3898a275-2231-4656-96aa-b9b37e5cbc78
-|order=287
-|parent=Infrastructure_Storage_Services
-|title=Directory Storage Services
-|description=The Directory Storage Services serve as a broker between Directory Service users that provide authoritative information (publishers) and Directory Service users that consume that information (subscribers). Publishers can store their authoritative information in a Directory Service-specific directory/data repository which the Directory Storage Services will use to satisfy queries from subscribers. The information can either be retrieved by the Directory Storage Services service meta-tools and stored in the Directory Service-specific directory/data repository or stored directly into the Directory Storage Services service-specific directory/data repository by the publisher.
-
-Subscribers will be able to access the Directory Storage Services information over a variety of different interfaces including file-based, remote procedure call (RPC) and service oriented architecture (SOA) interfaces. As well as directly accessing the information according to the schema, the Directory Storage Services will be able to map the information to alternative schemas that are already in use by existing directories/data repositories.
-}}

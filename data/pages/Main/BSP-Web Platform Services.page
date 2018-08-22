@@ -1,6 +1,0 @@
-{{Basic Standards Service Profile
-|taxonomynode=Web Platform Services
-|responsible=
-|mandatorystandards=ietf-rfc2616;w3c-rec-css2-2011067;wapforum-wap-238-wml-20010911-a;w3c-rec-xml10-20081126;w3c-rec-xmlbase-20010627;w3c-rec-xml-infoset-20011024;w3c-rec-xml-stylesheet-19990629;ietf-rfc7230;ietf-rfc5689;ietf-rfc2228;ietf-rfc2640;ietf-rfc3659;ietf-rfc5797;ietf-rfc7151;
-|candidatestandards=ietf-rfc2392;w3c-rec-xml11-20060816;w3c-rec-xlink11-20100506;
-}}

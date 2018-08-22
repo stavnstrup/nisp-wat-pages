@@ -1,9 +1,0 @@
-{{Taxonomy Node
-|uuid=e683e3a2-ef50-4da3-b286-2ecf23e21aae
-|order=193
-|parent=Unified_Communication_and_Collaboration_Services
-|title=Informal Messaging Services
-|description=The Informal Messaging Services provide the capability to exchange digital messages (electronic mail or email) from a provider to one or more recipients using a store and forward model. They provide the ability to accept, forward, deliver and store messages. Messages can be relayed from one domain to another.
-
-The Informal Messaging Services support store-and-forward model, supporting email messages consisting of three main components, the message envelope, the message header, and the message body. The message header contains control information, including an originator's email address and one or more recipient addresses as well as the subject header field and a message submission date/time stamp.
-}}

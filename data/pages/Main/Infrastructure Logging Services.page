@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=37aea6bb-71ea-4973-b842-a6aae15b75c9
-|order=278
-|parent=Infrastructure_SMC_Services
-|title=Infrastructure Logging Services
-|description=The Infrastructure Logging Services capture significant events and/or errors in a distributed often virtualized environment for the purpose of regulatory compliance, auditing or trouble shooting.
-}}

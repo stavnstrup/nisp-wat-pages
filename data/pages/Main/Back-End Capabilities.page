@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=49b838fb-b221-4317-aac0-c159c84d5da7
-|order=79
-|parent=CIS_Capabilities
-|title=Back-End Capabilities
-|description=The "Back-End Capabilities" layer in the C3 Taxonomy represents the catalogue of services and equipment that is required to enable User-Facing Capabilities. The catalogue expresses the requirements for data processing and communications.
-}}

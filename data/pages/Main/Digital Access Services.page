@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=d2a4ccf4-ce24-4b14-a22f-f57f4b8d54d5
-|order=313
-|parent=Communications_Access_Services
-|title=Digital Access Services
-|description=The Digital (link-based) Access Services provide the delivery or exchange of digital signals (synchronous or asynchronous) over a native digital interface port, usually a port providing Transmission Services, at channel access level (e.g. the modem port of a handheld satcom terminal).
-}}

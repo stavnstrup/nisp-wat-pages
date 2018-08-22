@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=6db9d261-eebc-4631-87e2-da00ef7a096f
-|order=133
-|parent=Logistics_Services
-|title=Casualty Rate Estimation Services
-|description=The Casualty Rate Estimation Services provide functionality to estimate casualty rates based on various scenarios (e.g. conventional, CBRN).  These services will evaluate risk probabilities as well as provide confidence levels for these estimates.
-}}

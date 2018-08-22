@@ -1,6 +1,0 @@
-A free text format to describe the purpose, relevance and functionality of a certain entity.
-
-A "Description" is a text value that reflects a short explanation (no more than a couple of paragraphs) for a taxonomy element. A description may include some wiki markup. It shall start with a sentence that follows the pattern: "The full name of the element including fully written text for abbreviations ..."
-
-This is a property of type [[Has type::Text]].
-

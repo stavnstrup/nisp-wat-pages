@@ -1,7 +1,0 @@
-<noinclude>{{User Manual Navigator|How to contribute}}</noinclude>
-It is possible to delete pages from the wiki, for instance when the content is incorrect or obsolete, or when the page is a result of an editing mistake. However, only users with administrator privileges are authorized to delete a page. For them alone, "Delete" is one of the options in the top menu. Depending on the selected skin for the wiki, this option may be hidden under a "More" option in the menu. Selecting the "delete" option opens up the action page to provide a reason for deletion and then take the page out.
-
-The deletion will not only remove the page from the list of pages, it will delete its content and its page history. On top of that, it may affect other pages that link or transclude this page that is about to be deleted. If that is a possibility, a warning will show on the delete action page. Follow the "Other pages" link in the warning on the delete action page or select the menu option "What links here" from the side menu. Open those pages one by one and edit the links to remove the link to the deleted page or link to a different page.
-
-Regular users can submit a request in the <span class="plainlinks">[https:{{SERVER}}/issues/describecomponents.cgi?product=Enterprise%20Mapping issue tracker]</span>.
-:> <span class="plainlinks">[https:{{SERVER}}/issues/enter_bug.cgi?component=Content&product={{urlencode:{{#show:Project:Governance|?Version#}}|PATH}}&short_desc=Delete Click here]</span> to request the deletion of one or more pages.

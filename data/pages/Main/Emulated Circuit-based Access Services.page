@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=54c82179-3fba-48ea-91db-b9812dbd1a8e
-|order=326
-|parent=Circuit-based_Access_Services
-|title=Emulated Circuit-based Access Services
-|description=The Emulated Circuit-based Access Services provide virtualised circuit-based access services, riding on higher layer protocols (e.g. ISDN BRI over IP, fractional E1 over Ethernet, etc). The adaptation function of the circuit layer to the underlying carrier protocol is performed within the access device. At the implementation level, different Service Types can be considered, associated to the circuit technology emulated, and the underlying carrier protocol.
-}}

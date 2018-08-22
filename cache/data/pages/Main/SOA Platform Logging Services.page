@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=15cdcca1-9731-44dd-860b-a0594204c0f2
-|order=236
-|parent=SOA_Platform_SMC_Services
-|title=SOA Platform Logging Services
-|description=The SOA Platform Logging Services provide facilities for capturing, filtering and writing information about calls between services hosted in the SOA Platform. The logs can be used for auditing purposes, for troubleshooting, performance optimizations, etc.
-}}

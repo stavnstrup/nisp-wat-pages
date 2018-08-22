@@ -1,9 +1,0 @@
-{{Taxonomy Node
-|uuid=082a896b-1817-4cd7-9120-c544d42a02ce
-|order=370
-|parent=Back-End_Capabilities
-|title=Communications Equipment
-|description=The "Communications Equipment" taxonomy layer represents the collection of equipment that is involved in the transfer of data that make up the networking and physical communications links for the enabling of [[Communications Services]].
-
-Examples of Communications Equipment include modems, data sets, multiplexers, concentrators, routers, switches, local area networks, private branch exchanges, network control equipment, microwave or satellite communications systems and the physical transmission media.
-}}

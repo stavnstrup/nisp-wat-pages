@@ -1,7 +1,0 @@
-{{Taxonomy Node
-|uuid=c6050e70-7881-4eef-9eb4-cf089519ddee
-|order=125
-|parent=JISR_Services
-|title=JISR Sensor Services
-|description=The Joint Intelligence, Surveillance and Reconnaissance (JISR) Sensor Services provide the means to retrieve sensor capabilities, plan sensor usage, exercise command & control and manage sensor observations.
-}}
